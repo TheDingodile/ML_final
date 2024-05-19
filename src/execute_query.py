@@ -8,11 +8,16 @@ import numpy as np
 
 table_path = 'mimic_iv/mimic_iv.sqlite'
 
-def execute_sql(sql, db_path):
+def execute_sql(sql: str, db_path): # i altered this function to return true for func_vqa and remove tuple
+        pattern = r'func_vqa\([^)]*\)'
+        sql = re.sub(pattern, 'true', sql)
         con = sqlite3.connect(db_path)
         con.text_factory = lambda b: b.decode(errors="ignore")
         cur = con.cursor()
         result = cur.execute(sql).fetchall()
+        for i in range(len(result)):
+            if len(result[i]) == 1:
+                result[i] = result[i][0]
         con.close()
         return result
 
