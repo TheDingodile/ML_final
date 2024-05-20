@@ -19,6 +19,7 @@ def execute_sql(sql: str, db_path): # i altered this function to return true for
             if len(result[i]) == 1:
                 result[i] = result[i][0]
         con.close()
+        result = [process_item(item) for item in result]
         return result
 
 
@@ -51,7 +52,8 @@ def process_answer(ans):
     
 def process_item(item):
     try:
-        item = round(float(item),3)
+        if type(item)==float:
+            item = round(float(item),6)
     except:
         pass
-    return str(item)
+    return item

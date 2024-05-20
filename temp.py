@@ -31,10 +31,11 @@ with open('dataset/mimic_iv_cxr/valid/valid_data.json', 'r') as f:
 # for i in range(20):
 #     print(train_data[i]["question"])
 #     print("   ")
-
-print(train_data[0]["query"])
-print(execute_sql(post_process_sql(train_data[0]["query"]), silver_db_path))
-print(post_process_answer(train_answer[0]['answer']))
+for i in range(10):
+    print(train_data[i]["question"])
+    # print(train_data[0]["query"])
+    print(execute_sql(post_process_sql(train_data[i]["query"]), silver_db_path))
+    print(post_process_answer(train_answer[i]['answer']))
 
 # valid_answer = predict(valid_data)
 # print(valid_answer[:5])

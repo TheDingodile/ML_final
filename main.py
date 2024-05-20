@@ -1,5 +1,6 @@
 from __future__ import annotations
 from dtu import Parameters, dtu, GPU
+from paligemma import run_test
 
 
 @dtu
@@ -14,7 +15,7 @@ class Defaults(Parameters):
     d: str = "fd"
 
     def run(self, b: float, d: str, a: int) -> None:
-        print(b,d, self.time)
+        run_test()
 
 
 Defaults.start()
