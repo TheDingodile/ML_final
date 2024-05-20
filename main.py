@@ -14,8 +14,10 @@ class Defaults(Parameters):
     a: int = 1
     d: str = "fd"
 
-    def run(self, b: float, d: str, a: int) -> None:
-        run_test()
+    def run(self, b: float, d: str, a: int, isServer: bool) -> None:
+        if (isServer): path = "../../../../../../../work1/s183914/"
+        else: path = "ehrxqa-2024-ml4h"
+        run_test(path)
 
 
 Defaults.start()

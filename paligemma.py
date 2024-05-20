@@ -4,12 +4,10 @@ import inference
 from inference.models.paligemma.paligemma import PaliGemma
 
 
-def run_test():
+def run_test(root_path: str):
     key = "fbbZZyxhAw17JHCvAIrZ"
     pg = PaliGemma(api_key=key)
 
-
-    root_path = "ehrxqa-2024-ml4h"
     images_path = "resized_ratio_short_side_768"
     questions_path = "mimic-cxr-vqa/train.json"
 
