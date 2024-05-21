@@ -24,7 +24,7 @@ class Defaults(Parameters):
         else: path = "ehrxqa-2024-ml4h"
 
         iterator = run_test(path)
-        for i in range(10):
+        for i in range(100):
             question_text, answer, result = next(iterator)
 
             if (isServer): wandb.log({"question": question_text, "answer": answer, "result": result})

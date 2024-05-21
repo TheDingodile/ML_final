@@ -19,11 +19,10 @@ def run_test(root_path: str):
         image_id = question['image_id']
         question_text = question['question']
         answer = question['answer']
-        print(question_text)
-        print(answer)
 
         image = Image.open(root_path + "/" + images_path + "/" + image_id + ".jpg")
         image = image.convert('RGB')
         result = pg.predict(image, question_text)
-        print(result)
+        print(question_text)
+        print(answer, result)
         yield question_text, answer, result
