@@ -20,3 +20,9 @@ Is there any sign of diseases present in the right mid lung zone?
 ['yes']
 ('yes',)
 Is there an indication of any tubes/lines present in the mediastinum?
+['yes']
+('no',)
+Does the left upper lung zone show any evidence of tubes/lines?
+['yes']
+('yes',)
+Does the svc show any evidence of devices?
