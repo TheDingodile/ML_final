@@ -14,4 +14,5 @@ packages=[
     "wandb",
     "transformers",
     "inference",
+    "accelerate",
 ],)

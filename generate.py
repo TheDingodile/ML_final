@@ -1,4 +1,4 @@
 from main import Defaults, GPU
 
 
-Defaults("Test", GPU=None)
+Defaults("Test1", GPU=None)

@@ -23,8 +23,9 @@ class Defaults(Parameters):
         if (isServer): path = "../../../../../../../work1/s183914/ml_healthcare"
         else: path = "ehrxqa-2024-ml4h"
 
+        iterator = run_test(path)
         for i in range(10):
-            question_text, answer, result = next(run_test(path))
+            question_text, answer, result = iterator
 
             if (isServer): wandb.log({"question": question_text, "answer": answer, "result": result})
             else: print(question_text, answer, result)
