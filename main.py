@@ -20,9 +20,9 @@ class Defaults(Parameters):
         if (isServer):
             wandb.init(project="ML_healthcare", name=name)
         
-        if (isServer): path = "../../../../../../../work1/s183914/"
+        if (isServer): path = "../../../../../../../work1/s183914/ml_healthcare"
         else: path = "ehrxqa-2024-ml4h"
-
+    
         for i in range(10):
             question_text, answer, result = next(run_test(path))
 
