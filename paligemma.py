@@ -26,3 +26,4 @@ def run_test(root_path: str):
         image = image.convert('RGB')
         result = pg.predict(image, question_text)
         print(result)
+        yield question_text, answer, result
