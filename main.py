@@ -25,7 +25,7 @@ class Defaults(Parameters):
 
         iterator = run_test(path)
         for i in range(10):
-            question_text, answer, result = iterator
+            question_text, answer, result = next(iterator)
 
             if (isServer): wandb.log({"question": question_text, "answer": answer, "result": result})
             else: print(question_text, answer, result)
