@@ -27,8 +27,8 @@ class Defaults(Parameters):
         import big_vision.utils
 
         start = seconds()
-        if (isServer): predictor_function, tokenizer, trainable_mask, params = big_vision_test(isServer=isServer)
-        else: predictor_function, tokenizer, trainable_mask, params = None, None, None, None
+        if (isServer): predictor_function, tokenizer, trainable_mask, params, model = big_vision_test(isServer=isServer)
+        else: predictor_function, tokenizer, trainable_mask, params = None, None, None, None, None
         dataset = VQA_Dataset(split="train", isServer=isServer, tokenizer=tokenizer)
         data_iterator = dataset.train_data_iterator()
         sched_fn = big_vision.utils.create_learning_rate_schedule(total_steps=steps+1, base=lr, decay_type="cosine", warmup_percent=0.10)
@@ -40,7 +40,8 @@ class Defaults(Parameters):
             examples = [next(data_iterator) for _ in range(batch_size)]
             batch = jax.tree.map(lambda *x: np.stack(x), *examples)
             learning_rate = sched_fn(step)
-            params, loss = update_fn(params, batch, learning_rate)
+            # params, batch, learning_rate, model, trainable_mask
+            params, loss = update_fn(params, batch, learning_rate, model, trainable_mask)
             loss = jax.device_get(loss)
 
 

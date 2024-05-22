@@ -81,28 +81,29 @@ class VQA_Dataset():
         # set seed
         np.random.seed(0)
         # Shuffle questions to a random permutation
-        questions = self.questions.copy()
-        np.random.shuffle(questions)
-        for question in questions:
-            image_id = question['image_id']
-            question_text = question['question']
-            answer = question['answer']
+        while True:
+            questions = self.questions.copy()
+            np.random.shuffle(questions)
+            for question in questions:
+                image_id = question['image_id']
+                question_text = question['question']
+                answer = question['answer']
 
-            image = Image.open(self.images_path + "/" + image_id + ".jpg")
-            image = self.preprocess_image(image)
-            prefix = "if the question is not a yes/no question answer null. "
-            prefix += question_text
-            if len(answer) > 0 and answer[0].lower() in ['yes', 'no']:
-                suffix = answer[0].lower()
-            else: suffix = None
+                image = Image.open(self.images_path + "/" + image_id + ".jpg")
+                image = self.preprocess_image(image)
+                prefix = "if the question is not a yes/no question answer null. "
+                prefix += question_text
+                if len(answer) > 0 and answer[0].lower() in ['yes', 'no']:
+                    suffix = answer[0].lower()
+                else: suffix = None
 
-            print(prefix)
-            print(suffix)
-            tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
-            print(tokens)
-            yield {
-                "image": np.asarray(image),
-                "text": np.asarray(tokens),
-                "mask_ar": np.asarray(mask_ar),
-                "mask_loss": np.asarray(mask_loss),
-            }
+                print(prefix)
+                print(suffix)
+                tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
+                print(tokens)
+                yield {
+                    "image": np.asarray(image),
+                    "text": np.asarray(tokens),
+                    "mask_ar": np.asarray(mask_ar),
+                    "mask_loss": np.asarray(mask_loss),
+                }

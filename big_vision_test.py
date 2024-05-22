@@ -91,7 +91,7 @@ def big_vision_test(isServer: bool):
 
     # print(" == Model params == ")
     # parameter_overview(params)
-    return decode, tokenizer, trainable_mask, params
+    return decode, tokenizer, trainable_mask, params, model
 
 
 
