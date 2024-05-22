@@ -86,8 +86,12 @@ class VQA_Dataset():
 
             image = Image.open(self.images_path + "/" + image_id + ".jpg")
             image = self.preprocess_image(image)
-            prefix = question_text
-            suffix = answer #.decode().lower()
+            prefix = "if the question is not a yes/no question answer null. "
+            prefix += question_text
+            if len(suffix) > 0 and suffix[0].lower() in ['yes', 'no']:
+                suffix = suffix[0].lower()
+            else: suffix = None
+            
             print(prefix)
             print(suffix)
             tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
