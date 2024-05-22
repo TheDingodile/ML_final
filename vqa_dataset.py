@@ -62,6 +62,8 @@ class VQA_Dataset():
             mask_loss = mask_loss[:self.seqlen] + padding
             mask_input = mask_input[:self.seqlen] + padding
 
+        print(tokens)
+
         return jax.tree.map(np.array, (tokens, mask_ar, mask_loss, mask_input))
 
     def postprocess_tokens(self, tokens):
@@ -86,6 +88,8 @@ class VQA_Dataset():
             image = self.preprocess_image(image)
             prefix = question_text
             suffix = answer #.decode().lower()
+            print(prefix)
+            print(suffix)
             tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
             print(tokens)
             yield {

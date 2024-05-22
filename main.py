@@ -16,7 +16,7 @@ class Defaults(Parameters):
 
     name: str = "local"
     lr: float = 0.03
-    batch_size: int = 8
+    batch_size: int = 2
     steps: int = 1000
 
 
