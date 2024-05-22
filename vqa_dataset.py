@@ -7,17 +7,24 @@ import kagglehub
 import ml_collections
 import sentencepiece
 import io
+import json
 
-TOKENIZER_PATH = "./paligemma_tokenizer.model"
-tokenizer = sentencepiece.SentencePieceProcessor(TOKENIZER_PATH)
+
 
 class VQA_Dataset():
-    def __init__(self, split):
+    def __init__(self, split, isServer: bool, tokenizer):
         self.split = split
         self.image_resolution = 224
-        self.images_path = "resized_ratio_short_side_768"
-        self.questions_path = "mimic-cxr-vqa/train.json"
         self.seqlen = None
+        self.tokenizer = tokenizer
+
+        if (isServer): path = "../../../../../../../work1/s183914/ml_healthcare"
+        else: path = "ehrxqa-2024-ml4h"
+        self.images_path = path + "/" + "resized_ratio_short_side_768"
+        self.questions_path = path + "/" + "mimic-cxr-vqa/train.json"
+        with open(self.questions_path, 'r') as f:
+            self.questions = json.load(f)
+        
 
     def preprocess_image(self, image):
         # Model has been trained to handle images of different aspects ratios
@@ -37,12 +44,12 @@ class VQA_Dataset():
         # Model has been trained to handle tokenized text composed of a prefix with
         # full attention and a suffix with causal attention.
         separator = "\n"
-        tokens = tokenizer.encode(prefix, add_bos=True) + tokenizer.encode(separator)
+        tokens = self.tokenizer.encode(prefix, add_bos=True) + self.tokenizer.encode(separator)
         mask_ar = [0] * len(tokens)    # 0 to use full attention for prefix.
         mask_loss = [0] * len(tokens)  # 0 to not use prefix tokens in the loss.
 
         if suffix:
-            suffix = tokenizer.encode(suffix, add_eos=True)
+            suffix = self.tokenizer.encode(suffix, add_eos=True)
             tokens += suffix
             mask_ar += [1] * len(suffix)    # 1 to use causal attention for suffix.
             mask_loss += [1] * len(suffix)  # 1 to use suffix tokens in the loss.
@@ -57,32 +64,29 @@ class VQA_Dataset():
 
         return jax.tree.map(np.array, (tokens, mask_ar, mask_loss, mask_input))
 
-    def postprocess_tokens(tokens):
+    def postprocess_tokens(self, tokens):
         tokens = tokens.tolist()  # np.array to list[int]
         try:  # Remove tokens at and after EOS if any.
-            eos_pos = tokens.index(tokenizer.eos_id())
+            eos_pos = tokens.index(self.tokenizer.eos_id())
             tokens = tokens[:eos_pos]
         except ValueError:
             pass
-        return tokenizer.decode(tokens)
-
-
-    def get_dataset(self):
-        pass
+        return self.tokenizer.decode(tokens)
 
 
     def train_data_iterator(self):
         """Never ending iterator over training examples."""
         # Shuffle examples and repeat so one can train for many epochs.
-        dataset = self.get_dataset()
-        for example in dataset.as_numpy_iterator():
-            image = Image.open(io.BytesIO(example["image"]))
+        for question in self.questions:
+            image_id = question['image_id']
+            question_text = question['question']
+            answer = question['answer']
+
+            image = Image.open(self.images_path + "/" + image_id + ".jpg")
             image = self.preprocess_image(image)
-
-            prefix = "caption en"  # Could also be a different prefix per example.
-            suffix = example["suffix"].decode().lower()
+            prefix = question_text
+            suffix = answer #.decode().lower()
             tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
-
             yield {
                 "image": np.asarray(image),
                 "text": np.asarray(tokens),
