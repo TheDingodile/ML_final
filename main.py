@@ -18,7 +18,7 @@ class Defaults(Parameters):
         # from paligemma import run_test
         from big_vision_test import big_vision_test
         start = seconds()
-        big_vision_test()
+        big_vision_test(isServer=isServer)
 
         # if (isServer):
         #     wandb.init(project="ML_healthcare", name=name)

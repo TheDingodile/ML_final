@@ -14,24 +14,27 @@ import functools
 # os.environ["KAGGLE_KEY"] = 'c4990098f0d6b7470eaeb93faee607f0'
 # pip3 install -q "overrides" "ml_collections" "einops~=0.7" "sentencepiece"
 
-def big_vision_test():
+def big_vision_test(isServer: bool):
 
-    os.environ["KAGGLE_USERNAME"] = 'thedingodile'
-    os.environ["KAGGLE_KEY"] = 'c4990098f0d6b7470eaeb93faee607f0'
+    # os.environ["KAGGLE_USERNAME"] = 'thedingodile'
+    # os.environ["KAGGLE_KEY"] = 'c4990098f0d6b7470eaeb93faee607f0'
 
-    MODEL_PATH = kagglehub.model_download('google/paligemma/jax/paligemma-3b-pt-224', 'paligemma-3b-pt-224.f16.npz')
-    print(MODEL_PATH)
+    # MODEL_PATH = kagglehub.model_download('google/paligemma/jax/paligemma-3b-pt-224', 'paligemma-3b-pt-224.f16.npz')
+    # print(MODEL_PATH)
+
     model_config = ml_collections.FrozenConfigDict({
         "llm": {"vocab_size": 257_152},
         "img": {"variant": "So400m/14", "pool_type": "none", "scan": True, "dtype_mm": "float16"}
     })
 
     model = paligemma.Model(**model_config)
-    TOKENIZER_PATH = "./paligemma_tokenizer.model"
+    if not (isServer): TOKENIZER_PATH = "./models/paligemma_tokenizer.model"
+    else: TOKENIZER_PATH = "../../../../../../../work1/s183914/ml_healthcare/models/paligemma_tokenizer.model"
     tokenizer = sentencepiece.SentencePieceProcessor(TOKENIZER_PATH)
 
     # Load params - this can take up to 1 minute in T4 colabs.
-    MODEL_PATH = "./paligemma-3b-pt-224.f16.npz"
+    if not (isServer): MODEL_PATH = "./models/paligemma-3b-pt-224.f16.npz"
+    else: MODEL_PATH = "../../../../../../../work1/s183914/ml_healthcare/models/paligemma-3b-pt-224.f16.npz"
     params = paligemma.load(None, MODEL_PATH, model_config)
 
 

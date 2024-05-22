@@ -22,7 +22,6 @@ packages=[
     "jax",
     "kagglehub",
     "tensorflow",
-    
-
-
+    "jaxlib",
+    "flax",
 ],)
