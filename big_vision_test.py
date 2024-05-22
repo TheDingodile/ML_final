@@ -94,9 +94,12 @@ def big_vision_test(isServer: bool):
     return decode, tokenizer, trainable_mask, params, model
 
 
+def create_update_fn(model, trainable_mask):
+   return functools.partial(jax.jit(update_fn, donate_argnums=(0,)), model, trainable_mask)
+
 
 @functools.partial(jax.jit, donate_argnums=(0,))
-def update_fn(params, batch, learning_rate, model, trainable_mask):
+def update_fn(params, batch, learning_rate):
   imgs, txts, mask_ar = batch["image"], batch["text"], batch["mask_ar"]
 
   def loss_fn(params):
