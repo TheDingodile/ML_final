@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 64, in <module>
+    Defaults.start()
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/dtu/__init__.py", line 235, in start
+    cls.run(*args)
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 40, in run
+    examples = [next(data_iterator) for _ in range(batch_size)]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 40, in <listcomp>
+    examples = [next(data_iterator) for _ in range(batch_size)]
+                ^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/vqa_dataset.py", line 91, in train_data_iterator
+    if len(suffix) > 0 and suffix[0].lower() in ['yes', 'no']:
+           ^^^^^^
+UnboundLocalError: cannot access local variable 'suffix' where it is not associated with a value
