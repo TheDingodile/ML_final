@@ -26,3 +26,12 @@ Does the left upper lung zone show any evidence of tubes/lines?
 ['yes']
 ('yes',)
 Does the svc show any evidence of devices?
+['yes']
+('yes',)
+Is there any occurrence of tubes/lines in the left hilar structures?
+['yes']
+('yes',)
+Is there an indication of any anatomical findings present in the left chest wall?
+['yes']
+('No',)
+```

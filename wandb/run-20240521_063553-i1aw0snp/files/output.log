@@ -1,0 +1,209 @@
+`config.hidden_act` is ignored, you should use `config.hidden_activation` instead.
+Gemma's activation function will be set to `gelu_pytorch_tanh`. Please, use
+`config.hidden_activation` if you want to override this behaviour.
+See https://github.com/huggingface/transformers/pull/29402 for more details.
+
+
+Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.18s/it]
+You're using a GemmaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+Is there any occurrence of anatomical findings in the left hilar structures?
+['yes'] ('No',)
+Are there indications of any tubes/lines within the aortic arch?
+['yes'] ('yes',)
+Are there indications of any technical assessments within the cardiac silhouette?
+['yes'] ('no',)
+Is there an indication of any tubes/lines present in the svc?
+['yes'] ('no',)
+Is there any sign of diseases present in the right mid lung zone?
+['yes'] ('yes',)
+Is there an indication of any tubes/lines present in the mediastinum?
+['yes'] ('no',)
+Does the left upper lung zone show any evidence of tubes/lines?
+['yes'] ('yes',)
+Does the svc show any evidence of devices?
+['yes'] ('yes',)
+Is there any occurrence of tubes/lines in the left hilar structures?
+['yes'] ('yes',)
+Is there an indication of any anatomical findings present in the left chest wall?
+['yes'] ('No',)
+Are there indications of any diseases within the left hemidiaphragm?
+['yes'] ('No',)
+Is the right mid lung zone showing any signs of technical assessments?
+['yes'] ('no',)
+Does the trachea contain any tubes/lines?
+['yes'] ('yes',)
+Is the right hilar structures showing any signs of diseases?
+['yes'] ('no',)
+Is there any occurrence of anatomical findings in the right mid lung zone?
+['yes'] ('No',)
+Is there any occurrence of tubes/lines in the aortic arch?
+['yes'] ('yes',)
+Is there any sign of diseases present in the left upper lung zone?
+['yes'] ('yes',)
+Is there any evidence of anatomical findings in the left lower lung zone?
+['yes'] ('no',)
+Does the left chest wall show any evidence of anatomical findings?
+['yes'] ('No',)
+Are there indications of anatomical findings in the right costophrenic angle?
+['yes'] ('No',)
+Is the left mid lung zone showing any signs of technical assessments?
+['yes'] ('yes',)
+Are there indications of any anatomical findings within the neck?
+['yes'] ('No',)
+Does the left lung show any evidence of tubes/lines?
+['yes'] ('yes',)
+Are there indications of technical assessments in the right upper lung zone?
+['yes'] ('yes',)
+Does the svc present with any devices?
+['yes'] ('yes',)
+Does the left lung present with any tubes/lines?
+['yes'] ('no',)
+Is there any evidence of technical assessments in the left upper lung zone?
+['yes'] ('no',)
+Is the cardiac silhouette showing any signs of tubes/lines?
+['yes'] ('yes',)
+Are there indications of any tubes/lines within the left chest wall?
+['yes'] ('no',)
+Does the svc contain any devices?
+['yes'] ('yes',)
+Does the left hilar structures contain any diseases?
+['yes'] ('Sorry, as a base VLM I am not trained to answer this question.',)
+Is there any evidence of diseases in the left hilar structures?
+['yes'] ('no',)
+Does the neck present with any anatomical findings?
+['yes'] ('no',)
+Are there indications of diseases in the right hemidiaphragm?
+['yes'] ('no',)
+Is there any sign of tubes/lines present in the mediastinum?
+['yes'] ('yes',)
+Is the right clavicle showing any signs of tubes/lines?
+['yes'] ('no',)
+Are there indications of any tubes/lines within the cardiac silhouette?
+['yes'] ('yes',)
+Are there indications of tubes/lines in the right chest wall?
+['yes'] ('no',)
+Are there indications of any anatomical findings within the right upper lung zone?
+['yes'] ('No',)
+Does the right hemidiaphragm present with any tubes/lines?
+['yes'] ('no',)
+Are there indications of any tubes/lines within the trachea?
+['yes'] ('yes',)
+Are there indications of anatomical findings in the right lung?
+['yes'] ('No',)
+Is the aortic arch showing any signs of tubes/lines?
+['yes'] ('no',)
+Does the trachea display any tubes/lines?
+['yes'] ('yes',)
+Does the left lower lung zone contain any diseases?
+['yes'] ('yes',)
+Is there any occurrence of technical assessments in the left upper lung zone?
+['yes'] ('no',)
+Are there indications of any devices within the right clavicle?
+['yes'] ('yes',)
+Does the left upper lung zone contain any technical assessments?
+['yes'] ('no',)
+Is there any evidence of diseases in the left hemidiaphragm?
+['yes'] ('no',)
+Does the right lower lung zone display any anatomical findings?
+['yes'] ('No',)
+Is there any evidence of anatomical findings in the left shoulder?
+['yes'] ('no',)
+Is there any occurrence of anatomical findings in the left hemidiaphragm?
+['yes'] ('No',)
+Does the right hemidiaphragm present with any diseases?
+['yes'] ('Sorry, as a base VLM I am not trained to answer this question.',)
+Are there indications of any diseases within the neck?
+['yes'] ('no',)
+Are there indications of any anatomical findings within the left clavicle?
+['yes'] ('No',)
+Is there an indication of any anatomical findings present in the right hilar structures?
+['yes'] ('No',)
+Are there indications of anatomical findings in the abdomen?
+['yes'] ('no',)
+Is there any occurrence of anatomical findings in the right costophrenic angle?
+['yes'] ('No',)
+Is there any evidence of tubes/lines in the left upper lung zone?
+['yes'] ('yes',)
+Is there any occurrence of tubes/lines in the abdomen?
+['yes'] ('yes',)
+Are there indications of any technical assessments within the upper mediastinum?
+['yes'] ('no',)
+Are there indications of technical assessments in the right upper lung zone?
+['yes'] ('yes',)
+Does the abdomen display any tubes/lines?
+['yes'] ('yes',)
+Does the left upper lung zone contain any anatomical findings?
+['yes'] ('no',)
+Is there any sign of technical assessments present in the right lung?
+['yes'] ('no',)
+Are there indications of diseases in the right upper lung zone?
+['yes'] ('yes',)
+Is there an indication of any tubes/lines present in the right upper lung zone?
+['yes'] ('no',)
+Does the neck show any evidence of diseases?
+['yes'] ('Sorry, as a base VLM I am not trained to answer this question.',)
+Does the aortic arch display any tubes/lines?
+['yes'] ('no',)
+Are there indications of anatomical findings in the trachea?
+['yes'] ('No',)
+Does the left lower lung zone display any technical assessments?
+['yes'] ('no',)
+Does the right lower lung zone contain any diseases?
+['yes'] ('yes',)
+Is the right clavicle showing any signs of anatomical findings?
+['yes'] ('yes',)
+Is there any evidence of devices in the right atrium?
+['yes'] ('yes',)
+Are there indications of any technical assessments within the left breast?
+['yes'] ('no',)
+Does the right hilar structures contain any tubes/lines?
+['yes'] ('no',)
+Does the right chest wall display any tubes/lines?
+['yes'] ('yes',)
+Is there an indication of any anatomical findings present in the right mid lung zone?
+['yes'] ('No',)
+Is the right chest wall showing any signs of tubes/lines?
+['yes'] ('no',)
+Are there indications of tubes/lines in the right lower lung zone?
+['yes'] ('yes',)
+Are there indications of anatomical findings in the left upper lung zone?
+['yes'] ('yes',)
+Does the left hilar structures display any anatomical findings?
+['yes'] ('Sorry, as a base VLM I am not trained to answer this question.',)
+Does the right lower lung zone display any tubes/lines?
+['yes'] ('no',)
+Does the left clavicle present with any anatomical findings?
+['yes'] ('no',)
+Is there any occurrence of anatomical findings in the right lower lung zone?
+['yes'] ('yes',)
+Does the right apical zone present with any anatomical findings?
+['yes'] ('No',)
+Does the right chest wall display any technical assessments?
+['yes'] ('no',)
+Are there indications of anatomical findings in the cardiac silhouette?
+['yes'] ('No',)
+Is there any evidence of tubes/lines in the right chest wall?
+['yes'] ('no',)
+Are there indications of any diseases within the right upper lung zone?
+['yes'] ('yes',)
+Does the right clavicle contain any technical assessments?
+['yes'] ('yes',)
+Is there any evidence of anatomical findings in the right costophrenic angle?
+['yes'] ('No',)
+Does the carina display any tubes/lines?
+['yes'] ('yes',)
+Is there any evidence of devices in the svc?
+['yes'] ('yes',)
+Is there an indication of any diseases present in the left hilar structures?
+['yes'] ('no',)
+Are there indications of technical assessments in the right lung?
+['yes'] ('no',)
+Is there any evidence of tubes/lines in the left lower lung zone?
+['yes'] ('yes',)
+Does the right hemidiaphragm show any evidence of tubes/lines?
+['yes'] ('no',)
+Is there any sign of technical assessments present in the right chest wall?
+['yes'] ('no',)
+Does the left mid lung zone display any diseases?
+['yes'] ('yes',)
+```
