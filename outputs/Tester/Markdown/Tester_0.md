@@ -262,3 +262,72 @@ Resource usage summary:
 
 The output (if any) is above this job summary.
 
+2024-05-22 09:43:33.312192: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+
+<style>
+c { color: #9cdcfe; font-family: 'Verdana', sans-serif;} /* VARIABLE */
+d { color: #4EC9B0; font-family: 'Verdana', sans-serif;} /* CLASS */
+e { color: #569cd6; font-family: 'Verdana', sans-serif;} /* BOOL */
+f { color: #b5cea8; font-family: 'Verdana', sans-serif;} /* NUMBERS */
+j { color: #ce9178; font-family: 'Verdana', sans-serif;} /* STRING */
+k { font-family: 'Verdana', sans-serif;} /* SYMBOLS */
+</style>
+
+# Parameters
+
+| PARAMETER         | TYPE              | VALUE             |
+|-------------------|-------------------|-------------------|
+| <c>name</c>       | <d>str</d>        | <j>"Tester-0"</j> |
+| <c>time</c>       | <d>int</d>        | <f>3600</f>       |
+
+# Output
+
+```
+```
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21832318: <Tester_0> in cluster <dcc> Done
+
+Job <Tester_0> was submitted from host <n-62-27-18> by user <s183914> in cluster <dcc> at Wed May 22 09:43:21 2024
+Job was executed on host(s) <n-62-31-2>, in queue <hpc>, as user <s183914> in cluster <dcc> at Wed May 22 09:43:21 2024
+</zhome/ea/9/137501> was used as the home directory.
+</zhome/ea/9/137501/Desktop/ML_final/ML_final> was used as the working directory.
+Started at Wed May 22 09:43:21 2024
+Terminated at Wed May 22 09:44:07 2024
+Results reported at Wed May 22 09:44:07 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q hpc
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 4320
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   26.73 sec.
+    Max Memory :                                 276 MB
+    Average Memory :                             276.00 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               16108.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   50 sec.
+    Turnaround time :                            46 sec.
+
+The output (if any) is above this job summary.
+
