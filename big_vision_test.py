@@ -95,7 +95,7 @@ def big_vision_test(isServer: bool):
 
 
 def create_update_fn(model, trainable_mask):
-   return functools.partial(jax.jit(update_fn, donate_argnums=(0,)), model, trainable_mask)
+   return functools.partial(jax.jit(update_fn, donate_argnums=(0,), static_argnums=(3, 4)), model, trainable_mask)
 
 
 # @functools.partial(jax.jit, donate_argnums=(0,))
