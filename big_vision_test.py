@@ -15,11 +15,12 @@ import functools
 # pip3 install -q "overrides" "ml_collections" "einops~=0.7" "sentencepiece"
 
 def big_vision_test():
-    
+
     os.environ["KAGGLE_USERNAME"] = 'thedingodile'
     os.environ["KAGGLE_KEY"] = 'c4990098f0d6b7470eaeb93faee607f0'
 
     MODEL_PATH = kagglehub.model_download('google/paligemma/jax/paligemma-3b-pt-224', 'paligemma-3b-pt-224.f16.npz')
+    print(MODEL_PATH)
     model_config = ml_collections.FrozenConfigDict({
         "llm": {"vocab_size": 257_152},
         "img": {"variant": "So400m/14", "pool_type": "none", "scan": True, "dtype_mm": "float16"}
