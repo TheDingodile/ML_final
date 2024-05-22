@@ -21,6 +21,7 @@ packages=[
     "overrides",
     "jax",
     "kagglehub",
+    "tensorflow",
     
 
 
