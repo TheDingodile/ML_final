@@ -424,3 +424,140 @@ Resource usage summary:
 
 The output (if any) is above this job summary.
 
+2024-05-22 11:10:21.282394: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+wandb: Currently logged in as: kobomao. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240522_111056-35uz38uz
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run CrashTester-0
+wandb: ⭐️ View project at https://wandb.ai/kobomao/ML_healthcare
+wandb: 🚀 View run at https://wandb.ai/kobomao/ML_healthcare/runs/35uz38uz
+
+<style>
+c { color: #9cdcfe; font-family: 'Verdana', sans-serif;} /* VARIABLE */
+d { color: #4EC9B0; font-family: 'Verdana', sans-serif;} /* CLASS */
+e { color: #569cd6; font-family: 'Verdana', sans-serif;} /* BOOL */
+f { color: #b5cea8; font-family: 'Verdana', sans-serif;} /* NUMBERS */
+j { color: #ce9178; font-family: 'Verdana', sans-serif;} /* STRING */
+k { font-family: 'Verdana', sans-serif;} /* SYMBOLS */
+</style>
+
+# Parameters
+
+| PARAMETER         | TYPE              | VALUE             |
+|-------------------|-------------------|-------------------|
+| <c>name</c>       | <d>str</d>        | <j>"CrashTester-0"</j> |
+| <c>time</c>       | <d>int</d>        | <f>3600</f>       |
+| <c>lr</c>         | <d>float</d>      | <f>0.03</f>       |
+| <c>batch_size</c> | <d>int</d>        | <f>8</f>          |
+| <c>steps</c>      | <d>int</d>        | <f>1000</f>       |
+
+# Output
+
+```
+if the question is not a yes/no question answer null. Is there any occurrence of anatomical findings in the left hilar structures?
+yes
+[2, 648, 573, 2872, 603, 780, 476, 7778, 235283, 956, 2872, 3448, 1468, 235265, 2125, 1104, 1089, 28635, 576, 97999, 14352, 575, 573, 2731, 192777, 12225, 235336, 108, 3276, 1]
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(2125), array(1104), array(1089), array(28635), array(576), array(97999), array(14352), array(575), array(573), array(2731), array(192777), array(12225), array(235336), array(108), array(3276), array(1)]
+if the question is not a yes/no question answer null. Are there indications of any tubes/lines within the aortic arch?
+yes
+[2, 648, 573, 2872, 603, 780, 476, 7778, 235283, 956, 2872, 3448, 1468, 235265, 5881, 1104, 48826, 576, 1089, 26327, 235283, 5448, 2819, 573, 115361, 2951, 235336, 108, 3276, 1]
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(5881), array(1104), array(48826), array(576), array(1089), array(26327), array(235283), array(5448), array(2819), array(573), array(115361), array(2951), array(235336), array(108), array(3276), array(1)]
+if the question is not a yes/no question answer null. Are there indications of any technical assessments within the cardiac silhouette?
+yes
+[2, 648, 573, 2872, 603, 780, 476, 7778, 235283, 956, 2872, 3448, 1468, 235265, 5881, 1104, 48826, 576, 1089, 9838, 37921, 2819, 573, 41821, 36690, 235336, 108, 3276, 1]
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(5881), array(1104), array(48826), array(576), array(1089), array(9838), array(37921), array(2819), array(573), array(41821), array(36690), array(235336), array(108), array(3276), array(1)]
+if the question is not a yes/no question answer null. Is there an indication of any tubes/lines present in the svc?
+yes
+[2, 648, 573, 2872, 603, 780, 476, 7778, 235283, 956, 2872, 3448, 1468, 235265, 2125, 1104, 671, 29068, 576, 1089, 26327, 235283, 5448, 2835, 575, 573, 139687, 235336, 108, 3276, 1]
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(2125), array(1104), array(671), array(29068), array(576), array(1089), array(26327), array(235283), array(5448), array(2835), array(575), array(573), array(139687), array(235336), array(108), array(3276), array(1)]
+if the question is not a yes/no question answer null. Is there any sign of diseases present in the right mid lung zone?
+yes
+[2, 648, 573, 2872, 603, 780, 476, 7778, 235283, 956, 2872, 3448, 1468, 235265, 2125, 1104, 1089, 2035, 576, 16011, 2835, 575, 573, 1833, 3465, 15382, 10277, 235336, 108, 3276, 1]
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(2125), array(1104), array(1089), array(2035), array(576), array(16011), array(2835), array(575), array(573), array(1833), array(3465), array(15382), array(10277), array(235336), array(108), array(3276), array(1)]
+if the question is not a yes/no question answer null. Is there an indication of any tubes/lines present in the mediastinum?
+yes
+[2, 648, 573, 2872, 603, 780, 476, 7778, 235283, 956, 2872, 3448, 1468, 235265, 2125, 1104, 671, 29068, 576, 1089, 26327, 235283, 5448, 2835, 575, 573, 10074, 897, 20809, 235336, 108, 3276, 1]
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(2125), array(1104), array(671), array(29068), array(576), array(1089), array(26327), array(235283), array(5448), array(2835), array(575), array(573), array(10074), array(897), array(20809), array(235336), array(108), array(3276), array(1)]
+if the question is not a yes/no question answer null. Does the left upper lung zone show any evidence of tubes/lines?
+yes
+[2, 648, 573, 2872, 603, 780, 476, 7778, 235283, 956, 2872, 3448, 1468, 235265, 11188, 573, 2731, 8776, 15382, 10277, 1500, 1089, 5820, 576, 26327, 235283, 5448, 235336, 108, 3276, 1]
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(11188), array(573), array(2731), array(8776), array(15382), array(10277), array(1500), array(1089), array(5820), array(576), array(26327), array(235283), array(5448), array(235336), array(108), array(3276), array(1)]
+if the question is not a yes/no question answer null. Does the svc show any evidence of devices?
+yes
+[2, 648, 573, 2872, 603, 780, 476, 7778, 235283, 956, 2872, 3448, 1468, 235265, 11188, 573, 139687, 1500, 1089, 5820, 576, 9630, 235336, 108, 3276, 1]
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(11188), array(573), array(139687), array(1500), array(1089), array(5820), array(576), array(9630), array(235336), array(108), array(3276), array(1)]
+Traceback (most recent call last):
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 64, in <module>
+    Defaults.start()
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/dtu/__init__.py", line 235, in start
+    cls.run(*args)
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 41, in run
+    batch = jax.tree.map(lambda *x: np.stack(x), *examples)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/tree.py", line 61, in map
+    return tree_util.tree_map(f, tree, *rest, is_leaf=is_leaf)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/tree_util.py", line 320, in tree_map
+    return treedef.unflatten(f(*xs) for xs in zip(*all_leaves))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/tree_util.py", line 320, in <genexpr>
+    return treedef.unflatten(f(*xs) for xs in zip(*all_leaves))
+                             ^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 41, in <lambda>
+    batch = jax.tree.map(lambda *x: np.stack(x), *examples)
+                                    ^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/numpy/core/shape_base.py", line 449, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+wandb: - 0.004 MB of 0.004 MB uploadedwandb: \ 0.004 MB of 0.004 MB uploadedwandb: | 0.004 MB of 0.004 MB uploadedwandb: / 0.008 MB of 0.020 MB uploaded (0.004 MB deduped)wandb: - 0.008 MB of 0.020 MB uploaded (0.004 MB deduped)wandb: 🚀 View run CrashTester-0 at: https://wandb.ai/kobomao/ML_healthcare/runs/35uz38uz
+wandb: ⭐️ View project at: https://wandb.ai/kobomao/ML_healthcare
+wandb: Synced 5 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240522_111056-35uz38uz/logs
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21833578: <CrashTester_0> in cluster <dcc> Exited
+
+Job <CrashTester_0> was submitted from host <n-62-27-18> by user <s183914> in cluster <dcc> at Wed May 22 11:10:10 2024
+Job was executed on host(s) <n-62-31-21>, in queue <hpc>, as user <s183914> in cluster <dcc> at Wed May 22 11:10:11 2024
+</zhome/ea/9/137501> was used as the home directory.
+</zhome/ea/9/137501/Desktop/ML_final/ML_final> was used as the working directory.
+Started at Wed May 22 11:10:11 2024
+Terminated at Wed May 22 11:11:11 2024
+Results reported at Wed May 22 11:11:11 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q hpc
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 4320
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   34.58 sec.
+    Max Memory :                                 6419 MB
+    Average Memory :                             4359.67 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               9965.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   60 sec.
+    Turnaround time :                            61 sec.
+
+The output (if any) is above this job summary.
+
