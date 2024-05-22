@@ -87,6 +87,7 @@ class VQA_Dataset():
             prefix = question_text
             suffix = answer #.decode().lower()
             tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
+            print(tokens)
             yield {
                 "image": np.asarray(image),
                 "text": np.asarray(tokens),

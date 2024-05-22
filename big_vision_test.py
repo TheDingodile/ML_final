@@ -89,8 +89,8 @@ def big_vision_test(isServer: bool):
         for path, arr in big_vision.utils.tree_flatten_with_names(params)[0]:
             print(f"{path:80s} {str(arr.shape):22s} {arr.dtype}")
 
-    print(" == Model params == ")
-    parameter_overview(params)
+    # print(" == Model params == ")
+    # parameter_overview(params)
     return decode, tokenizer, trainable_mask
 
 
