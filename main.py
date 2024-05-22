@@ -15,20 +15,24 @@ class Defaults(Parameters):
     name: str = "local"
 
     def run(self, name: str, isServer: bool) -> None:
-        from paligemma import run_test
+        # from paligemma import run_test
+        from big_vision_test import big_vision_test
         start = seconds()
-        if (isServer):
-            wandb.init(project="ML_healthcare", name=name)
+        big_vision_test()
+
+        # if (isServer):
+        #     wandb.init(project="ML_healthcare", name=name)
         
-        if (isServer): path = "../../../../../../../work1/s183914/ml_healthcare"
-        else: path = "ehrxqa-2024-ml4h"
+        # if (isServer): path = "../../../../../../../work1/s183914/ml_healthcare"
+        # else: path = "ehrxqa-2024-ml4h"
 
-        iterator = run_test(path)
-        for i in range(100):
-            question_text, answer, result = next(iterator)
 
-            if (isServer): wandb.log({"question": question_text, "answer": answer, "result": result})
-            else: print(question_text, answer, result)
+        # iterator = run_test(path)
+        # for i in range(100):
+        #     question_text, answer, result = next(iterator)
+
+        #     if (isServer): wandb.log({"question": question_text, "answer": answer, "result": result})
+        #     else: print(question_text, answer, result)
 
 
 
