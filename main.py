@@ -22,7 +22,7 @@ class Defaults(Parameters):
 
     def run(self, name: str, isServer: bool, lr: float, batch_size: int, steps: int) -> None:
         # from paligemma import run_test
-        from big_vision_test import big_vision_test, create_update_fn
+        from big_vision_test import big_vision_test, wrapper_update_fn
         from vqa_dataset import VQA_Dataset
         import big_vision.utils
 
@@ -32,7 +32,7 @@ class Defaults(Parameters):
         dataset = VQA_Dataset(split="train", isServer=isServer, tokenizer=tokenizer)
         data_iterator = dataset.train_data_iterator()
         sched_fn = big_vision.utils.create_learning_rate_schedule(total_steps=steps+1, base=lr, decay_type="cosine", warmup_percent=0.10)
-        update_fn = create_update_fn(model, trainable_mask)
+
         if (isServer):
             wandb.init(project="ML_healthcare", name=name)
 
@@ -41,7 +41,7 @@ class Defaults(Parameters):
             batch = jax.tree.map(lambda *x: np.stack(x), *examples)
             learning_rate = sched_fn(step)
             # params, batch, learning_rate, model, trainable_mask
-            params, loss = update_fn(params, batch, learning_rate)
+            params, loss = wrapper_update_fn(params, batch, learning_rate, model, trainable_mask)
             loss = jax.device_get(loss)
 
 
