@@ -1,5 +1,3 @@
 #!/bin/sh
-mkdir -p outputs/CrashTest/Markdown
-bsub -o "outputs/CrashTest/Markdown/CrashTest_0.md" -J "CrashTest_0" -env MYARGS="-name CrashTest-0 -time 3600 -ID 0" < submit_cpu.sh
-mkdir -p outputs/CrashTestGPU/Markdown
-bsub -o "outputs/CrashTestGPU/Markdown/CrashTestGPU_0.md" -J "CrashTestGPU_0" -env MYARGS="-name CrashTestGPU-0 -time 3600 -ID 0" < submit_gpu_v32.sh
+mkdir -p outputs/CrashTester/Markdown
+bsub -o "outputs/CrashTester/Markdown/CrashTester_0.md" -J "CrashTester_0" -env MYARGS="-name CrashTester-0 -time 3600 -lr 0.03 -batch_size 8 -steps 1000 -ID 0" < submit_cpu.sh
