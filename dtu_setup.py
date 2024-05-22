@@ -15,4 +15,13 @@ packages=[
     "transformers",
     "inference",
     "accelerate",
+    "ml_collections",
+    "einops",
+    "sentencepiece",
+    "overrides",
+    "jax",
+    "kagglehub",
+    
+
+
 ],)
