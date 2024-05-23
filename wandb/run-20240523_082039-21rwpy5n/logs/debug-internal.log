@@ -314,3 +314,14 @@
 2024-05-23 08:31:24,859 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
 2024-05-23 08:31:26,695 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
 2024-05-23 08:31:26,695 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:31:29,903 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:31:34,904 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:31:39,904 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:31:40,780 DEBUG   SenderThread:23437 [sender.py:send():378] send: stats
+2024-05-23 08:31:41,695 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 08:31:41,695 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:31:45,895 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:31:50,896 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:31:55,896 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:31:56,695 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 08:31:56,695 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status

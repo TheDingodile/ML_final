@@ -127,3 +127,19 @@ None
 if the question is not a yes/no question answer null. Are both the svc and cavoatrial junction showing any abnormalities?
 no
 if the question is not a yes/no question answer null. Identify all anatomical locations related to endotracheal tube, but not related to hydropneumothorax.
+None
+if the question is not a yes/no question answer null. Enumerate all anatomical locations that can exhibit both copd/emphysema and pneumothorax.
+None
+if the question is not a yes/no question answer null. What are all the abnormalities detected in either right costophrenic angle or right mid lung zone?
+None
+if the question is not a yes/no question answer null. Does the width of the upper mediastinum surpass one-third of the thoracic width?
+no
+if the question is not a yes/no question answer null. Please outline all the abnormalities you observe.
+None
+if the question is not a yes/no question answer null. Please determine the sex of the patient based on this image.
+None
+if the question is not a yes/no question answer null. Can you identify any abnormalities in the left chest wall or right mid lung zone?
+yes
+if the question is not a yes/no question answer null. Is this image presented in the AP view?
+no
+if the question is not a yes/no question answer null. Mention all the anatomical areas associated with either diseases or tubes/lines.
