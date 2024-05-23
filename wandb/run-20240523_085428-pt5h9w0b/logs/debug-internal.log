@@ -2830,3 +2830,174 @@
 2024-05-23 09:13:30,261 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
 2024-05-23 09:13:30,264 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
 2024-05-23 09:13:30,540 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:13:32,549 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:32,879 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:13:32,880 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:13:32,880 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:13:32,883 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:13:33,552 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:13:33,961 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:13:34,556 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:35,595 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:13:35,596 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:13:35,596 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:13:35,598 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:13:36,564 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:36,564 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:13:38,328 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:13:38,329 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:13:38,329 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:13:38,332 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:13:38,571 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:13:39,412 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:13:40,578 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:41,054 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:13:41,054 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:13:41,054 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:13:41,058 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:13:41,582 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:13:42,586 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:43,782 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:13:43,782 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:13:43,783 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:13:43,786 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:13:44,593 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:44,593 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:13:44,865 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:13:45,096 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 09:13:45,096 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 09:13:46,508 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:13:46,509 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:13:46,509 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:13:46,512 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:13:46,599 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:13:48,607 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:49,230 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:13:49,231 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:13:49,231 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:13:49,234 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:13:49,610 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:13:50,314 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:13:50,614 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:51,961 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:13:51,962 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:13:51,962 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:13:51,965 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:13:52,621 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:52,621 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:13:54,629 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:54,696 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:13:54,696 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:13:54,696 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:13:54,700 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:13:55,632 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:13:55,781 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:13:56,636 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:57,417 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:13:57,417 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:13:57,418 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:13:57,421 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:13:57,640 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:13:58,644 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:13:59,578 DEBUG   SenderThread:4724 [sender.py:send():378] send: stats
+2024-05-23 09:14:00,097 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 09:14:00,097 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 09:14:00,136 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:00,354 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:00,354 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:00,358 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:00,651 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:01,359 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:14:02,658 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:02,856 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:02,857 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:02,857 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:02,860 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:03,661 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:04,665 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:05,571 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:05,571 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:05,572 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:05,575 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:05,668 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:06,654 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:14:06,672 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:08,293 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:08,294 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:08,294 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:08,297 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:08,679 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:10,686 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:11,005 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:11,006 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:11,006 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:11,009 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:11,689 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:12,089 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:14:12,693 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:13,735 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:13,736 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:13,736 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:13,739 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:14,700 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:14,700 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:15,096 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 09:14:15,097 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 09:14:16,453 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:16,453 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:16,453 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:16,456 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:16,707 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:17,533 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:14:18,714 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:19,185 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:19,185 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:19,185 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:19,189 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:19,717 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:20,721 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:21,900 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:21,901 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:21,901 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:21,904 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:22,728 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:22,728 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:22,982 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:14:24,633 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:24,634 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:24,634 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:24,637 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:24,734 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:26,742 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:27,366 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:27,366 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:27,367 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:27,372 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:27,746 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:28,448 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:14:28,750 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:29,578 DEBUG   SenderThread:4724 [sender.py:send():378] send: stats
+2024-05-23 09:14:30,097 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 09:14:30,097 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 09:14:30,100 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:30,297 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:30,297 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:30,301 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:30,757 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:32,767 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:32,824 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:32,824 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:32,824 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:32,828 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:33,772 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:33,905 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:14:34,777 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:35,555 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 09:14:35,556 DEBUG   SenderThread:4724 [sender.py:send():378] send: history
+2024-05-23 09:14:35,556 DEBUG   SenderThread:4724 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 09:14:35,559 INFO    SenderThread:4724 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 09:14:35,781 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/wandb-summary.json
+2024-05-23 09:14:36,785 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:39,286 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 09:14:40,807 INFO    Thread-12 :4724 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_085428-pt5h9w0b/files/output.log
+2024-05-23 09:14:44,286 DEBUG   HandlerThread:4724 [handler.py:handle_request():158] handle_request: status_report
