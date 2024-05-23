@@ -6301,3 +6301,19 @@ no
 if the question is not a yes/no question answer null. Are there any indications of abnormality?
 no
 if the question is not a yes/no question answer null. Indicate all anatomical locations linked with either airspace opacity or swan-ganz catheter.
+None
+if the question is not a yes/no question answer null. Specify all the anatomical findings found in the right chest wall.
+None
+if the question is not a yes/no question answer null. Can you identify either anatomical findings or devices on the X-ray?
+no
+if the question is not a yes/no question answer null. Can you identify the abnormalities present only in mediastinum and absent in spine?
+None
+if the question is not a yes/no question answer null. Could you detail any abnormalities that are exclusive to left lung and not present in svc?
+None
+if the question is not a yes/no question answer null. Can you see both elevated hemidiaphragm and hydropneumothorax in the X-ray?
+no
+if the question is not a yes/no question answer null. Which anatomical position has a relation to the pleural/parenchymal scarring, the left lower lung zone or the right upper lung zone?
+None
+if the question is not a yes/no question answer null. Does the left hilar structures show any evidence of both vascular congestion and enlarged hilum?
+yes
+if the question is not a yes/no question answer null. Are there any indications of abnormality in the svc?

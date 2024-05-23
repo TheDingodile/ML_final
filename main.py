@@ -36,7 +36,7 @@ class Defaults(Parameters):
         else: predictor_function, tokenizer, trainable_mask, params, model = None, None, None, None, None
         dataset = VQA_Dataset(split="train", isServer=isServer, tokenizer=tokenizer)
         data_iterator = dataset.train_data_iterator()
-        sched_fn = big_vision.utils.create_learning_rate_schedule(total_steps=steps+1, base=lr, decay_type="cosine", warmup_percent=0.10)
+        sched_fn = big_vision.utils.create_learning_rate_schedule(total_steps=steps+1, base=lr, decay_type="cosine", warmup_percent=0.0)
 
 
         @functools.partial(jax.jit, donate_argnums=(0,))

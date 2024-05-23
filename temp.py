@@ -89,11 +89,11 @@ for i in range(20):
 # with open('dummy_predictions.json', 'w') as f:
 #     json.dump(dummy_predictions, f)
 
-dummy_predictions2 = []
+# dummy_predictions2 = []
 
-for d in valid_data:
-    dummy_predictions2.append({"id": d["id"], "answer": [0]})
+# for d in valid_data:
+#     dummy_predictions2.append({"id": d["id"], "answer": [0]})
 
-with open('dummy_predictions2.json', 'w') as f:
-    json.dump(dummy_predictions2, f)
+# with open('dummy_predictions2.json', 'w') as f:
+#     json.dump(dummy_predictions2, f)
 
