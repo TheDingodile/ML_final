@@ -47,3 +47,19 @@ no
 if the question is not a yes/no question answer null. Please enumerate all anatomical locations exhibiting spinal fracture, but not tracheostomy tube.
 None
 if the question is not a yes/no question answer null. What is the biological sex of this patient?
+None
+if the question is not a yes/no question answer null. Have any anatomical findings been seen associated with both the left costophrenic angle and the left hemidiaphragm?
+yes
+if the question is not a yes/no question answer null. Specify and list all visible technical assessments.
+None
+if the question is not a yes/no question answer null. Enumerate all the shared tubes/lines between the left lung and the carina.
+None
+if the question is not a yes/no question answer null. Does the svc exhibit any abnormality?
+yes
+if the question is not a yes/no question answer null. Are there any abnormalities unique to upper mediastinum that are not found in carina?
+None
+if the question is not a yes/no question answer null. Are there signs of pneumonia in the left mid lung zone?
+no
+if the question is not a yes/no question answer null. Does this image have an AP view?
+no
+if the question is not a yes/no question answer null. Can any presence of atelectasis be noted in the right mid lung zone?

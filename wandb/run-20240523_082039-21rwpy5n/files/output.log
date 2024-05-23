@@ -95,3 +95,19 @@ no
 if the question is not a yes/no question answer null. Does the cardiac silhouette show any evidence of anatomical findings or tubes/lines?
 yes
 if the question is not a yes/no question answer null. Specify all anatomical locations associated with enlarged cardiac silhouette, but not pneumothorax.
+None
+if the question is not a yes/no question answer null. Have any tubes/lines been observed related to both the left hemidiaphragm and the left shoulder?
+yes
+if the question is not a yes/no question answer null. Can you identify any anatomical findings associated with either the cardiac silhouette or the neck?
+no
+if the question is not a yes/no question answer null. In which region, the left upper lung zone or the abdomen, is an abnormality presented?
+None
+if the question is not a yes/no question answer null. In relation to the left mid lung zone, which diseases applies, pneumonia or granulomatous diseases?
+None
+if the question is not a yes/no question answer null. In which anatomical region is an abnormality observable, the left lower lung zone or the left hemidiaphragm?
+None
+if the question is not a yes/no question answer null. Are there any indications of mediastinal displacement?
+yes
+if the question is not a yes/no question answer null. Is there any evidence of anatomical findings?
+no
+if the question is not a yes/no question answer null. Does the upper mediastinum's width represent more than 33% of the thorax width?

@@ -234,3 +234,56 @@
 2024-05-23 08:28:11,884 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
 2024-05-23 08:28:16,885 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
 2024-05-23 08:28:21,885 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:28:26,690 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 08:28:26,691 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:28:27,872 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:28:32,873 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:28:37,873 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:28:40,777 DEBUG   SenderThread:23437 [sender.py:send():378] send: stats
+2024-05-23 08:28:41,690 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 08:28:41,691 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:28:42,944 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:28:47,945 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:28:52,945 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:28:56,691 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 08:28:56,691 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:28:58,882 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:03,883 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:08,884 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:10,777 DEBUG   SenderThread:23437 [sender.py:send():378] send: stats
+2024-05-23 08:29:11,694 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 08:29:11,694 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:29:14,881 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:19,882 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:24,882 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:26,694 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 08:29:26,694 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:29:27,220 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 08:29:27,220 DEBUG   SenderThread:23437 [sender.py:send():378] send: history
+2024-05-23 08:29:27,221 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 08:29:27,223 INFO    SenderThread:23437 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 08:29:27,495 INFO    Thread-12 :23437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_082039-21rwpy5n/files/wandb-summary.json
+2024-05-23 08:29:28,500 INFO    Thread-12 :23437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_082039-21rwpy5n/files/output.log
+2024-05-23 08:29:30,508 INFO    Thread-12 :23437 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_082039-21rwpy5n/files/output.log
+2024-05-23 08:29:30,696 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:35,696 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:40,697 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:40,778 DEBUG   SenderThread:23437 [sender.py:send():378] send: stats
+2024-05-23 08:29:41,694 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 08:29:41,694 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:29:45,939 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:50,939 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:55,940 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:29:56,694 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 08:29:56,694 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:30:01,857 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:30:06,858 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:30:10,778 DEBUG   SenderThread:23437 [sender.py:send():378] send: stats
+2024-05-23 08:30:11,694 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 08:30:11,694 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:30:11,886 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:30:16,887 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:30:21,888 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:30:26,694 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 08:30:26,695 DEBUG   SenderThread:23437 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:30:27,864 DEBUG   HandlerThread:23437 [handler.py:handle_request():158] handle_request: status_report
