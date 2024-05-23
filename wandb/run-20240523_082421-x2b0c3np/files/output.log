@@ -79,3 +79,51 @@ yes
 if the question is not a yes/no question answer null. Are there any signs of either diseases or tubes/lines?
 no
 if the question is not a yes/no question answer null. Please identify all the anatomical sites associated with cabg grafts.
+None
+if the question is not a yes/no question answer null. Does the width of the cardiac silhouette surpass 50% of the thoracic width?
+no
+if the question is not a yes/no question answer null. What are all the anatomical locations implicated with enteric tube?
+None
+if the question is not a yes/no question answer null. In relation to the right lung, which anatomical findings applies, pulmonary edema/hazy opacity or pneumothorax?
+None
+if the question is not a yes/no question answer null. Can either multiple masses/nodules or swan-ganz catheter be seen?
+no
+if the question is not a yes/no question answer null. What diseases and tubes/lines are present in the left hemidiaphragm?
+None
+if the question is not a yes/no question answer null. Could there be either fluid overload/heart failure or granulomatous diseases?
+no
+if the question is not a yes/no question answer null. Does the cardiac silhouette show any evidence of anatomical findings or tubes/lines?
+yes
+if the question is not a yes/no question answer null. Specify all anatomical locations associated with enlarged cardiac silhouette, but not pneumothorax.
+None
+if the question is not a yes/no question answer null. Have any tubes/lines been observed related to both the left hemidiaphragm and the left shoulder?
+yes
+if the question is not a yes/no question answer null. Can you identify any anatomical findings associated with either the cardiac silhouette or the neck?
+no
+if the question is not a yes/no question answer null. In which region, the left upper lung zone or the abdomen, is an abnormality presented?
+None
+if the question is not a yes/no question answer null. In relation to the left mid lung zone, which diseases applies, pneumonia or granulomatous diseases?
+None
+if the question is not a yes/no question answer null. In which anatomical region is an abnormality observable, the left lower lung zone or the left hemidiaphragm?
+None
+if the question is not a yes/no question answer null. Are there any indications of mediastinal displacement?
+yes
+if the question is not a yes/no question answer null. Is there any evidence of anatomical findings?
+no
+if the question is not a yes/no question answer null. Does the upper mediastinum's width represent more than 33% of the thorax width?
+no
+if the question is not a yes/no question answer null. Please write down all technical assessments that are common to both the left lung and cardiac silhouette.
+None
+if the question is not a yes/no question answer null. Can you identify both spinal degenerative changes and lobar/segmental collapse on the X-ray?
+yes
+if the question is not a yes/no question answer null. Does the X-ray reveal any superior mediastinal mass/enlargement?
+no
+if the question is not a yes/no question answer null. Can anatomical findings or tubes/lines be detected in the left clavicle?
+no
+if the question is not a yes/no question answer null. Please specify all the tubes/lines that are in the left lower lung zone but not in the cardiac silhouette.
+None
+if the question is not a yes/no question answer null. Mention all the anatomical areas associated with either anatomical findings or diseases.
+None
+if the question is not a yes/no question answer null. Are both the svc and cavoatrial junction showing any abnormalities?
+no
+if the question is not a yes/no question answer null. Identify all anatomical locations related to endotracheal tube, but not related to hydropneumothorax.
