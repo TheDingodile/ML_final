@@ -95,10 +95,10 @@ class VQA_Dataset():
                 prefix += question_text
                 if len(answer) > 0 and answer[0].lower() in ['yes', 'no']:
                     suffix = answer[0].lower()
-                else: suffix = None
+                else: suffix = "null"
 
-                print(prefix)
-                print(suffix)
+                # print(prefix)
+                # print(suffix)
                 tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
                 # print(tokens)
                 yield {
