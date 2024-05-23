@@ -216,3 +216,4 @@
 2024-05-23 08:31:24,336 INFO    Thread-12 :22687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_082421-x2b0c3np/files/wandb-summary.json
 2024-05-23 08:31:26,343 INFO    Thread-12 :22687 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240523_082421-x2b0c3np/files/output.log
 2024-05-23 08:31:26,921 DEBUG   HandlerThread:22687 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 08:31:31,922 DEBUG   HandlerThread:22687 [handler.py:handle_request():158] handle_request: status_report

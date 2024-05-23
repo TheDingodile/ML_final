@@ -628,3 +628,4 @@
 2024-05-23 08:31:31,637 DEBUG   HandlerThread:24424 [handler.py:handle_request():158] handle_request: status_report
 2024-05-23 08:31:32,455 DEBUG   HandlerThread:24424 [handler.py:handle_request():158] handle_request: stop_status
 2024-05-23 08:31:32,456 DEBUG   SenderThread:24424 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 08:31:36,666 DEBUG   HandlerThread:24424 [handler.py:handle_request():158] handle_request: status_report
