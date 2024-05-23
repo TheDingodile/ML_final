@@ -143,3 +143,59 @@ yes
 if the question is not a yes/no question answer null. Is this image presented in the AP view?
 no
 if the question is not a yes/no question answer null. Mention all the anatomical areas associated with either diseases or tubes/lines.
+None
+if the question is not a yes/no question answer null. Which anatomical site is associated with the airspace opacity, the left hilar structures or the left mid lung zone?
+None
+if the question is not a yes/no question answer null. Are there indications of any anatomical findings associated with either the left lung or the left mid lung zone?
+yes
+if the question is not a yes/no question answer null. Which anatomical region is associated with the presence of the lung lesion, the right lower lung zone or the right mid lung zone?
+None
+if the question is not a yes/no question answer null. Provide a comprehensive list of all visible devices.
+None
+if the question is not a yes/no question answer null. Considering our findings, which anatomical finding is more closely related, enlarged hilum or hydropneumothorax?
+None
+if the question is not a yes/no question answer null. Is the cardiac silhouette's width larger than half of the total thorax width?
+no
+if the question is not a yes/no question answer null. Are any anatomical findings identified as associated with both the cardiac silhouette and the spine?
+yes
+if the question is not a yes/no question answer null. Do pulmonary edema/hazy opacity and atelectasis appear together in the image?
+no
+if the question is not a yes/no question answer null. Indicate all anatomical locations that could potentially have both lung opacity and enlarged hilum.
+None
+if the question is not a yes/no question answer null. Can atelectasis be seen?
+no
+if the question is not a yes/no question answer null. Have any tubes/lines been observed related to both the upper mediastinum and the trachea?
+no
+if the question is not a yes/no question answer null. Specify all the devices found in the right chest wall.
+None
+if the question is not a yes/no question answer null. Are there any abnormalities that are unique to mediastinum and not identified in right costophrenic angle?
+None
+if the question is not a yes/no question answer null. Can you ascertain the gender of this patient?
+None
+if the question is not a yes/no question answer null. Can you identify the patient's gender?
+None
+if the question is not a yes/no question answer null. Is there a detection of technical assessments or devices within the upper mediastinum?
+yes
+if the question is not a yes/no question answer null. Name all the abnormalities present in both aortic arch and abdomen.
+None
+if the question is not a yes/no question answer null. Enumerate all anatomical locations that display airspace opacity, but lack rotated.
+None
+if the question is not a yes/no question answer null. Could either the left lower lung zone or the left apical zone be indicative of calcified nodule?
+yes
+if the question is not a yes/no question answer null. Mention all technical assessments and anatomical findings located in the right chest wall.
+None
+if the question is not a yes/no question answer null. Name all anatomical locations where both enlarged hilum and hydropneumothorax are known to be found.
+None
+if the question is not a yes/no question answer null. Outline all the observed technical assessments and tubes/lines.
+None
+if the question is not a yes/no question answer null. Does the left lung contain any tubes/lines?
+yes
+if the question is not a yes/no question answer null. Does the left hilar structures show any evidence of multiple masses/nodules?
+no
+Traceback (most recent call last):
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 92, in <module>
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/dtu/__init__.py", line 235, in start
+    cls.run(*args)
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 70, in run
+    return params, loss
+                   ^^^^^

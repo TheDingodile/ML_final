@@ -1344,3 +1344,54 @@ wandb: Run `wandb offline` to turn off syncing.
 wandb: Syncing run CrashTester-0
 wandb: ⭐️ View project at https://wandb.ai/kobomao/ML_healthcare
 wandb: 🚀 View run at https://wandb.ai/kobomao/ML_healthcare/runs/18es11zl
+
+Aborted!
+Terminated
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21838958: <CrashTester_0> in cluster <dcc> Exited
+
+Job <CrashTester_0> was submitted from host <n-62-30-2> by user <s183914> in cluster <dcc> at Thu May 23 08:07:33 2024
+Job was executed on host(s) <n-62-31-23>, in queue <hpc>, as user <s183914> in cluster <dcc> at Thu May 23 08:07:34 2024
+</zhome/ea/9/137501> was used as the home directory.
+</zhome/ea/9/137501/Desktop/ML_final/ML_final> was used as the working directory.
+Started at Thu May 23 08:07:34 2024
+Terminated at Thu May 23 08:37:53 2024
+Results reported at Thu May 23 08:37:53 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q hpc
+#BSUB -n 1
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 4320
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 143.
+
+Resource usage summary:
+
+    CPU time :                                   1796.00 sec.
+    Max Memory :                                 9739 MB
+    Average Memory :                             6802.60 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               6645.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                38
+    Run time :                                   1818 sec.
+    Turnaround time :                            1820 sec.
+
+The output (if any) is above this job summary.
+
