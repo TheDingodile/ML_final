@@ -94,39 +94,37 @@ def big_vision_test(isServer: bool):
     return decode, tokenizer, trainable_mask, params
 
 
-def wrapper_update_fn(params, batch, learning_rate, model, trainable_mask):
-    @functools.partial(jax.jit, donate_argnums=(0,))
-    def update_fn(params, batch, learning_rate):
-        imgs, txts, mask_ar = batch["image"], batch["text"], batch["mask_ar"]
 
-        def loss_fn(params):
-            text_logits, _ = model.apply({"params": params}, imgs, txts[:, :-1], mask_ar[:, :-1], train=True)
-            logp = jax.nn.log_softmax(text_logits, axis=-1)
+@functools.partial(jax.jit, donate_argnums=(0,))
+def update_fn(params, batch, learning_rate, model, trainable_mask):
+  imgs, txts, mask_ar = batch["image"], batch["text"], batch["mask_ar"]
 
-            # The model takes as input txts[:, :-1] but the loss is defined as predicting
-            # next tokens txts[:, 1:]. Additionally, mask_loss[:, 1:] indicates which tokens
-            # are part of the loss (e.g. prefix and padded tokens are not included).
-            mask_loss = batch["mask_loss"][:, 1:]
-            targets = jax.nn.one_hot(txts[:, 1:], text_logits.shape[-1])
+  def loss_fn(params):
+    text_logits, _ = model.apply({"params": params}, imgs, txts[:, :-1], mask_ar[:, :-1], train=True)
+    logp = jax.nn.log_softmax(text_logits, axis=-1)
 
-            # Compute the loss per example. i.e. the mean of per token pplx.
-            # Since each example has a different number of tokens we normalize it.
-            token_pplx = jnp.sum(logp * targets, axis=-1)  # sum across vocab_size.
-            example_loss = -jnp.sum(token_pplx * mask_loss, axis=-1)  # sum across seq_len.
-            example_loss /= jnp.clip(jnp.sum(mask_loss, -1), 1)  # weight by num of tokens.
+    # The model takes as input txts[:, :-1] but the loss is defined as predicting
+    # next tokens txts[:, 1:]. Additionally, mask_loss[:, 1:] indicates which tokens
+    # are part of the loss (e.g. prefix and padded tokens are not included).
+    mask_loss = batch["mask_loss"][:, 1:]
+    targets = jax.nn.one_hot(txts[:, 1:], text_logits.shape[-1])
 
-            # batch_loss: mean of per example loss.
-            return jnp.mean(example_loss)
+    # Compute the loss per example. i.e. the mean of per token pplx.
+    # Since each example has a different number of tokens we normalize it.
+    token_pplx = jnp.sum(logp * targets, axis=-1)  # sum across vocab_size.
+    example_loss = -jnp.sum(token_pplx * mask_loss, axis=-1)  # sum across seq_len.
+    example_loss /= jnp.clip(jnp.sum(mask_loss, -1), 1)  # weight by num of tokens.
 
-        loss, grads = jax.value_and_grad(loss_fn)(params)
+    # batch_loss: mean of per example loss.
+    return jnp.mean(example_loss)
 
-        # Apply gradients to trainable params using SGD.
-        def apply_grad(param, gradient, trainable):
-            if not trainable: return param
-            return param - learning_rate * gradient
+  loss, grads = jax.value_and_grad(loss_fn)(params)
 
-        params = jax.tree_util.tree_map(apply_grad, params, grads, trainable_mask)
+  # Apply gradients to trainable params using SGD.
+  def apply_grad(param, gradient, trainable):
+    if not trainable: return param
+    return param - learning_rate * gradient
 
-        return params, loss
-    
-    return update_fn(params, batch, learning_rate)
+  params = jax.tree_util.tree_map(apply_grad, params, grads, trainable_mask)
+
+  return params, loss
