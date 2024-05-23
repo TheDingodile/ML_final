@@ -15,7 +15,7 @@ class VQA_Dataset():
     def __init__(self, split, isServer: bool, tokenizer):
         self.split = split
         self.image_resolution = 224
-        self.seqlen = 100
+        self.seqlen = 64
         self.tokenizer = tokenizer
 
         if (isServer): path = "../../../../../../../work1/s183914/ml_healthcare"

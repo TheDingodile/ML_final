@@ -48,6 +48,8 @@ class Defaults(Parameters):
                 logp = jax.nn.log_softmax(text_logits, axis=-1)
                 mask_loss = batch["mask_loss"][:, 1:]
                 targets = jax.nn.one_hot(txts[:, 1:], text_logits.shape[-1])
+                max_logp = jnp.max(logp, axis=-1)
+                print(max_logp, max_logp.shape)
                 token_pplx = jnp.sum(logp * targets, axis=-1)
                 example_loss = -jnp.sum(token_pplx * mask_loss, axis=-1)
                 example_loss /= jnp.clip(jnp.sum(mask_loss, -1), 1)
@@ -70,6 +72,10 @@ class Defaults(Parameters):
             # params, batch, learning_rate, model, trainable_mask
             params, loss = update_fn(params, batch, learning_rate)
             loss = jax.device_get(loss)
+
+            # predictions = predictor_function({"params": params}, batch=batch, max_decode_len=64, sampler="greedy")
+            # label = batch["text"]
+
             if (isServer): wandb.log({"step": step, "lr": learning_rate, "loss": loss})
             else: print(f"step: {step}   lr: {learning_rate:.5f}   loss: {loss:.4f}")
         
@@ -86,7 +92,6 @@ class Defaults(Parameters):
 
         #     if (isServer): wandb.log({"question": question_text, "answer": answer, "result": result})
         #     else: print(question_text, answer, result)
-
 
 
 
