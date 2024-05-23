@@ -62,7 +62,7 @@ class VQA_Dataset():
             mask_loss = mask_loss[:self.seqlen] + padding
             mask_input = mask_input[:self.seqlen] + padding
 
-        print(tokens)
+        # print(tokens)
 
         return jax.tree.map(np.array, (tokens, mask_ar, mask_loss, mask_input))
 
@@ -100,7 +100,7 @@ class VQA_Dataset():
                 print(prefix)
                 print(suffix)
                 tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
-                print(tokens)
+                # print(tokens)
                 yield {
                     "image": np.asarray(image),
                     "text": np.asarray(tokens),
