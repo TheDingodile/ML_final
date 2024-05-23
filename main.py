@@ -6,6 +6,7 @@ import jax
 import numpy as np
 import jax.numpy as jnp
 import functools
+import torch
 
 
 
@@ -23,6 +24,11 @@ class Defaults(Parameters):
 
 
     def run(self, name: str, isServer: bool, lr: float, batch_size: int, steps: int) -> None:
+        cuda_available = torch.cuda.is_available()
+        cuda_version = torch.version.cuda if cuda_available else "No CUDA available"
+        print(f"CUDA available: {cuda_available}")
+        print(f"CUDA version: {cuda_version}")
+
         # from paligemma import run_test
         from big_vision_test import big_vision_test, update_fn
         from vqa_dataset import VQA_Dataset
