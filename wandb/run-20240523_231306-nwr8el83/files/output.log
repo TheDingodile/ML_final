@@ -1,0 +1,114 @@
+Traced<ShapedArray(float32[32,63])>with<JVPTrace(level=3/0)> with
+  primal = Traced<ShapedArray(float32[32,63])>with<DynamicJaxprTrace(level=1/0)>
+  tangent = Traced<ShapedArray(float32[32,63])>with<JaxprTrace(level=2/0)> with
+    pval = (ShapedArray(float32[32,63]), None)
+    recipe = JaxprEqnRecipe(eqn_id=<object object at 0x7f9fdf646a90>, in_tracers=(Traced<ShapedArray(float32[32,63,257152]):JaxprTrace(level=2/0)>, Traced<ShapedArray(float32[32,63,257152]):JaxprTrace(level=2/0)>, Traced<ShapedArray(float32[32,63]):JaxprTrace(level=2/0)>), out_tracer_refs=[<weakref at 0x7f9fdf6d1b20; to 'JaxprTracer' at 0x7f9fdf6d1a80>], out_avals=[ShapedArray(float32[32,63])], primitive=pjit, params={'jaxpr': { lambda ; a:f32[32,63,257152] b:f32[32,63,257152] c:f32[32,63]. let
+    d:f32[32,63,257152] = mul a b
+    e:f32[32,63] = reduce_sum[axes=(2,)] d
+    f:f32[32,63] = div e c
+  in (f,) }, 'in_shardings': (UnspecifiedValue, UnspecifiedValue, UnspecifiedValue), 'out_shardings': (UnspecifiedValue,), 'in_layouts': (None, None, None), 'out_layouts': (None,), 'resource_env': None, 'donated_invars': (False, False, False), 'name': '_reduce_max', 'keep_unused': False, 'inline': True}, effects=set(), source_info=SourceInfo(traceback=<jaxlib.xla_extension.Traceback object at 0x1365b3e0>, name_stack=NameStack(stack=(Transform(name='jvp'),)))) (32, 63)
+Traceback (most recent call last):
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 98, in <module>
+    Defaults.start()
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/dtu/__init__.py", line 235, in start
+    cls.run(*args)
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 73, in run
+    params, loss = update_fn(params, batch, learning_rate)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jaxlib.xla_extension.XlaRuntimeError: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 17528955952 bytes.
+BufferAssignment OOM Debugging.
+BufferAssignment stats:
+             parameter allocation:   10.91GiB
+              constant allocation:        12B
+        maybe_live_out allocation:   10.89GiB
+     preallocated temp allocation:   16.32GiB
+                 total allocation:   27.23GiB
+Peak buffers:
+	Buffer 1:
+		Size: 4.50GiB
+		XLA Label: fusion
+		Shape: f32[18,2,2048,16384]
+		==========================
+	Buffer 2:
+		Size: 4.50GiB
+		Operator: op_name="jit(update_fn)/jit(main)/sub" source_file="/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py" source_line=62
+		XLA Label: fusion
+		Shape: f32[18,2,2048,16384]
+		==========================
+	Buffer 3:
+		Size: 2.25GiB
+		XLA Label: fusion
+		Shape: f32[18,16384,2048]
+		==========================
+	Buffer 4:
+		Size: 2.25GiB
+		Operator: op_name="jit(update_fn)/jit(main)/sub" source_file="/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py" source_line=62
+		XLA Label: fusion
+		Shape: f32[18,16384,2048]
+		==========================
+	Buffer 5:
+		Size: 1.96GiB
+		Operator: op_name="jit(update_fn)/jit(main)/sub" source_file="/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py" source_line=62
+		XLA Label: fusion
+		Shape: f32[257152,2048]
+		==========================
+	Buffer 6:
+		Size: 1.93GiB
+		Operator: op_name="jit(update_fn)/jit(main)/jvp(Model)/llm.compute_logits/Model/embedder.decode/dot_general[dimension_numbers=(((2,), (0,)), ((), ())) precision=None preferred_element_type=float32]" source_file="/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/models/ppp/gemma.py" source_line=175
+		XLA Label: custom-call
+		Shape: f32[2016,257152]
+		==========================
+	Buffer 7:
+		Size: 510.68MiB
+		Operator: op_name="jit(update_fn)/jit(main)/sub" source_file="/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py" source_line=62
+		XLA Label: fusion
+		Shape: f32[27,4304,1152]
+		==========================
+	Buffer 8:
+		Size: 510.68MiB
+		Operator: op_name="jit(update_fn)/jit(main)/sub" source_file="/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py" source_line=62
+		XLA Label: fusion
+		Shape: f32[27,1152,4304]
+		==========================
+	Buffer 9:
+		Size: 288.00MiB
+		XLA Label: fusion
+		Shape: f32[18,8,2048,256]
+		==========================
+	Buffer 10:
+		Size: 288.00MiB
+		XLA Label: fusion
+		Shape: f32[18,8,256,2048]
+		==========================
+	Buffer 11:
+		Size: 288.00MiB
+		Operator: op_name="jit(update_fn)/jit(main)/sub" source_file="/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py" source_line=62
+		XLA Label: fusion
+		Shape: f32[18,8,2048,256]
+		==========================
+	Buffer 12:
+		Size: 288.00MiB
+		Operator: op_name="jit(update_fn)/jit(main)/sub" source_file="/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py" source_line=62
+		XLA Label: fusion
+		Shape: f32[18,8,256,2048]
+		==========================
+	Buffer 13:
+		Size: 136.69MiB
+		Operator: op_name="jit(update_fn)/jit(main)/sub" source_file="/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py" source_line=62 deduplicated_name="loop_subtract_fusion.8"
+		XLA Label: fusion
+		Shape: f32[27,1152,16,72]
+		==========================
+	Buffer 14:
+		Size: 136.69MiB
+		Operator: op_name="jit(update_fn)/jit(main)/sub" source_file="/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py" source_line=62 deduplicated_name="loop_subtract_fusion.8"
+		XLA Label: fusion
+		Shape: f32[27,1152,16,72]
+		==========================
+	Buffer 15:
+		Size: 136.69MiB
+		Operator: op_name="jit(update_fn)/jit(main)/sub" source_file="/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py" source_line=62
+		XLA Label: fusion
+		Shape: f32[27,16,72,1152]
+		==========================
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.
