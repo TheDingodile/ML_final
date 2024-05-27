@@ -49,6 +49,7 @@ class Defaults(Parameters):
                 mask_loss = batch["mask_loss"][:, 1:]
                 targets = jax.nn.one_hot(txts[:, 1:], text_logits.shape[-1])
                 max_logp = jnp.max(logp, axis=-1)
+                argmax_logp = jnp.argmax(logp, axis=-1)
                 print(max_logp, max_logp.shape)
                 token_pplx = jnp.sum(logp * targets, axis=-1)
                 example_loss = -jnp.sum(token_pplx * mask_loss, axis=-1)
@@ -72,6 +73,32 @@ class Defaults(Parameters):
             # params, batch, learning_rate, model, trainable_mask
             params, loss = update_fn(params, batch, learning_rate)
             loss = jax.device_get(loss)
+
+
+            if step % 10 == 0:
+                # evaluate the model
+                imgs, txts, mask_ar = batch["image"], batch["text"], batch["mask_ar"]
+                mask_loss = batch["mask_loss"][:, 1:]
+                text_logits, _ = model.apply({"params": params}, imgs, txts[:, :-1], mask_ar[:, :-1], train=True)
+                logp = jax.nn.log_softmax(text_logits, axis=-1)
+
+                probs = jnp.exp(logp)
+                max_probs = jnp.max(probs, axis=-1)
+                argmax_probs = jnp.argmax(probs, axis=-1)
+                eps = 1e-6
+
+                for threshold in [0.9, 0.75, 0.5, 0.25, 0]:
+                    abstain_filter = mask_loss * (max_probs > threshold)
+                    answer_rate = jnp.sum((jnp.sum(abstain_filter, dim=-1) == jnp.sum(mask_loss, dim=-1))) / batch_size
+                    abstain_rate = 1 - answer_rate 
+                    if (isServer): wandb.log({f"abstain_rate_{threshold}": abstain_rate})
+                    else: print(f"abstain_rate_{threshold}: {abstain_rate:.4f}")
+
+                    wrong_predictions = (argmax_probs != txts[:, 1:]) * abstain_filter
+                    accuracy = 1 - jnp.sum(wrong_predictions) / batch_size
+                    if (isServer): wandb.log({f"accuracy_{threshold}": accuracy})
+                    else: print(f"accuracy_{threshold}: {accuracy:.4f}")
+
 
             # predictions = predictor_function({"params": params}, batch=batch, max_decode_len=64, sampler="greedy")
             # label = batch["text"]

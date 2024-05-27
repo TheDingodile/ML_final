@@ -48,8 +48,8 @@ def big_vision_test(isServer: bool):
     # Create a pytree mask of the trainable params.
     def is_trainable_param(name, param):  # pylint: disable=unused-argument
         if name.startswith("llm/layers/attn/"):  return True
-        if name.startswith("llm/"):              return True
-        if name.startswith("img/"):              return True
+        if name.startswith("llm/"):              return False
+        if name.startswith("img/"):              return False
         raise ValueError(f"Unexpected param name {name}")
     trainable_mask = big_vision.utils.tree_map_with_names(is_trainable_param, params)
 
