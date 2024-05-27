@@ -10,5 +10,11 @@ from main import Defaults, GPU
 # Defaults("32_01", GPU=GPU.v32, batch_size=32, steps=5000, lr=0.1)
 # Defaults("16_01", GPU=GPU.v32, batch_size=16, steps=5000, lr=0.1)
 
-Defaults("32_001_alltrainable", GPU=GPU.a80, batch_size=32, steps=5000, lr=0.01)
-Defaults("32_0001_alltrainable", GPU=GPU.a80, batch_size=32, steps=5000, lr=0.001)
+# Defaults("32_001_alltrainable", GPU=GPU.a80, batch_size=32, steps=5000, lr=0.01)
+# Defaults("32_0001_alltrainable", GPU=GPU.a80, batch_size=32, steps=5000, lr=0.001)
+
+Defaults("Log_accuracy001", GPU=GPU.v32, batch_size=32, steps=5000, lr=0.01)
+Defaults("Log_accuracy01", GPU=GPU.v32, batch_size=32, steps=5000, lr=0.1)
+
+Defaults("Log_accuracy001a80", GPU=GPU.a80, batch_size=32, steps=5000, lr=0.01)
+Defaults("Log_accuracy01a80", GPU=GPU.a80, batch_size=32, steps=5000, lr=0.1)
