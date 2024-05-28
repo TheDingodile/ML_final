@@ -48,9 +48,9 @@ class Defaults(Parameters):
                 logp = jax.nn.log_softmax(text_logits, axis=-1)
                 mask_loss = batch["mask_loss"][:, 1:]
                 targets = jax.nn.one_hot(txts[:, 1:], text_logits.shape[-1])
-                max_logp = jnp.max(logp, axis=-1)
-                argmax_logp = jnp.argmax(logp, axis=-1)
-                print(max_logp, max_logp.shape)
+                # max_logp = jnp.max(logp, axis=-1)
+                # argmax_logp = jnp.argmax(logp, axis=-1)
+                # print(max_logp, max_logp.shape)
                 token_pplx = jnp.sum(logp * targets, axis=-1)
                 example_loss = -jnp.sum(token_pplx * mask_loss, axis=-1)
                 example_loss /= jnp.clip(jnp.sum(mask_loss, -1), 1)

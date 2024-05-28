@@ -84,3 +84,53 @@ Traceback (most recent call last):
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 KeyboardInterrupt
 Terminated
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21868469: <Log_accuracy01a80_0> in cluster <dcc> Exited
+
+Job <Log_accuracy01a80_0> was submitted from host <n-62-27-20> by user <s183914> in cluster <dcc> at Mon May 27 17:21:34 2024
+Job was executed on host(s) <4*n-62-18-10>, in queue <gpua100>, as user <s183914> in cluster <dcc> at Tue May 28 04:46:52 2024
+</zhome/ea/9/137501> was used as the home directory.
+</zhome/ea/9/137501/Desktop/ML_final/ML_final> was used as the working directory.
+Started at Tue May 28 04:46:52 2024
+Terminated at Tue May 28 05:07:15 2024
+Results reported at Tue May 28 05:07:15 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpua100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 4
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "select[gpu80gb]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 143.
+
+Resource usage summary:
+
+    CPU time :                                   1170.00 sec.
+    Max Memory :                                 4427 MB
+    Average Memory :                             3798.50 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               61109.00 MB
+    Max Swap :                                   -
+    Max Processes :                              9
+    Max Threads :                                74
+    Run time :                                   1222 sec.
+    Turnaround time :                            42341 sec.
+
+The output (if any) is above this job summary.
+
