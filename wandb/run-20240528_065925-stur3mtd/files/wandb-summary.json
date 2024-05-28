@@ -1,0 +1,1 @@
+{"step": 19, "lr": 0.009999643079936504, "loss": 0.2520768642425537, "_timestamp": 1716872546.794223, "_runtime": 181.50232315063477, "_step": 21, "accuracy_0.9": 1.0, "abstain_rate_0.9": 1.0, "accuracy_0.75": 1.0, "abstain_rate_0.75": 1.0, "accuracy_0.55": 1.0, "abstain_rate_0.55": 0.8125, "_wandb": {"runtime": 198}}
