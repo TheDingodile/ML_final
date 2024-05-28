@@ -89,7 +89,7 @@ class Defaults(Parameters):
 
                 for threshold in [0.9, 0.75, 0.5, 0.25, 0]:
                     abstain_filter = mask_loss * (max_probs > threshold)
-                    answer_rate = jnp.sum((jnp.sum(abstain_filter, dim=-1) == jnp.sum(mask_loss, dim=-1))) / batch_size
+                    answer_rate = jnp.sum((jnp.sum(abstain_filter, axis=-1) == jnp.sum(mask_loss, axis=-1))) / batch_size
                     abstain_rate = 1 - answer_rate 
                     if (isServer): wandb.log({f"abstain_rate_{threshold}": abstain_rate})
                     else: print(f"abstain_rate_{threshold}: {abstain_rate:.4f}")
