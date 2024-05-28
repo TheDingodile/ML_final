@@ -85,7 +85,6 @@ class Defaults(Parameters):
                 probs = jnp.exp(logp)
                 max_probs = jnp.max(probs, axis=-1)
                 argmax_probs = jnp.argmax(probs, axis=-1)
-                eps = 1e-6
 
                 for threshold in [0.9, 0.75, 0.5, 0.25, 0]:
                     abstain_filter = mask_loss * (max_probs > threshold)
