@@ -86,17 +86,28 @@ class Defaults(Parameters):
                 max_probs = jnp.max(probs, axis=-1)
                 argmax_probs = jnp.argmax(probs, axis=-1)
 
-                for threshold in [0.9, 0.75, 0.5, 0.25, 0]:
+                for threshold in [0.9, 0.75, 0.55]:
+                    # 3276 is token yes
+                    # 956 is token no
+
                     abstain_filter = mask_loss * (max_probs > threshold)
+                    predicted_tokens = abstain_filter * argmax_probs
+                    # make sure either yes or no is predicted, otherwise make abstain_filter all 0
+                    predicted_tokens_contain_yes = jnp.sum(predicted_tokens == 3276, axis=-1) > 0
+                    predicted_tokens_contain_no = jnp.sum(predicted_tokens == 956, axis=-1) > 0
+                    abstain_filter *= (predicted_tokens_contain_yes | predicted_tokens_contain_no)[:, None]
+
+
                     answer_rate = jnp.sum((jnp.sum(abstain_filter, axis=-1) == jnp.sum(mask_loss, axis=-1))) / batch_size
                     abstain_rate = 1 - answer_rate 
-                    if (isServer): wandb.log({f"abstain_rate_{threshold}": abstain_rate})
-                    else: print(f"abstain_rate_{threshold}: {abstain_rate:.4f}")
 
                     wrong_predictions = (argmax_probs != txts[:, 1:]) * abstain_filter
                     accuracy = 1 - jnp.sum(wrong_predictions) / batch_size
-                    if (isServer): wandb.log({f"accuracy_{threshold}": accuracy})
-                    else: print(f"accuracy_{threshold}: {accuracy:.4f}")
+
+
+
+                    if (isServer): wandb.log({f"accuracy_{threshold}": accuracy, f"abstain_rate_{threshold}": abstain_rate})
+                    else: print(f"accuracy_{threshold}: {accuracy:.4f}   abstain_rate_{threshold}: {abstain_rate:.4f}")
 
 
             # predictions = predictor_function({"params": params}, batch=batch, max_decode_len=64, sampler="greedy")
