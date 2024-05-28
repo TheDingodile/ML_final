@@ -19,7 +19,8 @@ from main import Defaults, GPU
 
 # Defaults("Log_accuracy01a80", GPU=GPU.a80, batch_size=32, steps=5000, lr=0.1)
 
-Defaults("v32test", GPU=GPU.v32, batch_size=16, steps=5000, lr=0.01)
-Defaults("a80test", GPU=GPU.v32, batch_size=16, steps=5000, lr=0.01)
+# Defaults("v32test", GPU=GPU.v32, batch_size=16, steps=5000, lr=0.01)
+# Defaults("a80test", GPU=GPU.v32, batch_size=16, steps=5000, lr=0.01)
+Defaults("a80testa80", GPU=GPU.a80, batch_size=16, steps=5000, lr=0.01)
 
 
