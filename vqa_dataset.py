@@ -24,6 +24,11 @@ class VQA_Dataset():
         self.questions_path = path + "/" + "mimic-cxr-vqa/train.json"
         with open(self.questions_path, 'r') as f:
             self.questions = json.load(f)
+        np.random.seed(0)
+        np.random.shuffle(self.questions)
+
+        self.questions_train = self.questions[:int(0.8 * len(self.questions))]
+        self.questions_val = self.questions[int(0.8 * len(self.questions)):]
         
 
     def preprocess_image(self, image):
@@ -79,12 +84,9 @@ class VQA_Dataset():
     def train_data_iterator(self):
         """Never ending iterator over training examples."""
         # set seed
-        np.random.seed(0)
         # Shuffle questions to a random permutation
         while True:
-            questions = self.questions.copy()
-            np.random.shuffle(questions)
-            for question in questions:
+            for question in self.questions_train:
                 image_id = question['image_id']
                 question_text = question['question']
                 answer = question['answer']
@@ -97,13 +99,33 @@ class VQA_Dataset():
                     suffix = answer[0].lower()
                 else: suffix = "null"
 
-                # print(prefix)
-                # print(suffix)
                 tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
-                # print(tokens)
                 yield {
                     "image": np.asarray(image),
                     "text": np.asarray(tokens),
                     "mask_ar": np.asarray(mask_ar),
                     "mask_loss": np.asarray(mask_loss),
                 }
+
+
+    def eval_data_iterator(self):
+        for question in self.questions_val:
+            image_id = question['image_id']
+            question_text = question['question']
+            answer = question['answer']
+
+            image = Image.open(self.images_path + "/" + image_id + ".jpg")
+            image = self.preprocess_image(image)
+            prefix = "if the question is not a yes/no question answer null. "
+            prefix += question_text
+            if len(answer) > 0 and answer[0].lower() in ['yes', 'no']:
+                suffix = answer[0].lower()
+            else: suffix = "null"
+
+            tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
+            yield {
+                "image": np.asarray(image),
+                "text": np.asarray(tokens),
+                "mask_ar": np.asarray(mask_ar),
+                "mask_loss": np.asarray(mask_loss),
+            }
