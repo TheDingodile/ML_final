@@ -1,0 +1,181 @@
+{
+    "os": "Linux-5.4.273-1.el7.elrepo.x86_64-x86_64-with-glibc2.17",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-05-27T16:30:58.835439",
+    "startedAt": "2024-05-27T16:30:58.224582",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-name",
+        "Log_accuracy01-0",
+        "-time",
+        "3600",
+        "-lr",
+        "0.1",
+        "-batch_size",
+        "32",
+        "-steps",
+        "5000",
+        "-ID",
+        "0"
+    ],
+    "state": "running",
+    "program": "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/TheDingodile/ML_final.git",
+        "commit": "9246b57f5fdb1c9f78ab83da367b2c876e011611"
+    },
+    "email": "jakob@3esser.dk",
+    "root": "/zhome/ea/9/137501/Desktop/ML_final/ML_final",
+    "host": "n-62-20-14",
+    "username": "s183914",
+    "executable": "/zhome/ea/9/137501/Desktop/ML_final/project-env/bin/python",
+    "cpu_count": 24,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3300.5543749999993,
+        "min": 1000.0,
+        "max": 3700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3299.998,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3299.998,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3299.997,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3300.001,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3300.248,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3300.174,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3301.994,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3299.529,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3305.894,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3300.049,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3301.496,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3299.958,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3300.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3300.098,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3297.361,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3300.208,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3301.077,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3302.031,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3300.783,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3302.493,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3302.142,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3300.16,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3298.692,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3298.924,
+            "min": 1000.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 71.9168586730957,
+            "used": 5.857967376708984
+        }
+    },
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34359738368
+        }
+    ],
+    "memory": {
+        "total": 377.58898162841797
+    }
+}

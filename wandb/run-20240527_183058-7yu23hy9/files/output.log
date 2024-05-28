@@ -1,0 +1,32 @@
+Traced<ShapedArray(float32[32,63])>with<JVPTrace(level=3/0)> with
+  primal = Traced<ShapedArray(float32[32,63])>with<DynamicJaxprTrace(level=1/0)>
+  tangent = Traced<ShapedArray(float32[32,63])>with<JaxprTrace(level=2/0)> with
+    pval = (ShapedArray(float32[32,63]), None)
+    recipe = JaxprEqnRecipe(eqn_id=<object object at 0x7fe7ac0da9d0>, in_tracers=(Traced<ShapedArray(float32[32,63,257152]):JaxprTrace(level=2/0)>, Traced<ShapedArray(float32[32,63,257152]):JaxprTrace(level=2/0)>, Traced<ShapedArray(float32[32,63]):JaxprTrace(level=2/0)>), out_tracer_refs=[<weakref at 0x7fe7abf58e50; to 'JaxprTracer' at 0x7fe7abf58270>], out_avals=[ShapedArray(float32[32,63])], primitive=pjit, params={'jaxpr': { lambda ; a:f32[32,63,257152] b:f32[32,63,257152] c:f32[32,63]. let
+    d:f32[32,63,257152] = mul a b
+    e:f32[32,63] = reduce_sum[axes=(2,)] d
+    f:f32[32,63] = div e c
+  in (f,) }, 'in_shardings': (UnspecifiedValue, UnspecifiedValue, UnspecifiedValue), 'out_shardings': (UnspecifiedValue,), 'in_layouts': (None, None, None), 'out_layouts': (None,), 'resource_env': None, 'donated_invars': (False, False, False), 'name': '_reduce_max', 'keep_unused': False, 'inline': True}, effects=set(), source_info=SourceInfo(traceback=<jaxlib.xla_extension.Traceback object at 0x13a71520>, name_stack=NameStack(stack=(Transform(name='jvp'),)))) (32, 63)
+Traceback (most recent call last):
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 125, in <module>
+    Defaults.start()
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/dtu/__init__.py", line 235, in start
+    cls.run(*args)
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 82, in run
+    text_logits, _ = model.apply({"params": params}, imgs, txts[:, :-1], mask_ar[:, :-1], train=True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/models/proj/paligemma/paligemma.py", line 151, in __call__
+    _, out_llm = self._llm(x, mask=attn_mask, train=train)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/models/proj/paligemma/gemma_bv.py", line 81, in __call__
+    logits, out = self.model(
+                  ^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/models/ppp/gemma.py", line 461, in __call__
+    x = embedder.decode(x)
+        ^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/models/ppp/gemma.py", line 175, in decode
+    return jnp.dot(x, self.input_embedding_table.T)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jaxlib.xla_extension.XlaRuntimeError: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 10516807680 bytes.
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.
