@@ -36,6 +36,7 @@ class Defaults(Parameters):
         else: predictor_function, tokenizer, trainable_mask, params, model = None, None, None, None, None
         dataset = VQA_Dataset(split="train", isServer=isServer, tokenizer=tokenizer)
         data_iterator = dataset.train_data_iterator()
+        eval_data_iterator = dataset.eval_data_iterator()
         sched_fn = big_vision.utils.create_learning_rate_schedule(total_steps=steps+1, base=lr, decay_type="cosine", warmup_percent=0.0)
 
 
@@ -77,6 +78,8 @@ class Defaults(Parameters):
 
             if step % 10 == 0:
                 # evaluate the model
+                examples = [next(eval_data_iterator) for _ in range(batch_size)]
+                batch = jax.tree.map(lambda *x: np.stack(x), *examples)
                 imgs, txts, mask_ar = batch["image"], batch["text"], batch["mask_ar"]
                 mask_loss = batch["mask_loss"][:, 1:]
                 text_logits, _ = model.apply({"params": params}, imgs, txts[:, :-1], mask_ar[:, :-1], train=True)
