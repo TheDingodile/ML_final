@@ -15,6 +15,7 @@ import big_vision.sharding
 import functools
 import warnings
 import jax.numpy as jnp
+import numpy as np
 
 
 def big_vision_test(isServer: bool):
@@ -84,47 +85,11 @@ def big_vision_test(isServer: bool):
         params[idx].block_until_ready()
     params = jax.tree.unflatten(treedef, params)
 
-    # Print params to show what the model is made of.
-    def parameter_overview(params):
-        for path, arr in big_vision.utils.tree_flatten_with_names(params)[0]:
-            print(f"{path:80s} {str(arr.shape):22s} {arr.dtype}")
-
-    # print(" == Model params == ")
-    # parameter_overview(params)
-    return decode, tokenizer, trainable_mask, params, model
+    # Define the save_model_npz function
+    def save_model_npz(params, path):
+        param_dict = {f"param_{i}": param for i, param in enumerate(jax.tree.flatten(params)[0])}
+        np.savez(path, **param_dict)
 
 
 
-@functools.partial(jax.jit, donate_argnums=(0,))
-def update_fn(params, batch, learning_rate, model, trainable_mask):
-  imgs, txts, mask_ar = batch["image"], batch["text"], batch["mask_ar"]
-
-  def loss_fn(params):
-    text_logits, _ = model.apply({"params": params}, imgs, txts[:, :-1], mask_ar[:, :-1], train=True)
-    logp = jax.nn.log_softmax(text_logits, axis=-1)
-
-    # The model takes as input txts[:, :-1] but the loss is defined as predicting
-    # next tokens txts[:, 1:]. Additionally, mask_loss[:, 1:] indicates which tokens
-    # are part of the loss (e.g. prefix and padded tokens are not included).
-    mask_loss = batch["mask_loss"][:, 1:]
-    targets = jax.nn.one_hot(txts[:, 1:], text_logits.shape[-1])
-
-    # Compute the loss per example. i.e. the mean of per token pplx.
-    # Since each example has a different number of tokens we normalize it.
-    token_pplx = jnp.sum(logp * targets, axis=-1)  # sum across vocab_size.
-    example_loss = -jnp.sum(token_pplx * mask_loss, axis=-1)  # sum across seq_len.
-    example_loss /= jnp.clip(jnp.sum(mask_loss, -1), 1)  # weight by num of tokens.
-
-    # batch_loss: mean of per example loss.
-    return jnp.mean(example_loss)
-
-  loss, grads = jax.value_and_grad(loss_fn)(params)
-
-  # Apply gradients to trainable params using SGD.
-  def apply_grad(param, gradient, trainable):
-    if not trainable: return param
-    return param - learning_rate * gradient
-
-  params = jax.tree_util.tree_map(apply_grad, params, grads, trainable_mask)
-
-  return params, loss
+    return decode, tokenizer, trainable_mask, params, model, save_model_npz

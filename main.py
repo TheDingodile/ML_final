@@ -29,16 +29,21 @@ class Defaults(Parameters):
         from vqa_dataset import VQA_Dataset
         import big_vision.utils
 
+        if (isServer): path = "../../../../../../../work1/s183914/ml_healthcare"
+        else: path = "ehrxqa-2024-ml4h"
+
         if (isServer):
             wandb.init(project="ML_healthcare", name=name)
         start = seconds()
-        if (isServer): predictor_function, tokenizer, trainable_mask, params, model = big_vision_test(isServer=isServer)
-        else: predictor_function, tokenizer, trainable_mask, params, model = None, None, None, None, None
+        if (isServer): predictor_function, tokenizer, trainable_mask, params, model, save_func = big_vision_test(isServer=isServer)
+        else: predictor_function, tokenizer, trainable_mask, params, model, save_func = None, None, None, None, None, None
         dataset = VQA_Dataset(split="train", isServer=isServer, tokenizer=tokenizer)
         data_iterator = dataset.train_data_iterator()
         eval_data_iterator = dataset.eval_data_iterator()
         sched_fn = big_vision.utils.create_learning_rate_schedule(total_steps=steps+1, base=lr, decay_type="cosine", warmup_percent=0.0)
 
+        save_func(params, f"{path}/params_{name}.npz")
+        quit()
 
         @functools.partial(jax.jit, donate_argnums=(0,))
         def update_fn(params, batch, learning_rate):
@@ -49,9 +54,6 @@ class Defaults(Parameters):
                 logp = jax.nn.log_softmax(text_logits, axis=-1)
                 mask_loss = batch["mask_loss"][:, 1:]
                 targets = jax.nn.one_hot(txts[:, 1:], text_logits.shape[-1])
-                # max_logp = jnp.max(logp, axis=-1)
-                # argmax_logp = jnp.argmax(logp, axis=-1)
-                # print(max_logp, max_logp.shape)
                 token_pplx = jnp.sum(logp * targets, axis=-1)
                 example_loss = -jnp.sum(token_pplx * mask_loss, axis=-1)
                 example_loss /= jnp.clip(jnp.sum(mask_loss, -1), 1)
@@ -66,6 +68,7 @@ class Defaults(Parameters):
             params = jax.tree_util.tree_map(apply_grad, params, grads, trainable_mask)
 
             return params, loss
+    
 
         for step in range(1, steps + 1):
             examples = [next(data_iterator) for _ in range(batch_size)]
