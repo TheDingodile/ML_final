@@ -44,8 +44,7 @@ class Defaults(Parameters):
         eval_data_iterator = dataset.eval_data_iterator()
         sched_fn = big_vision.utils.create_learning_rate_schedule(total_steps=steps+1, base=lr, decay_type="cosine", warmup_percent=0.0)
 
-        save_func(params, f"{path}/params_{name}.npz")
-        params = bv_utils.load_checkpoint_np(f"{path}/params_{name}.npz")
+        # params = bv_utils.load_checkpoint_np(f"{path}/params_{name}.npz")
 
         @functools.partial(jax.jit, donate_argnums=(0,))
         def update_fn(params, batch, learning_rate):
@@ -124,7 +123,7 @@ class Defaults(Parameters):
             if (isServer): wandb.log({"step": step, "lr": learning_rate, "loss": loss})
             else: print(f"step: {step}   lr: {learning_rate:.5f}   loss: {loss:.4f}")
         
-
+        save_func(params, f"{path}/params_{name}.npz")
 
 
         # if (isServer): path = "../../../../../../../work1/s183914/ml_healthcare"

@@ -24,11 +24,11 @@ class VQA_Dataset():
         self.questions_path = path + "/" + "mimic-cxr-vqa/train.json"
         with open(self.questions_path, 'r') as f:
             self.questions = json.load(f)
-        np.random.seed(0)
+        # np.random.seed(0)
         np.random.shuffle(self.questions)
 
-        self.questions_train = self.questions[:int(0.8 * len(self.questions))]
-        self.questions_val = self.questions[int(0.8 * len(self.questions)):]
+        self.questions_train = self.questions[:int(0.9 * len(self.questions))]
+        self.questions_val = self.questions[int(0.1 * len(self.questions)):]
         
 
     def preprocess_image(self, image):
