@@ -7,6 +7,8 @@ import numpy as np
 import jax.numpy as jnp
 import functools
 import torch
+import big_vision.utils as bv_utils
+
 
 
 
@@ -42,8 +44,8 @@ class Defaults(Parameters):
         eval_data_iterator = dataset.eval_data_iterator()
         sched_fn = big_vision.utils.create_learning_rate_schedule(total_steps=steps+1, base=lr, decay_type="cosine", warmup_percent=0.0)
 
-        # save_func(params, f"{path}/params_{name}.npz")
-        # quit()
+        save_func(params, f"{path}/params_{name}.npz")
+        params = bv_utils.load_checkpoint_np(f"{path}/params_{name}.npz")
 
         @functools.partial(jax.jit, donate_argnums=(0,))
         def update_fn(params, batch, learning_rate):
