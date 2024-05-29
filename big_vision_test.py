@@ -16,6 +16,7 @@ import functools
 import warnings
 import jax.numpy as jnp
 import numpy as np
+import big_vision.utils as bv_utils
 
 
 def big_vision_test(isServer: bool):
@@ -39,10 +40,7 @@ def big_vision_test(isServer: bool):
     # Load params - this can take up to 1 minute in T4 colabs.
     if not (isServer): MODEL_PATH = "./models/paligemma-3b-pt-224.f16.npz"
     else: MODEL_PATH = "../../../../../../../work1/s183914/ml_healthcare/models/paligemma-3b-pt-224.f16.npz"
-    MODEL_PATH = "../../../../../../../work1/s183914/ml_healthcare/models/params_test_save2-0.npz"
     params = paligemma.load(None, MODEL_PATH, model_config)
-
-
     # Define `decode` function to sample outputs from the model.
     decode_fn = predict_fns.get_all(model)['decode']
     decode = functools.partial(decode_fn, devices=jax.devices(), eos_token=tokenizer.eos_id())
@@ -87,9 +85,10 @@ def big_vision_test(isServer: bool):
     params = jax.tree.unflatten(treedef, params)
 
     # Define the save_model_npz function
-    def save_model_npz(params, path):
-        param_dict = {f"param_{i}": param for i, param in enumerate(jax.tree.flatten(params)[0])}
-        np.savez(path, **param_dict)
+    def save_model_npz(flat, path):
+        flat, _ = bv_utils.tree_flatten_with_names(flat)
+        with open(path, "wb") as f:
+            np.savez(f, **{k: v for k, v in flat})
 
 
 
