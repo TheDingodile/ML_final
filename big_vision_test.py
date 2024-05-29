@@ -39,6 +39,7 @@ def big_vision_test(isServer: bool):
     # Load params - this can take up to 1 minute in T4 colabs.
     if not (isServer): MODEL_PATH = "./models/paligemma-3b-pt-224.f16.npz"
     else: MODEL_PATH = "../../../../../../../work1/s183914/ml_healthcare/models/paligemma-3b-pt-224.f16.npz"
+    MODEL_PATH = "../../../../../../../work1/s183914/ml_healthcare/models/params_test_save2-0.npz"
     params = paligemma.load(None, MODEL_PATH, model_config)
 
 
