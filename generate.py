@@ -23,5 +23,8 @@ from main import Defaults, GPU
 # Defaults("a80test", GPU=GPU.v32, batch_size=16, steps=5000, lr=0.01)
 # Defaults("a80testa80", GPU=GPU.a80, batch_size=16, steps=5000, lr=0.01)
 
-Defaults("test_eval", GPU=GPU.v32, batch_size=8, steps=10000, lr=0.01)
+# Defaults("test_eval", GPU=GPU.v32, batch_size=8, steps=10000, lr=0.01)
+
+Defaults("test_save", GPU=GPU.v32, batch_size=8, steps=10000, lr=0.01)
+Defaults("test_save_a80", GPU=GPU.a80, batch_size=8, steps=10000, lr=0.01)
 
