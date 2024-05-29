@@ -25,11 +25,11 @@ class Defaults(Parameters):
 
     def run(self, name: str, isServer: bool, lr: float, batch_size: int, steps: int) -> None:
         # from paligemma import run_test
-        from big_vision_test import big_vision_test, update_fn
+        from big_vision_test import big_vision_test
         from vqa_dataset import VQA_Dataset
         import big_vision.utils
 
-        if (isServer): path = "../../../../../../../work1/s183914/ml_healthcare"
+        if (isServer): path = "../../../../../../../work1/s183914/ml_healthcare/models"
         else: path = "ehrxqa-2024-ml4h"
 
         if (isServer):
