@@ -32,7 +32,9 @@ from main import Defaults, GPU
 # for i in range(6):
 #     Defaults(f"model_{i}", GPU=GPU.v32, batch_size=8, steps=10000, lr=0.01)
 
-Defaults("VQA_eval", GPU=GPU.v32)
+# Defaults("VQA_eval", GPU=GPU.v32)
+
+Defaults("eval_full", GPU=GPU.a80)
 
 
 

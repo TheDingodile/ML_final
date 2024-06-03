@@ -83,9 +83,9 @@ class Defaults(Parameters):
                 continue
 
             if "func_vqa" not in parsed_result_gt[key]:
-                print(answer, truth)
+                # print(answer, truth)
                 if answer == truth:
-                    correct_count_text += 1 # 218, 68
+                    correct_count_text += 1
                 else:
                     wrong_count_text += 1
             else:
