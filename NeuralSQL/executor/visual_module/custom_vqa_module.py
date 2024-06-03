@@ -42,7 +42,7 @@ class CustomVQAModule(VQAModule):
         # tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
         prefix = "if the question is not a yes/no question answer null. "
         prefix += questions[0]
-        print(prefix)
+        # print(prefix)
         tokens, mask_ar, mask_loss, mask_input = self.preprocess_tokens(prefix, None)
         imgs = self.preprocess_image(images)
         # print(tokens)
@@ -86,7 +86,7 @@ class CustomVQAModule(VQAModule):
         probs = jnp.exp(logp)
         max_probs = jnp.max(probs, axis=-1)
         argmax_probs = jnp.argmax(probs, axis=-1)
-        threshold = 0.2
+        threshold = 0.5
         abstain_filter = mask_loss * (max_probs > threshold)
         predicted_tokens = abstain_filter * argmax_probs
         predicted_tokens_contain_yes = jnp.sum(predicted_tokens == 3276, axis=-1) > 0
@@ -99,9 +99,9 @@ class CustomVQAModule(VQAModule):
         if not will_answer:
             answer = ["null"]
         elif jnp.sum(predicted_tokens == 3276, axis=-1) > 0:
-            answer = ["yes"]
+            answer = [True]
         elif jnp.sum(predicted_tokens == 956, axis=-1) > 0:
-            answer = ["no"]
+            answer = [False]
 
         print(answer)
 
