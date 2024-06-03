@@ -12489,3 +12489,206 @@ Resource usage summary:
 
 The output (if any) is above this job summary.
 
+2024-06-03 07:38:11.869589: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+wandb: Currently logged in as: kobomao. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240603_073817-lmqso3p9
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run VQA_eval-0
+wandb: ⭐️ View project at https://wandb.ai/kobomao/ML_healthcare
+wandb: 🚀 View run at https://wandb.ai/kobomao/ML_healthcare/runs/lmqso3p9
+2024-06-03 07:38:33.001373: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2251] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-06-03 07:38:34.133526: W external/xla/xla/service/gpu/nvptx_compiler.cc:760] The NVIDIA driver's CUDA version is 12.4 which is older than the ptxas CUDA version (12.5.40). Because the driver is older than the ptxas version, XLA is disabling parallel compilation, which may slow down compilation. You should update your NVIDIA driver or use the NVIDIA-provided CUDA forward compatibility packages.
+
+<style>
+c { color: #9cdcfe; font-family: 'Verdana', sans-serif;} /* VARIABLE */
+d { color: #4EC9B0; font-family: 'Verdana', sans-serif;} /* CLASS */
+e { color: #569cd6; font-family: 'Verdana', sans-serif;} /* BOOL */
+f { color: #b5cea8; font-family: 'Verdana', sans-serif;} /* NUMBERS */
+j { color: #ce9178; font-family: 'Verdana', sans-serif;} /* STRING */
+k { font-family: 'Verdana', sans-serif;} /* SYMBOLS */
+</style>
+
+# Parameters
+
+| PARAMETER         | TYPE              | VALUE             |
+|-------------------|-------------------|-------------------|
+| <c>name</c>       | <d>str</d>        | <j>"VQA_eval-0"</j> |
+| <c>time</c>       | <d>int</d>        | <f>3600</f>       |
+| <c>vqa_module_type</c>| <d>str</d>        | <j>"custom"</j>   |
+
+# Output
+
+```
+sid_to_ipath_map loaded. (1896 entries)
+Error executing query 0: Unexpected answer type: <class 'str'>
+Error executing query 1: Answer count mismatch: 4 != 12
+['null']
+Error executing query 3: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 4: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 5: Unexpected answer type: <class 'str'>
+Error executing query 8: Answer count mismatch: 4 != 32
+['null']
+Error executing query 9: Unexpected answer type: <class 'str'>
+Error executing query 10: Answer count mismatch: 4 != 19
+['null']
+Error executing query 13: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 14: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 15: Unexpected answer type: <class 'str'>
+Error executing query 16: Answer count mismatch: 4 != 32
+['null']
+Error executing query 18: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 19: Unexpected answer type: <class 'str'>
+Error executing query 20: Answer count mismatch: 4 != 10
+['null']
+Error executing query 21: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 23: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 25: Unexpected answer type: <class 'str'>
+Error executing query 28: Answer count mismatch: 4 != 2
+['null']
+Error executing query 29: Unexpected answer type: <class 'str'>
+Error executing query 30: Answer count mismatch: 4 != 2
+['null']
+Error executing query 32: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 33: Unexpected answer type: <class 'str'>
+Error executing query 34: Answer count mismatch: 4 != 32
+Error executing query 35: Answer count mismatch: 4 != 32
+['null']
+Error executing query 38: Unexpected answer type: <class 'str'>
+Error executing query 39: Answer count mismatch: 4 != 32
+Error executing query 40: Answer count mismatch: 4 != 3
+Error executing query 41: Answer count mismatch: 4 != 5
+['null']
+Error executing query 42: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 44: Unexpected answer type: <class 'str'>
+Error executing query 45: Answer count mismatch: 4 != 3
+['null']
+Error executing query 47: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 49: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 50: Unexpected answer type: <class 'str'>
+Error executing query 51: Answer count mismatch: 4 != 32
+Error executing query 52: Answer count mismatch: 4 != 2
+Error executing query 59: Answer count mismatch: 4 != 6
+['null']
+Error executing query 61: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 62: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 64: Unexpected answer type: <class 'str'>
+Error executing query 65: Answer count mismatch: 4 != 3
+Error executing query 66: Answer count mismatch: 4 != 2
+['null']
+Error executing query 67: Unexpected answer type: <class 'str'>
+Error executing query 71: Answer count mismatch: 4 != 19
+Error executing query 72: Answer count mismatch: 4 != 8
+['null']
+Error executing query 73: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 74: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 76: Unexpected answer type: <class 'str'>
+Error executing query 77: Answer count mismatch: 4 != 2
+Error executing query 78: Answer count mismatch: 4 != 8
+['null']
+Error executing query 79: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 81: Unexpected answer type: <class 'str'>
+Error executing query 82: Answer count mismatch: 4 != 32
+['null']
+Error executing query 85: Unexpected answer type: <class 'str'>
+Error executing query 86: Answer count mismatch: 4 != 7
+Error executing query 87: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 89: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 90: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 93: Unexpected answer type: <class 'str'>
+Error executing query 94: Answer count mismatch: 4 != 5
+['null']
+Error executing query 95: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 96: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 97: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 98: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 99: Unexpected answer type: <class 'str'>
+Executed result
+{'0': 'null', '1': 'null', '2': ['insertion of infusion device into superior vena cava, percutaneous approach', 'venous catheterization, not elsewhere classified', 'central venous catheter placement with guidance'], '3': 'null', '4': 'null', '5': 'null', '6': [877.553649], '7': ['urine', 'blood culture', 'swab', 'tissue', 'sputum'], '8': 'null', '9': 'null', '10': 'null', '11': ['ptt'], '12': [25.0], '13': 'null', '14': 'null', '15': 'null', '16': 'null', '17': ['platelet count'], '18': 'null', '19': 'null', '20': 'null', '21': 'null', '22': [0.697222], '23': 'null', '24': [1.1], '25': 'null', '26': ['2105-12-31 18:56:00'], '27': [1], '28': 'null', '29': 'null', '30': 'null', '31': ['0.9% sodium chloride', 'acetaminophen', 'albuterol inhaler', 'atenolol', 'chlorhexidine gluconate 0.12% oral rinse', 'diazepam', 'docusate sodium', 'gabapentin', 'insulin', 'milk of magnesia', 'nicotine patch', 'ondansetron', 'sodium chloride 0.9%  flush', 'sw', 'tacrolimus', 'sodium phosphate', 'sodium polystyrene sulfonate', 'albuterol 0.083% neb soln', 'ceftriaxone', 'enoxaparin sodium', 'fluticasone-salmeterol diskus (250/50)', 'gabapentin', 'insulin', 'lorazepam', 'ondansetron', 'potassium chloride', 'sevelamer carbonate', 'sodium chloride 0.9%  flush', 'sodium chloride 0.9%  flush', 'sterile water', 'docusate sodium', 'insulin', 'loperamide', 'acetaminophen', 'insulin', 'sodium chloride 0.9%  flush', 'lactulose'], '32': 'null', '33': 'null', '34': 'null', '35': 'null', '36': [1], '37': [18.769231], '38': 'null', '39': 'null', '40': 'null', '41': 'null', '42': 'null', '43': [0.590278], '44': 'null', '45': 'null', '46': [50], '47': 'null', '48': [0], '49': 'null', '50': 'null', '51': 'null', '52': 'null', '53': [1], '54': [14.0], '55': [1], '56': [1], '57': ['2105-12-20 10:54:00'], '58': [50.0], '59': 'null', '60': ['gi #1 tube status'], '61': 'null', '62': 'null', '63': ['single'], '64': 'null', '65': 'null', '66': 'null', '67': 'null', '68': ['potassium chloride'], '69': ['urine', 'blood culture', 'swab', 'sputum', 'stool'], '70': [1], '71': 'null', '72': 'null', '73': 'null', '74': 'null', '75': ['unspecified essential hypertension', 'coronary atherosclerosis of native coronary artery', 'atrial fibrillation', 'hyperlipidemia, unspecified', 'gastro-esophageal reflux disease without esophagitis', 'personal history of nicotine dependence'], '76': 'null', '77': 'null', '78': 'null', '79': 'null', '80': [52], '81': 'null', '82': 'null', '83': ['insulin', '0.9% sodium chloride', 'potassium chloride', 'sodium chloride 0.9%  flush', 'furosemide'], '84': [1], '85': 'null', '86': 'null', '87': 'null', '88': ['0.9% sodium chloride', 'folic acid', 'calcium gluconate', 'clopidogrel', 'magnesium sulfate (ob)', 'albuterol 0.083% neb soln', 'albuterol 0.083% neb soln'], '89': 'null', '90': 'null', '91': ['ew emer.'], '92': ['2105-04-15 08:00:00'], '93': 'null', '94': 'null', '95': 'null', '96': 'null', '97': 'null', '98': 'null', '99': 'null'}
+Answer result
+{'0': [1.627025], '1': [1], '2': ['insertion of infusion device into superior vena cava, percutaneous approach', 'venous catheterization, not elsewhere classified', 'central venous catheter placement with guidance'], '3': [0], '4': [1], '5': [1], '6': [877.553649], '7': ['urine', 'blood culture', 'swab', 'tissue', 'sputum'], '8': [2], '9': ['left lower lung zone', 'left lung'], '10': [1], '11': ['ptt'], '12': [25.0], '13': ['ij line', 'low lung volumes'], '14': [], '15': [0], '16': [13385073], '17': ['platelet count'], '18': ['endotracheal tube', 'enteric tube'], '19': ['mediastinal displacement'], '20': ['2104-03-12 12:35:25'], '21': [], '22': [0.697222], '23': [1], '24': [1.1], '25': ['pneumonia'], '26': ['2105-12-31 18:56:00'], '27': [1], '28': [0], '29': [0], '30': [0], '31': ['0.9% sodium chloride', 'acetaminophen', 'albuterol inhaler', 'atenolol', 'chlorhexidine gluconate 0.12% oral rinse', 'diazepam', 'docusate sodium', 'gabapentin', 'insulin', 'milk of magnesia', 'nicotine patch', 'ondansetron', 'sodium chloride 0.9%  flush', 'sw', 'tacrolimus', 'sodium phosphate', 'sodium polystyrene sulfonate', 'albuterol 0.083% neb soln', 'ceftriaxone', 'enoxaparin sodium', 'fluticasone-salmeterol diskus (250/50)', 'gabapentin', 'insulin', 'lorazepam', 'ondansetron', 'potassium chloride', 'sevelamer carbonate', 'sodium chloride 0.9%  flush', 'sodium chloride 0.9%  flush', 'sterile water', 'docusate sodium', 'insulin', 'loperamide', 'acetaminophen', 'insulin', 'sodium chloride 0.9%  flush', 'lactulose'], '32': [0], '33': [0], '34': [16373952], '35': [10452075, 13855132, 17690327, 19265525], '36': [1], '37': [18.769231], '38': [0], '39': [1], '40': [0], '41': [11], '42': [1], '43': [0.590278], '44': [0], '45': [0], '46': [50], '47': [0], '48': [0], '49': [0], '50': [1], '51': [4], '52': [0], '53': [1], '54': [14.0], '55': [1], '56': [1], '57': ['2105-12-20 10:54:00'], '58': [50.0], '59': [1], '60': ['gi #1 tube status'], '61': [0], '62': [1], '63': ['single'], '64': [1], '65': [1], '66': [0], '67': [1], '68': ['potassium chloride'], '69': ['urine', 'blood culture', 'swab', 'sputum', 'stool'], '70': [1], '71': [1], '72': [346.996273], '73': [0], '74': ['sub-diaphragmatic air', 'lung opacity', 'pulmonary edema/hazy opacity', 'atelectasis', 'consolidation'], '75': ['unspecified essential hypertension', 'coronary atherosclerosis of native coronary artery', 'atrial fibrillation', 'hyperlipidemia, unspecified', 'gastro-esophageal reflux disease without esophagitis', 'personal history of nicotine dependence'], '76': [0], '77': [0], '78': [0], '79': [1], '80': [52], '81': [], '82': [10032409, 10578743, 10797327, 10823359, 11292432, 12177591, 12712004, 12795830, 12935888, 13268425, 13385073, 13485250, 13659269, 13762583, 13855132, 13888167, 14186401, 14207656, 14367016, 14709711, 14911129, 15312811, 15346117, 15689544, 15763754, 16057835, 16233866, 16505791, 16566006, 16836073, 16909232, 16917918, 16938559, 17445268, 17909651, 18044092, 18350596, 18380697, 18447299, 18468814, 18485280, 18489691, 18679317, 18737826, 19586200, 19919980, 19947284, 19994730], '83': ['insulin', '0.9% sodium chloride', 'potassium chloride', 'sodium chloride 0.9%  flush', 'furosemide'], '84': [1], '85': [0], '86': [0], '87': [1], '88': ['0.9% sodium chloride', 'folic acid', 'calcium gluconate', 'clopidogrel', 'magnesium sulfate (ob)', 'albuterol 0.083% neb soln', 'albuterol 0.083% neb soln'], '89': ['2105-10-18 16:53:43'], '90': [0], '91': ['ew emer.'], '92': ['2105-04-15 08:00:00'], '93': [0], '94': [1], '95': [], '96': ['left lower lung zone', 'left lung', 'right lower lung zone', 'right lung'], '97': [], '98': [0], '99': []}
+```
+wandb: - 0.004 MB of 0.004 MB uploadedwandb: \ 0.004 MB of 0.004 MB uploadedwandb: | 0.004 MB of 0.004 MB uploadedwandb: / 0.010 MB of 0.025 MB uploaded (0.004 MB deduped)wandb: - 0.025 MB of 0.025 MB uploaded (0.004 MB deduped)wandb: 
+wandb: Run history:
+wandb: accuracy ▁
+wandb: 
+wandb: Run summary:
+wandb: accuracy 0.34
+wandb: 
+wandb: 🚀 View run VQA_eval-0 at: https://wandb.ai/kobomao/ML_healthcare/runs/lmqso3p9
+wandb: ⭐️ View project at: https://wandb.ai/kobomao/ML_healthcare
+wandb: Synced 5 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240603_073817-lmqso3p9/logs
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21902878: <VQA_eval_0> in cluster <dcc> Done
+
+Job <VQA_eval_0> was submitted from host <n-62-27-23> by user <s183914> in cluster <dcc> at Mon Jun  3 07:37:56 2024
+Job was executed on host(s) <4*n-62-11-13>, in queue <gpuv100>, as user <s183914> in cluster <dcc> at Mon Jun  3 07:37:57 2024
+</zhome/ea/9/137501> was used as the home directory.
+</zhome/ea/9/137501/Desktop/ML_final/ML_final> was used as the working directory.
+Started at Mon Jun  3 07:37:57 2024
+Terminated at Mon Jun  3 07:41:18 2024
+Results reported at Mon Jun  3 07:41:18 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 4
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "select[gpu32gb]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   188.12 sec.
+    Max Memory :                                 7998 MB
+    Average Memory :                             6094.75 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               57538.00 MB
+    Max Swap :                                   1 MB
+    Max Processes :                              6
+    Max Threads :                                59
+    Run time :                                   238 sec.
+    Turnaround time :                            202 sec.
+
+The output (if any) is above this job summary.
+
