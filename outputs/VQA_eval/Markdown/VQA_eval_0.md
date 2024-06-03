@@ -11517,3 +11517,187 @@ Resource usage summary:
 
 The output (if any) is above this job summary.
 
+2024-06-03 06:52:06.797886: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+wandb: Currently logged in as: kobomao. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240603_065211-1kwc2xub
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run VQA_eval-0
+wandb: ⭐️ View project at https://wandb.ai/kobomao/ML_healthcare
+wandb: 🚀 View run at https://wandb.ai/kobomao/ML_healthcare/runs/1kwc2xub
+2024-06-03 06:52:47.996107: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2251] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+
+Aborted!
+
+<style>
+c { color: #9cdcfe; font-family: 'Verdana', sans-serif;} /* VARIABLE */
+d { color: #4EC9B0; font-family: 'Verdana', sans-serif;} /* CLASS */
+e { color: #569cd6; font-family: 'Verdana', sans-serif;} /* BOOL */
+f { color: #b5cea8; font-family: 'Verdana', sans-serif;} /* NUMBERS */
+j { color: #ce9178; font-family: 'Verdana', sans-serif;} /* STRING */
+k { font-family: 'Verdana', sans-serif;} /* SYMBOLS */
+</style>
+
+# Parameters
+
+| PARAMETER         | TYPE              | VALUE             |
+|-------------------|-------------------|-------------------|
+| <c>name</c>       | <d>str</d>        | <j>"VQA_eval-0"</j> |
+| <c>time</c>       | <d>int</d>        | <f>3600</f>       |
+| <c>vqa_module_type</c>| <d>str</d>        | <j>"custom"</j>   |
+
+# Output
+
+```
+sid_to_ipath_map loaded. (1896 entries)
+Error executing query 0: Unexpected answer type: <class 'str'>
+Error executing query 1: Answer count mismatch: 4 != 12
+1
+if the question is not a yes/no question answer null. does a chest x-ray indicate any technical assessments?
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(1721), array(476), array(15704), array(1141), array(235290), array(1040), array(12181), array(1089), array(9838), array(37921), array(235336), array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+2
+Error executing query 3: 'NoneType' object has no attribute 'apply'
+1
+if the question is not a yes/no question answer null. does a chest x-ray exhibit any devices in the cardiac silhouette?
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(1721), array(476), array(15704), array(1141), array(235290), array(1040), array(21842), array(1089), array(9630), array(575), array(573), array(41821), array(36690), array(235336), array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+2
+Error executing query 4: 'NoneType' object has no attribute 'apply'
+1
+if the question is not a yes/no question answer null. is chest port displayed on a chest x-ray?
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(603), array(15704), array(3530), array(14386), array(611), array(476), array(15704), array(1141), array(235290), array(1040), array(235336), array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+2
+Error executing query 5: 'NoneType' object has no attribute 'apply'
+Error executing query 8: Answer count mismatch: 4 != 32
+1
+if the question is not a yes/no question answer null. enumerate all anatomical locations related to any diseases.
+[array(2), array(648), array(573), array(2872), array(603), array(780), array(476), array(7778), array(235283), array(956), array(2872), array(3448), array(1468), array(235265), array(35264), array(832), array(97999), array(13102), array(5678), array(577), array(1089), array(16011), array(235265), array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+[array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)]
+2
+Error executing query 9: 'NoneType' object has no attribute 'apply'
+Traceback (most recent call last):
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 64, in <module>
+    Defaults.start()
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/dtu/__init__.py", line 235, in start
+    cls.run(*args)
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 54, in run
+    executed_result = run_execution_for_gt_query(executor, parsed_result_gt)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/execute_nsql.py", line 81, in run_execution_for_gt_query
+    result = executor.execute_nsql(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 265, in execute_nsql
+    return self._execute_select_query(query_root, nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 321, in _execute_select_query
+    return self._execute_subquery_operation(query_root, nsql)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 343, in _execute_subquery_operation
+    answer2 = self.execute_nsql(subquery_list[1].sql())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 265, in execute_nsql
+    return self._execute_select_query(query_root, nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 327, in _execute_select_query
+    return self._execute_vqa_subquery(from_clause_node, query_root, nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 358, in _execute_vqa_subquery
+    return self.execute_vqa_function_in_nsql(nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 191, in execute_vqa_function_in_nsql
+    answer_batch = self._execute_vqa_function(image_batch=image_batch, question_batch=question_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 120, in _execute_vqa_function
+    answers = self.vqa_module(image_batch, question_batch)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/visual_module/custom_vqa_module.py", line 57, in __call__
+    self.load_model()
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/visual_module/custom_vqa_module.py", line 24, in load_model
+    self.params = bv_utils.load_checkpoint_np(self.model_path) # check this
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/utils.py", line 162, in load_checkpoint_np
+    npz = npload(npz)
+          ^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/utils.py", line 147, in npload
+    return dict(loaded)
+           ^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/numpy/lib/npyio.py", line 256, in __getitem__
+    return format.read_array(bytes,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/numpy/lib/format.py", line 831, in read_array
+    data = _read_bytes(fp, read_size, "array data")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/numpy/lib/format.py", line 966, in _read_bytes
+    r = fp.read(size - len(data))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/appl/python/3.11.7/lib/python3.11/zipfile.py", line 955, in read
+    data = self._read1(n)
+           ^^^^^^^^^^^^^^
+  File "/appl/python/3.11.7/lib/python3.11/zipfile.py", line 1045, in _read1
+    self._update_crc(data)
+  File "/appl/python/3.11.7/lib/python3.11/zipfile.py", line 970, in _update_crc
+    self._running_crc = crc32(newdata, self._running_crc)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Terminated
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21902832: <VQA_eval_0> in cluster <dcc> Exited
+
+Job <VQA_eval_0> was submitted from host <n-62-27-23> by user <s183914> in cluster <dcc> at Mon Jun  3 06:51:47 2024
+Job was executed on host(s) <4*n-62-20-10>, in queue <gpuv100>, as user <s183914> in cluster <dcc> at Mon Jun  3 06:51:48 2024
+</zhome/ea/9/137501> was used as the home directory.
+</zhome/ea/9/137501/Desktop/ML_final/ML_final> was used as the working directory.
+Started at Mon Jun  3 06:51:48 2024
+Terminated at Mon Jun  3 06:53:53 2024
+Results reported at Mon Jun  3 06:53:53 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 4
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "select[gpu32gb]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 143.
+
+Resource usage summary:
+
+    CPU time :                                   68.00 sec.
+    Max Memory :                                 7159 MB
+    Average Memory :                             4572.00 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               58377.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                42
+    Run time :                                   133 sec.
+    Turnaround time :                            126 sec.
+
+The output (if any) is above this job summary.
+
