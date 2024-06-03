@@ -31,8 +31,11 @@ class CustomVQAModule(VQAModule):
         # preprocessed_images = ...
         # tokenized_questions = ...
         # tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
+        print(questions)
         tokens, mask_ar, mask_loss, mask_loss = self.preprocess_tokens(questions, None)
-        return self.preprocess_image(images), np.asarray(tokens), np.asarray(mask_ar), np.asarray(mask_loss)
+        imgs = self.preprocess_image(images)
+        print(tokens, mask_ar, mask_loss, mask_loss, imgs)
+        return imgs, np.asarray(tokens), np.asarray(mask_ar), np.asarray(mask_loss)
 
     def postprocess_output(self, raw_output):
         tokens = tokens.tolist()  # np.array to list[int]
