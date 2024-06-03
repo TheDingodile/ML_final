@@ -76,25 +76,28 @@ class CustomVQAModule(VQAModule):
         mask_loss = np.expand_dims(mask_loss, axis=0)
 
         mask_loss = mask_loss[:, 1:]
-        print("2")
-        
 
         # Run the model inference
         text_logits, _ = self.model.apply({"params": self.params}, preprocessed_images, tokenized_questions[:, :-1], mask_ar[:, :-1], train=False)
         # model.apply({"params": params}, imgs, txts[:, :-1], mask_ar[:, :-1], train=True)
         # raw_output = self.model(preprocessed_images, tokenized_questions)
-        print("3")
 
         logp = jax.nn.log_softmax(text_logits, axis=-1)
         probs = jnp.exp(logp)
         max_probs = jnp.max(probs, axis=-1)
         argmax_probs = jnp.argmax(probs, axis=-1)
-        threshold = 0.8
+        threshold = 0.5
         abstain_filter = mask_loss * (max_probs > threshold)
         predicted_tokens = abstain_filter * argmax_probs
-        print("4")
+        predicted_tokens_contain_yes = jnp.sum(predicted_tokens == 3276, axis=-1) > 0
+        predicted_tokens_contain_no = jnp.sum(predicted_tokens == 956, axis=-1) > 0
+        abstain_filter *= (predicted_tokens_contain_yes | predicted_tokens_contain_no)[:, None]
 
-        if max_probs < threshold:
+        will_answer = (jnp.sum(abstain_filter) == jnp.sum(mask_loss))
+
+        print("4")
+        # make 0 if not will_answer
+        if not will_answer:
             answer = ["null"]
         elif jnp.sum(predicted_tokens == 3276, axis=-1) > 0:
             answer = ["yes"]
