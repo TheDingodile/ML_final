@@ -22,7 +22,7 @@ class Defaults(Parameters):
     time: int = 3600
 
     name: str = "local"
-    vqa_module_type: str = "yes"
+    vqa_module_type: str = "custom"
 
 
     def run(self, name: str, isServer: bool, vqa_module_type: str) -> None:

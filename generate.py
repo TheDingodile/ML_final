@@ -34,7 +34,9 @@ from main import Defaults, GPU
 
 # Defaults("VQA_eval", GPU=GPU.v32)
 
-Defaults("eval_full", GPU=GPU.a80)
+# Defaults("eval_full", GPU=GPU.a80)
+
+Defaults("eval_fulla40", GPU=GPU.a40)
 
 
 
