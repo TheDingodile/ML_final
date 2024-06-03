@@ -3,8 +3,8 @@ import re
 import json
 
 # custom package
-from executor.nsql_executor import NeuralSQLExecutor
-from executor.sqlglot.executor import Table
+from NeuralSQL.executor.nsql_executor import NeuralSQLExecutor
+from NeuralSQL.executor.sqlglot.executor import Table
 
 
 def post_process_sql(query):

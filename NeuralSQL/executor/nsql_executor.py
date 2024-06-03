@@ -13,7 +13,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from sqlglot import parse_one, expressions
 from sqlglot.executor import Table, execute
 from sqlglot.planner import Plan, Join
-from executor.visual_module import get_vqa_module
+from NeuralSQL.executor.visual_module import get_vqa_module
 
 
 class NeuralDB(object):

@@ -10,7 +10,7 @@ import functools
 
 class CustomVQAModule(VQAModule):
     def __init__(self, model_path, tokenizer_path, file_name):
-        self.model_path = "../../../../../../../work1/s183914/ml_healthcare/models"
+        self.model_path = "../../../../../../../work1/s183914/ml_healthcare/models/params_model_2-0.npz"
         self.tokenizer_path = "../../../../../../../work1/s183914/ml_healthcare/models/paligemma_tokenizer.model"
         self.file_name = file_name
         self.model = None
@@ -22,7 +22,7 @@ class CustomVQAModule(VQAModule):
         # Load the custom VQA model and tokenizer
         # Implement the logic to load the model and tokenizer from the provided paths
         # For example, using a deep learning framework like TensorFlow or PyTorch
-        self.model = bv_utils.load_checkpoint_np(f"{self.model_path}/model1.npz") # check this
+        self.params = bv_utils.load_checkpoint_np(self.model_path) # check this
         self.tokenizer = sentencepiece.SentencePieceProcessor(self.tokenizer_path)
 
     def preprocess_input(self, images, questions):
@@ -31,7 +31,9 @@ class CustomVQAModule(VQAModule):
         # For example, resizing images, normalizing pixel values, and converting questions to token IDs
         # preprocessed_images = ...
         # tokenized_questions = ...
-        return self.preprocess_image(images), self.preprocess_tokens(questions)
+        # tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
+        tokens, mask_ar, mask_loss, mask_loss = self.preprocess_tokens(questions, None)
+        return self.preprocess_image(images), np.asarray(tokens), np.asarray(mask_ar), np.asarray(mask_loss)
 
     def postprocess_output(self, raw_output):
         tokens = tokens.tolist()  # np.array to list[int]
@@ -47,11 +49,26 @@ class CustomVQAModule(VQAModule):
         if self.model is None:
             self.load_model()
 
-        # Preprocess the input images and questions
-        preprocessed_images, tokenized_questions = self.preprocess_input(images, questions)
+        preprocessed_images, tokenized_questions, mask_ar, mask_loss = self.preprocess_input(images, questions)
+        mask_loss = mask_loss[:, 1:]
+        
 
         # Run the model inference
+        text_logits, _ = self.model.apply({"params": self.params}, preprocessed_images, tokenized_questions[:, :-1], mask_ar[:, :-1], train=False)
         raw_output = self.model(preprocessed_images, tokenized_questions)
+
+        logp = jax.nn.log_softmax(text_logits, axis=-1)
+        probs = jnp.exp(logp)
+        max_probs = jnp.max(probs, axis=-1)
+        argmax_probs = jnp.argmax(probs, axis=-1)
+        threshold = 0.8
+        abstain_filter = mask_loss * (max_probs > threshold)
+        predicted_tokens = abstain_filter * argmax_probs
+
+        if max_probs < threshold:
+            raw_output = "null"
+        elif not jnp.sum(predicted_tokens == 3276, axis=-1) > 0 or not jnp.sum(predicted_tokens == 956, axis=-1) > 0:
+            raw_output = "null"
 
         # Postprocess the raw output to get the final answers
         answers = self.postprocess_output(raw_output)
