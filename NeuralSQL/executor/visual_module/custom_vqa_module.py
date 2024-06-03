@@ -45,10 +45,10 @@ class CustomVQAModule(VQAModule):
         print(prefix)
         tokens, mask_ar, mask_loss, mask_input = self.preprocess_tokens(prefix, None)
         imgs = self.preprocess_image(images)
-        print(tokens)
-        print(mask_ar)
-        print(mask_loss)
-        print(mask_input)
+        # print(tokens)
+        # print(mask_ar)
+        # print(mask_loss)
+        # print(mask_input)
         return imgs, np.asarray(tokens), np.asarray(mask_ar), np.asarray(mask_input)
 
     def postprocess_output(self, raw_output):
@@ -86,7 +86,7 @@ class CustomVQAModule(VQAModule):
         probs = jnp.exp(logp)
         max_probs = jnp.max(probs, axis=-1)
         argmax_probs = jnp.argmax(probs, axis=-1)
-        threshold = 0.5
+        threshold = 0.2
         abstain_filter = mask_loss * (max_probs > threshold)
         predicted_tokens = abstain_filter * argmax_probs
         predicted_tokens_contain_yes = jnp.sum(predicted_tokens == 3276, axis=-1) > 0
@@ -95,7 +95,6 @@ class CustomVQAModule(VQAModule):
 
         will_answer = (jnp.sum(abstain_filter) == jnp.sum(mask_loss))
 
-        print("4")
         # make 0 if not will_answer
         if not will_answer:
             answer = ["null"]
@@ -104,7 +103,6 @@ class CustomVQAModule(VQAModule):
         elif jnp.sum(predicted_tokens == 956, axis=-1) > 0:
             answer = ["no"]
 
-        print("5")
         print(answer)
 
         return answer
