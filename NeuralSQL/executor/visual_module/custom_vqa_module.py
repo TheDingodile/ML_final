@@ -42,14 +42,14 @@ class CustomVQAModule(VQAModule):
         # tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
         prefix = "if the question is not a yes/no question answer null. "
         prefix += questions[0]
-        # print(prefix)
-        tokens, mask_ar, mask_loss, mask_input = self.preprocess_tokens(prefix, None)
+        # print(prefix) # tokens, mask_ar, mask_loss, _
+        tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, None)
         imgs = self.preprocess_image(images)
         # print(tokens)
         # print(mask_ar)
         # print(mask_loss)
         # print(mask_input)
-        return imgs, np.asarray(tokens), np.asarray(mask_ar), np.asarray(mask_input)
+        return imgs, np.asarray(tokens), np.asarray(mask_ar), np.asarray(mask_loss)
 
     def postprocess_output(self, raw_output):
         tokens = raw_output.tolist()  # np.array to list[int]
