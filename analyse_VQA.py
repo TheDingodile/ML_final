@@ -11,8 +11,9 @@ with open('dataset/mimic_iv_cxr/train/train_data.json', 'r') as f:
 
 # print(train_answer)
 
-for i in range(100):
+for i in range(500):
     # check if func_vqa in train_data[i]['question'], only print if it is
     if "func_vqa" in train_data[i]['query']:
+        if gt[str(i)] != "null":
         # print(train_data[i]['question'])
-        print(gt[str(i)], train_answer[i]['answer'])
+            print(gt[str(i)], train_answer[i]['answer'])
