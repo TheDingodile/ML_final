@@ -49,13 +49,18 @@ class CustomVQAModule(VQAModule):
         if self.model is None:
             self.load_model()
 
+        if len(questions) > 1:
+            return "null"
+        print("1")
         preprocessed_images, tokenized_questions, mask_ar, mask_loss = self.preprocess_input(images, questions)
         mask_loss = mask_loss[:, 1:]
+        print("2")
         
 
         # Run the model inference
         text_logits, _ = self.model.apply({"params": self.params}, preprocessed_images, tokenized_questions[:, :-1], mask_ar[:, :-1], train=False)
         raw_output = self.model(preprocessed_images, tokenized_questions)
+        print("3")
 
         logp = jax.nn.log_softmax(text_logits, axis=-1)
         probs = jnp.exp(logp)
@@ -64,6 +69,7 @@ class CustomVQAModule(VQAModule):
         threshold = 0.8
         abstain_filter = mask_loss * (max_probs > threshold)
         predicted_tokens = abstain_filter * argmax_probs
+        print("4")
 
         if max_probs < threshold:
             raw_output = "null"
@@ -72,6 +78,7 @@ class CustomVQAModule(VQAModule):
 
         # Postprocess the raw output to get the final answers
         answers = self.postprocess_output(raw_output)
+        print("5")
 
         return answers
     
