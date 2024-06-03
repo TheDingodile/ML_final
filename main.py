@@ -26,20 +26,17 @@ class Defaults(Parameters):
 
 
     def run(self, name: str, isServer: bool, vqa_module_type: str) -> None:
-    
-
-        if (isServer): path = "../../../../../../../work1/s183914/ml_healthcare/models"
-        else: path = "ehrxqa-2024-ml4h"
 
         if (isServer):
             wandb.init(project="ML_healthcare", name=name)
         start = seconds()
 
-
+        if (isServer): images_path = "../../../../../../../work1/s183914/ml_healthcare/resized_ratio_short_side_768"
+        else: images_path = "ehrxqa-2024-ml4h/resized_ratio_short_side_768"
 
         executor = NeuralSQLExecutor(
             "database/mimic_iv_cxr/silver",
-            "ehrxqa-2024-ml4h/resized_ratio_short_side_768",
+            images_path,
             vqa_module_type=vqa_module_type,
 
         )
