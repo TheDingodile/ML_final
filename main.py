@@ -42,11 +42,11 @@ class Defaults(Parameters):
         )
         with open("dataset/mimic_iv_cxr/train/train_data.json", "r") as f:
             gt_dataset = json.load(f)
-            gt_dataset = gt_dataset[:100]
+            gt_dataset = gt_dataset[:20]
 
         with open("dataset/mimic_iv_cxr/train/train_answer.json", "r") as f:
             answers = json.load(f)
-            answers = answers[:100]
+            answers = answers[:20]
 
         parsed_result_gt = {str(item["id"]): item["query"] for item in gt_dataset}
         parsed_result_answer = {str(item["id"]): item["answer"] for item in answers}
