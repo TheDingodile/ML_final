@@ -84,7 +84,7 @@ def run_execution_for_gt_query(executor, parsed_result):
             result = post_process_answer(result)
         except Exception as e:
             # raise
-            # print(f"Error executing query {idx}: {e}")
+            print(f"Error executing query {idx}: {e}")
             result = "null"  # NOTE: For NeuralSQL, we will abstain as "null" if the query execution fails
         executed_result[str(idx)] = result
         with open(os.path.join("results", "predictions_gt.json"), "w") as f:

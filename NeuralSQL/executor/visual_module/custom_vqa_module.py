@@ -9,10 +9,9 @@ import functools
 
 
 class CustomVQAModule(VQAModule):
-    def __init__(self, model_path, tokenizer_path, file_name):
+    def __init__(self):
         self.model_path = "../../../../../../../work1/s183914/ml_healthcare/models/params_model_2-0.npz"
         self.tokenizer_path = "../../../../../../../work1/s183914/ml_healthcare/models/paligemma_tokenizer.model"
-        self.file_name = file_name
         self.model = None
         self.tokenizer = None
         self.image_resolution = 224
