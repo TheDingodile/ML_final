@@ -31,17 +31,19 @@ class CustomVQAModule(VQAModule):
         # preprocessed_images = ...
         # tokenized_questions = ...
         # tokens, mask_ar, mask_loss, _ = self.preprocess_tokens(prefix, suffix)
-        print(questions)
+        prefix = "if the question is not a yes/no question answer null. "
+        prefix += questions[0]
+        print(prefix)
         tokens, mask_ar, mask_loss, mask_input = self.preprocess_tokens(questions, None)
         imgs = self.preprocess_image(images)
-        print(tokens)
-        print(mask_ar)
-        print(mask_loss)
-        print(mask_input)
+        # print(tokens)
+        # print(mask_ar)
+        # print(mask_loss)
+        # print(mask_input)
         return imgs, np.asarray(tokens), np.asarray(mask_ar), np.asarray(mask_input)
 
     def postprocess_output(self, raw_output):
-        tokens = tokens.tolist()  # np.array to list[int]
+        tokens = raw_output.tolist()  # np.array to list[int]
         try:  # Remove tokens at and after EOS if any.
             eos_pos = tokens.index(self.tokenizer.eos_id())
             tokens = tokens[:eos_pos]
