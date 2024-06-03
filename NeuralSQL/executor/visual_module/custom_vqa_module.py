@@ -67,7 +67,7 @@ class CustomVQAModule(VQAModule):
 
         if len(questions) > 1:
             return "null"
-        print("1")
+        
         preprocessed_images, tokenized_questions, mask_ar, mask_loss = self.preprocess_input(images, questions)
         # unsqueeze for the batch dimension
         preprocessed_images = np.expand_dims(preprocessed_images, axis=0)
@@ -81,7 +81,8 @@ class CustomVQAModule(VQAModule):
 
         # Run the model inference
         text_logits, _ = self.model.apply({"params": self.params}, preprocessed_images, tokenized_questions[:, :-1], mask_ar[:, :-1], train=False)
-        raw_output = self.model(preprocessed_images, tokenized_questions)
+        # model.apply({"params": params}, imgs, txts[:, :-1], mask_ar[:, :-1], train=True)
+        # raw_output = self.model(preprocessed_images, tokenized_questions)
         print("3")
 
         logp = jax.nn.log_softmax(text_logits, axis=-1)
@@ -94,16 +95,16 @@ class CustomVQAModule(VQAModule):
         print("4")
 
         if max_probs < threshold:
-            raw_output = "null"
-        elif not jnp.sum(predicted_tokens == 3276, axis=-1) > 0 or not jnp.sum(predicted_tokens == 956, axis=-1) > 0:
-            raw_output = "null"
+            answer = ["null"]
+        elif jnp.sum(predicted_tokens == 3276, axis=-1) > 0:
+            answer = ["yes"]
+        elif jnp.sum(predicted_tokens == 956, axis=-1) > 0:
+            answer = ["no"]
 
-        # Postprocess the raw output to get the final answers
-        answers = self.postprocess_output(raw_output)
         print("5")
-        print(answers)
+        print(answer)
 
-        return answers
+        return answer
     
     def preprocess_image(self, image):
         # Model has been trained to handle images of different aspects ratios
