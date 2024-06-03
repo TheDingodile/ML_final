@@ -88,6 +88,7 @@ class CustomVQAModule(VQAModule):
         argmax_probs = jnp.argmax(probs, axis=-1)
         threshold = 0.5
         abstain_filter = mask_loss * (max_probs > threshold)
+        print(mask_loss)
         print(max_probs)
         predicted_tokens = abstain_filter * argmax_probs
         predicted_tokens_contain_yes = jnp.sum(predicted_tokens == 3276, axis=-1) > 0
