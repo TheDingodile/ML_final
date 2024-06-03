@@ -56,12 +56,12 @@ class YesVQAModule(VQAModule):
         # print(raw_output, handled_answers, answer_probs)
         # check that all answers are either "yes" or "no"
         if not all(isinstance(answer, bool) for answer in handled_answers):
-            return "null"
+            raise ValueError("All answers must be boolean values")
         
         product = 1
         for number in answer_probs:
             product *= number
 
         if product < 0.5:
-            return "null"
+            raise ValueError("All answers together must have a probability of at least 0.5")
         return handled_answers
