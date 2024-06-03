@@ -34,7 +34,7 @@ class CustomVQAModule(VQAModule):
         prefix = "if the question is not a yes/no question answer null. "
         prefix += questions[0]
         print(prefix)
-        tokens, mask_ar, mask_loss, mask_input = self.preprocess_tokens(questions, None)
+        tokens, mask_ar, mask_loss, mask_input = self.preprocess_tokens(prefix, None)
         imgs = self.preprocess_image(images)
         # print(tokens)
         # print(mask_ar)
