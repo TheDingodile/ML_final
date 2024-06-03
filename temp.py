@@ -57,16 +57,16 @@ with open('dataset/mimic_iv_cxr/valid/valid_data.json', 'r') as f:
 
 
 print(len(train_data), len(valid_data))
-#
+
 for i in range(100):
     # pattern = ", t1.study_id)) from ( select tb_cxr.study_id from tb_cxr where tb_cxr.study_id ="
     # if pattern in train_data[i]["query"]:
-    print(train_data[i]["question"])
-    print(train_data[i]["query"])
-    print("   ")
-
     # print(train_data[i]["question"])
     # print(train_data[i]["query"])
+    # print("   ")
+
+    # print(train_data[i]["question"])
+    print(train_data[i]["query"])
     # print("   ")
 
 # all_possible_answers = set()

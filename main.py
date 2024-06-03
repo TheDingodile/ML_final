@@ -22,7 +22,7 @@ class Defaults(Parameters):
     time: int = 3600
 
     name: str = "local"
-    vqa_module_type: str = "custom"
+    vqa_module_type: str = "yes"
 
 
     def run(self, name: str, isServer: bool, vqa_module_type: str) -> None:
@@ -40,24 +40,64 @@ class Defaults(Parameters):
             vqa_module_type=vqa_module_type,
 
         )
-        with open("dataset/mimic_iv_cxr/train/train_data.json", "r") as f:
-            gt_dataset = json.load(f)
-            gt_dataset = gt_dataset[:500]
 
-        with open("dataset/mimic_iv_cxr/train/train_answer.json", "r") as f:
+        # with open("dataset/mimic_iv_cxr/train/train_data.json", "r") as f:
+        #     gt_dataset = json.load(f)
+        #     gt_dataset = gt_dataset[:50]
+
+        # with open("dataset/mimic_iv_cxr/train/train_answer.json", "r") as f:
+        #     answers = json.load(f)
+        #     answers = answers[:50]
+
+        # parsed_result_gt = {str(item["id"]): item["query"] for item in gt_dataset}
+        # parsed_result_answer = {str(item["id"]): item["answer"] for item in answers}
+
+        with open("final_LLM_0-0.json", "r") as f:
+            parsed_result_gt = json.load(f)
+            # only keep the first 50
+            parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())}
+
+        with open("dataset/mimic_iv_cxr/valid/valid_answer.json", "r") as f:
             answers = json.load(f)
-            answers = answers[:500]
+            answers = answers
 
-        parsed_result_gt = {str(item["id"]): item["query"] for item in gt_dataset}
         parsed_result_answer = {str(item["id"]): item["answer"] for item in answers}
+            
+
+
 
         executed_result = run_execution_for_gt_query(executor, parsed_result_gt)
+        correct_count_text = 0
+        wrong_count_text = 0
 
-        print("Executed result")
-        print(executed_result)
-        print("Answer result")
-        print(parsed_result_answer)
+        correct_count_image = 0
+        wrong_count_image = 0
+        # print executed result and answers side by side
+        for key in executed_result:
+            answer = executed_result[key]
+            truth = parsed_result_answer[key]
+            if len(answer) != 1 or answer[0] == None:
+                answer = "null"
 
+            if answer == "null":
+                continue
+
+            if "func_vqa" not in parsed_result_gt[key]:
+                print(answer, truth)
+                if answer == truth:
+                    correct_count_text += 1 # 218, 68
+                else:
+                    wrong_count_text += 1
+            else:
+                if answer == truth:
+                    correct_count_image += 1
+                else:
+                    wrong_count_image += 1
+
+        print("Correct count:", correct_count_text)
+        print("Wrong count:", wrong_count_text)
+        print("Correct count image:", correct_count_image)
+        print("Wrong count image:", wrong_count_image)
 
         if (isServer): wandb.log({"accuracy": np.mean([1 if executed_result[key] == parsed_result_answer[key] else 0 for key in executed_result])})
 
