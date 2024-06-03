@@ -66,7 +66,7 @@ class CustomVQAModule(VQAModule):
             self.load_model()
 
         if len(questions) > 1:
-            return "null"
+            raise ValueError("Model only answers one image question SQLs")
         
         preprocessed_images, tokenized_questions, mask_ar, mask_loss = self.preprocess_input(images, questions)
         # unsqueeze for the batch dimension
@@ -99,7 +99,7 @@ class CustomVQAModule(VQAModule):
 
         # make 0 if not will_answer
         if not will_answer:
-            answer = ["null"]
+            raise ValueError("Model abstains from answering the question")
         elif jnp.sum(predicted_tokens == 3276, axis=-1) > 0:
             answer = [True]
         elif jnp.sum(predicted_tokens == 956, axis=-1) > 0:
