@@ -11183,3 +11183,122 @@ Resource usage summary:
 
 The output (if any) is above this job summary.
 
+2024-06-03 06:41:02.615059: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+wandb: Currently logged in as: kobomao. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240603_064107-be8yql9y
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run VQA_eval-0
+wandb: ⭐️ View project at https://wandb.ai/kobomao/ML_healthcare
+wandb: 🚀 View run at https://wandb.ai/kobomao/ML_healthcare/runs/be8yql9y
+2024-06-03 06:41:43.942565: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2251] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+
+Aborted!
+
+<style>
+c { color: #9cdcfe; font-family: 'Verdana', sans-serif;} /* VARIABLE */
+d { color: #4EC9B0; font-family: 'Verdana', sans-serif;} /* CLASS */
+e { color: #569cd6; font-family: 'Verdana', sans-serif;} /* BOOL */
+f { color: #b5cea8; font-family: 'Verdana', sans-serif;} /* NUMBERS */
+j { color: #ce9178; font-family: 'Verdana', sans-serif;} /* STRING */
+k { font-family: 'Verdana', sans-serif;} /* SYMBOLS */
+</style>
+
+# Parameters
+
+| PARAMETER         | TYPE              | VALUE             |
+|-------------------|-------------------|-------------------|
+| <c>name</c>       | <d>str</d>        | <j>"VQA_eval-0"</j> |
+| <c>time</c>       | <d>int</d>        | <f>3600</f>       |
+| <c>vqa_module_type</c>| <d>str</d>        | <j>"custom"</j>   |
+
+# Output
+
+```
+sid_to_ipath_map loaded. (1896 entries)
+Error executing query 0: Unexpected answer type: <class 'str'>
+Error executing query 1: Answer count mismatch: 4 != 12
+1
+if the question is not a yes/no question answer null. does a chest x-ray indicate any technical assessments?
+Error executing query 3: too many indices for array: array is 1-dimensional, but 2 were indexed
+1
+if the question is not a yes/no question answer null. does a chest x-ray exhibit any devices in the cardiac silhouette?
+Error executing query 4: too many indices for array: array is 1-dimensional, but 2 were indexed
+1
+if the question is not a yes/no question answer null. is chest port displayed on a chest x-ray?
+Error executing query 5: too many indices for array: array is 1-dimensional, but 2 were indexed
+Error executing query 8: Answer count mismatch: 4 != 32
+1
+if the question is not a yes/no question answer null. enumerate all anatomical locations related to any diseases.
+Error executing query 9: too many indices for array: array is 1-dimensional, but 2 were indexed
+Error executing query 10: Answer count mismatch: 4 != 19
+1
+if the question is not a yes/no question answer null. outline all the observed technical assessments.
+Error executing query 13: too many indices for array: array is 1-dimensional, but 2 were indexed
+Traceback (most recent call last):
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 64, in <module>
+    Defaults.start()
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/dtu/__init__.py", line 235, in start
+    cls.run(*args)
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 54, in run
+    executed_result = run_execution_for_gt_query(executor, parsed_result_gt)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/execute_nsql.py", line 81, in run_execution_for_gt_query
+    result = executor.execute_nsql(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 267, in execute_nsql
+    return self._execute_set_operation_query(query_root, nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 437, in _execute_set_operation_query
+    answer = self.execute_nsql(nsql=query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 265, in execute_nsql
+    return self._execute_select_query(query_root, nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 327, in _execute_select_query
+    return self._execute_vqa_subquery(from_clause_node, query_root, nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 358, in _execute_vqa_subquery
+    return self.execute_vqa_function_in_nsql(nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 191, in execute_vqa_function_in_nsql
+    answer_batch = self._execute_vqa_function(image_batch=image_batch, question_batch=question_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 120, in _execute_vqa_function
+    answers = self.vqa_module(image_batch, question_batch)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/visual_module/custom_vqa_module.py", line 57, in __call__
+    self.load_model()
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/visual_module/custom_vqa_module.py", line 24, in load_model
+    self.params = bv_utils.load_checkpoint_np(self.model_path) # check this
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/utils.py", line 162, in load_checkpoint_np
+    npz = npload(npz)
+          ^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/utils.py", line 147, in npload
+    return dict(loaded)
+           ^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/numpy/lib/npyio.py", line 256, in __getitem__
+    return format.read_array(bytes,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/numpy/lib/format.py", line 831, in read_array
+    data = _read_bytes(fp, read_size, "array data")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/numpy/lib/format.py", line 966, in _read_bytes
+    r = fp.read(size - len(data))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/appl/python/3.11.7/lib/python3.11/zipfile.py", line 955, in read
+    data = self._read1(n)
+           ^^^^^^^^^^^^^^
+  File "/appl/python/3.11.7/lib/python3.11/zipfile.py", line 1025, in _read1
+    data = self._read2(n)
+           ^^^^^^^^^^^^^^
+  File "/appl/python/3.11.7/lib/python3.11/zipfile.py", line 1055, in _read2
+    data = self._fileobj.read(n)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/appl/python/3.11.7/lib/python3.11/zipfile.py", line 775, in read
+    data = self._file.read(n)
+           ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Terminated
