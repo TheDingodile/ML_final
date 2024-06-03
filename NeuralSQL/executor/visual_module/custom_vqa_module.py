@@ -60,6 +60,12 @@ class CustomVQAModule(VQAModule):
             return "null"
         print("1")
         preprocessed_images, tokenized_questions, mask_ar, mask_loss = self.preprocess_input(images, questions)
+        # unsqueeze for the batch dimension
+        preprocessed_images = np.expand_dims(preprocessed_images, axis=0)
+        tokenized_questions = np.expand_dims(tokenized_questions, axis=0)
+        mask_ar = np.expand_dims(mask_ar, axis=0)
+        mask_loss = np.expand_dims(mask_loss, axis=0)
+
         mask_loss = mask_loss[:, 1:]
         print("2")
         
@@ -86,6 +92,7 @@ class CustomVQAModule(VQAModule):
         # Postprocess the raw output to get the final answers
         answers = self.postprocess_output(raw_output)
         print("5")
+        print(answers)
 
         return answers
     
