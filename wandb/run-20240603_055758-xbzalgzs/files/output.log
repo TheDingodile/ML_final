@@ -1,130 +1,3 @@
-2024-06-03 05:40:15.030549: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-wandb: Currently logged in as: kobomao. Use `wandb login --relogin` to force relogin
-wandb: Tracking run with wandb version 0.17.0
-wandb: Run data is saved locally in /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240603_054103-2l0txnsg
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run VQA_eval-0
-wandb: ⭐️ View project at https://wandb.ai/kobomao/ML_healthcare
-wandb: 🚀 View run at https://wandb.ai/kobomao/ML_healthcare/runs/2l0txnsg
-
-<style>
-c { color: #9cdcfe; font-family: 'Verdana', sans-serif;} /* VARIABLE */
-d { color: #4EC9B0; font-family: 'Verdana', sans-serif;} /* CLASS */
-e { color: #569cd6; font-family: 'Verdana', sans-serif;} /* BOOL */
-f { color: #b5cea8; font-family: 'Verdana', sans-serif;} /* NUMBERS */
-j { color: #ce9178; font-family: 'Verdana', sans-serif;} /* STRING */
-k { font-family: 'Verdana', sans-serif;} /* SYMBOLS */
-</style>
-
-# Parameters
-
-| PARAMETER         | TYPE              | VALUE             |
-|-------------------|-------------------|-------------------|
-| <c>name</c>       | <d>str</d>        | <j>"VQA_eval-0"</j> |
-| <c>time</c>       | <d>int</d>        | <f>3600</f>       |
-| <c>vqa_module_type</c>| <d>str</d>        | <j>"custom"</j>   |
-
-# Output
-
-```
-Traceback (most recent call last):
-  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 65, in <module>
-    Defaults.start()
-  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/dtu/__init__.py", line 235, in start
-    cls.run(*args)
-  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 40, in run
-    executor = NeuralSQLExecutor(
-               ^^^^^^^^^^^^^^^^^^
-  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 53, in __init__
-    self.db = NeuralDB(
-              ^^^^^^^^^
-  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 22, in __init__
-    self.conn = sqlite3.connect(db_path, check_same_thread=check_same_thread)
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-sqlite3.OperationalError: unable to open database file
-wandb: - 0.004 MB of 0.004 MB uploadedwandb: \ 0.004 MB of 0.004 MB uploadedwandb: | 0.004 MB of 0.004 MB uploadedwandb: / 0.009 MB of 0.015 MB uploaded (0.004 MB deduped)wandb: - 0.015 MB of 0.015 MB uploaded (0.004 MB deduped)wandb: 🚀 View run VQA_eval-0 at: https://wandb.ai/kobomao/ML_healthcare/runs/2l0txnsg
-wandb: ⭐️ View project at: https://wandb.ai/kobomao/ML_healthcare
-wandb: Synced 5 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20240603_054103-2l0txnsg/logs
-
-------------------------------------------------------------
-Sender: LSF System <lsfadmin@hpc.dtu.dk>
-Subject: Job 21902760: <VQA_eval_0> in cluster <dcc> Exited
-
-Job <VQA_eval_0> was submitted from host <n-62-27-23> by user <s183914> in cluster <dcc> at Mon Jun  3 05:37:36 2024
-Job was executed on host(s) <4*n-62-20-10>, in queue <gpuv100>, as user <s183914> in cluster <dcc> at Mon Jun  3 05:37:37 2024
-</zhome/ea/9/137501> was used as the home directory.
-</zhome/ea/9/137501/Desktop/ML_final/ML_final> was used as the working directory.
-Started at Mon Jun  3 05:37:37 2024
-Terminated at Mon Jun  3 05:41:27 2024
-Results reported at Mon Jun  3 05:41:27 2024
-
-Your job looked like:
-
-------------------------------------------------------------
-# LSBATCH: User input
-#!/bin/sh
-#BSUB -q gpuv100
-#BSUB -gpu "num=1:mode=exclusive_process"
-#BSUB -n 4
-#BSUB -R "rusage[mem=16G]"
-#BSUB -R "select[gpu32gb]"
-#BSUB -R "span[hosts=1]"
-#BSUB -W 1440
-# end of BSUB options
-module -s load python3
-source ../project-env/bin/activate
-
-python main.py $MYARGS
-------------------------------------------------------------
-
-Exited with exit code 1.
-
-Resource usage summary:
-
-    CPU time :                                   8.84 sec.
-    Max Memory :                                 370 MB
-    Average Memory :                             286.00 MB
-    Total Requested Memory :                     65536.00 MB
-    Delta Memory :                               65166.00 MB
-    Max Swap :                                   -
-    Max Processes :                              4
-    Max Threads :                                5
-    Run time :                                   319 sec.
-    Turnaround time :                            231 sec.
-
-The output (if any) is above this job summary.
-
-2024-06-03 05:57:55.571720: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
-wandb: Currently logged in as: kobomao. Use `wandb login --relogin` to force relogin
-wandb: Tracking run with wandb version 0.17.0
-wandb: Run data is saved locally in /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240603_055758-xbzalgzs
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run VQA_eval-0
-wandb: ⭐️ View project at https://wandb.ai/kobomao/ML_healthcare
-wandb: 🚀 View run at https://wandb.ai/kobomao/ML_healthcare/runs/xbzalgzs
-
-
-<style>
-c { color: #9cdcfe; font-family: 'Verdana', sans-serif;} /* VARIABLE */
-d { color: #4EC9B0; font-family: 'Verdana', sans-serif;} /* CLASS */
-e { color: #569cd6; font-family: 'Verdana', sans-serif;} /* BOOL */
-f { color: #b5cea8; font-family: 'Verdana', sans-serif;} /* NUMBERS */
-j { color: #ce9178; font-family: 'Verdana', sans-serif;} /* STRING */
-k { font-family: 'Verdana', sans-serif;} /* SYMBOLS */
-</style>
-
-# Parameters
-
-| PARAMETER         | TYPE              | VALUE             |
-|-------------------|-------------------|-------------------|
-| <c>name</c>       | <d>str</d>        | <j>"VQA_eval-0"</j> |
-| <c>time</c>       | <d>int</d>        | <f>3600</f>       |
-| <c>vqa_module_type</c>| <d>str</d>        | <j>"custom"</j>   |
-
-# Output
-
-```
 Image file not found: ehrxqa-2024-ml4h/resized_ratio_short_side_768/189c3987-9c63c9db-6f6ce67a-56aceb53-99054790.jpg
 Image file not found: ehrxqa-2024-ml4h/resized_ratio_short_side_768/5f78b4b1-10772c18-c5987f8f-be258d79-b3d29461.jpg
 Image file not found: ehrxqa-2024-ml4h/resized_ratio_short_side_768/e7f21453-7956d79a-44e44614-fae8ff16-d174d1a0.jpg
@@ -2030,10 +1903,6 @@ Error executing query 5: '54493225'
 Error executing query 8: '56216655'
 Error executing query 9: '50978999'
 Error executing query 10: '51902634'
-Error executing query 13: '59316572'
-Error executing query 14: '57131291'
-Error executing query 15: '56381503'
-Error executing query 16: '52212439'
 Error executing query 18: '50340694'
 Error executing query 19: '51128677'
 Error executing query 20: '58275387'
@@ -2059,105 +1928,9 @@ Error executing query 49: '59323339'
 Error executing query 50: '50472286'
 Error executing query 51: '55481921'
 Error executing query 52: '52664477'
-Error executing query 59: '51669815'
-Error executing query 61: '50231166'
-Error executing query 62: '55045809'
-Error executing query 64: '50823035'
-Error executing query 65: '54593032'
-Error executing query 66: '53353801'
-Error executing query 67: '51565538'
-Error executing query 71: '51902634'
-Error executing query 72: '56787420'
-Error executing query 73: '54208655'
-Error executing query 74: '55729880'
-Error executing query 76: '59521467'
-Error executing query 77: '58391958'
-Error executing query 78: '53937267'
-Error executing query 79: '56325685'
-Error executing query 81: '55970930'
-Error executing query 82: '57131291'
-Error executing query 85: '52941464'
-Error executing query 86: '50354056'
-Error executing query 87: '52736288'
-Error executing query 89: '56359542'
-Error executing query 90: '52363370'
-Error executing query 93: '50340694'
-Error executing query 94: '51515949'
-Error executing query 95: '58437556'
-Error executing query 96: '54257887'
-Error executing query 97: '59006252'
-Error executing query 98: '53938813'
-Error executing query 99: '55162206'
-Error executing query 100: '51022033'
-Error executing query 101: '55985283'
-Error executing query 102: '55860176'
-Error executing query 105: '51463111'
-Error executing query 107: '50472286'
-Error executing query 110: '57265174'
-Error executing query 111: '53337261'
-Error executing query 113: '50582222'
-Error executing query 114: '50240028'
-Error executing query 115: '50828859'
-Error executing query 116: '52440847'
-Error executing query 118: '56411841'
-Error executing query 119: '52203459'
-Error executing query 122: '56344293'
-Error executing query 123: '59267115'
-Error executing query 125: '55486495'
-Error executing query 126: '57946633'
-Error executing query 129: '59464038'
-Error executing query 130: '56044756'
-Error executing query 131: '58830039'
-Error executing query 132: '57778659'
-Error executing query 133: '56147064'
-Error executing query 134: '58010259'
-Error executing query 135: '58278378'
-Error executing query 137: '51744063'
-Error executing query 140: '55037702'
-Error executing query 141: '52814802'
-Error executing query 144: '51059575'
-Error executing query 145: '58525762'
-Error executing query 146: '51565538'
-Error executing query 147: '50734002'
-Error executing query 149: '51067876'
-Error executing query 150: '55544941'
-Error executing query 151: '58472842'
-Error executing query 153: '57448417'
-Error executing query 156: '50507799'
-Error executing query 158: '59763870'
-Error executing query 159: '59241958'
-Error executing query 160: '58526084'
-Error executing query 164: '54653782'
-Error executing query 166: '57282606'
-Error executing query 167: '51455994'
-Error executing query 169: '54181778'
-Error executing query 171: '54351445'
-Error executing query 173: '51253607'
-Error executing query 175: '53283934'
-Error executing query 177: '56044756'
-Error executing query 178: '56621201'
-Error executing query 179: '54622272'
-Error executing query 181: '52793175'
-Error executing query 182: '52480569'
-Error executing query 185: '57106801'
-Error executing query 186: '51287495'
-Error executing query 193: '51100144'
-Error executing query 194: '52365281'
-Error executing query 195: '51744063'
-Error executing query 196: '51392471'
-Error executing query 197: '55762198'
-Error executing query 198: '55251456'
-Error executing query 202: '50234853'
-Error executing query 205: '59566135'
-Error executing query 206: '55933666'
-Error executing query 208: '59840553'
-Error executing query 209: '54623069'
-Error executing query 211: '50694799'
-Error executing query 212: '55985283'
-Error executing query 213: '58471018'
-Error executing query 215: '50657117'
-Error executing query 217: '54298821'
-Error executing query 218: '56101620'
+Error executing query 13: '59316572'
+Error executing query 14: '57131291'
+Error executing query 15: '56381503'
 Error executing query 219: '53648808'
 Error executing query 220: '56118423'
 Error executing query 221: '50609160'
@@ -9551,7 +9324,6 @@ Error executing query 11703: '58508743'
 Error executing query 11704: '54653782'
 Error executing query 11706: '58526084'
 Error executing query 11707: '53359045'
-Aborted!
 Traceback (most recent call last):
   File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/execute_nsql.py", line 91, in run_execution_for_gt_query
     json.dump(executed_result, f, indent=4)
@@ -9562,9 +9334,7 @@ Traceback (most recent call last):
   File "/appl/python/3.11.7/lib/python3.11/json/encoder.py", line 384, in _iterencode_dict
     yield _key_separator
 KeyboardInterrupt
-
 During handling of the above exception, another exception occurred:
-
 Traceback (most recent call last):
   File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 65, in <module>
     Defaults.start()
@@ -9575,55 +9345,3 @@ Traceback (most recent call last):
                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/execute_nsql.py", line 90, in run_execution_for_gt_query
     with open(os.path.join("results", "predictions_gt.json"), "w") as f:
-KeyboardInterrupt
-Terminated
-
-------------------------------------------------------------
-Sender: LSF System <lsfadmin@hpc.dtu.dk>
-Subject: Job 21902762: <VQA_eval_0> in cluster <dcc> Exited
-
-Job <VQA_eval_0> was submitted from host <n-62-27-23> by user <s183914> in cluster <dcc> at Mon Jun  3 05:57:46 2024
-Job was executed on host(s) <4*n-62-20-10>, in queue <gpuv100>, as user <s183914> in cluster <dcc> at Mon Jun  3 05:57:48 2024
-</zhome/ea/9/137501> was used as the home directory.
-</zhome/ea/9/137501/Desktop/ML_final/ML_final> was used as the working directory.
-Started at Mon Jun  3 05:57:48 2024
-Terminated at Mon Jun  3 06:13:04 2024
-Results reported at Mon Jun  3 06:13:04 2024
-
-Your job looked like:
-
-------------------------------------------------------------
-# LSBATCH: User input
-#!/bin/sh
-#BSUB -q gpuv100
-#BSUB -gpu "num=1:mode=exclusive_process"
-#BSUB -n 4
-#BSUB -R "rusage[mem=16G]"
-#BSUB -R "select[gpu32gb]"
-#BSUB -R "span[hosts=1]"
-#BSUB -W 1440
-# end of BSUB options
-module -s load python3
-source ../project-env/bin/activate
-
-python main.py $MYARGS
-------------------------------------------------------------
-
-TERM_OWNER: job killed by owner.
-Exited with exit code 143.
-
-Resource usage summary:
-
-    CPU time :                                   369.00 sec.
-    Max Memory :                                 649 MB
-    Average Memory :                             586.50 MB
-    Total Requested Memory :                     65536.00 MB
-    Delta Memory :                               64887.00 MB
-    Max Swap :                                   -
-    Max Processes :                              6
-    Max Threads :                                32
-    Run time :                                   985 sec.
-    Turnaround time :                            918 sec.
-
-The output (if any) is above this job summary.
-
