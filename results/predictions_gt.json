@@ -6,8 +6,12 @@
         "venous catheterization, not elsewhere classified",
         "central venous catheter placement with guidance"
     ],
-    "3": "null",
-    "4": "null",
+    "3": [
+        false
+    ],
+    "4": [
+        1
+    ],
     "5": "null",
     "6": [
         877.553649
@@ -30,7 +34,9 @@
     ],
     "13": "null",
     "14": "null",
-    "15": "null",
+    "15": [
+        true
+    ],
     "16": "null",
     "17": [
         "platelet count"

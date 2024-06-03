@@ -1,0 +1,217 @@
+{
+    "os": "Linux-5.4.274-1.el7.elrepo.x86_64-x86_64-with-glibc2.17",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-06-03T06:07:10.249919",
+    "startedAt": "2024-06-03T06:07:09.607249",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-name",
+        "VQA_eval-0",
+        "-time",
+        "3600",
+        "-vqa_module_type",
+        "custom",
+        "-ID",
+        "0"
+    ],
+    "state": "running",
+    "program": "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/TheDingodile/ML_final.git",
+        "commit": "37df3e9f51441c6470f44227a74ba584b596bd65"
+    },
+    "email": "jakob@3esser.dk",
+    "root": "/zhome/ea/9/137501/Desktop/ML_final/ML_final",
+    "host": "n-62-20-10",
+    "username": "s183914",
+    "executable": "/zhome/ea/9/137501/Desktop/ML_final/project-env/bin/python",
+    "cpu_count": 32,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 3034.88884375,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3085.972,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2725.434,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2697.649,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2693.549,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3391.563,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3397.421,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3393.22,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3380.73,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3378.21,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3384.71,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3389.452,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3396.475,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3306.225,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2707.166,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3090.841,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3350.672,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2974.38,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2716.226,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2694.415,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2697.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3386.162,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2715.191,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2714.125,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2714.854,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2705.106,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2702.08,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3666.878,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2703.47,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2827.635,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2992.876,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2700.488,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3435.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 71.9168586730957,
+            "used": 13.42197036743164
+        }
+    },
+    "gpu": "Tesla V100-SXM2-32GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34359738368
+        }
+    ],
+    "memory": {
+        "total": 377.55433654785156
+    }
+}
