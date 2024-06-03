@@ -43,7 +43,7 @@ class CustomVQAModule(VQAModule):
         return imgs, np.asarray(tokens), np.asarray(mask_ar), np.asarray(mask_input)
 
     def postprocess_output(self, raw_output):
-        tokens = tokens.tolist()  # np.array to list[int]
+        tokens = raw_output.tolist()  # np.array to list[int]
         try:  # Remove tokens at and after EOS if any.
             eos_pos = tokens.index(self.tokenizer.eos_id())
             tokens = tokens[:eos_pos]
