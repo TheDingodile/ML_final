@@ -1,0 +1,917 @@
+sid_to_ipath_map loaded. (1896 entries)
+Error executing query 1: Invalid expression / Unexpected token. Line 1, Col: 651.
+  ns.hadm_id from admissions where admissions.subject_id = 12252397 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 2: Answer count mismatch: 4 != 2
+Error executing query 3: Invalid expression / Unexpected token. Line 1, Col: 914.
+  func_vqa("does a chest x-ray show any diseases?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['null']
+Error executing query 5: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 9: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 10: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 11: Unexpected answer type: <class 'str'>
+Error executing query 12: Answer count mismatch: 4 != 8
+Error executing query 14: Answer count mismatch: 4 != 6
+['null']
+Error executing query 16: Unexpected answer type: <class 'str'>
+Error executing query 17: Invalid expression / Unexpected token. Line 1, Col: 958.
+  nth') = datetime('2105-12-31 23:59:00','start of month','-0 month') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 19: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 23: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 24: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 25: Unexpected answer type: <class 'str'>
+Error executing query 26: Invalid expression / Unexpected token. Line 1, Col: 821.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-5 year') ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 29: Answer count mismatch: 4 != 28
+Error executing query 33: Invalid expression / Unexpected token. Line 1, Col: 914.
+  dures_icd.charttime) >= datetime('2105-12-31 23:59:00','-12 month') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 34: Answer count mismatch: 4 != 32
+Error executing query 35: Answer count mismatch: 4 != 32
+['null']
+Error executing query 37: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 40: Unexpected answer type: <class 'str'>
+Error executing query 41: Invalid expression / Unexpected token. Line 1, Col: 779.
+  aling copd/emphysema in the left mid lung zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 42: Invalid expression / Unexpected token. Line 1, Col: 777.
+  _vqa("is a chest x-ray showing any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['null']
+Error executing query 43: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 44: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 46: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 50: Unexpected answer type: <class 'str'>
+Error executing query 52: near "(": syntax error
+Error executing query 53: Answer count mismatch: 4 != 32
+Error executing query 54: Invalid expression / Unexpected token. Line 1, Col: 746.
+  st x-ray show any abnormality in the left lung?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 55: Answer count mismatch: 4 != 17
+['null']
+Error executing query 56: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 57: Unexpected answer type: <class 'str'>
+Error executing query 59: Answer count mismatch: 4 != 17
+['null']
+Error executing query 60: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 61: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 62: Unexpected answer type: <class 'str'>
+Error executing query 64: Answer count mismatch: 4 != 3
+['null']
+Error executing query 65: Unexpected answer type: <class 'str'>
+Error executing query 66: Invalid expression / Unexpected token. Line 1, Col: 1103.
+   year','-0 year') and strftime('%m',diagnoses_icd.charttime) = '09' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime
+Error executing query 69: Expecting ). Line 1, Col: 1072.
+  ar','-0 year') ) as t2 join admissions on t2.subject_id = admissions.subject_id where t2.charttime  [4madmissions[24m.admittime and datetime(admissions.admittime,'start of year') = datetime('2105-12-31 23:59:00','star
+['null']
+Error executing query 70: Unexpected answer type: <class 'str'>
+Error executing query 71: Answer count mismatch: 4 != 32
+['null']
+Error executing query 72: Unexpected answer type: <class 'str'>
+Error executing query 74: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 76: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 78: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 83: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 85: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 87: Unexpected answer type: <class 'str'>
+Error executing query 88: Invalid expression / Unexpected token. Line 1, Col: 957.
+  iagnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 89: Invalid expression / Unexpected token. Line 1, Col: 652.
+  ns.hadm_id from admissions where admissions.subject_id = 17198431 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 93: Unexpected answer type: <class 'str'>
+Error executing query 94: Answer count mismatch: 4 != 32
+Error executing query 95: Expecting ). Line 1, Col: 859.
+  etime('2105-12-31 23:59:00','-5 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['null']
+Error executing query 96: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 98: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 99: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 100: Unexpected answer type: <class 'str'>
+Error executing query 101: Invalid expression / Unexpected token. Line 1, Col: 760.
+  w any spinal degenerative changes in the spine?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 102: Invalid expression / Unexpected token. Line 1, Col: 882.
+   year') = datetime('2105-12-31 23:59:00','start of year','-1 year') ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 103: Invalid expression / Unexpected token. Line 1, Col: 949.
+  380697 ) and strftime('%Y-%m',procedures_icd.charttime) = '2105-06' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 104: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 105: Unexpected answer type: <class 'str'>
+Error executing query 106: Expecting ). Line 1, Col: 898.
+  1 23:59:00','start of year','-0 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['null']
+Error executing query 107: Unexpected answer type: <class 'str'>
+Error executing query 108: Invalid expression / Unexpected token. Line 1, Col: 1010.
+   year') = datetime('2105-12-31 23:59:00','start of year','-0 year') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['null']
+Error executing query 110: Unexpected answer type: <class 'str'>
+Error executing query 111: Expecting ). Line 1, Col: 719.
+  ogyevents.hadm_id = admissions.hadm_id ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and t1.hadm_id = t2.hadm_id group by t2.test_name ) as t3 where t3.c1 = 5
+['null']
+Error executing query 112: Unexpected answer type: <class 'str'>
+Error executing query 113: Answer count mismatch: 4 != 12
+Error executing query 114: Invalid expression / Unexpected token. Line 1, Col: 948.
+  dicate clavicle fracture in the right clavicle?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 115: Answer count mismatch: 4 != 2
+Error executing query 116: Answer count mismatch: 4 != 2
+[False]
+Error executing query 121: Invalid expression / Unexpected token. Line 1, Col: 891.
+  d = 13888167 ) and strftime('%Y',procedures_icd.charttime) = '2105' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 122: Answer count mismatch: 4 != 6
+Error executing query 125: Answer count mismatch: 4 != 2
+Error executing query 128: Invalid expression / Unexpected token. Line 1, Col: 982.
+   year') = datetime('2105-12-31 23:59:00','start of year','-0 year') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['null']
+Error executing query 130: Unexpected answer type: <class 'str'>
+Error executing query 132: Invalid expression / Unexpected token. Line 1, Col: 845.
+  qa("does a chest x-ray depicts any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['null']
+Error executing query 133: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 134: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 137: Unexpected answer type: <class 'str'>
+Error executing query 139: Invalid expression / Unexpected token. Line 1, Col: 757.
+  ns.hadm_id from admissions where admissions.subject_id = 19385269 ) ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 140: Answer count mismatch: 4 != 32
+Error executing query 141: Invalid expression / Unexpected token. Line 1, Col: 1065.
+  cedures_icd.charttime) >= datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and t1.hadm_id = t3.hadm_id
+['null']
+Error executing query 143: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 144: Unexpected answer type: <class 'str'>
+Error executing query 145: Answer count mismatch: 4 != 32
+Error executing query 146: Answer count mismatch: 4 != 5
+Error executing query 149: Answer count mismatch: 4 != 32
+['null']
+Error executing query 150: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 153: Unexpected answer type: <class 'str'>
+Error executing query 155: Answer count mismatch: 4 != 8
+Error executing query 157: Invalid expression / Unexpected token. Line 1, Col: 871.
+   where func_vqa("is any abnormality identified?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['null']
+Error executing query 158: Unexpected answer type: <class 'str'>
+Error executing query 160: Invalid expression / Unexpected token. Line 1, Col: 994.
+  1 23:59:00','start of year','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and t1.hadm_id = t2.hadm_id
+['null']
+Error executing query 161: Unexpected answer type: <class 'str'>
+Error executing query 162: Invalid expression / Unexpected token. Line 1, Col: 736.
+  id = 18380697 ) and strftime('%Y',prescriptions.starttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 166: Answer count mismatch: 4 != 2
+['null']
+Error executing query 167: Unexpected answer type: <class 'str'>
+Error executing query 168: Invalid expression / Unexpected token. Line 1, Col: 938.
+  etime('2105-12-31 23:59:00','-2 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and t1.hadm_id = t2.hadm_id
+Error executing query 169: Answer count mismatch: 4 != 5
+['null']
+Error executing query 170: Unexpected answer type: <class 'str'>
+Error executing query 171: Answer count mismatch: 4 != 5
+Error executing query 172: Expecting ). Line 1, Col: 645.
+  '%Y',prescriptions.starttime) = '2103' ) as t2 on t1.subject_id = t2.subject_id where t1.starttime  [4mt2[24m.starttime and t1.hadm_id = t2.hadm_id group by t2.drug ) as t3 where t3.c1 = 5
+['null']
+Error executing query 173: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 175: Unexpected answer type: <class 'str'>
+Error executing query 176: Answer count mismatch: 4 != 8
+['null']
+Error executing query 177: Unexpected answer type: <class 'str'>
+Error executing query 178: Invalid expression / Unexpected token. Line 1, Col: 876.
+  s.dischtime is not null order by admissions.admittime asc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 179: Answer count mismatch: 4 != 14
+Error executing query 180: Answer count mismatch: 4 != 32
+['null']
+Error executing query 181: Unexpected answer type: <class 'str'>
+Error executing query 183: Answer count mismatch: 4 != 2
+Error executing query 184: Invalid expression / Unexpected token. Line 1, Col: 930.
+  t x-ray show any abnormality in the right lung?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['null']
+Error executing query 186: Unexpected answer type: <class 'str'>
+Error executing query 188: Invalid expression / Unexpected token. Line 1, Col: 829.
+  iple masses/nodules in the right mid lung zone?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 189: Expecting ). Line 1, Col: 665.
+  ogyevents.hadm_id = admissions.hadm_id ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month') gro
+Error executing query 190: Invalid expression / Unexpected token. Line 1, Col: 887.
+  id = 15467362 ) and strftime('%Y',diagnoses_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 192: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 194: Unexpected answer type: <class 'str'>
+Error executing query 195: Invalid expression / Unexpected token. Line 1, Col: 925.
+  1 23:59:00','start of year','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 196: Invalid expression / Unexpected token. Line 1, Col: 758.
+  y any abnormality in the right upper lung zone?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['null']
+Error executing query 197: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 198: Unexpected answer type: <class 'str'>
+Error executing query 199: Answer count mismatch: 4 != 2
+['null']
+Error executing query 200: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 202: Unexpected answer type: <class 'str'>
+Error executing query 204: Invalid expression / Unexpected token. Line 1, Col: 935.
+  agnoses_icd.charttime) >= datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 207: Unexpected answer type: <class 'str'>
+Error executing query 208: Answer count mismatch: 4 != 2
+Error executing query 209: Answer count mismatch: 4 != 8
+Error executing query 210: Expecting ). Line 1, Col: 852.
+  etime('2105-12-31 23:59:00','-3 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 211: Invalid expression / Unexpected token. Line 1, Col: 960.
+  dures_icd.charttime) >= datetime('2105-12-31 23:59:00','-33 month') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 212: Unexpected answer type: <class 'str'>
+Error executing query 215: Expecting ). Line 1, Col: 953.
+  '%Y',prescriptions.starttime) = '2100' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.starttime and t1.hadm_id = t2.hadm_id group by t2.drug ) as t3 where t3.c1 = 5
+['null']
+Error executing query 216: Unexpected answer type: <class 'str'>
+Error executing query 217: Expecting ). Line 1, Col: 509.
+  criptions.hadm_id = admissions.hadm_id ) as t2 on t1.subject_id = t2.subject_id where t1.starttime  [4mt2[24m.starttime and datetime(t2.starttime) between datetime(t1.starttime) and datetime(t1.starttime,'+2 m
+Error executing query 218: Invalid expression / Unexpected token. Line 1, Col: 731.
+  id = 19970078 ) and strftime('%Y',prescriptions.starttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 219: Answer count mismatch: 4 != 32
+Error executing query 221: Answer count mismatch: 4 != 16
+['null']
+Error executing query 222: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 223: Unexpected answer type: <class 'str'>
+Error executing query 224: Answer count mismatch: 4 != 2
+Error executing query 225: Expecting ). Line 1, Col: 964.
+  ere prescriptions.drug = 'finasteride' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[24m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+Error executing query 233: Invalid expression / Unexpected token. Line 1, Col: 620.
+  _vqa("is any devices observed on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['null']
+Error executing query 235: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 237: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 238: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 239: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 240: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 241: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 242: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 243: Unexpected answer type: <class 'str'>
+Error executing query 244: Answer count mismatch: 4 != 17
+Error executing query 245: Answer count mismatch: 4 != 11
+Error executing query 246: Invalid expression / Unexpected token. Line 1, Col: 810.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 247: Answer count mismatch: 4 != 5
+['null']
+Error executing query 248: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 249: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 250: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 252: Unexpected answer type: <class 'str'>
+Error executing query 253: Answer count mismatch: 4 != 14
+Error executing query 254: near "(": syntax error
+Error executing query 255: Invalid expression / Unexpected token. Line 1, Col: 746.
+   observed in the right atrium on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['null']
+Error executing query 256: Unexpected answer type: <class 'str'>
+Error executing query 257: Answer count mismatch: 4 != 9
+['null']
+Error executing query 258: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 259: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 260: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 261: Unexpected answer type: <class 'str'>
+Error executing query 262: Invalid expression / Unexpected token. Line 1, Col: 903.
+  vqa("is any abnormality shown on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['null']
+Error executing query 263: Unexpected answer type: <class 'str'>
+Error executing query 265: Answer count mismatch: 4 != 2
+['null']
+Error executing query 266: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 267: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 268: Unexpected answer type: <class 'str'>
+Error executing query 269: Unexpected answer type: <class 'str'>
+Error executing query 270: Answer count mismatch: 4 != 32
+Error executing query 271: Answer count mismatch: 4 != 5
+Error executing query 272: Invalid expression / Unexpected token. Line 1, Col: 727.
+  id = 11685699 ) and strftime('%Y',prescriptions.starttime) = '2105' ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 273: Answer count mismatch: 4 != 6
+Error executing query 274: Expecting ). Line 1, Col: 904.
+  etime('2105-12-31 23:59:00','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month') gro
+Error executing query 275: Invalid expression / Unexpected token. Line 1, Col: 885.
+  x-ray reveal bone lesion in the right clavicle?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 276: Answer count mismatch: 4 != 3
+Error executing query 278: Invalid expression / Unexpected token. Line 1, Col: 750.
+  ns.hadm_id from admissions where admissions.subject_id = 17087118 ) ) as t3 where t1.studydatetime  [4mt3[24m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['null']
+Error executing query 280: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 282: Unexpected answer type: <class 'str'>
+Error executing query 284: Invalid expression / Unexpected token. Line 1, Col: 949.
+  1 23:59:00','start of year','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+Error executing query 286: Answer count mismatch: 4 != 2
+['null']
+Error executing query 287: Unexpected answer type: <class 'str'>
+Error executing query 289: Invalid expression / Unexpected token. Line 1, Col: 759.
+   calcified nodule in the right lower lung zone?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 290: Invalid expression / Unexpected token. Line 1, Col: 650.
+  ns.hadm_id from admissions where admissions.subject_id = 15689544 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['null']
+Error executing query 291: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 292: Unexpected answer type: <class 'str'>
+Error executing query 294: Answer count mismatch: 4 != 5
+['null']
+Error executing query 296: Unexpected answer type: <class 'str'>
+Error executing query 297: Answer count mismatch: 4 != 32
+Error executing query 298: Answer count mismatch: 4 != 7
+['null']
+Error executing query 299: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 303: Unexpected answer type: <class 'str'>
+Error executing query 304: Invalid expression / Unexpected token. Line 1, Col: 848.
+  d = 13411278 ) and strftime('%Y',procedures_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 305: Unexpected answer type: <class 'str'>
+Error executing query 307: Expecting ). Line 1, Col: 898.
+  %Y',prescriptions.starttime) >= '2103' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.starttime and t1.hadm_id = t2.hadm_id group by t2.drug ) as t3 where t3.c1 = 5
+Error executing query 309: Invalid expression / Unexpected token. Line 1, Col: 1025.
+   year') = datetime('2105-12-31 23:59:00','start of year','-1 year') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 311: Answer count mismatch: 4 != 5
+Error executing query 313: Answer count mismatch: 4 != 16
+['null']
+Error executing query 315: Unexpected answer type: <class 'str'>
+Error executing query 316: near "(": syntax error
+['null']
+Error executing query 317: Unexpected answer type: <class 'str'>
+Error executing query 319: Answer count mismatch: 4 != 32
+Error executing query 321: Answer count mismatch: 4 != 2
+Error executing query 322: Answer count mismatch: 4 != 5
+Error executing query 323: Answer count mismatch: 4 != 32
+['null']
+Error executing query 327: Unexpected answer type: <class 'str'>
+Error executing query 328: Answer count mismatch: 4 != 10
+['null']
+Error executing query 330: Unexpected answer type: <class 'str'>
+Error executing query 331: Answer count mismatch: 4 != 12
+Error executing query 333: Invalid expression / Unexpected token. Line 1, Col: 1042.
+   in the right lower lung zone on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 335: Answer count mismatch: 4 != 10
+Error executing query 336: Invalid expression / Unexpected token. Line 1, Col: 985.
+   year') = datetime('2105-12-31 23:59:00','start of year','-1 year') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 337: Unexpected answer type: <class 'str'>
+Error executing query 338: Answer count mismatch: 4 != 2
+Error executing query 339: Expecting ). Line 1, Col: 824.
+  etime('2105-12-31 23:59:00','-3 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['null']
+Error executing query 341: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 343: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 347: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 348: Unexpected answer type: <class 'str'>
+[False]
+['null']
+Error executing query 350: Unexpected answer type: <class 'str'>
+Error executing query 351: Invalid expression / Unexpected token. Line 1, Col: 733.
+  unc_vqa("is a chest x-ray showing infiltration?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 352: Answer count mismatch: 4 != 32
+['null']
+Error executing query 356: Unexpected answer type: <class 'str'>
+Error executing query 357: Answer count mismatch: 4 != 10
+['null']
+Error executing query 358: Unexpected answer type: <class 'str'>
+Error executing query 359: Invalid expression / Unexpected token. Line 1, Col: 995.
+   year') = datetime('2105-12-31 23:59:00','start of year','-0 year') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 360: Answer count mismatch: 4 != 9
+['null']
+Error executing query 361: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 363: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 365: Unexpected answer type: <class 'str'>
+Error executing query 366: Invalid expression / Unexpected token. Line 1, Col: 764.
+  etime('2105-12-31 23:59:00','-5 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 367: Invalid expression / Unexpected token. Line 1, Col: 735.
+  ion of four or more vascular stents' ) ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['null']
+Error executing query 368: Unexpected answer type: <class 'str'>
+Error executing query 369: Answer count mismatch: 4 != 10
+Error executing query 370: Answer count mismatch: 4 != 32
+Error executing query 372: Answer count mismatch: 4 != 19
+['null']
+Error executing query 373: Unexpected answer type: <class 'str'>
+Error executing query 374: Answer count mismatch: 4 != 2
+Error executing query 375: Answer count mismatch: 4 != 13
+Error executing query 376: Answer count mismatch: 4 != 6
+['null']
+Error executing query 378: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 379: Unexpected answer type: <class 'str'>
+Error executing query 381: Expecting ). Line 1, Col: 883.
+  %Y',procedures_icd.charttime) = '2104' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and t1.hadm_id = t2.hadm_id group by t2.icd_code ) as t3 where t3.c1 = 5 )
+Error executing query 383: Answer count mismatch: 4 != 9
+Error executing query 385: Invalid expression / Unexpected token. Line 1, Col: 936.
+  agnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-3 month') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 386: Unexpected answer type: <class 'str'>
+Error executing query 387: Invalid expression / Unexpected token. Line 1, Col: 801.
+  ray indicate any abnormality in the right lung?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 389: Answer count mismatch: 4 != 2
+Error executing query 391: Answer count mismatch: 4 != 3
+['null']
+Error executing query 395: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 397: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 398: Unexpected answer type: <class 'str'>
+Error executing query 400: Answer count mismatch: 4 != 9
+['null']
+Error executing query 401: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 405: Unexpected answer type: <class 'str'>
+Error executing query 407: Answer count mismatch: 4 != 2
+['null']
+Error executing query 408: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 409: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 410: Unexpected answer type: <class 'str'>
+Error executing query 412: Invalid expression / Unexpected token. Line 1, Col: 881.
+   shoulder osteoarthritis in the right shoulder?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['null']
+Error executing query 413: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 415: Unexpected answer type: <class 'str'>
+Error executing query 416: Invalid expression / Unexpected token. Line 1, Col: 971.
+  y reveal mass/nodule (not otherwise specified)?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 418: Expecting ). Line 1, Col: 780.
+  dures_icd.hadm_id = admissions.hadm_id ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and t1.hadm_id = t2.hadm_id group by t2.icd_code ) as t3 where t3.c1 = 4 )
+['null']
+Error executing query 421: Unexpected answer type: <class 'str'>
+Error executing query 423: Invalid expression / Unexpected token. Line 1, Col: 734.
+  id = 10681061 ) and strftime('%Y',prescriptions.starttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 424: Unexpected answer type: <class 'str'>
+Error executing query 425: Invalid expression / Unexpected token. Line 1, Col: 895.
+  a("does a chest x-ray indicate any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['null']
+Error executing query 426: Unexpected answer type: <class 'str'>
+Error executing query 427: Answer count mismatch: 4 != 3
+Error executing query 428: Answer count mismatch: 4 != 8
+['null']
+Error executing query 429: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 433: Unexpected answer type: <class 'str'>
+Error executing query 435: Invalid expression / Unexpected token. Line 1, Col: 732.
+  ns.hadm_id from admissions where admissions.subject_id = 15234578 ) ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 437: Expecting ). Line 1, Col: 649.
+  '%Y',prescriptions.starttime) = '2104' ) as t2 on t1.subject_id = t2.subject_id where t1.starttime  [4mt2[24m.starttime and t1.hadm_id = t2.hadm_id group by t2.drug ) as t3 where t3.c1 = 5
+Error executing query 438: Invalid expression / Unexpected token. Line 1, Col: 775.
+  ns.hadm_id from admissions where admissions.subject_id = 15346117 ) ) as t3 where t1.studydatetime  [4mt3[24m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['null']
+Error executing query 439: Unexpected answer type: <class 'str'>
+Error executing query 440: near "(": syntax error
+['null']
+Error executing query 441: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 442: Unexpected answer type: <class 'str'>
+Error executing query 443: Invalid expression / Unexpected token. Line 1, Col: 880.
+  s.dischtime is not null order by admissions.admittime asc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 444: Invalid expression / Unexpected token. Line 1, Col: 841.
+  ns.hadm_id from admissions where admissions.subject_id = 11131026 ) ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 447: Expecting ). Line 1, Col: 786.
+  ender = 'f' ) and admissions.age >= 60 ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.starttime and t1.hadm_id = t2.hadm_id group by t2.drug ) as t3 where t3.c1 = 5
+Error executing query 448: Answer count mismatch: 4 != 10
+Error executing query 449: Answer count mismatch: 4 != 32
+Error executing query 450: Answer count mismatch: 4 != 32
+Error executing query 452: Answer count mismatch: 4 != 2
+Error executing query 453: Unexpected answer type: <class 'str'>
+Error executing query 454: Invalid expression / Unexpected token. Line 1, Col: 945.
+  ocedures_icd.charttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 455: Answer count mismatch: 4 != 3
+Error executing query 457: Answer count mismatch: 4 != 17
+Error executing query 459: Answer count mismatch: 4 != 5
+['null']
+Error executing query 460: Unexpected answer type: <class 'str'>
+Error executing query 461: Expecting ). Line 1, Col: 794.
+  of the jaws' ) ) as t2 join admissions on t2.subject_id = admissions.subject_id where t2.charttime  [4madmissions[24m.admittime and datetime(admissions.admittime) between datetime(t2.charttime) and datetime(t2.chartti
+['null']
+Error executing query 462: Unexpected answer type: <class 'str'>
+Error executing query 463: Invalid expression / Unexpected token. Line 1, Col: 895.
+  id = 15584605 ) and strftime('%Y',diagnoses_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 464: Invalid expression / Unexpected token. Line 1, Col: 955.
+  cedures_icd.charttime) = datetime('2105-12-31 23:59:00','-2 month') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 465: Invalid expression / Unexpected token. Line 1, Col: 863.
+  e func_vqa("has an x-ray indicated lung lesion?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['null']
+Error executing query 466: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 467: Unexpected answer type: <class 'str'>
+Error executing query 468: Expecting ). Line 1, Col: 880.
+  1 23:59:00','start of year','-0 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['null']
+Error executing query 469: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 470: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 471: Unexpected answer type: <class 'str'>
+Error executing query 472: Answer count mismatch: 4 != 15
+Error executing query 473: Invalid expression / Unexpected token. Line 1, Col: 962.
+  1 23:59:00','start of year','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+Error executing query 474: Invalid expression / Unexpected token. Line 1, Col: 825.
+  rated any diseases in the left upper lung zone?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['null']
+Error executing query 475: Unexpected answer type: <class 'str'>
+Error executing query 477: Invalid expression / Unexpected token. Line 1, Col: 868.
+   = 19896759 ) and strftime('%Y',procedures_icd.charttime) >= '2104' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 478: Answer count mismatch: 4 != 7
+['null']
+Error executing query 480: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 482: Unexpected answer type: <class 'str'>
+Error executing query 483: Answer count mismatch: 4 != 5
+['null']
+Error executing query 485: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 486: Unexpected answer type: <class 'str'>
+Error executing query 487: Answer count mismatch: 4 != 3
+['null']
+Error executing query 488: Unexpected answer type: <class 'str'>
+Error executing query 490: Answer count mismatch: 4 != 15
+['null']
+Error executing query 491: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 493: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 494: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 495: Unexpected answer type: <class 'str'>
+Error executing query 496: Answer count mismatch: 4 != 2
+Error executing query 497: Expecting ). Line 1, Col: 896.
+  etime('2105-12-31 23:59:00','-4 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and t1.hadm_id = t2.hadm_id group by t2.itemid ) as t3 where t3.c1 = 4 )
+['null']
+Error executing query 498: Unexpected answer type: <class 'str'>
+Error executing query 499: Invalid expression / Unexpected token. Line 1, Col: 919.
+  edures_icd.charttime) >= datetime('2105-12-31 23:59:00','-1 month') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 500: Invalid expression / Unexpected token. Line 1, Col: 918.
+  t x-ray detecting pleural/parenchymal scarring?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 502: Invalid expression / Unexpected token. Line 1, Col: 895.
+   indication of tortuous aorta on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['null']
+Error executing query 503: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 504: Unexpected answer type: <class 'str'>
+Error executing query 506: near "(": syntax error
+['null']
+Error executing query 507: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 508: Unexpected answer type: <class 'str'>
+Error executing query 509: Answer count mismatch: 4 != 3
+['null']
+Error executing query 510: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 511: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 512: Unexpected answer type: <class 'str'>
+Error executing query 513: Answer count mismatch: 4 != 5
+Error executing query 515: Answer count mismatch: 4 != 3
+Error executing query 516: Answer count mismatch: 4 != 32
+Error executing query 517: Answer count mismatch: 4 != 14
+['null']
+Error executing query 518: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 519: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 520: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 522: Unexpected answer type: <class 'str'>
+Error executing query 525: Answer count mismatch: 4 != 3
+Error executing query 526: Answer count mismatch: 4 != 2
+Error executing query 527: Answer count mismatch: 4 != 32
+Error executing query 528: Invalid expression / Unexpected token. Line 1, Col: 904.
+  vqa("is any abnormality shown on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 530: Invalid expression / Unexpected token. Line 1, Col: 881.
+  566805 ) and strftime('%Y-%m',diagnoses_icd.charttime) >= '2104-09' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 533: Unexpected answer type: <class 'str'>
+Error executing query 535: Answer count mismatch: 4 != 32
+Error executing query 536: Invalid expression / Unexpected token. Line 1, Col: 798.
+  st x-ray indicate pleural/parenchymal scarring?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 537: Invalid expression / Unexpected token. Line 1, Col: 637.
+  ns.hadm_id from admissions where admissions.subject_id = 17328792 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 538: Answer count mismatch: 4 != 6
+['null']
+Error executing query 539: Unexpected answer type: <class 'str'>
+Error executing query 540: Invalid expression / Unexpected token. Line 1, Col: 757.
+  n pneumothorax in the right costophrenic angle?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['null']
+Error executing query 541: Unexpected answer type: <class 'str'>
+Error executing query 542: Answer count mismatch: 4 != 32
+['null']
+Error executing query 543: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 544: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 546: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 548: Unexpected answer type: <class 'str'>
+Error executing query 552: Answer count mismatch: 4 != 32
+Error executing query 553: Invalid expression / Unexpected token. Line 1, Col: 783.
+  ns.hadm_id from admissions where admissions.subject_id = 14623286 ) ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 554: Answer count mismatch: 4 != 32
+Error executing query 555: Answer count mismatch: 4 != 2
+['null']
+Error executing query 556: Unexpected answer type: <class 'str'>
+Error executing query 557: Invalid expression / Unexpected token. Line 1, Col: 917.
+  a("does an x-ray reveal vascular calcification?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 558: Invalid expression / Unexpected token. Line 1, Col: 796.
+  e any abnormality in the right lower lung zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['null']
+Error executing query 560: Unexpected answer type: <class 'str'>
+Error executing query 561: Invalid expression / Unexpected token. Line 1, Col: 1031.
+  s.dischtime is not null order by admissions.admittime asc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 565: Invalid expression / Unexpected token. Line 1, Col: 879.
+  ng any abnormality in the left upper lung zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['null']
+Error executing query 566: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 567: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 568: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 571: Unexpected answer type: <class 'str'>
+Error executing query 572: Expecting ). Line 1, Col: 967.
+  etime('2105-12-31 23:59:00','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month') gro
+Error executing query 573: Answer count mismatch: 4 != 2
+Error executing query 576: Invalid expression / Unexpected token. Line 1, Col: 777.
+  ns.hadm_id from admissions where admissions.subject_id = 18380697 ) ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 577: Unexpected answer type: <class 'str'>
+Error executing query 580: Answer count mismatch: 4 != 3
+Error executing query 581: Invalid expression / Unexpected token. Line 1, Col: 797.
+  est x-ray indicate any any anatomical findings?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['null']
+Error executing query 582: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 583: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 585: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 586: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 588: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 589: Unexpected answer type: <class 'str'>
+Error executing query 591: near "(": syntax error
+['null']
+Error executing query 593: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 594: Unexpected answer type: <class 'str'>
+Error executing query 596: Invalid expression / Unexpected token. Line 1, Col: 880.
+  .dischtime is not null order by admissions.admittime desc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 598: Expecting ). Line 1, Col: 971.
+  %Y',diagnoses_icd.charttime) >= '2104' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['null']
+Error executing query 599: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 600: Unexpected answer type: <class 'str'>
+Error executing query 601: Invalid expression / Unexpected token. Line 1, Col: 786.
+  1468671 ) and strftime('%Y-%m',prescriptions.starttime) = '2102-01' ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 602: Unexpected answer type: <class 'str'>
+Error executing query 603: Answer count mismatch: 4 != 7
+Error executing query 604: Answer count mismatch: 4 != 32
+Error executing query 605: Answer count mismatch: 4 != 2
+['null']
+Error executing query 608: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 609: Unexpected answer type: <class 'str'>
+Error executing query 610: Answer count mismatch: 4 != 32
+['null']
+Error executing query 611: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 612: Unexpected answer type: <class 'str'>
+Error executing query 617: Invalid expression / Unexpected token. Line 1, Col: 892.
+  d = 13506966 ) and strftime('%Y',procedures_icd.charttime) = '2105' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 620: Unexpected answer type: <class 'str'>
+Error executing query 621: Answer count mismatch: 4 != 32
+Error executing query 622: Invalid expression / Unexpected token. Line 1, Col: 891.
+  55097 ) and strftime('%Y-%m',procedures_icd.charttime) >= '2104-08' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 624: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 625: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 626: Unexpected answer type: <class 'str'>
+Error executing query 627: Invalid expression / Unexpected token. Line 1, Col: 913.
+  id = 18380697 ) and strftime('%Y',diagnoses_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 629: Unexpected answer type: <class 'str'>
+Error executing query 630: Invalid expression / Unexpected token. Line 1, Col: 859.
+  a("does a chest x-ray indicate any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 631: Answer count mismatch: 4 != 32
+Error executing query 633: Expecting ). Line 1, Col: 1215.
+  year') = datetime('2105-12-31 23:59:00','start of year','-0 year') and strftime('%m',procedures_icd.[4mchart
+['null']
+Error executing query 634: Unexpected answer type: <class 'str'>
+Error executing query 635: Answer count mismatch: 4 != 5
+Error executing query 636: Invalid expression / Unexpected token. Line 1, Col: 852.
+  2140106 ) and strftime('%Y-%m',diagnoses_icd.charttime) = '2104-05' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 637: Invalid expression / Unexpected token. Line 1, Col: 777.
+  g of any diseases in the neck on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['null']
+Error executing query 640: Unexpected answer type: <class 'str'>
+Error executing query 641: Answer count mismatch: 4 != 32
+['null']
+Error executing query 642: Unexpected answer type: <class 'str'>
+Error executing query 643: Invalid expression / Unexpected token. Line 1, Col: 856.
+  d = 16827631 ) and strftime('%Y',diagnoses_icd.charttime) >= '2104' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 644: Answer count mismatch: 4 != 2
+Error executing query 645: Invalid expression / Unexpected token. Line 1, Col: 831.
+  ("is the chest x-ray revealing any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 647: Invalid expression / Unexpected token. Line 1, Col: 813.
+  rescriptions.starttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 648: Invalid expression / Unexpected token. Line 1, Col: 751.
+   any anatomical findings in the right clavicle?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 649: Invalid expression / Unexpected token. Line 1, Col: 736.
+  chest x-ray indicate any technical assessments?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['null']
+Error executing query 650: Unexpected answer type: <class 'str'>
+Error executing query 651: Expecting ). Line 1, Col: 856.
+  etime('2105-12-31 23:59:00','-3 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month') gro
+['null']
+Error executing query 652: Unexpected answer type: <class 'str'>
+Error executing query 653: Invalid expression / Unexpected token. Line 1, Col: 891.
+  func_vqa("does an x-ray reveal any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['null']
+Error executing query 654: Unexpected answer type: <class 'str'>
+Error executing query 655: Answer count mismatch: 4 != 9
+['null']
+Error executing query 656: Unexpected answer type: <class 'str'>
+Error executing query 657: Invalid expression / Unexpected token. Line 1, Col: 726.
+  qa("does a chest x-ray reveal any any diseases?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 659: Invalid expression / Unexpected token. Line 1, Col: 988.
+   year') = datetime('2105-12-31 23:59:00','start of year','-1 year') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['null']
+Error executing query 661: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 662: Unexpected answer type: <class 'str'>
+Error executing query 664: Answer count mismatch: 4 != 32
+Error executing query 665: Invalid expression / Unexpected token. Line 1, Col: 878.
+  398283 ) and strftime('%Y-%m',procedures_icd.charttime) = '2104-08' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 666: Answer count mismatch: 4 != 32
+Error executing query 667: Answer count mismatch: 4 != 32
+Error executing query 668: Answer count mismatch: 4 != 14
+Error executing query 669: Answer count mismatch: 4 != 32
+['null']
+Error executing query 670: Unexpected answer type: <class 'str'>
+Error executing query 671: Invalid expression / Unexpected token. Line 1, Col: 749.
+  id = 18136887 ) and strftime('%Y',prescriptions.starttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['null']
+Error executing query 672: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 673: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 674: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 677: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 678: Unexpected answer type: <class 'str'>
+Error executing query 679: Answer count mismatch: 4 != 8
+Error executing query 680: Answer count mismatch: 4 != 32
+['null']
+Error executing query 684: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 685: Unexpected answer type: <class 'str'>
+Error executing query 687: Invalid expression / Unexpected token. Line 1, Col: 769.
+  how any any abnormality in the left chest wall?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['null']
+Error executing query 688: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 690: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 691: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 693: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 694: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 695: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 696: Unexpected answer type: <class 'str'>
+Error executing query 699: Answer count mismatch: 4 != 15
+Error executing query 700: Invalid expression / Unexpected token. Line 1, Col: 973.
+  nstrated any tubes/lines in the right shoulder?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 701: Invalid expression / Unexpected token. Line 1, Col: 660.
+  ns.hadm_id from admissions where admissions.subject_id = 18044092 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['null']
+Error executing query 702: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 703: Unexpected answer type: <class 'str'>
+Error executing query 704: Invalid expression / Unexpected token. Line 1, Col: 632.
+  ns.hadm_id from admissions where admissions.subject_id = 16807878 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 705: Expecting ). Line 1, Col: 674.
+  ons.hadm_id where admissions.age >= 60 ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.starttime and t1.hadm_id = t2.hadm_id group by t2.drug ) as t3 where t3.c1 = 4
+Error executing query 706: Answer count mismatch: 4 != 2
+Error executing query 707: Answer count mismatch: 4 != 7
+Error executing query 708: Expecting ). Line 1, Col: 920.
+  etime('2105-12-31 23:59:00','-2 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month') gro
+Error executing query 709: Answer count mismatch: 4 != 3
+['null']
+Error executing query 711: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 712: Unexpected answer type: <class 'str'>
+Error executing query 713: Answer count mismatch: 4 != 5
+Error executing query 715: Answer count mismatch: 4 != 32
+Error executing query 717: Answer count mismatch: 4 != 32
+Error executing query 718: Answer count mismatch: 4 != 2
+Error executing query 719: Invalid expression / Unexpected token. Line 1, Col: 877.
+   year') = datetime('2105-12-31 23:59:00','start of year','-1 year') ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 720: Answer count mismatch: 4 != 10
+Error executing query 724: Invalid expression / Unexpected token. Line 1, Col: 745.
+  ns.hadm_id from admissions where admissions.subject_id = 10938464 ) ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['null']
+Error executing query 726: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 727: Unexpected answer type: <class 'str'>
+Error executing query 728: Invalid expression / Unexpected token. Line 1, Col: 978.
+  f costophrenic angle blunting on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 729: Answer count mismatch: 4 != 11
+Error executing query 732: Invalid expression / Unexpected token. Line 1, Col: 889.
+  does a chest x-ray show elevated hemidiaphragm?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 733: Invalid expression / Unexpected token. Line 1, Col: 947.
+  1 23:59:00','start of year','-0 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and t1.hadm_id = t2.hadm_id
+Error executing query 734: Invalid expression / Unexpected token. Line 1, Col: 629.
+  ns.hadm_id from admissions where admissions.subject_id = 16922420 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 735: Expecting ). Line 1, Col: 872.
+  '%Y',diagnoses_icd.charttime) = '2104' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month') gro
+['null']
+Error executing query 736: Unexpected answer type: <class 'str'>
+Error executing query 737: Invalid expression / Unexpected token. Line 1, Col: 851.
+  t x-ray indicate any abnormality in the carina?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 738: Invalid expression / Unexpected token. Line 1, Col: 875.
+  431875 ) and strftime('%Y-%m',diagnoses_icd.charttime) >= '2103-12' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 739: Invalid expression / Unexpected token. Line 1, Col: 725.
+  d = 12712004 ) and strftime('%Y',prescriptions.starttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 740: Answer count mismatch: 4 != 15
+['null']
+Error executing query 743: Unexpected answer type: <class 'str'>
+Error executing query 744: Invalid expression / Unexpected token. Line 1, Col: 1122.
+  nth') = datetime('2105-12-31 23:59:00','start of month','-0 month') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and t1.hadm_id = t3.hadm_id
+['null']
+Error executing query 745: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 746: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 751: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 752: Unexpected answer type: <class 'str'>
+Error executing query 754: Invalid expression / Unexpected token. Line 1, Col: 716.
+  ns.hadm_id from admissions where admissions.subject_id = 12408912 ) ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 755: Expecting ). Line 1, Col: 918.
+  1 23:59:00','start of year','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and t1.hadm_id = t2.hadm_id group by t2.test_name ) as t3 where t3.c1 = 3
+Error executing query 756: Expecting ). Line 1, Col: 1031.
+  olume ( dialysis/pheresis catheters )' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[24m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+['null']
+Error executing query 757: Unexpected answer type: <class 'str'>
+Error executing query 758: Answer count mismatch: 4 != 32
+['null']
+Error executing query 759: Unexpected answer type: <class 'str'>
+Error executing query 760: Expecting ). Line 1, Col: 970.
+  ere prescriptions.drug = 'colesevelam' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[24m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+Error executing query 761: near "(": syntax error
+['null']
+Error executing query 762: Unexpected answer type: <class 'str'>
+Error executing query 764: Invalid expression / Unexpected token. Line 1, Col: 1095.
+  agnoses_icd.charttime) >= datetime('2105-12-31 23:59:00','-3 year') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 765: Answer count mismatch: 4 != 6
+Error executing query 766: Answer count mismatch: 4 != 17
+Error executing query 767: Invalid expression / Unexpected token. Line 1, Col: 927.
+   anatomical findings in the left mid lung zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
