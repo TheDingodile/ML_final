@@ -36,10 +36,10 @@ class CustomVQAModule(VQAModule):
         print(prefix)
         tokens, mask_ar, mask_loss, mask_input = self.preprocess_tokens(prefix, None)
         imgs = self.preprocess_image(images)
-        # print(tokens)
-        # print(mask_ar)
-        # print(mask_loss)
-        # print(mask_input)
+        print(tokens)
+        print(mask_ar)
+        print(mask_loss)
+        print(mask_input)
         return imgs, np.asarray(tokens), np.asarray(mask_ar), np.asarray(mask_input)
 
     def postprocess_output(self, raw_output):
