@@ -2381,3 +2381,142 @@ Error executing query 1971: Unexpected answer type: <class 'str'>
 Error executing query 1973: Expecting ). Line 1, Col: 928.
   etime('2105-12-31 23:59:00','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.starttime and datetime(t1.charttime,'start of month') = datetime(t2.starttime,'start of month') gro
 ['null']
+Error executing query 1974: Unexpected answer type: <class 'str'>
+['null']
+Error executing query 1976: Unexpected answer type: <class 'str'>
+Error executing query 1977: Invalid expression / Unexpected token. Line 1, Col: 838.
+  d = 19025961 ) and strftime('%Y',procedures_icd.charttime) = '2103' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Traceback (most recent call last):
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 104, in <module>
+    Defaults.start()
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/dtu/__init__.py", line 235, in start
+    cls.run(*args)
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 69, in run
+    executed_result = run_execution_for_gt_query(executor, parsed_result_gt)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/execute_nsql.py", line 81, in run_execution_for_gt_query
+    result = executor.execute_nsql(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 265, in execute_nsql
+    return self._execute_select_query(query_root, nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 327, in _execute_select_query
+    return self._execute_vqa_subquery(from_clause_node, query_root, nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 358, in _execute_vqa_subquery
+    return self.execute_vqa_function_in_nsql(nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 191, in execute_vqa_function_in_nsql
+    answer_batch = self._execute_vqa_function(image_batch=image_batch, question_batch=question_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 120, in _execute_vqa_function
+    answers = self.vqa_module(image_batch, question_batch)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/visual_module/custom_vqa_module.py", line 81, in __call__
+    text_logits, _ = self.model.apply({"params": self.params}, preprocessed_images, tokenized_questions[:, :-1], mask_ar[:, :-1], train=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/traceback_util.py", line 179, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/linen/module.py", line 2226, in apply
+    return apply(
+           ^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/core/scope.py", line 1101, in wrapper
+    y = fn(root, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/linen/module.py", line 3006, in scope_fn
+    return fn(module.clone(parent=scope, _deep_clone=True), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/linen/module.py", line 701, in wrapped_module_method
+    return self._call_wrapped_method(fun, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/linen/module.py", line 1233, in _call_wrapped_method
+    y = run_fun(self, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/models/proj/paligemma/paligemma.py", line 151, in __call__
+    _, out_llm = self._llm(x, mask=attn_mask, train=train)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/linen/module.py", line 701, in wrapped_module_method
+    return self._call_wrapped_method(fun, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/linen/module.py", line 1233, in _call_wrapped_method
+    y = run_fun(self, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/models/proj/paligemma/gemma_bv.py", line 81, in __call__
+    logits, out = self.model(
+                  ^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/linen/module.py", line 701, in wrapped_module_method
+    return self._call_wrapped_method(fun, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/linen/module.py", line 1233, in _call_wrapped_method
+    y = run_fun(self, *args, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/models/ppp/gemma.py", line 452, in __call__
+    x, unused_scan_arg = block(
+                         ^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/linen/transforms.py", line 378, in wrapped_fn
+    ret = trafo_fn(module_scopes, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/core/lift.py", line 325, in wrapper
+    y, out_variable_groups_xs_t = fn(
+                                  ^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/core/lift.py", line 1028, in inner
+    broadcast_vars, (carry_vars, c), (ys, scan_vars) = scanned(
+                                                       ^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/flax/core/axes_scan.py", line 165, in scan_fn
+    c, ys = lax.scan(
+            ^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/traceback_util.py", line 179, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/lax/control_flow/loops.py", line 288, in scan
+    out = scan_p.bind(*consts, *in_flat,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/lax/control_flow/loops.py", line 1280, in scan_bind
+    return core.AxisPrimitive.bind(scan_p, *args, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/core.py", line 2789, in bind
+    return self.bind_with_trace(top_trace, args, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/core.py", line 391, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/core.py", line 879, in process_primitive
+    return primitive.impl(*tracers, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/dispatch.py", line 86, in apply_primitive
+    outs = fun(*args)
+           ^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/traceback_util.py", line 179, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/pjit.py", line 304, in cache_miss
+    outs, out_flat, out_tree, args_flat, jaxpr, attrs_tracked = _python_pjit_helper(
+                                                                ^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/pjit.py", line 181, in _python_pjit_helper
+    out_flat = pjit_p.bind(*args_flat, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/core.py", line 2789, in bind
+    return self.bind_with_trace(top_trace, args, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/core.py", line 391, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/core.py", line 879, in process_primitive
+    return primitive.impl(*tracers, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/pjit.py", line 1525, in _pjit_call_impl
+    return xc._xla.pjit(
+           ^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/pjit.py", line 1508, in call_impl_cache_miss
+    out_flat, compiled = _pjit_call_impl_python(
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/pjit.py", line 1462, in _pjit_call_impl_python
+    return compiled.unsafe_call(*args), compiled
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/profiler.py", line 335, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/jax/_src/interpreters/pxla.py", line 1185, in __call__
+    results = self.xla_executable.execute_sharded(input_bufs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
