@@ -6,12 +6,8 @@
         "venous catheterization, not elsewhere classified",
         "central venous catheter placement with guidance"
     ],
-    "3": [
-        false
-    ],
-    "4": [
-        1
-    ],
+    "3": "null",
+    "4": "null",
     "5": "null",
     "6": [
         877.553649
@@ -34,13 +30,1390 @@
     ],
     "13": "null",
     "14": "null",
-    "15": [
-        true
-    ],
+    "15": "null",
     "16": "null",
     "17": [
         "platelet count"
     ],
     "18": "null",
-    "19": "null"
+    "19": "null",
+    "20": "null",
+    "21": "null",
+    "22": [
+        0.697222
+    ],
+    "23": "null",
+    "24": [
+        1.1
+    ],
+    "25": "null",
+    "26": [
+        "2105-12-31 18:56:00"
+    ],
+    "27": [
+        1
+    ],
+    "28": "null",
+    "29": "null",
+    "30": "null",
+    "31": [
+        "0.9% sodium chloride",
+        "acetaminophen",
+        "albuterol inhaler",
+        "atenolol",
+        "chlorhexidine gluconate 0.12% oral rinse",
+        "diazepam",
+        "docusate sodium",
+        "gabapentin",
+        "insulin",
+        "milk of magnesia",
+        "nicotine patch",
+        "ondansetron",
+        "sodium chloride 0.9%  flush",
+        "sw",
+        "tacrolimus",
+        "sodium phosphate",
+        "sodium polystyrene sulfonate",
+        "albuterol 0.083% neb soln",
+        "ceftriaxone",
+        "enoxaparin sodium",
+        "fluticasone-salmeterol diskus (250/50)",
+        "gabapentin",
+        "insulin",
+        "lorazepam",
+        "ondansetron",
+        "potassium chloride",
+        "sevelamer carbonate",
+        "sodium chloride 0.9%  flush",
+        "sodium chloride 0.9%  flush",
+        "sterile water",
+        "docusate sodium",
+        "insulin",
+        "loperamide",
+        "acetaminophen",
+        "insulin",
+        "sodium chloride 0.9%  flush",
+        "lactulose"
+    ],
+    "32": "null",
+    "33": "null",
+    "34": "null",
+    "35": "null",
+    "36": [
+        1
+    ],
+    "37": [
+        18.769231
+    ],
+    "38": "null",
+    "39": "null",
+    "40": "null",
+    "41": "null",
+    "42": "null",
+    "43": [
+        0.590278
+    ],
+    "44": "null",
+    "45": "null",
+    "46": [
+        50
+    ],
+    "47": "null",
+    "48": [
+        0
+    ],
+    "49": "null",
+    "50": "null",
+    "51": "null",
+    "52": "null",
+    "53": [
+        1
+    ],
+    "54": [
+        14.0
+    ],
+    "55": [
+        1
+    ],
+    "56": [
+        1
+    ],
+    "57": [
+        "2105-12-20 10:54:00"
+    ],
+    "58": [
+        50.0
+    ],
+    "59": "null",
+    "60": [
+        "gi #1 tube status"
+    ],
+    "61": "null",
+    "62": "null",
+    "63": [
+        "single"
+    ],
+    "64": "null",
+    "65": "null",
+    "66": "null",
+    "67": "null",
+    "68": [
+        "potassium chloride"
+    ],
+    "69": [
+        "urine",
+        "blood culture",
+        "swab",
+        "sputum",
+        "stool"
+    ],
+    "70": [
+        1
+    ],
+    "71": "null",
+    "72": "null",
+    "73": "null",
+    "74": "null",
+    "75": [
+        "unspecified essential hypertension",
+        "coronary atherosclerosis of native coronary artery",
+        "atrial fibrillation",
+        "hyperlipidemia, unspecified",
+        "gastro-esophageal reflux disease without esophagitis",
+        "personal history of nicotine dependence"
+    ],
+    "76": "null",
+    "77": "null",
+    "78": "null",
+    "79": "null",
+    "80": [
+        52
+    ],
+    "81": "null",
+    "82": "null",
+    "83": [
+        "insulin",
+        "0.9% sodium chloride",
+        "potassium chloride",
+        "sodium chloride 0.9%  flush",
+        "furosemide"
+    ],
+    "84": [
+        1
+    ],
+    "85": "null",
+    "86": "null",
+    "87": "null",
+    "88": [
+        "0.9% sodium chloride",
+        "folic acid",
+        "calcium gluconate",
+        "clopidogrel",
+        "magnesium sulfate (ob)",
+        "albuterol 0.083% neb soln",
+        "albuterol 0.083% neb soln"
+    ],
+    "89": "null",
+    "90": "null",
+    "91": [
+        "ew emer."
+    ],
+    "92": [
+        "2105-04-15 08:00:00"
+    ],
+    "93": "null",
+    "94": "null",
+    "95": "null",
+    "96": "null",
+    "97": "null",
+    "98": "null",
+    "99": "null",
+    "100": "null",
+    "101": "null",
+    "102": "null",
+    "103": [
+        "2105-11-02 14:27:00"
+    ],
+    "104": [
+        50
+    ],
+    "105": "null",
+    "106": [
+        "insulin",
+        "0.9% sodium chloride",
+        "potassium chloride",
+        "sodium chloride 0.9%  flush",
+        "furosemide"
+    ],
+    "107": "null",
+    "108": [
+        162.99
+    ],
+    "109": [
+        0
+    ],
+    "110": "null",
+    "111": "null",
+    "112": [
+        "2105-06-01 06:38:00"
+    ],
+    "113": "null",
+    "114": "null",
+    "115": "null",
+    "116": "null",
+    "117": [
+        100
+    ],
+    "118": "null",
+    "119": "null",
+    "120": [
+        "chloride",
+        "potassium",
+        "sodium",
+        "hematocrit"
+    ],
+    "121": [
+        "observation admit"
+    ],
+    "122": "null",
+    "123": "null",
+    "124": [
+        "insertion of infusion device into superior vena cava, percutaneous approach",
+        "spinal tap",
+        "venous catheterization, not elsewhere classified",
+        "coronary arteriography using two catheters",
+        "other nonoperative respiratory measurements"
+    ],
+    "125": "null",
+    "126": "null",
+    "127": [
+        "urine culture",
+        "blood culture, routine",
+        "wound culture",
+        "respiratory culture"
+    ],
+    "128": [
+        "insertion of one vascular stent",
+        "spinal tap"
+    ],
+    "129": "null",
+    "130": "null",
+    "131": "null",
+    "132": "null",
+    "133": "null",
+    "134": "null",
+    "135": "null",
+    "136": [
+        "dextrose 5%",
+        "nacl 0.9%",
+        "solution"
+    ],
+    "137": "null",
+    "138": [
+        "urine culture",
+        "blood culture, routine",
+        "wound culture"
+    ],
+    "139": [
+        1
+    ],
+    "140": "null",
+    "141": "null",
+    "142": [
+        "urine culture",
+        "blood culture, routine",
+        "wound culture"
+    ],
+    "143": [
+        "anxiety state, unspecified",
+        "unspecified essential hypertension",
+        "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage i through stage iv, or unspecified",
+        "other second degree atrioventricular block",
+        "atrial fibrillation",
+        "acute venous embolism and thrombosis of unspecified deep vessels of lower extremity",
+        "calculus of gallbladder without mention of cholecystitis, without mention of obstruction",
+        "type 2 diabetes mellitus without complications",
+        "surgical operation with transplant of whole organ causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",
+        "major depressive disorder, single episode, unspecified",
+        "anxiety disorder, unspecified",
+        "atherosclerotic heart disease of native coronary artery without angina pectoris",
+        "other shock",
+        "need for prophylactic vaccination and inoculation against diphtheria-tetanus-pertussis, combined [dtp] [dtap]",
+        "percutaneous transluminal coronary angioplasty status"
+    ],
+    "144": "null",
+    "145": "null",
+    "146": "null",
+    "147": "null",
+    "148": [
+        "lorazepam"
+    ],
+    "149": "null",
+    "150": "null",
+    "151": "null",
+    "152": [
+        "2020-06-23 00:00:00"
+    ],
+    "153": "null",
+    "154": [
+        79
+    ],
+    "155": [
+        "chloride",
+        "potassium",
+        "hematocrit"
+    ],
+    "156": "null",
+    "157": [
+        884.645524
+    ],
+    "158": "null",
+    "159": "null",
+    "160": "null",
+    "161": [
+        400.0
+    ],
+    "162": [
+        1
+    ],
+    "163": [
+        1
+    ],
+    "164": "null",
+    "165": [
+        "potassium chloride",
+        "magnesium sulfate",
+        "0.9% sodium chloride",
+        "insulin"
+    ],
+    "166": "null",
+    "167": "null",
+    "168": [
+        0
+    ],
+    "169": "null",
+    "170": [
+        67.333335,
+        108.0
+    ],
+    "171": "null",
+    "172": [
+        78.85999
+    ],
+    "173": "null",
+    "174": [
+        "lyme disease",
+        "other and unspecified hyperlipidemia",
+        "thrombocytopenia, unspecified",
+        "other premature beats",
+        "chest pain, unspecified",
+        "closed fracture of three ribs",
+        "accidents occurring in residential institution",
+        "post-traumatic stress disorder, unspecified",
+        "alzheimer's disease, unspecified",
+        "essential (primary) hypertension",
+        "hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",
+        "chronic obstructive pulmonary disease, unspecified",
+        "hepatic failure, unspecified without coma",
+        "nihss score 1",
+        "family history of malignant neoplasm of gastrointestinal tract",
+        "long-term (current) use of steroids",
+        "encounter for immunization",
+        "long term (current) use of antithrombotics/antiplatelets"
+    ],
+    "175": "null",
+    "176": [
+        0
+    ],
+    "177": "null",
+    "178": "null",
+    "179": "null",
+    "180": [
+        "2105-05-03 21:00:00"
+    ],
+    "181": "null",
+    "182": "null",
+    "183": [
+        2
+    ],
+    "184": [
+        "gout, unspecified"
+    ],
+    "185": "null",
+    "186": "null",
+    "187": [
+        60
+    ],
+    "188": [
+        0
+    ],
+    "189": [
+        10.0,
+        75.0
+    ],
+    "190": [
+        "other and unspecified hyperlipidemia",
+        "unspecified essential hypertension",
+        "esophageal reflux",
+        "hyperlipidemia, unspecified",
+        "essential (primary) hypertension"
+    ],
+    "191": [
+        1141.28
+    ],
+    "192": [
+        105.0,
+        65.5
+    ],
+    "193": "null",
+    "194": "null",
+    "195": "null",
+    "196": "null",
+    "197": "null",
+    "198": "null",
+    "199": [
+        1
+    ],
+    "200": [
+        "introduction of nutritional substance into central vein, percutaneous approach"
+    ],
+    "201": [
+        3
+    ],
+    "202": "null",
+    "203": [
+        "other"
+    ],
+    "204": [
+        "dextrose 5%",
+        "nacl 0.9%",
+        "gastric meds",
+        "solution",
+        "po intake"
+    ],
+    "205": "null",
+    "206": "null",
+    "207": [
+        170.0
+    ],
+    "208": "null",
+    "209": "null",
+    "210": [
+        1
+    ],
+    "211": "null",
+    "212": "null",
+    "213": "null",
+    "214": [
+        0
+    ],
+    "215": "null",
+    "216": [
+        "urine culture",
+        "blood culture, routine",
+        "respiratory culture",
+        "wound culture"
+    ],
+    "217": "null",
+    "218": "null",
+    "219": "null",
+    "220": "null",
+    "221": "null",
+    "222": "null",
+    "223": "null",
+    "224": "null",
+    "225": "null",
+    "226": "null",
+    "227": [
+        "2105-10-02 13:06:00"
+    ],
+    "228": [
+        "urine"
+    ],
+    "229": "null",
+    "230": "null",
+    "231": "null",
+    "232": [
+        "urine culture",
+        "blood culture, routine",
+        "wound culture",
+        "respiratory culture"
+    ],
+    "233": "null",
+    "234": "null",
+    "235": "null",
+    "236": "null",
+    "237": [
+        "stool",
+        "urine",
+        "blood culture"
+    ],
+    "238": "null",
+    "239": [
+        "escherichia coli"
+    ],
+    "240": [
+        0
+    ],
+    "241": "null",
+    "242": "null",
+    "243": "null",
+    "244": [
+        "blood culture, routine",
+        "urine culture",
+        "fluid culture"
+    ],
+    "245": [
+        1
+    ],
+    "246": "null",
+    "247": [
+        11.45
+    ],
+    "248": "null",
+    "249": "null",
+    "250": "null",
+    "251": "null",
+    "252": "null",
+    "253": [
+        "0.9% sodium chloride",
+        "magnesium sulfate",
+        "sodium chloride 0.9%  flush",
+        "iso-osmotic sodium chloride",
+        "insulin",
+        "heparin",
+        "acetaminophen"
+    ],
+    "254": "null",
+    "255": "null",
+    "256": "null",
+    "257": "null",
+    "258": "null",
+    "259": [
+        0.314607
+    ],
+    "260": "null",
+    "261": "null",
+    "262": "null",
+    "263": [
+        14975184
+    ],
+    "264": "null",
+    "265": [
+        "nacl 0.9%"
+    ],
+    "266": [
+        297.0
+    ],
+    "267": [
+        "widowed"
+    ],
+    "268": [
+        "bisacodyl",
+        "diltiazem",
+        "docusate sodium",
+        "potassium chloride",
+        "sodium chloride 0.9%",
+        "sodium chloride 0.9%  flush",
+        "zantac",
+        "0.9% sodium chloride",
+        "ondansetron",
+        "psyllium wafer",
+        "tacrolimus",
+        "bag",
+        "nitroglycerin"
+    ],
+    "269": "null",
+    "270": [
+        9
+    ],
+    "271": "null",
+    "272": "null",
+    "273": [
+        2
+    ],
+    "274": "null",
+    "275": "null",
+    "276": [
+        "chloride",
+        "creatinine",
+        "glucose",
+        "sodium",
+        "hematocrit",
+        "hemoglobin"
+    ],
+    "277": [
+        -6.9
+    ],
+    "278": "null",
+    "279": "null",
+    "280": "null",
+    "281": "null",
+    "282": "null",
+    "283": "null",
+    "284": [
+        1365.705585
+    ],
+    "285": "null",
+    "286": [
+        0
+    ],
+    "287": "null",
+    "288": [
+        "2105-01-25 16:13:00"
+    ],
+    "289": "null",
+    "290": "null",
+    "291": "null",
+    "292": "null",
+    "293": "null",
+    "294": "null",
+    "295": [
+        1
+    ],
+    "296": [
+        -4256.152627
+    ],
+    "297": "null",
+    "298": "null",
+    "299": "null",
+    "300": "null",
+    "301": "null",
+    "302": "null",
+    "303": "null",
+    "304": [
+        "magnesium",
+        "potassium",
+        "sodium",
+        "urea nitrogen",
+        "platelet count",
+        "rdw",
+        "red blood cells",
+        "white blood cells"
+    ],
+    "305": "null",
+    "306": "null",
+    "307": "null",
+    "308": "null",
+    "309": "null",
+    "310": "null",
+    "311": "null",
+    "312": "null",
+    "313": [
+        "urine culture",
+        "wound culture",
+        "blood culture, routine"
+    ],
+    "314": "null",
+    "315": "null",
+    "316": "null",
+    "317": "null",
+    "318": "null",
+    "319": "null",
+    "320": "null",
+    "321": [
+        "acute myeloid leukemia, without mention of having achieved remission",
+        "hypopotassemia",
+        "unspecified essential hypertension",
+        "other complications of labor and delivery, delivered, with or without mention of antepartum condition",
+        "ulcer of lower limb, unspecified",
+        "hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",
+        "spinal stenosis, lumbar region",
+        "acquired absence of kidney",
+        "long-term (current) use of aspirin",
+        "unspecified place or not applicable"
+    ],
+    "322": "null",
+    "323": "null",
+    "324": [
+        1
+    ],
+    "325": [
+        15334.94
+    ],
+    "326": "null",
+    "327": "null",
+    "328": [
+        "2105-11-26 15:00:00"
+    ],
+    "329": "null",
+    "330": "null",
+    "331": "null",
+    "332": [
+        11119441
+    ],
+    "333": "null",
+    "334": "null",
+    "335": "null",
+    "336": [
+        1
+    ],
+    "337": "null",
+    "338": "null",
+    "339": "null",
+    "340": "null",
+    "341": "null",
+    "342": [
+        "2105-12-30 00:00:00"
+    ],
+    "343": [
+        "potassium chloride",
+        "insulin",
+        "sodium chloride 0.9%  flush",
+        "acetaminophen"
+    ],
+    "344": "null",
+    "345": "null",
+    "346": "null",
+    "347": [
+        "insulin",
+        "0.9% sodium chloride",
+        "sodium chloride 0.9%  flush",
+        "magnesium sulfate",
+        "furosemide",
+        "acetaminophen",
+        "vial",
+        "sodium chloride 0.9%",
+        "potassium chloride",
+        "pantoprazole",
+        "lactated ringers",
+        "docusate sodium"
+    ],
+    "348": "null",
+    "349": [
+        171.0
+    ],
+    "350": "null",
+    "351": "null",
+    "352": "null",
+    "353": "null",
+    "354": "null",
+    "355": "null",
+    "356": "null",
+    "357": [
+        "physical restraints status"
+    ],
+    "358": "null",
+    "359": "null",
+    "360": "null",
+    "361": [
+        "urine"
+    ],
+    "362": [
+        "insertion of infusion device into superior vena cava, percutaneous approach",
+        "venous catheterization, not elsewhere classified",
+        "extracorporeal circulation auxiliary to open heart surgery",
+        "introduction of nutritional substance into upper gi, via natural or artificial opening",
+        "excision of intervertebral disc",
+        "enteral infusion of concentrated nutritional substances"
+    ],
+    "363": [
+        17910893
+    ],
+    "364": "null",
+    "365": "null",
+    "366": "null",
+    "367": "null",
+    "368": "null",
+    "369": "null",
+    "370": "null",
+    "371": "null",
+    "372": [
+        "potassium chloride",
+        "iso-osmotic dextrose",
+        "insulin",
+        "sodium chloride 0.9%  flush",
+        "acetaminophen",
+        "furosemide",
+        "docusate sodium",
+        "5% dextrose",
+        "0.9% sodium chloride",
+        "vancomycin",
+        "ondansetron",
+        "heparin"
+    ],
+    "373": "null",
+    "374": [
+        1
+    ],
+    "375": [
+        "urine culture",
+        "blood culture, routine",
+        "wound culture",
+        "gram stain",
+        "respiratory culture"
+    ],
+    "376": [
+        "other and unspecified hyperlipidemia",
+        "unspecified essential hypertension",
+        "hyperlipidemia, unspecified"
+    ],
+    "377": "null",
+    "378": "null",
+    "379": [
+        "foley"
+    ],
+    "380": [
+        "urine",
+        "blood culture",
+        "swab"
+    ],
+    "381": "null",
+    "382": "null",
+    "383": [
+        0
+    ],
+    "384": "null",
+    "385": "null",
+    "386": "null",
+    "387": "null",
+    "388": [
+        98.0
+    ],
+    "389": "null",
+    "390": [
+        110.9
+    ],
+    "391": "null",
+    "392": "null",
+    "393": "null",
+    "394": [
+        "insertion of infusion device into superior vena cava, percutaneous approach",
+        "venous catheterization, not elsewhere classified",
+        "central venous catheter placement with guidance"
+    ],
+    "395": "null",
+    "396": "null",
+    "397": "null",
+    "398": "null",
+    "399": "null",
+    "400": [
+        0.164583
+    ],
+    "401": "null",
+    "402": [
+        15.0
+    ],
+    "403": "null",
+    "404": "null",
+    "405": "null",
+    "406": [
+        12.0
+    ],
+    "407": "null",
+    "408": [
+        "urine culture"
+    ],
+    "409": [
+        "bisacodyl",
+        "d5 1/2ns",
+        "sodium chloride 0.9%  flush",
+        "sw"
+    ],
+    "410": [
+        0
+    ],
+    "411": "null",
+    "412": "null",
+    "413": "null",
+    "414": "null",
+    "415": [
+        "0.9% sodium chloride",
+        "0.9% sodium chloride (mini bag plus)",
+        "5% dextrose",
+        "acetaminophen",
+        "albumin 5% (12.5g / 250ml)",
+        "aspirin",
+        "atorvastatin",
+        "azithromycin",
+        "bag",
+        "bisacodyl",
+        "calcium gluconate",
+        "cefazolin",
+        "ciprofloxacin hcl",
+        "dextrose 5%",
+        "docusate sodium",
+        "furosemide",
+        "glucagon",
+        "heparin",
+        "heparin flush (10 units/ml)",
+        "heparin sodium",
+        "hydralazine",
+        "hydromorphone",
+        "ibuprofen",
+        "insulin",
+        "isosorbide mononitrate (extended release)",
+        "lactated ringers",
+        "levetiracetam",
+        "levothyroxine sodium",
+        "magnesium sulfate",
+        "metformin (glucophage)",
+        "metoprolol succinate xl",
+        "metronidazole (flagyl)",
+        "omeprazole",
+        "ondansetron",
+        "oxycodone sr (oxycontin)",
+        "pantoprazole",
+        "potassium chl 20 meq / 1000 ml d5 1/2 ns",
+        "potassium chloride",
+        "prednisone",
+        "prochlorperazine",
+        "propofol",
+        "sodium chloride 0.9%",
+        "sodium chloride 0.9%  flush",
+        "sterile water",
+        "sucralfate",
+        "vancomycin",
+        "vial",
+        "vitamin d"
+    ],
+    "416": [
+        1
+    ],
+    "417": [
+        "blood culture"
+    ],
+    "418": "null",
+    "419": [
+        1
+    ],
+    "420": [
+        "magnesium",
+        "sodium",
+        "urea nitrogen",
+        "hematocrit",
+        "mch",
+        "mchc",
+        "mcv",
+        "platelet count"
+    ],
+    "421": [
+        1
+    ],
+    "422": "null",
+    "423": [
+        "chloride",
+        "creatinine",
+        "potassium",
+        "sodium",
+        "hematocrit"
+    ],
+    "424": "null",
+    "425": "null",
+    "426": "null",
+    "427": "null",
+    "428": "null",
+    "429": [
+        1
+    ],
+    "430": [
+        4962.0
+    ],
+    "431": [
+        4
+    ],
+    "432": "null",
+    "433": [
+        "hydrochlorothiazide",
+        "insulin",
+        "docusate sodium",
+        "sodium chloride 0.9%",
+        "potassium chloride",
+        "furosemide",
+        "sodium chloride 0.9%  flush",
+        "heparin",
+        "0.9% sodium chloride"
+    ],
+    "434": [
+        "other"
+    ],
+    "435": "null",
+    "436": [
+        15.0
+    ],
+    "437": [
+        "m"
+    ],
+    "438": "null",
+    "439": "null",
+    "440": "null",
+    "441": [
+        "streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group b",
+        "chronic hepatitis c with hepatic coma",
+        "dermatophytosis of nail",
+        "other candidiasis of other specified sites",
+        "malignant neoplasm of connective and other soft tissue of lower limb, including hip",
+        "other malignant lymphomas, unspecified site, extranodal and solid organ sites",
+        "acute lymphoid leukemia, without mention of having achieved remission",
+        "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled",
+        "diabetes mellitus without mention of complication, type ii or unspecified type, uncontrolled",
+        "diabetes with renal manifestations, type i [juvenile type], uncontrolled",
+        "diabetes with ophthalmic manifestations, type ii or unspecified type, not stated as uncontrolled",
+        "diabetes with neurological manifestations, type ii or unspecified type, not stated as uncontrolled",
+        "diabetes with other specified manifestations, type ii or unspecified type, not stated as uncontrolled",
+        "other b-complex deficiencies",
+        "other and unspecified hyperlipidemia",
+        "hyposmolality and/or hyponatremia",
+        "acidosis",
+        "anemia, unspecified",
+        "drug-induced delirium",
+        "anxiety state, unspecified",
+        "other and unspecified alcohol dependence, continuous",
+        "opioid type dependence, continuous",
+        "tobacco use disorder",
+        "cannabis abuse, unspecified",
+        "obstructive hydrocephalus",
+        "epilepsy, unspecified, without mention of intractable epilepsy",
+        "polyneuropathy in diabetes",
+        "diseases of tricuspid valve",
+        "unspecified essential hypertension",
+        "hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage i through stage iv, or unspecified",
+        "coronary atherosclerosis of unspecified type of vessel, native or graft",
+        "coronary atherosclerosis of native coronary artery",
+        "aortic valve disorders",
+        "other primary cardiomyopathies",
+        "other left bundle branch block",
+        "other specified cardiac dysrhythmias",
+        "congestive heart failure, unspecified",
+        "chronic systolic heart failure",
+        "chronic diastolic heart failure",
+        "aneurysm of artery of lower extremity",
+        "budd-chiari syndrome",
+        "pneumonia, organism unspecified",
+        "asthma, unspecified type, unspecified",
+        "chronic airway obstruction, not elsewhere classified",
+        "pneumonitis due to inhalation of food or vomitus",
+        "malignant pleural effusion",
+        "other esophagitis",
+        "esophageal reflux",
+        "ulcerative colitis, unspecified",
+        "diverticulosis of colon (without mention of hemorrhage)",
+        "acute and subacute necrosis of liver",
+        "acute alcoholic hepatitis",
+        "nephritis and nephropathy, not specified as acute or chronic, in diseases classified elsewhere",
+        "acute kidney failure, unspecified",
+        "end stage renal disease",
+        "calculus of ureter",
+        "urinary tract infection, site not specified",
+        "hematuria, unspecified",
+        "microscopic hematuria",
+        "hypertrophy (benign) of prostate with urinary obstruction and other lower urinary tract symptoms (luts)",
+        "third-degree perineal laceration, delivered, with or without mention of antepartum condition",
+        "retained placenta without hemorrhage, delivered, with mention of postpartum complication",
+        "cellulitis and abscess of hand, except fingers and thumb",
+        "cellulitis and abscess of foot, except toes",
+        "cervical spondylosis with myelopathy",
+        "other and unspecified disc disorder, unspecified region",
+        "acute osteomyelitis, ankle and foot",
+        "dizziness and giddiness",
+        "fever, unspecified",
+        "fever presenting with conditions classified elsewhere",
+        "headache",
+        "epistaxis",
+        "retention of urine, unspecified",
+        "other specified retention of urine",
+        "abdominal pain, right upper quadrant",
+        "other nonspecific abnormal serum enzyme levels",
+        "other abnormal blood chemistry",
+        "abnormal coagulation profile",
+        "other nonspecific abnormal finding of lung field",
+        "open wound of scalp, without mention of complication",
+        "contusion of eyelids and periocular area",
+        "contusion of foot",
+        "infection and inflammatory reaction due to other genitourinary device, implant, and graft",
+        "hematoma complicating a procedure",
+        "chronic viral hepatitis b without delta-agent",
+        "malignant melanoma of other part of trunk",
+        "diffuse large b-cell lymphoma, extranodal and solid organ sites",
+        "anemia in other chronic diseases classified elsewhere",
+        "elevated white blood cell count, unspecified",
+        "type 2 diabetes mellitus with diabetic chronic kidney disease",
+        "type 2 diabetes mellitus with hyperglycemia",
+        "type 2 diabetes mellitus without complications",
+        "pure hypercholesterolemia, unspecified",
+        "hyperlipidemia, unspecified",
+        "other and unspecified fall in water transport injuring occupant of small boat, powered",
+        "surgical operation with transplant of whole organ causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",
+        "surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",
+        "other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",
+        "accidental fall on or from other stairs or steps",
+        "other accidental fall from one level to another",
+        "major depressive disorder, single episode, unspecified",
+        "epilepsy, unspecified, not intractable, without status epilepticus",
+        "essential (primary) hypertension",
+        "hypertensive heart disease with heart failure",
+        "hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",
+        "atherosclerotic heart disease of native coronary artery without angina pectoris",
+        "nonrheumatic aortic (valve) stenosis",
+        "supraventricular tachycardia",
+        "ventricular tachycardia",
+        "paroxysmal atrial fibrillation",
+        "persistent atrial fibrillation",
+        "acute systolic (congestive) heart failure",
+        "unspecified diastolic (congestive) heart failure",
+        "chronic diastolic (congestive) heart failure",
+        "occlusion and stenosis of left carotid artery",
+        "secondary esophageal varices with bleeding",
+        "hypotension due to drugs",
+        "gastro-esophageal reflux disease without esophagitis",
+        "gastritis, unspecified, with bleeding",
+        "alcoholic cirrhosis of liver with ascites",
+        "other chronic pancreatitis",
+        "melena",
+        "cellulitis of right upper limb",
+        "primary osteoarthritis, right ankle and foot",
+        "other specified disorders of bone density and structure, unspecified site",
+        "chronic kidney disease, stage 4 (severe)",
+        "unspecified abdominal pain",
+        "splenomegaly, not elsewhere classified",
+        "other retention of urine",
+        "unspecified fracture of right acetabulum, initial encounter for closed fracture",
+        "personal history of methicillin resistant staphylococcus aureus",
+        "personal history of other infectious and parasitic diseases",
+        "personal history of transient ischemic attack (tia), and cerebral infarction without residual deficits",
+        "personal history of peptic ulcer disease",
+        "family history of colonic polyps",
+        "heart valve replaced by other means",
+        "knee joint replacement",
+        "cardiac pacemaker in situ",
+        "arthrodesis status",
+        "acquired absence of intestine (large) (small)",
+        "other postprocedural status",
+        "do not resuscitate status",
+        "attention to other artificial opening of urinary tract",
+        "suicidal ideation",
+        "surgical or other procedure not carried out because of patient's decision",
+        "other surgical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",
+        "unspecified place in unspecified non-institutional (private) residence as the place of occurrence of the external cause",
+        "bedroom in other non-institutional residence as the place of occurrence of the external cause",
+        "unspecified place in hospital as the place of occurrence of the external cause",
+        "resistance to multiple antibiotics",
+        "do not resuscitate",
+        "body mass index (bmi) 45.0-49.9, adult",
+        "long term (current) use of antithrombotics/antiplatelets",
+        "long term (current) use of insulin",
+        "personal history of nicotine dependence",
+        "acquired absence of right great toe",
+        "acquired absence of lung [part of]",
+        "patient's other noncompliance with medication regimen",
+        "presence of cardiac pacemaker",
+        "presence of aortocoronary bypass graft",
+        "presence of prosthetic heart valve",
+        "presence of coronary angioplasty implant and graft"
+    ],
+    "442": "null",
+    "443": "null",
+    "444": "null",
+    "445": "null",
+    "446": "null",
+    "447": "null",
+    "448": "null",
+    "449": "null",
+    "450": "null",
+    "451": [
+        1
+    ],
+    "452": "null",
+    "453": "null",
+    "454": "null",
+    "455": "null",
+    "456": "null",
+    "457": [
+        1.790278
+    ],
+    "458": "null",
+    "459": "null",
+    "460": "null",
+    "461": [
+        "insertion of infusion device into superior vena cava, percutaneous approach",
+        "venous catheterization, not elsewhere classified",
+        "central venous catheter placement with guidance",
+        "other endoscopy of small intestine",
+        "enteral infusion of concentrated nutritional substances"
+    ],
+    "462": [
+        "secondary malignant neoplasm of small intestine including duodenum",
+        "diabetes mellitus without mention of complication, type ii or unspecified type, not stated as uncontrolled",
+        "pneumonitis due to inhalation of food or vomitus",
+        "abdominal pain, left lower quadrant",
+        "hemorrhage complicating a procedure",
+        "type 2 diabetes mellitus with foot ulcer",
+        "type 2 diabetes mellitus without complications",
+        "hypertensive heart disease with heart failure",
+        "occlusion and stenosis of right carotid artery",
+        "personal history of alcoholism",
+        "history of falling"
+    ],
+    "463": "null",
+    "464": "null",
+    "465": [
+        "insertion of infusion device into superior vena cava, percutaneous approach",
+        "venous catheterization, not elsewhere classified",
+        "central venous catheter placement with guidance"
+    ],
+    "466": "null",
+    "467": "null",
+    "468": [
+        "creatinine",
+        "sodium",
+        "hematocrit",
+        "hemoglobin"
+    ],
+    "469": "null",
+    "470": [
+        1
+    ],
+    "471": [
+        0
+    ],
+    "472": "null",
+    "473": [
+        "insulin",
+        "0.9% sodium chloride",
+        "potassium chloride"
+    ],
+    "474": [
+        "potassium chloride",
+        "heparin",
+        "0.9% sodium chloride",
+        "metoprolol tartrate",
+        "magnesium sulfate",
+        "insulin",
+        "warfarin",
+        "sodium chloride 0.9%  flush",
+        "neutra-phos",
+        "furosemide",
+        "bag",
+        "5% dextrose",
+        "vitamin d",
+        "verapamil sr",
+        "vancomycin",
+        "tramadol",
+        "sucralfate",
+        "simvastatin",
+        "senna",
+        "ranitidine",
+        "polyethylene glycol",
+        "phytonadione",
+        "phenytoin infatab",
+        "phenylephrine",
+        "pantoprazole",
+        "oxycodone (immediate release)",
+        "naloxone",
+        "metoprolol succinate xl",
+        "lr",
+        "lamotrigine",
+        "iso-osmotic dextrose",
+        "ipratropium bromide neb",
+        "hydralazine",
+        "heparin sodium",
+        "glucagon",
+        "gabapentin",
+        "ferrous sulfate",
+        "enalapril maleate",
+        "d5w",
+        "d5 1/2ns",
+        "cyclosporine (neoral) modified",
+        "ciprofloxacin hcl",
+        "cefepime",
+        "ascorbic acid",
+        "acyclovir ointment 5%",
+        "1/2 ns"
+    ],
+    "475": [
+        "urine culture",
+        "blood culture, routine",
+        "wound culture",
+        "respiratory culture"
+    ],
+    "476": "null",
+    "477": "null",
+    "478": "null",
+    "479": [
+        0
+    ],
+    "480": "null",
+    "481": [
+        "docusate sodium",
+        "ondansetron",
+        "sodium chloride 0.9%  flush",
+        "aluminum-magnesium hydrox.-simethicone",
+        "calcium gluconate",
+        "d5ns",
+        "d5w",
+        "insulin",
+        "potassium chloride",
+        "olanzapine (disintegrating tablet)",
+        "docusate sodium",
+        "insulin",
+        "iso-osmotic dextrose",
+        "docusate sodium",
+        "fluoxetine",
+        "tramadol (ultram)",
+        "bag",
+        "glucagon",
+        "omeprazole",
+        "cilostazol",
+        "iso-osmotic dextrose",
+        "vancomycin",
+        "lactated ringers"
+    ],
+    "482": [
+        "2104-06-17 07:49:00"
+    ],
+    "483": "null",
+    "484": "null",
+    "485": "null",
+    "486": [
+        "2101-07-09 20:22:00"
+    ],
+    "487": "null",
+    "488": "null",
+    "489": "null",
+    "490": "null",
+    "491": "null",
+    "492": "null",
+    "493": "null",
+    "494": "null",
+    "495": [
+        197
+    ],
+    "496": "null",
+    "497": [
+        56.75
+    ],
+    "498": [
+        "ondansetron",
+        "yellow cadd cassette",
+        "vial",
+        "spironolactone",
+        "sertraline",
+        "senna",
+        "rivaroxaban",
+        "propofol",
+        "phytonadione",
+        "phenobarbital alcohol withdrawal dose taper (days 2-7)",
+        "nystatin oral suspension",
+        "metoprolol tartrate",
+        "levofloxacin",
+        "lactulose enema",
+        "lactulose",
+        "lactated ringers",
+        "ketorolac",
+        "hydromorphone (dilaudid)",
+        "ferrous sulfate",
+        "docusate sodium",
+        "daptomycin",
+        "clopidogrel",
+        "cefazolin",
+        "calcium gluconate",
+        "bag",
+        "atorvastatin",
+        "amlodipine",
+        "5% dextrose",
+        "0.9% sodium chloride (mini bag plus)"
+    ],
+    "499": [
+        151.25
+    ]
 }
