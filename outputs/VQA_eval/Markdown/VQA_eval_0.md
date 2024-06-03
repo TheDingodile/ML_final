@@ -12912,3 +12912,241 @@ Resource usage summary:
 
 The output (if any) is above this job summary.
 
+2024-06-03 07:48:51.006078: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+wandb: Currently logged in as: kobomao. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240603_074855-9lqq4s77
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run VQA_eval-0
+wandb: ⭐️ View project at https://wandb.ai/kobomao/ML_healthcare
+wandb: 🚀 View run at https://wandb.ai/kobomao/ML_healthcare/runs/9lqq4s77
+2024-06-03 07:49:09.663339: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2251] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-06-03 07:49:11.119460: W external/xla/xla/service/gpu/nvptx_compiler.cc:760] The NVIDIA driver's CUDA version is 12.4 which is older than the ptxas CUDA version (12.5.40). Because the driver is older than the ptxas version, XLA is disabling parallel compilation, which may slow down compilation. You should update your NVIDIA driver or use the NVIDIA-provided CUDA forward compatibility packages.
+
+<style>
+c { color: #9cdcfe; font-family: 'Verdana', sans-serif;} /* VARIABLE */
+d { color: #4EC9B0; font-family: 'Verdana', sans-serif;} /* CLASS */
+e { color: #569cd6; font-family: 'Verdana', sans-serif;} /* BOOL */
+f { color: #b5cea8; font-family: 'Verdana', sans-serif;} /* NUMBERS */
+j { color: #ce9178; font-family: 'Verdana', sans-serif;} /* STRING */
+k { font-family: 'Verdana', sans-serif;} /* SYMBOLS */
+</style>
+
+# Parameters
+
+| PARAMETER         | TYPE              | VALUE             |
+|-------------------|-------------------|-------------------|
+| <c>name</c>       | <d>str</d>        | <j>"VQA_eval-0"</j> |
+| <c>time</c>       | <d>int</d>        | <f>3600</f>       |
+| <c>vqa_module_type</c>| <d>str</d>        | <j>"custom"</j>   |
+
+# Output
+
+```
+sid_to_ipath_map loaded. (1896 entries)
+Error executing query 0: Unexpected answer type: <class 'str'>
+Error executing query 1: Answer count mismatch: 4 != 12
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+[[1.         0.89404637 0.47268057 0.49544674 0.45803267 0.620773
+  0.6274938  0.88557196 0.5435584  0.9770588  0.501775   0.5697478
+  0.99687135 0.8473734  0.64485407 0.9996825  0.77156705 0.41308945
+  0.5023691  0.96252644 0.47086206 0.6565766  0.583128   0.58940953
+  0.5718657  0.7039     0.99981934 0.99935037 0.82572263 0.7724674
+  0.55977815 0.5206358  0.9110081  0.9426302  0.78116626 0.78090125
+  0.3951238  0.47822633 0.7142235  0.80206287 0.5731277  0.7365658
+  0.7848143  0.84422183 0.83590996 0.7907367  0.8373235  0.6330887
+  0.8282475  0.41561693 0.61361575 0.5190158  0.5990325  0.6133794
+  0.66327727 0.7793284  0.48062554 0.49511918 0.4865176  0.6792866
+  0.77163446 0.58154136 0.6521045 ]]
+['null']
+Error executing query 3: Unexpected answer type: <class 'str'>
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+[[1.         0.85879683 0.35207444 0.5581833  0.4700654  0.696569
+  0.57650477 0.7656792  0.54100645 0.9527138  0.5016402  0.5515001
+  0.99325544 0.7750712  0.54650295 0.99967116 0.68211824 0.50549465
+  0.45287374 0.8364163  0.4781774  0.69802797 0.38747418 0.98267907
+  0.86376595 0.9413138  0.52562493 0.43902233 0.6059697  0.999634
+  0.99641025 0.81595135 0.73733735 0.47187984 0.5185359  0.7015824
+  0.7692858  0.47635257 0.74349606 0.7955413  0.72363    0.4489048
+  0.607139   0.7363928  0.63901097 0.41278037 0.5901457  0.7130885
+  0.57721025 0.4946793  0.49119627 0.7723245  0.850637   0.645997
+  0.5080842  0.5270435  0.53265554 0.5264507  0.51708436 0.6772438
+  0.8153628  0.48279086 0.60975945]]
+['null']
+Error executing query 4: Unexpected answer type: <class 'str'>
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+[[1.         0.83389485 0.9587476  0.33485526 0.66532314 0.55921394
+  0.7609925  0.65292007 0.87343323 0.8874147  0.5711543  0.8168618
+  0.9864926  0.94982237 0.9719401  0.9960352  0.5243138  0.36518878
+  0.8235639  0.828077   0.43616968 0.9111804  0.8470005  0.95434994
+  0.9799273  0.9982861  0.9998956  0.999425   0.57077676 0.50049365
+  0.515589   0.90875566 0.7303679  0.90836775 0.8477518  0.87778383
+  0.797448   0.85753185 0.82347304 0.8742416  0.7492515  0.7500829
+  0.8743453  0.8110095  0.78707975 0.5736652  0.7964276  0.8564947
+  0.45364735 0.69028425 0.7128726  0.6955787  0.83982176 0.5800082
+  0.53334457 0.5366864  0.4084494  0.4908516  0.563456   0.6058632
+  0.63208866 0.6356928  0.6393064 ]]
+['null']
+Error executing query 5: Unexpected answer type: <class 'str'>
+Error executing query 8: Answer count mismatch: 4 != 32
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+[[1.         0.9568223  0.67316675 0.53395355 0.42485428 0.8598016
+  0.46241355 0.8725155  0.4992525  0.996565   0.4256207  0.48101294
+  0.99498725 0.91933185 0.99029434 0.9863382  0.51041013 0.7262186
+  0.45788464 0.4159474  0.3721045  0.95124227 0.67476517 0.99983364
+  0.9999573  0.99991536 0.9871486  0.868626   0.8423156  0.88072115
+  0.8585001  0.91064507 0.9540739  0.91637784 0.85626036 0.8551591
+  0.6379142  0.8875858  0.92565924 0.8463167  0.7797445  0.7320663
+  0.8109887  0.8193439  0.92413723 0.8684581  0.7244863  0.77593875
+  0.6824852  0.71085644 0.7007225  0.6881401  0.70816165 0.5805277
+  0.60272354 0.6820838  0.82409173 0.75488424 0.5420957  0.7758278
+  0.7430789  0.4791169  0.7642827 ]]
+['null']
+Error executing query 9: Unexpected answer type: <class 'str'>
+Error executing query 10: Answer count mismatch: 4 != 19
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+[[1.         0.985546   0.3701039  0.48821643 0.5424678  0.83078176
+  0.53827685 0.9196853  0.57803977 0.9884691  0.54417294 0.5705122
+  0.99240583 0.9558724  0.43626738 0.5772124  0.99306095 0.48475924
+  0.6998649  0.6698856  0.8417833  0.9998604  0.99945426 0.99928486
+  0.979193   0.90742344 0.7447454  0.8428091  0.7209934  0.791108
+  0.669667   0.86242205 0.8520429  0.8729997  0.8711643  0.81431186
+  0.8723212  0.834955   0.8785026  0.8803575  0.953549   0.96177316
+  0.8572304  0.9454595  0.9355639  0.8364272  0.96074814 0.9345616
+  0.8757279  0.77810663 0.63952917 0.6452347  0.67005664 0.97682256
+  0.9678642  0.95882726 0.94003344 0.7343017  0.8385522  0.79327404
+  0.88807017 0.95216066 0.891585  ]]
+['null']
+Error executing query 13: Unexpected answer type: <class 'str'>
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+[[1.         0.94951016 0.62602746 0.5048075  0.6207775  0.9208846
+  0.63041073 0.9453442  0.629741   0.9909055  0.51174486 0.5504708
+  0.9974163  0.90454865 0.66412354 0.77346796 0.9390824  0.5579399
+  0.3622156  0.62631345 0.91908205 0.4819093  0.48411265 0.98934984
+  0.68577915 0.97422427 0.73720044 0.6703149  0.97947425 0.73406744
+  0.99988395 0.9999075  0.99981296 0.94212955 0.9477762  0.8462263
+  0.89869326 0.60860616 0.89760685 0.8665     0.81218624 0.92162704
+  0.8368228  0.91969085 0.9058975  0.9323848  0.9022832  0.8507452
+  0.8547215  0.8798682  0.9165891  0.9851654  0.9838152  0.9480693
+  0.90976894 0.8593375  0.81697553 0.7931265  0.9213278  0.9207101
+  0.9672134  0.9600243  0.90580285]]
+['null']
+Error executing query 14: Unexpected answer type: <class 'str'>
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+[[1.         0.8607797  0.5387876  0.60002035 0.45833513 0.64105535
+  0.58093154 0.78021246 0.57437944 0.95738393 0.56224316 0.5604275
+  0.9929946  0.9253046  0.5692301  0.611216   0.99856114 0.9863719
+  0.3723694  0.4612955  0.46331486 0.5066154  0.9732815  0.45315143
+  0.4851592  0.543006   0.72206604 0.99983233 0.99860555 0.7370407
+  0.38939515 0.42807198 0.37996948 0.62259275 0.9387724  0.9566696
+  0.5582849  0.8550098  0.86469555 0.68721205 0.75909865 0.6895201
+  0.6805652  0.61743975 0.5774834  0.727239   0.8684388  0.8969232
+  0.68584734 0.7396331  0.85709256 0.80752015 0.8391143  0.87096286
+  0.88581365 0.91179454 0.9185647  0.87554675 0.90787464 0.89071316
+  0.9199461  0.75155246 0.8044771 ]]
+['null']
+Error executing query 15: Unexpected answer type: <class 'str'>
+Error executing query 16: Answer count mismatch: 4 != 32
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+[[1.         0.95739233 0.4506871  0.5304797  0.39019287 0.8574273
+  0.5302643  0.9240997  0.49245667 0.9886275  0.46326402 0.50757027
+  0.9960546  0.90684754 0.6844312  0.99929744 0.8761033  0.4789838
+  0.83797103 0.44831598 0.45510674 0.5103842  0.99751985 0.6976697
+  0.9998894  0.9999317  0.999762   0.9791744  0.80870074 0.7803278
+  0.8714263  0.89682025 0.7429151  0.8817226  0.8931134  0.91085726
+  0.92445296 0.96626323 0.9343618  0.8733098  0.79057926 0.7813545
+  0.87596    0.8951605  0.9434456  0.94120586 0.8939249  0.8768944
+  0.870311   0.6873203  0.43482286 0.7817937  0.71972895 0.6355857
+  0.8948494  0.75675005 0.8445191  0.8987647  0.88570017 0.8823788
+  0.90745354 0.9464455  0.8760679 ]]
+['null']
+Error executing query 18: Unexpected answer type: <class 'str'>
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+  1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+[[1.         0.4560786  0.9921334  0.7339165  0.6288365  0.9064567
+  0.7906156  0.8955253  0.9216062  0.9945353  0.6858796  0.49567693
+  0.9982705  0.95790094 0.9764477  0.6655769  0.9847667  0.99482906
+  0.86829203 0.9857883  0.99929345 0.978934   0.8835897  0.53765637
+  0.482251   0.89771813 0.98885995 0.9726089  0.92355037 0.9395995
+  0.5533964  0.989645   0.61063963 0.96746016 0.94248766 0.8455522
+  0.9293647  0.9998664  0.99990064 0.9996123  0.9945641  0.97280765
+  0.79072547 0.8834902  0.9339805  0.98892343 0.9878164  0.9565616
+  0.8844408  0.54168814 0.87318975 0.99552685 0.9984913  0.9949651
+  0.99009377 0.839164   0.9836815  0.9959448  0.99916756 0.9971137
+  0.76675504 0.50655454 0.957303  ]]
+['null']
+Error executing query 19: Unexpected answer type: <class 'str'>
+Executed result
+{'0': 'null', '1': 'null', '2': ['insertion of infusion device into superior vena cava, percutaneous approach', 'venous catheterization, not elsewhere classified', 'central venous catheter placement with guidance'], '3': 'null', '4': 'null', '5': 'null', '6': [877.553649], '7': ['urine', 'blood culture', 'swab', 'tissue', 'sputum'], '8': 'null', '9': 'null', '10': 'null', '11': ['ptt'], '12': [25.0], '13': 'null', '14': 'null', '15': 'null', '16': 'null', '17': ['platelet count'], '18': 'null', '19': 'null'}
+Answer result
+{'0': [1.627025], '1': [1], '2': ['insertion of infusion device into superior vena cava, percutaneous approach', 'venous catheterization, not elsewhere classified', 'central venous catheter placement with guidance'], '3': [0], '4': [1], '5': [1], '6': [877.553649], '7': ['urine', 'blood culture', 'swab', 'tissue', 'sputum'], '8': [2], '9': ['left lower lung zone', 'left lung'], '10': [1], '11': ['ptt'], '12': [25.0], '13': ['ij line', 'low lung volumes'], '14': [], '15': [0], '16': [13385073], '17': ['platelet count'], '18': ['endotracheal tube', 'enteric tube'], '19': ['mediastinal displacement']}
+```
+wandb: - 0.004 MB of 0.004 MB uploadedwandb: \ 0.004 MB of 0.004 MB uploadedwandb: | 0.004 MB of 0.004 MB uploadedwandb: / 0.010 MB of 0.024 MB uploaded (0.004 MB deduped)wandb: - 0.024 MB of 0.024 MB uploaded (0.004 MB deduped)wandb: 
+wandb: Run history:
+wandb: accuracy ▁
+wandb: 
+wandb: Run summary:
+wandb: accuracy 0.3
+wandb: 
+wandb: 🚀 View run VQA_eval-0 at: https://wandb.ai/kobomao/ML_healthcare/runs/9lqq4s77
+wandb: ⭐️ View project at: https://wandb.ai/kobomao/ML_healthcare
+wandb: Synced 5 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240603_074855-9lqq4s77/logs
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21902915: <VQA_eval_0> in cluster <dcc> Done
+
+Job <VQA_eval_0> was submitted from host <n-62-27-23> by user <s183914> in cluster <dcc> at Mon Jun  3 07:48:34 2024
+Job was executed on host(s) <4*n-62-20-10>, in queue <gpuv100>, as user <s183914> in cluster <dcc> at Mon Jun  3 07:48:34 2024
+</zhome/ea/9/137501> was used as the home directory.
+</zhome/ea/9/137501/Desktop/ML_final/ML_final> was used as the working directory.
+Started at Mon Jun  3 07:48:34 2024
+Terminated at Mon Jun  3 07:50:04 2024
+Results reported at Mon Jun  3 07:50:04 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 4
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "select[gpu32gb]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   62.10 sec.
+    Max Memory :                                 338 MB
+    Average Memory :                             338.00 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               65198.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   110 sec.
+    Turnaround time :                            90 sec.
+
+The output (if any) is above this job summary.
+
