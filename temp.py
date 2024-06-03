@@ -45,6 +45,10 @@ temper = pd.read_sql_query("SELECT * FROM TB_CXR;", conn)
 with open('dataset/mimic_iv_cxr/train/train_data.json', 'r') as f:
     train_data = json.load(f) 
 
+# shuffle train_data
+import random
+random.shuffle(train_data)
+
 with open('dataset/mimic_iv_cxr/train/train_answer.json', 'r') as f:
     train_answer = json.load(f)
 
@@ -53,22 +57,29 @@ with open('dataset/mimic_iv_cxr/valid/valid_data.json', 'r') as f:
 
 
 print(len(train_data), len(valid_data))
-
-for i in range(20):
+#
+for i in range(100):
+    # pattern = ", t1.study_id)) from ( select tb_cxr.study_id from tb_cxr where tb_cxr.study_id ="
+    # if pattern in train_data[i]["query"]:
     print(train_data[i]["question"])
+    print(train_data[i]["query"])
     print("   ")
+
+    # print(train_data[i]["question"])
+    # print(train_data[i]["query"])
+    # print("   ")
 
 # all_possible_answers = set()
 # for i in range(1000):
 #     # print(train_data[i]["question"])
 #     # print(train_data[0]["query"])
-#     # print(execute_sql(post_process_sql(train_data[i]["query"]), silver_db_path))
+#     pred = execute_sql(post_process_sql(train_data[i]["query"]), silver_db_path)
 #     ans = post_process_answer(train_answer[i]['answer'])
-#     # print(ans)
-#     filtered_ans = filter_list(ans)
-#     if len(filtered_ans) > 0:
-#         # add all elements in filtered_ans to all_possible_answers
-#         all_possible_answers.update(filtered_ans)
+#     print(train_data[i]["question"], pred, ans)
+#     # filtered_ans = filter_list(ans)
+#     # if len(filtered_ans) > 0:
+#     #     # add all elements in filtered_ans to all_possible_answers
+#     #     all_possible_answers.update(filtered_ans)
 
 # all_possible_answers = list(all_possible_answers)
 

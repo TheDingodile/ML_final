@@ -28,8 +28,11 @@ from main import Defaults, GPU
 # Defaults("train_saved_model_test", GPU=GPU.v32, batch_size=8, steps=10000, lr=0.01)
 # Defaults("test_save_a80", GPU=GPU.a80, batch_size=8, steps=10000, lr=0.01)
 
-Defaults("mini_test", GPU=GPU.v32, batch_size=8, steps=100, lr=0.01)
-for i in range(6):
-    Defaults(f"model_{i}", GPU=GPU.v32, batch_size=8, steps=10000, lr=0.01)
+# Defaults("mini_test", GPU=GPU.v32, batch_size=8, steps=100, lr=0.01)
+# for i in range(6):
+#     Defaults(f"model_{i}", GPU=GPU.v32, batch_size=8, steps=10000, lr=0.01)
+
+Defaults("VQA_eval", GPU=GPU.v32)
+
 
 
