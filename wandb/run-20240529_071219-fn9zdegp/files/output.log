@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 143, in <module>
-    Defaults.start()
-  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/dtu/__init__.py", line 235, in start
-    cls.run(*args)
-  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 80, in run
-    params, loss = update_fn(params, batch, learning_rate)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
