@@ -6,6 +6,10 @@ import tensorflow as tf
 import jax.numpy as jnp
 import jax
 import functools
+from big_vision.models.proj.paligemma import paligemma
+import ml_collections
+
+
 
 
 class CustomVQAModule(VQAModule):
@@ -23,6 +27,11 @@ class CustomVQAModule(VQAModule):
         # For example, using a deep learning framework like TensorFlow or PyTorch
         self.params = bv_utils.load_checkpoint_np(self.model_path) # check this
         self.tokenizer = sentencepiece.SentencePieceProcessor(self.tokenizer_path)
+        model_config = ml_collections.FrozenConfigDict({
+            "llm": {"vocab_size": 257_152},
+            "img": {"variant": "So400m/14", "pool_type": "none", "scan": True, "dtype_mm": "float16"}
+        })
+        self.model = paligemma.Model(**model_config)
 
     def preprocess_input(self, images, questions):
         # Preprocess the input images and questions
