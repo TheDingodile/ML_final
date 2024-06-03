@@ -9796,3 +9796,892 @@ Resource usage summary:
 
 The output (if any) is above this job summary.
 
+2024-06-03 06:20:44.507527: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+wandb: Currently logged in as: kobomao. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.0
+wandb: Run data is saved locally in /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240603_062049-nd16s7xs
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run VQA_eval-0
+wandb: ⭐️ View project at https://wandb.ai/kobomao/ML_healthcare
+wandb: 🚀 View run at https://wandb.ai/kobomao/ML_healthcare/runs/nd16s7xs
+2024-06-03 06:21:25.758547: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2251] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+
+Aborted!
+
+<style>
+c { color: #9cdcfe; font-family: 'Verdana', sans-serif;} /* VARIABLE */
+d { color: #4EC9B0; font-family: 'Verdana', sans-serif;} /* CLASS */
+e { color: #569cd6; font-family: 'Verdana', sans-serif;} /* BOOL */
+f { color: #b5cea8; font-family: 'Verdana', sans-serif;} /* NUMBERS */
+j { color: #ce9178; font-family: 'Verdana', sans-serif;} /* STRING */
+k { font-family: 'Verdana', sans-serif;} /* SYMBOLS */
+</style>
+
+# Parameters
+
+| PARAMETER         | TYPE              | VALUE             |
+|-------------------|-------------------|-------------------|
+| <c>name</c>       | <d>str</d>        | <j>"VQA_eval-0"</j> |
+| <c>time</c>       | <d>int</d>        | <f>3600</f>       |
+| <c>vqa_module_type</c>| <d>str</d>        | <j>"custom"</j>   |
+
+# Output
+
+```
+sid_to_ipath_map loaded. (1896 entries)
+Error executing query 0: Unexpected answer type: <class 'str'>
+Error executing query 1: Answer count mismatch: 4 != 12
+1
+['does a chest x-ray indicate any technical assessments?']
+[[array(2), array(24636), array(476), array(15704), array(1141), array(235290), array(1040), array(12181), array(1089), array(9838), array(37921), array(235336)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  [[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-0.99318033 -0.99318033 -0.99318033]
+   [-0.99318033 -0.99318033 -0.99318033]
+   [-0.99318033 -0.99318033 -0.99318033]]
+
+  [[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-0.9844511  -0.9844511  -0.9844511 ]
+   [-0.9844511  -0.9844511  -0.9844511 ]
+   [-0.9844511  -0.9844511  -0.9844511 ]]
+
+  ...
+
+  [[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  [[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  [[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]]]
+Error executing query 3: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+1
+['does a chest x-ray exhibit any devices in the cardiac silhouette?']
+[[array(2), array(24636), array(476), array(15704), array(1141), array(235290), array(1040), array(21842), array(1089), array(9630), array(575), array(573), array(41821), array(36690), array(235336)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  [[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  [[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  ...
+
+  [[ 0.6187167   0.6187167   0.6187167 ]
+   [ 0.5818889   0.5818889   0.5818889 ]
+   [ 0.47608042  0.47608042  0.47608042]
+   ...
+   [ 0.48957276  0.48957276  0.48957276]
+   [ 0.56390357  0.56390357  0.56390357]
+   [ 0.6709273   0.6709273   0.6709273 ]]
+
+  [[ 0.63130105  0.63130105  0.63130105]
+   [ 0.572608    0.572608    0.572608  ]
+   [ 0.47508538  0.47508538  0.47508538]
+   ...
+   [ 0.49522495  0.49522495  0.49522495]
+   [ 0.60050523  0.60050523  0.60050523]
+   [ 0.6925905   0.6925905   0.6925905 ]]
+
+  [[ 0.73648596  0.73648596  0.73648596]
+   [ 0.5763643   0.5763643   0.5763643 ]
+   [ 0.5039177   0.5039177   0.5039177 ]
+   ...
+   [ 0.5174409   0.5174409   0.5174409 ]
+   [ 0.6206435   0.6206435   0.6206435 ]
+   [ 0.70833004  0.70833004  0.70833004]]]]
+Error executing query 4: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+1
+['is chest port displayed on a chest x-ray?']
+[[array(2), array(502), array(15704), array(3530), array(14386), array(611), array(476), array(15704), array(1141), array(235290), array(1040), array(235336)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  [[-0.9999485  -0.9999485  -0.9999485 ]
+   [-0.9992113  -0.9992113  -0.9992113 ]
+   [-0.99930966 -0.99930966 -0.99930966]
+   ...
+   [-0.9991706  -0.9991706  -0.9991706 ]
+   [-0.9991706  -0.9991706  -0.9991706 ]
+   [-0.9991706  -0.9991706  -0.9991706 ]]
+
+  [[-0.99436    -0.99436    -0.99436   ]
+   [-0.99376655 -0.99376655 -0.99376655]
+   [-0.9933907  -0.9933907  -0.9933907 ]
+   ...
+   [-0.99514353 -0.99514353 -0.99514353]
+   [-0.99514353 -0.99514353 -0.99514353]
+   [-0.99514353 -0.99514353 -0.99514353]]
+
+  ...
+
+  [[-0.55133194 -0.55133194 -0.55133194]
+   [-0.2718498  -0.2718498  -0.2718498 ]
+   [-0.2538572  -0.2538572  -0.2538572 ]
+   ...
+   [-0.770962   -0.770962   -0.770962  ]
+   [-0.7768353  -0.7768353  -0.7768353 ]
+   [-0.77263224 -0.77263224 -0.77263224]]
+
+  [[-0.5008679  -0.5008679  -0.5008679 ]
+   [-0.21385604 -0.21385604 -0.21385604]
+   [-0.19255394 -0.19255394 -0.19255394]
+   ...
+   [-0.76846886 -0.76846886 -0.76846886]
+   [-0.7676323  -0.7676323  -0.7676323 ]
+   [-0.76504135 -0.76504135 -0.76504135]]
+
+  [[-0.54169166 -0.54169166 -0.54169166]
+   [-0.2927553  -0.2927553  -0.2927553 ]
+   [-0.27838433 -0.27838433 -0.27838433]
+   ...
+   [-0.8074808  -0.8074808  -0.8074808 ]
+   [-0.8020358  -0.8020358  -0.8020358 ]
+   [-0.80060226 -0.80060226 -0.80060226]]]]
+Error executing query 5: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+Error executing query 8: Answer count mismatch: 4 != 32
+1
+['enumerate all anatomical locations related to any diseases.']
+[[array(2), array(1473), array(832), array(97999), array(13102), array(5678), array(577), array(1089), array(16011), array(235265)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  [[-0.9987314  -0.9987314  -0.9987314 ]
+   [-0.99877596 -0.99877596 -0.99877596]
+   [-0.9989631  -0.9989631  -0.9989631 ]
+   ...
+   [-0.9992678  -0.9992678  -0.9992678 ]
+   [-0.9992678  -0.9992678  -0.9992678 ]
+   [-0.9992678  -0.9992678  -0.9992678 ]]
+
+  [[-0.96612805 -0.96612805 -0.96612805]
+   [-0.94850725 -0.94850725 -0.94850725]
+   [-0.95279336 -0.95279336 -0.95279336]
+   ...
+   [-0.8617916  -0.8617916  -0.8617916 ]
+   [-0.8617916  -0.8617916  -0.8617916 ]
+   [-0.8617916  -0.8617916  -0.8617916 ]]
+
+  ...
+
+  [[-0.1700474  -0.1700474  -0.1700474 ]
+   [ 0.3347367   0.3347367   0.3347367 ]
+   [ 0.36902094  0.36902094  0.36902094]
+   ...
+   [-0.7389477  -0.7389477  -0.7389477 ]
+   [-0.74115574 -0.74115574 -0.74115574]
+   [-0.7411765  -0.7411765  -0.7411765 ]]
+
+  [[-0.17490333 -0.17490333 -0.17490333]
+   [ 0.32415044  0.32415044  0.32415044]
+   [ 0.36015534  0.36015534  0.36015534]
+   ...
+   [-0.7360103  -0.7360103  -0.7360103 ]
+   [-0.7411283  -0.7411283  -0.7411283 ]
+   [-0.7411764  -0.7411764  -0.7411764 ]]
+
+  [[-0.2962727  -0.2962727  -0.2962727 ]
+   [ 0.12893665  0.12893665  0.12893665]
+   [ 0.15603912  0.15603912  0.15603912]
+   ...
+   [-0.7787759  -0.7787759  -0.7787759 ]
+   [-0.7817807  -0.7817807  -0.7817807 ]
+   [-0.781809   -0.781809   -0.781809  ]]]]
+Error executing query 9: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+Error executing query 10: Answer count mismatch: 4 != 19
+1
+['outline all the observed technical assessments.']
+[[array(2), array(38058), array(832), array(573), array(8674), array(9838), array(37921), array(235265)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   ...
+   [-0.9956321  -0.9956321  -0.9956321 ]
+   [-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]]
+
+  [[-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   ...
+   [-0.9900295  -0.9900295  -0.9900295 ]
+   [-0.99210876 -0.99210876 -0.99210876]
+   [-0.99214846 -0.99214846 -0.99214846]]
+
+  [[-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   ...
+   [-0.9854686  -0.9854686  -0.9854686 ]
+   [-0.98699075 -0.98699075 -0.98699075]
+   [-0.99112105 -0.99112105 -0.99112105]]
+
+  ...
+
+  [[-0.2620504  -0.2620504  -0.2620504 ]
+   [ 0.08516216  0.08516216  0.08516216]
+   [ 0.16761267  0.16761267  0.16761267]
+   ...
+   [ 0.56675434  0.56675434  0.56675434]
+   [ 0.5938393   0.5938393   0.5938393 ]
+   [ 0.6382898   0.6382898   0.6382898 ]]
+
+  [[-0.27972537 -0.27972537 -0.27972537]
+   [ 0.08665216  0.08665216  0.08665216]
+   [ 0.1530801   0.1530801   0.1530801 ]
+   ...
+   [ 0.56376624  0.56376624  0.56376624]
+   [ 0.59668314  0.59668314  0.59668314]
+   [ 0.6412847   0.6412847   0.6412847 ]]
+
+  [[-0.4008714  -0.4008714  -0.4008714 ]
+   [-0.11357266 -0.11357266 -0.11357266]
+   [-0.05769616 -0.05769616 -0.05769616]
+   ...
+   [ 0.25952613  0.25952613  0.25952613]
+   [ 0.28383195  0.28383195  0.28383195]
+   [ 0.31933534  0.31933534  0.31933534]]]]
+Error executing query 13: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+1
+['please provide a list of all abnormalities in the left hemidiaphragm.']
+[[array(2), array(24926), array(3658), array(476), array(1889), array(576), array(832), array(82782), array(575), array(573), array(2731), array(693), array(5329), array(740), array(65751), array(235262), array(235265)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-1.         -1.         -1.        ]
+   [-0.99997824 -0.99997824 -0.99997824]
+   [-0.9985923  -0.9985923  -0.9985923 ]
+   ...
+   [-0.90432024 -0.90432024 -0.90432024]
+   [-0.9655498  -0.9655498  -0.9655498 ]
+   [-0.9987531  -0.9987531  -0.9987531 ]]
+
+  [[-1.         -1.         -1.        ]
+   [-0.99996144 -0.99996144 -0.99996144]
+   [-0.9980457  -0.9980457  -0.9980457 ]
+   ...
+   [-0.8684909  -0.8684909  -0.8684909 ]
+   [-0.94864345 -0.94864345 -0.94864345]
+   [-0.9964763  -0.9964763  -0.9964763 ]]
+
+  [[-1.         -1.         -1.        ]
+   [-0.99999905 -0.99999905 -0.99999905]
+   [-0.9996287  -0.9996287  -0.9996287 ]
+   ...
+   [-0.87421656 -0.87421656 -0.87421656]
+   [-0.9474214  -0.9474214  -0.9474214 ]
+   [-0.994507   -0.994507   -0.994507  ]]
+
+  ...
+
+  [[-1.         -1.         -1.        ]
+   [-0.9999889  -0.9999889  -0.9999889 ]
+   [-0.99941844 -0.99941844 -0.99941844]
+   ...
+   [-0.9939747  -0.9939747  -0.9939747 ]
+   [-0.99084127 -0.99084127 -0.99084127]
+   [-0.99079144 -0.99079144 -0.99079144]]
+
+  [[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  [[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]]]
+Error executing query 14: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+1
+['does intra-aortic balloon pump appear in the image?']
+[[array(2), array(24636), array(19159), array(235290), array(235250), array(89271), array(36977), array(10085), array(4824), array(575), array(573), array(2416), array(235336)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  [[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  [[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   ...
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]]
+
+  ...
+
+  [[-0.4369836  -0.4369836  -0.4369836 ]
+   [-0.08141416 -0.08141416 -0.08141416]
+   [-0.05625397 -0.05625397 -0.05625397]
+   ...
+   [-0.4103166  -0.4103166  -0.4103166 ]
+   [-0.50275314 -0.50275314 -0.50275314]
+   [-0.5463214  -0.5463214  -0.5463214 ]]
+
+  [[-0.40943623 -0.40943623 -0.40943623]
+   [-0.05063802 -0.05063802 -0.05063802]
+   [-0.01739818 -0.01739818 -0.01739818]
+   ...
+   [-0.40074128 -0.40074128 -0.40074128]
+   [-0.47507137 -0.47507137 -0.47507137]
+   [-0.52270365 -0.52270365 -0.52270365]]
+
+  [[-0.39010203 -0.39010203 -0.39010203]
+   [-0.00300711 -0.00300711 -0.00300711]
+   [ 0.03389823  0.03389823  0.03389823]
+   ...
+   [-0.38737905 -0.38737905 -0.38737905]
+   [-0.46532047 -0.46532047 -0.46532047]
+   [-0.5230968  -0.5230968  -0.5230968 ]]]]
+Error executing query 15: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+Error executing query 16: Answer count mismatch: 4 != 32
+1
+['provide a comprehensive list of all tubes/lines.']
+[[array(2), array(50133), array(476), array(17540), array(1889), array(576), array(832), array(26327), array(235283), array(5448), array(235265)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-0.5873827  -0.5873827  -0.5873827 ]
+   [-0.6175529  -0.6175529  -0.6175529 ]
+   [-0.63352597 -0.63352597 -0.63352597]
+   ...
+   [-0.5101588  -0.5101588  -0.5101588 ]
+   [-0.46268743 -0.46268743 -0.46268743]
+   [-0.72140485 -0.72140485 -0.72140485]]
+
+  [[-0.5676437  -0.5676437  -0.5676437 ]
+   [-0.5885729  -0.5885729  -0.5885729 ]
+   [-0.60034424 -0.60034424 -0.60034424]
+   ...
+   [-0.9308708  -0.9308708  -0.9308708 ]
+   [-0.92505527 -0.92505527 -0.92505527]
+   [-0.95016783 -0.95016783 -0.95016783]]
+
+  [[-0.5288476  -0.5288476  -0.5288476 ]
+   [-0.5301786  -0.5301786  -0.5301786 ]
+   [-0.5190872  -0.5190872  -0.5190872 ]
+   ...
+   [-0.9998635  -0.9998635  -0.9998635 ]
+   [-0.9985533  -0.9985533  -0.9985533 ]
+   [-0.9981656  -0.9981656  -0.9981656 ]]
+
+  ...
+
+  [[ 0.46298182  0.46298182  0.46298182]
+   [ 0.5549439   0.5549439   0.5549439 ]
+   [ 0.58961225  0.58961225  0.58961225]
+   ...
+   [-0.96684563 -0.96684563 -0.96684563]
+   [-0.8666532  -0.8666532  -0.8666532 ]
+   [-0.8697498  -0.8697498  -0.8697498 ]]
+
+  [[ 0.48638237  0.48638237  0.48638237]
+   [ 0.5629035   0.5629035   0.5629035 ]
+   [ 0.5799556   0.5799556   0.5799556 ]
+   ...
+   [-0.96456563 -0.96456563 -0.96456563]
+   [-0.7500399  -0.7500399  -0.7500399 ]
+   [-0.78752    -0.78752    -0.78752   ]]
+
+  [[ 0.28386676  0.28386676  0.28386676]
+   [ 0.34618974  0.34618974  0.34618974]
+   [ 0.35154235  0.35154235  0.35154235]
+   ...
+   [-0.96893924 -0.96893924 -0.96893924]
+   [-0.6783339  -0.6783339  -0.6783339 ]
+   [-0.75259674 -0.75259674 -0.75259674]]]]
+Error executing query 18: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+1
+['in relation to the mediastinum, which anatomical findings applies, mediastinal displacement or mediastinal widening?']
+[[array(2), array(473), array(10189), array(577), array(573), array(10074), array(897), array(20809), array(235269), array(948), array(97999), array(14352), array(19950), array(235269), array(10074), array(897), array(1248), array(33759), array(689), array(10074), array(897), array(1248), array(94987), array(235336)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-0.8560269  -0.8560269  -0.8560269 ]
+   [-0.8939662  -0.8939662  -0.8939662 ]
+   [-0.90572625 -0.90572625 -0.90572625]
+   ...
+   [-0.9311427  -0.9311427  -0.9311427 ]
+   [-0.9311427  -0.9311427  -0.9311427 ]
+   [-0.9311427  -0.9311427  -0.9311427 ]]
+
+  [[-0.8643116  -0.8643116  -0.8643116 ]
+   [-0.902319   -0.902319   -0.902319  ]
+   [-0.9142513  -0.9142513  -0.9142513 ]
+   ...
+   [-0.94095993 -0.94095993 -0.94095993]
+   [-0.94095993 -0.94095993 -0.94095993]
+   [-0.94095993 -0.94095993 -0.94095993]]
+
+  [[-0.8609506  -0.8609506  -0.8609506 ]
+   [-0.9055222  -0.9055222  -0.9055222 ]
+   [-0.9189611  -0.9189611  -0.9189611 ]
+   ...
+   [-0.94542676 -0.94542676 -0.94542676]
+   [-0.9454268  -0.9454268  -0.9454268 ]
+   [-0.9454268  -0.9454268  -0.9454268 ]]
+
+  ...
+
+  [[-0.8072504  -0.8072504  -0.8072504 ]
+   [-0.8898241  -0.8898241  -0.8898241 ]
+   [-0.91461664 -0.91461664 -0.91461664]
+   ...
+   [-0.33585262 -0.33585262 -0.33585262]
+   [-0.392417   -0.392417   -0.392417  ]
+   [-0.48580706 -0.48580706 -0.48580706]]
+
+  [[-0.6232604  -0.6232604  -0.6232604 ]
+   [-0.82953805 -0.82953805 -0.82953805]
+   [-0.8985401  -0.8985401  -0.8985401 ]
+   ...
+   [-0.21095538 -0.21095538 -0.21095538]
+   [-0.2888503  -0.2888503  -0.2888503 ]
+   [-0.39143938 -0.39143938 -0.39143938]]
+
+  [[ 0.0226438   0.0226438   0.0226438 ]
+   [-0.49684197 -0.49684197 -0.49684197]
+   [-0.81606245 -0.81606245 -0.81606245]
+   ...
+   [ 0.02053833  0.02053833  0.02053833]
+   [-0.11530423 -0.11530423 -0.11530423]
+   [-0.24842942 -0.24842942 -0.24842942]]]]
+Error executing query 19: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+Error executing query 20: Answer count mismatch: 4 != 10
+1
+['are there any abnormalities in the carina?']
+[[array(2), array(895), array(1104), array(1089), array(82782), array(575), array(573), array(194193), array(235336)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-1.         -1.         -1.        ]
+   [-1.         -1.         -1.        ]
+   [-0.9993425  -0.9993425  -0.9993425 ]
+   ...
+   [-0.910638   -0.910638   -0.910638  ]
+   [-0.87987924 -0.87987924 -0.87987924]
+   [-0.80569065 -0.80569065 -0.80569065]]
+
+  [[-1.         -1.         -1.        ]
+   [-0.99999267 -0.99999267 -0.99999267]
+   [-0.99905616 -0.99905616 -0.99905616]
+   ...
+   [-0.9145971  -0.9145971  -0.9145971 ]
+   [-0.897172   -0.897172   -0.897172  ]
+   [-0.8352686  -0.8352686  -0.8352686 ]]
+
+  [[-1.         -1.         -1.        ]
+   [-0.99995655 -0.99995655 -0.99995655]
+   [-0.9976472  -0.9976472  -0.9976472 ]
+   ...
+   [-0.9190726  -0.9190726  -0.9190726 ]
+   [-0.90746945 -0.90746945 -0.90746945]
+   [-0.85552555 -0.85552555 -0.85552555]]
+
+  ...
+
+  [[-1.         -1.         -1.        ]
+   [-0.9998617  -0.9998617  -0.9998617 ]
+   [-0.99151546 -0.99151546 -0.99151546]
+   ...
+   [ 0.09419048  0.09419048  0.09419048]
+   [ 0.00596654  0.00596654  0.00596654]
+   [-0.07489973 -0.07489973 -0.07489973]]
+
+  [[-1.         -1.         -1.        ]
+   [-0.99995685 -0.99995685 -0.99995685]
+   [-0.99579567 -0.99579567 -0.99579567]
+   ...
+   [ 0.0716027   0.0716027   0.0716027 ]
+   [-0.01790905 -0.01790905 -0.01790905]
+   [-0.10487467 -0.10487467 -0.10487467]]
+
+  [[-1.         -1.         -1.        ]
+   [-0.9999978  -0.9999978  -0.9999978 ]
+   [-0.9972447  -0.9972447  -0.9972447 ]
+   ...
+   [-0.1157797  -0.1157797  -0.1157797 ]
+   [-0.18055326 -0.18055326 -0.18055326]
+   [-0.2555474  -0.2555474  -0.2555474 ]]]]
+Error executing query 21: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+1
+['does a chest x-ray reveal pleural effusion in the right lung?']
+[[array(2), array(24636), array(476), array(15704), array(1141), array(235290), array(1040), array(20469), array(182682), array(188019), array(575), array(573), array(1833), array(15382), array(235336)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-6.2971842e-01 -6.2971842e-01 -6.2971842e-01]
+   [-5.9185761e-01 -5.9185761e-01 -5.9185761e-01]
+   [-5.8756346e-01 -5.8756346e-01 -5.8756346e-01]
+   ...
+   [-1.0000000e+00 -1.0000000e+00 -1.0000000e+00]
+   [-1.0000000e+00 -1.0000000e+00 -1.0000000e+00]
+   [-1.0000000e+00 -1.0000000e+00 -1.0000000e+00]]
+
+  [[-6.2769270e-01 -6.2769270e-01 -6.2769270e-01]
+   [-5.9005666e-01 -5.9005666e-01 -5.9005666e-01]
+   [-5.5268872e-01 -5.5268872e-01 -5.5268872e-01]
+   ...
+   [-1.0000000e+00 -1.0000000e+00 -1.0000000e+00]
+   [-1.0000000e+00 -1.0000000e+00 -1.0000000e+00]
+   [-1.0000000e+00 -1.0000000e+00 -1.0000000e+00]]
+
+  [[-6.2009734e-01 -6.2009734e-01 -6.2009734e-01]
+   [-5.7474381e-01 -5.7474381e-01 -5.7474381e-01]
+   [-5.4010797e-01 -5.4010797e-01 -5.4010797e-01]
+   ...
+   [-9.9992120e-01 -9.9992120e-01 -9.9992120e-01]
+   [-9.9977058e-01 -9.9977058e-01 -9.9977058e-01]
+   [-9.9976921e-01 -9.9976921e-01 -9.9976921e-01]]
+
+  ...
+
+  [[ 2.1770251e-01  2.1770251e-01  2.1770251e-01]
+   [ 3.5085952e-01  3.5085952e-01  3.5085952e-01]
+   [ 3.8785255e-01  3.8785255e-01  3.8785255e-01]
+   ...
+   [-4.2334139e-02 -4.2334139e-02 -4.2334139e-02]
+   [-7.4387372e-02 -7.4387372e-02 -7.4387372e-02]
+   [-1.1443746e-01 -1.1443746e-01 -1.1443746e-01]]
+
+  [[ 2.3482072e-01  2.3482072e-01  2.3482072e-01]
+   [ 3.6634445e-01  3.6634445e-01  3.6634445e-01]
+   [ 4.0339291e-01  4.0339291e-01  4.0339291e-01]
+   ...
+   [-1.1899471e-02 -1.1899471e-02 -1.1899471e-02]
+   [-5.6299567e-02 -5.6299567e-02 -5.6299567e-02]
+   [-1.0480839e-01 -1.0480839e-01 -1.0480839e-01]]
+
+  [[ 2.4598372e-01  2.4598372e-01  2.4598372e-01]
+   [ 3.7478256e-01  3.7478256e-01  3.7478256e-01]
+   [ 4.0171647e-01  4.0171647e-01  4.0171647e-01]
+   ...
+   [-8.1658363e-06 -8.1658363e-06 -8.1658363e-06]
+   [-3.3252954e-02 -3.3252954e-02 -3.3252954e-02]
+   [-1.1647183e-01 -1.1647183e-01 -1.1647183e-01]]]]
+Error executing query 23: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+1
+['identify all diseases.']
+[[array(2), array(111123), array(832), array(16011), array(235265)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-0.65551627 -0.65551627 -0.65551627]
+   [-0.76801336 -0.76801336 -0.76801336]
+   [-0.8072803  -0.8072803  -0.8072803 ]
+   ...
+   [-0.7159864  -0.7159864  -0.7159864 ]
+   [-0.6107043  -0.6107043  -0.6107043 ]
+   [-0.3553012  -0.3553012  -0.3553012 ]]
+
+  [[-0.808111   -0.808111   -0.808111  ]
+   [-0.82876027 -0.82876027 -0.82876027]
+   [-0.8417038  -0.8417038  -0.8417038 ]
+   ...
+   [-0.8148224  -0.8148224  -0.8148224 ]
+   [-0.7951592  -0.7951592  -0.7951592 ]
+   [-0.68944263 -0.68944263 -0.68944263]]
+
+  [[-0.8336134  -0.8336134  -0.8336134 ]
+   [-0.84903973 -0.84903973 -0.84903973]
+   [-0.8601172  -0.8601172  -0.8601172 ]
+   ...
+   [-0.8418347  -0.8418347  -0.8418347 ]
+   [-0.8306409  -0.8306409  -0.8306409 ]
+   [-0.80770755 -0.80770755 -0.80770755]]
+
+  ...
+
+  [[ 0.20051241  0.20051241  0.20051241]
+   [ 0.1444298   0.1444298   0.1444298 ]
+   [ 0.09848642  0.09848642  0.09848642]
+   ...
+   [ 0.7320826   0.7320826   0.7320826 ]
+   [ 0.89217675  0.89217675  0.89217675]
+   [ 0.95960855  0.95960855  0.95960855]]
+
+  [[ 0.26149714  0.26149714  0.26149714]
+   [ 0.19028592  0.19028592  0.19028592]
+   [ 0.13579679  0.13579679  0.13579679]
+   ...
+   [ 0.73864377  0.73864377  0.73864377]
+   [ 0.8868407   0.8868407   0.8868407 ]
+   [ 0.96512234  0.96512234  0.96512234]]
+
+  [[ 0.34373498  0.34373498  0.34373498]
+   [ 0.251729    0.251729    0.251729  ]
+   [ 0.18443596  0.18443596  0.18443596]
+   ...
+   [ 0.72056556  0.72056556  0.72056556]
+   [ 0.8811033   0.8811033   0.8811033 ]
+   [ 0.97024953  0.97024953  0.97024953]]]]
+Error executing query 25: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+Error executing query 28: Answer count mismatch: 4 != 2
+1
+['does a chest x-ray show any abnormality?']
+[[array(2), array(24636), array(476), array(15704), array(1141), array(235290), array(1040), array(1500), array(1089), array(160690), array(235336)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   ...
+   [-0.98699075 -0.98699075 -0.98699075]
+   [-0.99210876 -0.99210876 -0.99210876]
+   [-0.99215686 -0.99215686 -0.99215686]]
+
+  [[-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   ...
+   [-0.98699075 -0.98699075 -0.98699075]
+   [-0.99210876 -0.99210876 -0.99210876]
+   [-0.99215686 -0.99215686 -0.99215686]]
+
+  [[-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   [-0.99215686 -0.99215686 -0.99215686]
+   ...
+   [-0.98699075 -0.98699075 -0.98699075]
+   [-0.99210876 -0.99210876 -0.99210876]
+   [-0.99215686 -0.99215686 -0.99215686]]
+
+  ...
+
+  [[ 0.46030962  0.46030962  0.46030962]
+   [ 0.4907925   0.4907925   0.4907925 ]
+   [ 0.51688564  0.51688564  0.51688564]
+   ...
+   [ 0.796924    0.796924    0.796924  ]
+   [ 0.78092754  0.78092754  0.78092754]
+   [ 0.7839073   0.7839073   0.7839073 ]]
+
+  [[ 0.47915614  0.47915614  0.47915614]
+   [ 0.50444806  0.50444806  0.50444806]
+   [ 0.52554464  0.52554464  0.52554464]
+   ...
+   [ 0.70266616  0.70266616  0.70266616]
+   [ 0.67137396  0.67137396  0.67137396]
+   [ 0.67252743  0.67252743  0.67252743]]
+
+  [[ 0.4869088   0.4869088   0.4869088 ]
+   [ 0.5124786   0.5124786   0.5124786 ]
+   [ 0.5336627   0.5336627   0.5336627 ]
+   ...
+   [ 0.69043183  0.69043183  0.69043183]
+   [ 0.6783011   0.6783011   0.6783011 ]
+   [ 0.66509545  0.66509545  0.66509545]]]]
+Error executing query 29: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+Error executing query 30: Answer count mismatch: 4 != 2
+1
+['are chest tube apparent in the left lung?']
+[[array(2), array(895), array(15704), array(13005), array(9982), array(575), array(573), array(2731), array(15382), array(235336)], array(108), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [array(1), array(1), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0), array(0)] [[[[-0.83543515 -0.83543515 -0.83543515]
+   [-0.907659   -0.907659   -0.907659  ]
+   [-0.9252635  -0.9252635  -0.9252635 ]
+   ...
+   [-0.92159635 -0.92159635 -0.92159635]
+   [-0.874019   -0.874019   -0.874019  ]
+   [-0.69030726 -0.69030726 -0.69030726]]
+
+  [[-0.92222995 -0.92222995 -0.92222995]
+   [-0.92846763 -0.92846763 -0.92846763]
+   [-0.937858   -0.937858   -0.937858  ]
+   ...
+   [-0.93373555 -0.93373555 -0.93373555]
+   [-0.92140305 -0.92140305 -0.92140305]
+   [-0.8834287  -0.8834287  -0.8834287 ]]
+
+  [[-0.9240903  -0.9240903  -0.9240903 ]
+   [-0.93149364 -0.93149364 -0.93149364]
+   [-0.941403   -0.941403   -0.941403  ]
+   ...
+   [-0.93756783 -0.93756783 -0.93756783]
+   [-0.9331601  -0.9331601  -0.9331601 ]
+   [-0.9171824  -0.9171824  -0.9171824 ]]
+
+  ...
+
+  [[-0.00883389 -0.00883389 -0.00883389]
+   [-0.07574928 -0.07574928 -0.07574928]
+   [-0.11924732 -0.11924732 -0.11924732]
+   ...
+   [ 0.5832603   0.5832603   0.5832603 ]
+   [ 0.69154596  0.69154596  0.69154596]
+   [ 0.81680167  0.81680167  0.81680167]]
+
+  [[ 0.05262649  0.05262649  0.05262649]
+   [-0.00840855 -0.00840855 -0.00840855]
+   [-0.04176348 -0.04176348 -0.04176348]
+   ...
+   [ 0.5299696   0.5299696   0.5299696 ]
+   [ 0.57330537  0.57330537  0.57330537]
+   [ 0.6185063   0.6185063   0.6185063 ]]
+
+  [[ 0.11514413  0.11514413  0.11514413]
+   [ 0.05923223  0.05923223  0.05923223]
+   [ 0.0337317   0.0337317   0.0337317 ]
+   ...
+   [ 0.30632138  0.30632138  0.30632138]
+   [ 0.34110832  0.34110832  0.34110832]
+   [ 0.44550908  0.44550908  0.44550908]]]]
+Error executing query 32: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+Traceback (most recent call last):
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 62, in <module>
+    Defaults.start()
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/dtu/__init__.py", line 235, in start
+    cls.run(*args)
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/main.py", line 52, in run
+    executed_result = run_execution_for_gt_query(executor, parsed_result_gt)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/execute_nsql.py", line 81, in run_execution_for_gt_query
+    result = executor.execute_nsql(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 265, in execute_nsql
+    return self._execute_select_query(query_root, nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 321, in _execute_select_query
+    return self._execute_subquery_operation(query_root, nsql)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 342, in _execute_subquery_operation
+    answer1 = self.execute_nsql(subquery_list[0].sql())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 265, in execute_nsql
+    return self._execute_select_query(query_root, nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 327, in _execute_select_query
+    return self._execute_vqa_subquery(from_clause_node, query_root, nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 358, in _execute_vqa_subquery
+    return self.execute_vqa_function_in_nsql(nsql, tables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 191, in execute_vqa_function_in_nsql
+    answer_batch = self._execute_vqa_function(image_batch=image_batch, question_batch=question_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/nsql_executor.py", line 120, in _execute_vqa_function
+    answers = self.vqa_module(image_batch, question_batch)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/visual_module/custom_vqa_module.py", line 52, in __call__
+    self.load_model()
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/NeuralSQL/executor/visual_module/custom_vqa_module.py", line 24, in load_model
+    self.params = bv_utils.load_checkpoint_np(self.model_path) # check this
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/utils.py", line 162, in load_checkpoint_np
+    npz = npload(npz)
+          ^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/ML_final/big_vision/utils.py", line 147, in npload
+    return dict(loaded)
+           ^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/numpy/lib/npyio.py", line 256, in __getitem__
+    return format.read_array(bytes,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/numpy/lib/format.py", line 831, in read_array
+    data = _read_bytes(fp, read_size, "array data")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/zhome/ea/9/137501/Desktop/ML_final/project-env/lib/python3.11/site-packages/numpy/lib/format.py", line 966, in _read_bytes
+    r = fp.read(size - len(data))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/appl/python/3.11.7/lib/python3.11/zipfile.py", line 955, in read
+    data = self._read1(n)
+           ^^^^^^^^^^^^^^
+  File "/appl/python/3.11.7/lib/python3.11/zipfile.py", line 1025, in _read1
+    data = self._read2(n)
+           ^^^^^^^^^^^^^^
+  File "/appl/python/3.11.7/lib/python3.11/zipfile.py", line 1055, in _read2
+    data = self._fileobj.read(n)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/appl/python/3.11.7/lib/python3.11/zipfile.py", line 775, in read
+    data = self._file.read(n)
+           ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Terminated
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21902819: <VQA_eval_0> in cluster <dcc> Exited
+
+Job <VQA_eval_0> was submitted from host <n-62-27-23> by user <s183914> in cluster <dcc> at Mon Jun  3 06:20:27 2024
+Job was executed on host(s) <4*n-62-20-10>, in queue <gpuv100>, as user <s183914> in cluster <dcc> at Mon Jun  3 06:20:27 2024
+</zhome/ea/9/137501> was used as the home directory.
+</zhome/ea/9/137501/Desktop/ML_final/ML_final> was used as the working directory.
+Started at Mon Jun  3 06:20:27 2024
+Terminated at Mon Jun  3 06:25:29 2024
+Results reported at Mon Jun  3 06:25:29 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 4
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "select[gpu32gb]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 143.
+
+Resource usage summary:
+
+    CPU time :                                   203.00 sec.
+    Max Memory :                                 10300 MB
+    Average Memory :                             4287.60 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               55236.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                42
+    Run time :                                   339 sec.
+    Turnaround time :                            302 sec.
+
+The output (if any) is above this job summary.
+
