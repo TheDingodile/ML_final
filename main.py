@@ -22,7 +22,7 @@ class Defaults(Parameters):
     time: int = 3600
 
     name: str = "local"
-    vqa_module_type: str = "yes"
+    vqa_module_type: str = "custom"
 
 
     def run(self, name: str, isServer: bool, vqa_module_type: str) -> None:
@@ -41,33 +41,36 @@ class Defaults(Parameters):
 
         )
 
-        # with open("dataset/mimic_iv_cxr/train/train_data.json", "r") as f:
-        #     gt_dataset = json.load(f)
-        #     gt_dataset = gt_dataset
 
-        # with open("dataset/mimic_iv_cxr/train/train_answer.json", "r") as f:
-        #     answers = json.load(f)
-        #     answers = answers
+        ### TRAIN ###
+        prediction_names = "ground_truth_SQL"
+        with open("dataset/mimic_iv_cxr/train/train_data.json", "r") as f:
+            gt_dataset = json.load(f)
+            gt_dataset = gt_dataset
 
-        # parsed_result_gt = {str(item["id"]): item["query"] for item in gt_dataset}
-        # parsed_result_answer = {str(item["id"]): item["answer"] for item in answers}
-        prediction_names = "predictions_LLM_1-0"
-        with open(f"{prediction_names}.json", "r") as f:
-            parsed_result_gt = json.load(f)
-            parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())}
-
-        with open("dataset/mimic_iv_cxr/valid/valid_answer.json", "r") as f:
+        with open("dataset/mimic_iv_cxr/train/train_answer.json", "r") as f:
             answers = json.load(f)
             answers = answers
+
+        parsed_result_gt = {str(item["id"]): item["query"] for item in gt_dataset}
         parsed_result_answer = {str(item["id"]): item["answer"] for item in answers}
+
+
+        ###### VALIDATION ######
+        # prediction_names = "predictions_LLM_1-0"
+        # with open(f"{prediction_names}.json", "r") as f:
+        #     parsed_result_gt = json.load(f)
+        #     parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())}
+
+        # with open("dataset/mimic_iv_cxr/valid/valid_answer.json", "r") as f:
+        #     answers = json.load(f)
+        #     answers = answers
+        # parsed_result_answer = {str(item["id"]): item["answer"] for item in answers}
             
 
 
 
         executed_result = run_execution_for_gt_query(executor, parsed_result_gt, prediction_names)
-        
-        # with open("results/combined_results.json", "r") as f:
-        #     executed_result = json.load(f)
 
         with open("dataset/mimic_iv_cxr/valid/valid_data.json", "r") as f:
             questions = json.load(f)
