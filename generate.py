@@ -40,6 +40,6 @@ from main import Defaults, GPU
 # Defaults("True_SQL_eval", GPU=GPU.a40)
 
 # Defaults("test_final", GPU=GPU.v32, vqa_module_type="custom")
-Defaults("test_final_a80", GPU=GPU.a80, vqa_module_type="custom")
+Defaults("test_final_a80_print", GPU=GPU.a80, vqa_module_type="custom")
 
 

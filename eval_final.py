@@ -1,7 +1,7 @@
 import json
 
 query_file_name = "predictions_LLM_1-0.json"
-predictions_file_name = "results/predictions_gt_predictions_LLM_1-0.json"
+predictions_file_name = "results/predictions_gt_test_final_a80-0.json"
 
 answer_file = "dataset/mimic_iv_cxr/valid/valid_answer.json"
 question_file = "dataset/mimic_iv_cxr/valid/valid_data.json"
@@ -51,11 +51,11 @@ for key in executed_result:
         else:
             wrong_count_text += 1
     else:
+        print(key, answer, truth, parsed_questions[key])
         if answer == truth:
             correct_count_image += 1
         else:
             wrong_count_image += 1
-            # print(answer, truth, key, parsed_questions[key])
 
 print("Correct count:", correct_count_text)
 print("Wrong count:", wrong_count_text)
