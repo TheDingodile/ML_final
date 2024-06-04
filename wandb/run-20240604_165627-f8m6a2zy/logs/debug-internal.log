@@ -104,3 +104,248 @@
 2024-06-04 16:58:20,172 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
 2024-06-04 16:58:21,571 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
 2024-06-04 16:58:24,184 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:58:26,831 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:58:28,009 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 16:58:28,197 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:58:28,435 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 16:58:28,435 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 16:58:31,210 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:58:32,242 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:58:33,216 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:58:37,228 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:58:37,606 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:58:41,240 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:58:43,393 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:58:43,434 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 16:58:43,435 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 16:58:45,252 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:58:48,656 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:58:49,264 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:58:51,271 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:58:53,279 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:58:54,622 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:58:55,289 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:58:58,011 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 16:58:58,434 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 16:58:58,435 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 16:58:59,304 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:00,602 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:59:03,317 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:06,441 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:59:07,330 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:09,336 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:11,864 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:59:13,349 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:13,436 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 16:59:13,436 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 16:59:17,363 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:17,744 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:59:19,372 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:23,032 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:59:23,384 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:27,397 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:28,012 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 16:59:28,435 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 16:59:28,436 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 16:59:28,617 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:59:31,410 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:34,233 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:59:35,424 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:39,441 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:39,966 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:59:43,435 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 16:59:43,436 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 16:59:43,452 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:45,129 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:59:45,459 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:49,471 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:50,797 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:59:53,485 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:56,563 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 16:59:57,501 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 16:59:58,014 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 16:59:58,435 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 16:59:58,436 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 16:59:59,509 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:02,090 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:00:03,527 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:07,538 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:07,942 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:00:11,552 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:13,068 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:00:13,467 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:00:13,467 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:00:13,558 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:15,565 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:17,570 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:18,691 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:00:21,586 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:23,762 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:00:25,599 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:27,605 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:28,015 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 17:00:28,441 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:00:28,442 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:00:29,706 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:00:31,618 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:35,121 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:00:35,630 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:39,642 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:40,616 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:00:41,648 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:43,441 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:00:43,442 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:00:45,660 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:46,461 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:00:49,673 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:51,733 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:00:53,686 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:55,693 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:00:57,155 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:00:58,017 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 17:00:58,441 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:00:58,442 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:00:59,707 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:02,340 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:01:03,720 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:07,733 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:07,893 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:01:11,748 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:13,441 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:01:13,442 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:01:13,680 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:01:13,755 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:17,770 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:19,412 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:01:21,782 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:24,654 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:01:25,797 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:27,805 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:28,018 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 17:01:28,442 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:01:28,442 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:01:30,608 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:01:31,820 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:35,833 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:36,101 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:01:39,848 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:41,206 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:01:41,854 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:43,442 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:01:43,443 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:01:45,867 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:47,016 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:01:49,880 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:52,855 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:01:53,891 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:55,899 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:01:58,019 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 17:01:58,021 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:01:58,442 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:01:58,442 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:01:59,913 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:03,422 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:02:03,926 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:07,939 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:08,814 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:02:09,945 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:13,442 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:02:13,443 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:02:13,962 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:14,630 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:02:17,981 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:19,640 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:02:21,995 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:25,016 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:02:26,008 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:28,021 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 17:02:28,484 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:02:28,485 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:02:30,020 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:30,674 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:02:32,028 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:35,847 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:02:36,042 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:40,056 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:41,277 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:02:43,449 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:02:43,449 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:02:44,069 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:46,662 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:02:48,081 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:50,088 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:52,057 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:02:54,101 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:57,993 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:02:58,022 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 17:02:58,113 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:02:58,448 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:02:58,448 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:03:02,126 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:03,887 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:03:04,132 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:08,145 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:09,426 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:03:12,157 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:13,449 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:03:13,450 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:03:14,162 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:14,666 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:03:16,171 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:18,178 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:19,872 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:03:22,194 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:25,047 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:03:26,206 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:28,023 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 17:03:28,448 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:03:28,449 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:03:30,218 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:30,660 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:03:32,225 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:36,239 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:36,509 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:03:40,255 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:41,624 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:03:42,262 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:43,448 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:03:43,449 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:03:44,269 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:46,278 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:47,114 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:03:50,290 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:52,149 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:03:54,304 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:57,765 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:03:58,024 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 17:03:58,319 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:03:58,448 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:03:58,449 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:04:00,327 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:03,686 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:04:04,343 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:08,356 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:09,077 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:04:12,370 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:13,449 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:04:13,450 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:04:14,662 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:04:16,384 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:18,392 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:20,204 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:04:22,407 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:25,321 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:04:26,419 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:28,026 DEBUG   SenderThread:27524 [sender.py:send():378] send: stats
+2024-06-04 17:04:28,540 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 17:04:28,541 DEBUG   SenderThread:27524 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 17:04:30,430 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:30,767 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:04:32,439 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:35,864 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:04:36,455 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:40,467 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:41,322 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 17:04:44,479 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:45,482 INFO    Thread-12 :27524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_165627-f8m6a2zy/files/output.log
+2024-06-04 17:04:47,189 DEBUG   HandlerThread:27524 [handler.py:handle_request():158] handle_request: status_report
