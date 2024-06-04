@@ -41,35 +41,37 @@ class Defaults(Parameters):
 
         )
 
-        # with open("dataset/mimic_iv_cxr/train/train_data.json", "r") as f:
-        #     gt_dataset = json.load(f)
-        #     gt_dataset = gt_dataset[:50]
+        with open("dataset/mimic_iv_cxr/train/train_data.json", "r") as f:
+            gt_dataset = json.load(f)
+            gt_dataset = gt_dataset
 
-        # with open("dataset/mimic_iv_cxr/train/train_answer.json", "r") as f:
-        #     answers = json.load(f)
-        #     answers = answers[:50]
-
-        # parsed_result_gt = {str(item["id"]): item["query"] for item in gt_dataset}
-        # parsed_result_answer = {str(item["id"]): item["answer"] for item in answers}
-
-        with open("final_LLM_0-0.json", "r") as f:
-            parsed_result_gt = json.load(f)
-            # only keep the first 50
-            parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())}
-
-        with open("dataset/mimic_iv_cxr/valid/valid_answer.json", "r") as f:
+        with open("dataset/mimic_iv_cxr/train/train_answer.json", "r") as f:
             answers = json.load(f)
             answers = answers
 
+        parsed_result_gt = {str(item["id"]): item["query"] for item in gt_dataset}
         parsed_result_answer = {str(item["id"]): item["answer"] for item in answers}
+
+        # with open("final_LLM_0-0.json", "r") as f:
+        #     parsed_result_gt = json.load(f)
+        #     # only keep the first 50
+        #     parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())}
+
+        # with open("dataset/mimic_iv_cxr/valid/valid_answer.json", "r") as f:
+        #     answers = json.load(f)
+        #     answers = answers
+
+        # parsed_result_answer = {str(item["id"]): item["answer"] for item in answers}
             
 
 
 
-        executed_result = run_execution_for_gt_query(executor, parsed_result_gt)
+        executed_result = run_execution_for_gt_query(executor, parsed_result_gt, name)
+        # with open("results/predictions_gt.json", "r") as f:
+        #     executed_result = json.load(f)
+
         correct_count_text = 0
         wrong_count_text = 0
-
         correct_count_image = 0
         wrong_count_image = 0
         # print executed result and answers side by side
@@ -83,12 +85,12 @@ class Defaults(Parameters):
                 continue
 
             if "func_vqa" not in parsed_result_gt[key]:
-                # print(answer, truth)
                 if answer == truth:
                     correct_count_text += 1
                 else:
                     wrong_count_text += 1
             else:
+                print(answer, truth, key)
                 if answer == truth:
                     correct_count_image += 1
                 else:

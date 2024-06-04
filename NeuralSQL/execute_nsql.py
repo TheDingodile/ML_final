@@ -73,7 +73,7 @@ def post_process_answer(answer, round_digit=6, sorted_answer=False):
 
 
 
-def run_execution_for_gt_query(executor, parsed_result):
+def run_execution_for_gt_query(executor, parsed_result, name):
     executed_result = {}
     for idx, query in enumerate(parsed_result.values()):
         query = post_process_sql(query)
@@ -87,7 +87,7 @@ def run_execution_for_gt_query(executor, parsed_result):
             print(f"Error executing query {idx}: {e}")
             result = "null"  # NOTE: For NeuralSQL, we will abstain as "null" if the query execution fails
         executed_result[str(idx)] = result
-        with open(os.path.join("results", "predictions_gt.json"), "w") as f:
+        with open(os.path.join("results", f"predictions_gt_{name}.json"), "w") as f:
             json.dump(executed_result, f, indent=4)
     return executed_result
 
