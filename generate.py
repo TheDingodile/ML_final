@@ -52,25 +52,28 @@ from main import Defaults, GPU
 
 # Defaults("test_set08_fix", GPU=GPU.v32, vqa_module_type="custom", threshold=0.8, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
 # Defaults("test_set09_fix", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
-Defaults("test_set07_fix", GPU=GPU.v32, vqa_module_type="custom", threshold=0.7, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
+# Defaults("test_set07_fix", GPU=GPU.v32, vqa_module_type="custom", threshold=0.7, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
 
-# 1, 3 and 4 are the good vision models
+# # 1, 3 and 4 are the good vision models
 
-Defaults("vision3valid09", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9, model_path_name="params_model_3-0", 
-         table_path="database/mimic_iv_cxr/silver", prediction_file_name="predictions_LLM_1-0")
+# Defaults("vision3valid09", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9, model_path_name="params_model_3-0", 
+#          table_path="database/mimic_iv_cxr/silver", prediction_file_name="predictions_LLM_1-0")
 
-Defaults("vision3test09", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9, model_path_name="params_model_3-0", 
-         table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
+# Defaults("vision3test09", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9, model_path_name="params_model_3-0", 
+#          table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
 
-Defaults("vision3valid08", GPU=GPU.v32, vqa_module_type="custom", threshold=0.8, model_path_name="params_model_3-0", 
-         table_path="database/mimic_iv_cxr/silver", prediction_file_name="predictions_LLM_1-0")
+# Defaults("vision3valid08", GPU=GPU.v32, vqa_module_type="custom", threshold=0.8, model_path_name="params_model_3-0", 
+#          table_path="database/mimic_iv_cxr/silver", prediction_file_name="predictions_LLM_1-0")
 
-Defaults("vision3test08", GPU=GPU.v32, vqa_module_type="custom", threshold=0.8, model_path_name="params_model_3-0", 
-         table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
+# Defaults("vision3test08", GPU=GPU.v32, vqa_module_type="custom", threshold=0.8, model_path_name="params_model_3-0", 
+#          table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
 
-Defaults("vision1valid09", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9, model_path_name="params_model_1-0",
-         table_path="database/mimic_iv_cxr/silver", prediction_file_name="predictions_LLM_1-0")
+# Defaults("vision1valid09", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9, model_path_name="params_model_1-0",
+#          table_path="database/mimic_iv_cxr/silver", prediction_file_name="predictions_LLM_1-0")
 
-Defaults("vision1test09", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9, model_path_name="params_model_1-0", 
+# Defaults("vision1test09", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9, model_path_name="params_model_1-0", 
+#          table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
+
+Defaults("vision4test09", GPU=GPU.a80, vqa_module_type="custom", threshold=0.9, model_path_name="params_model_4-0", 
          table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
 
