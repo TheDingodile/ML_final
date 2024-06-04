@@ -39,6 +39,6 @@ from main import Defaults, GPU
 
 # Defaults("True_SQL_eval", GPU=GPU.a40)
 
-Defaults("True_SQL_test", GPU=GPU.v32, vqa_module_type="custom")
+Defaults("test_final", GPU=GPU.v32, vqa_module_type="custom")
 
 

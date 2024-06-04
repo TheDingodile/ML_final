@@ -23,9 +23,10 @@ class Defaults(Parameters):
 
     name: str = "local"
     vqa_module_type: str = "yes"
+    prediction_file_name: str = "predictions_LLM_1-0"
 
 
-    def run(self, name: str, isServer: bool, vqa_module_type: str) -> None:
+    def run(self, name: str, isServer: bool, vqa_module_type: str, prediction_file_name: str) -> None:
 
         if (isServer):
             wandb.init(project="ML_healthcare", name=name)
@@ -57,8 +58,7 @@ class Defaults(Parameters):
 
 
         ###### VALIDATION ######
-        prediction_names = "predictions_LLM_1-0"
-        with open(f"{prediction_names}.json", "r") as f:
+        with open(f"{prediction_file_name}.json", "r") as f:
             parsed_result_gt = json.load(f)
             parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())}
 

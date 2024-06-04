@@ -3,6 +3,9 @@ import json
 query_file_name = "predictions_LLM_1-0.json"
 predictions_file_name = "results/predictions_gt_predictions_LLM_1-0.json"
 
+answer_file = "dataset/mimic_iv_cxr/valid/valid_answer.json"
+question_file = "dataset/mimic_iv_cxr/valid/valid_data.json"
+
 with open(query_file_name, "r") as f:
     parsed_result_gt = json.load(f)
     parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())}
@@ -11,12 +14,12 @@ with open(predictions_file_name, "r") as f:
     executed_result = json.load(f)
     executed_result = {str(key): executed_result[key] for key in list(executed_result.keys())}
 
-with open("dataset/mimic_iv_cxr/valid/valid_answer.json", "r") as f:
+with open(answer_file, "r") as f:
     answers = json.load(f)
     answers = answers
 parsed_result_answer = {str(item["id"]): item["answer"] for item in answers}
 
-with open("dataset/mimic_iv_cxr/valid/valid_data.json", "r") as f:
+with open(question_file, "r") as f:
     questions = json.load(f)
 parsed_questions = {str(item["id"]): item["question"] for item in questions}
 

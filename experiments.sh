@@ -1,3 +1,3 @@
 #!/bin/sh
-mkdir -p outputs/True_SQL_test/Markdown
-bsub -o "outputs/True_SQL_test/Markdown/True_SQL_test_0.md" -J "True_SQL_test_0" -env MYARGS="-name True_SQL_test-0 -time 3600 -vqa_module_type custom -ID 0" < submit_gpu_v32.sh
+mkdir -p outputs/test_final/Markdown
+bsub -o "outputs/test_final/Markdown/test_final_0.md" -J "test_final_0" -env MYARGS="-name test_final-0 -time 3600 -vqa_module_type custom -prediction_file_name predictions_LLM_1-0 -ID 0" < submit_gpu_v32.sh
