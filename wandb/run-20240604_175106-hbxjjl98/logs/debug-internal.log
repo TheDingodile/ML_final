@@ -2538,3 +2538,41 @@
 2024-06-04 18:55:09,341 DEBUG   SenderThread:30556 [sender.py:send_request():405] send_request: stop_status
 2024-06-04 18:55:09,641 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
 2024-06-04 18:55:12,549 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 18:55:13,651 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:15,657 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:18,072 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 18:55:19,667 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:23,676 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:23,929 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 18:55:24,341 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 18:55:24,341 DEBUG   SenderThread:30556 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 18:55:27,686 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:29,150 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 18:55:29,691 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:31,696 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:33,700 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:34,856 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 18:55:37,398 DEBUG   SenderThread:30556 [sender.py:send():378] send: stats
+2024-06-04 18:55:37,710 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:39,341 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 18:55:39,341 DEBUG   SenderThread:30556 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 18:55:39,967 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 18:55:41,719 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:45,636 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 18:55:45,728 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:47,733 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:51,525 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 18:55:51,743 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:54,341 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 18:55:54,342 DEBUG   SenderThread:30556 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 18:55:55,753 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:55:56,921 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 18:55:59,762 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:56:01,767 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:56:02,446 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 18:56:03,772 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:56:05,781 INFO    Thread-12 :30556 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_175106-hbxjjl98/files/output.log
+2024-06-04 18:56:07,398 DEBUG   SenderThread:30556 [sender.py:send():378] send: stats
+2024-06-04 18:56:08,116 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 18:56:09,341 DEBUG   HandlerThread:30556 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 18:56:09,342 DEBUG   SenderThread:30556 [sender.py:send_request():405] send_request: stop_status
