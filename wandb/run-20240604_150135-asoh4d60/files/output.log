@@ -2108,3 +2108,6 @@ Error executing query 2365: Invalid expression / Unexpected token. Line 1, Col: 
 Error executing query 2366: Model abstains from answering the question
 Error executing query 2367: Model abstains from answering the question
 Error executing query 2369: Model only answers one image question SQLs
+Error executing query 2371: Model abstains from answering the question
+Error executing query 2372: Model abstains from answering the question
+Error executing query 2373: Model only answers one image question SQLs

@@ -5,6 +5,7 @@ import json
 from src.experiment.baseline import predict
 import sqlite3
 from datetime import datetime
+import time
 
 def is_datetime(string):
     """Check if the string can be converted to a datetime."""
@@ -55,6 +56,9 @@ with open('dataset/mimic_iv_cxr/train/train_answer.json', 'r') as f:
 with open('dataset/mimic_iv_cxr/valid/valid_data.json', 'r') as f:
     valid_data = json.load(f)
 
+with open('predictions_LLM_1-0.json', 'r') as f:
+    predicted_quiries = json.load(f)
+
 
 print(len(train_data), len(valid_data))
 
@@ -65,8 +69,12 @@ for i in range(100):
     # print(train_data[i]["query"])
     # print("   ")
 
-    # print(train_data[i]["question"])
-    print(train_data[i]["query"])
+    print(valid_data[i]["question"])
+    print(" ")
+    print(predicted_quiries[str(i)])
+    print(" ")
+
+    time.sleep(1)
     # print("   ")
 
 # all_possible_answers = set()

@@ -25,9 +25,10 @@ class Defaults(Parameters):
     vqa_module_type: str = "yes"
     prediction_file_name: str = "predictions_LLM_1-0"
     threshold: float = 0.9
+    table_path: str = "database/mimic_iv_cxr/silver"
 
 
-    def run(self, name: str, isServer: bool, vqa_module_type: str, prediction_file_name: str, threshold: float) -> None:
+    def run(self, name: str, isServer: bool, vqa_module_type: str, prediction_file_name: str, threshold: float, table_path: str) -> None:
 
         if (isServer):
             wandb.init(project="ML_healthcare", name=name)
@@ -37,7 +38,7 @@ class Defaults(Parameters):
         else: images_path = "ehrxqa-2024-ml4h/resized_ratio_short_side_768"
 
         executor = NeuralSQLExecutor(
-            "database/mimic_iv_cxr/silver",
+            table_path,
             images_path,
             vqa_module_type=vqa_module_type,
             threshold=threshold,
@@ -62,7 +63,7 @@ class Defaults(Parameters):
         ###### VALIDATION ######
         with open(f"{prediction_file_name}.json", "r") as f:
             parsed_result_gt = json.load(f)
-            parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())}
+            parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())[:500]}
 
         executed_result = run_execution_for_gt_query(executor, parsed_result_gt, name)
 

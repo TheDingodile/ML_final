@@ -2,7 +2,9 @@ import json
 import time
 
 query_file_name = "predictions_LLM_1-0.json"
-predictions_file_name = "results/predictions_gt_test_final-0.json"
+file_name = "predictions_gt_test_final_08-0"
+
+predictions_file_name = f"results/{file_name}.json"
 
 answer_file = "dataset/mimic_iv_cxr/valid/valid_answer.json"
 question_file = "dataset/mimic_iv_cxr/valid/valid_data.json"
@@ -48,15 +50,16 @@ for key in executed_result:
         answer = "null"
     # if "t1 where func_vqa(" in parsed_result_gt[key]:
     #     answer = "null"
-    if "true" in parsed_result_gt[key][-6:]:
-        answer = "null"
+
+    # if "true" in parsed_result_gt[key][-6:] and answer[0] == 0:
+    #     answer = "null"
     if "func_vqa" not in parsed_result_gt[key] and answer[0] == 0:
         answer = "null"
     if "order by count(*) desc" in parsed_result_gt[key]:
-        result = "null"
+        answer = "null"
     # check if query contains more than 1 func_vqa
     elif parsed_result_gt[key].count("func_vqa") > 1:
-        result = "null"
+        answer = "null"
 
     # if "func_vqa" in parsed_result_gt[key] and "t1 where func_vqa(" not in parsed_result_gt[key]:
     #     print(parsed_questions[key])
@@ -74,7 +77,7 @@ for key in executed_result:
         else:
             wrong_count_text += 1
     else:
-        print(key, answer, truth, parsed_questions[key])# parsed_result_gt[key])
+        print(key, answer, truth, parsed_questions[key], parsed_result_gt[key])
         if answer == truth:
             correct_count_image += 1
         else:
