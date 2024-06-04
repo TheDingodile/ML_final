@@ -63,7 +63,7 @@ class Defaults(Parameters):
         ###### VALIDATION ######
         with open(f"{prediction_file_name}.json", "r") as f:
             parsed_result_gt = json.load(f)
-            parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())[:500]}
+            parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())}
 
         executed_result = run_execution_for_gt_query(executor, parsed_result_gt, name)
 

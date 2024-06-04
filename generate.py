@@ -47,11 +47,11 @@ from main import Defaults, GPU
 
 # Defaults("test_final_07_a80", GPU=GPU.a80, vqa_module_type="custom", threshold=0.7)
 
-Defaults("test_set08_a80", GPU=GPU.a80, vqa_module_type="custom", threshold=0.8, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
-Defaults("test_set09_a80", GPU=GPU.a80, vqa_module_type="custom", threshold=0.9, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
+# Defaults("test_set08_a80", GPU=GPU.a80, vqa_module_type="custom", threshold=0.8, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
+# Defaults("test_set09_a80", GPU=GPU.a80, vqa_module_type="custom", threshold=0.9, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
 
-Defaults("test_set08", GPU=GPU.v32, vqa_module_type="custom", threshold=0.8, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
-Defaults("test_set09", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
+Defaults("test_set08_fix", GPU=GPU.v32, vqa_module_type="custom", threshold=0.8, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
+Defaults("test_set09_fix", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9, table_path="database/mimic_iv_cxr/gold", prediction_file_name="predictions_LLM_1-0_test")
 
 
 
