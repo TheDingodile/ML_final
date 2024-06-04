@@ -2,14 +2,20 @@ import json
 import time
 import re
 
-query_file_name = "predictions_LLM_1-0.json"
-file_name = "predictions_gt_test_final_09-0"
+# query_file_name = "predictions_LLM_1-0.json"
+# file_name = "predictions_gt_test_final_09-0"
+# answer_file = "dataset/mimic_iv_cxr/valid/valid_answer.json"
+# question_file = "dataset/mimic_iv_cxr/valid/valid_data.json"
+
+query_file_name = "predictions_LLM_1-0_test.json"
+file_name = "predictions_gt_test_set08_fix-0"
+answer_file = "dataset/mimic_iv_cxr/valid/valid_answer.json"
+question_file = "dataset/mimic_iv_cxr/test/test_data.json"
+
+
+
 
 predictions_file_name = f"results/{file_name}.json"
-
-answer_file = "dataset/mimic_iv_cxr/valid/valid_answer.json"
-question_file = "dataset/mimic_iv_cxr/valid/valid_data.json"
-
 with open(query_file_name, "r") as f:
     parsed_result_gt = json.load(f)
     parsed_result_gt = {str(key): parsed_result_gt[key] for key in list(parsed_result_gt.keys())}
@@ -41,22 +47,7 @@ wrong_img_question = []
 wrong_img_query = []
 
 
-
-def is_problematic_sql(query):
-    # Define patterns to detect exact date matching
-    patterns = [
-        r"datetime\([^\)]+,\s*'start of year'\)\s*=\s*datetime\(current_time,\s*'start of year',\s*'-\d+\s*year'\)",  # datetime with 'start of year'
-        r"datetime\([^\)]+\)\s*=\s*datetime\(current_time,\s*'-\d+\s*month'\)",  # datetime with months
-        r"datetime\([^\)]+\)\s*=\s*datetime\(current_time,\s*'-\d+\s*year'\)",  # datetime with years
-        r"strftime\('%y',\s*[^\)]+\)\s*=\s*'\d{2}'",  # strftime with year
-        r"select\s*\(\s*select\s*\(\s*select",  # Multiple nested subqueries
-    ]
-    
-    for pattern in patterns:
-        if re.search(pattern, query, re.IGNORECASE):
-            return True
-    return False
-
+file_to_submit = []
 
 for key in executed_result:
     
@@ -69,8 +60,8 @@ for key in executed_result:
 
     if len(answer) != 1 or answer[0] == None:
         answer = "null"
-    # if "true" in parsed_result_gt[key][-6:]:# and answer[0] == 0:
-    #     answer = "null"
+    if "true" in parsed_result_gt[key][-6:]:# and answer[0] == 0:
+        answer = "null"
     # check if query contains more than 1 func_vqa
     if parsed_result_gt[key].count("func_vqa") > 1:
         answer = "null"
@@ -89,6 +80,7 @@ for key in executed_result:
     #     print(" ")
     #     time.sleep(1)
 
+    file_to_submit.append({"id": int(key), "answer": answer})
     if answer == "null":
         continue
 
@@ -111,6 +103,9 @@ for key in executed_result:
             wrong_img_question.append(parsed_questions[key])
             wrong_img_query.append(parsed_result_gt[key])
 
+# save the file
+# with open("submission.json", "w") as f:
+#     json.dump(file_to_submit, f)
 
 
 print("Correct count:", correct_count_text)
