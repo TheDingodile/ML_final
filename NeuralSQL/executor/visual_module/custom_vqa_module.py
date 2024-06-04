@@ -102,12 +102,14 @@ class CustomVQAModule(VQAModule):
             raise ValueError("Model abstains from answering the question")
         elif jnp.sum(predicted_tokens == 3276, axis=-1) > 0:
             answer = [True]
+            print(answer)
+            return answer
         elif jnp.sum(predicted_tokens == 956, axis=-1) > 0:
             answer = [False]
-
-        print(answer)
-
-        return answer
+            print(answer)
+            return answer
+        
+        raise ValueError("Model abstains from answering the question")
     
     def preprocess_image(self, image):
         # Model has been trained to handle images of different aspects ratios
