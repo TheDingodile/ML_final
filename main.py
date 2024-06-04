@@ -24,9 +24,10 @@ class Defaults(Parameters):
     name: str = "local"
     vqa_module_type: str = "yes"
     prediction_file_name: str = "predictions_LLM_1-0"
+    threshold: float = 0.9
 
 
-    def run(self, name: str, isServer: bool, vqa_module_type: str, prediction_file_name: str) -> None:
+    def run(self, name: str, isServer: bool, vqa_module_type: str, prediction_file_name: str, threshold: float) -> None:
 
         if (isServer):
             wandb.init(project="ML_healthcare", name=name)
@@ -39,6 +40,7 @@ class Defaults(Parameters):
             "database/mimic_iv_cxr/silver",
             images_path,
             vqa_module_type=vqa_module_type,
+            threshold=threshold,
 
         )
 

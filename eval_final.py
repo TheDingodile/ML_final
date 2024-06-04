@@ -1,4 +1,5 @@
 import json
+import time
 
 query_file_name = "predictions_LLM_1-0.json"
 predictions_file_name = "results/predictions_gt_test_final-0.json"
@@ -45,14 +46,18 @@ for key in executed_result:
 
     if len(answer) != 1 or answer[0] == None:
         answer = "null"
-    if "t1 where func_vqa(" in parsed_result_gt[key]:
+    # if "t1 where func_vqa(" in parsed_result_gt[key]:
+    #     answer = "null"
+    if "true" in parsed_result_gt[key][-6:]:
         answer = "null"
     if "func_vqa" not in parsed_result_gt[key] and answer[0] == 0:
         answer = "null"
 
     # if "func_vqa" in parsed_result_gt[key] and "t1 where func_vqa(" not in parsed_result_gt[key]:
     #     print(parsed_questions[key])
+    #     print(parsed_result_gt[key])
     #     print(" ")
+    #     time.sleep(1)
 
     if answer == "null":
         continue
@@ -64,7 +69,7 @@ for key in executed_result:
         else:
             wrong_count_text += 1
     else:
-        print(key, answer, truth, parsed_questions[key])
+        print(key, answer, truth, parsed_questions[key])# parsed_result_gt[key])
         if answer == truth:
             correct_count_image += 1
         else:
@@ -78,6 +83,6 @@ print("Wrong count:", wrong_count_text)
 print("Correct count image:", correct_count_image)
 print("Wrong count image:", wrong_count_image)
 print("Image questions:", img_questions)
-for i in range(len(wrong_img_idxs)):
-    print(wrong_img_idxs[i], wrong_img_question[i], wrong_img_query[i])
-    print("   ")
+# for i in range(len(wrong_img_idxs)):
+#     print(wrong_img_idxs[i], wrong_img_question[i], wrong_img_query[i])
+#     print("   ")

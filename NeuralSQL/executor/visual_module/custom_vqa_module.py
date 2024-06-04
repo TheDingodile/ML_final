@@ -13,13 +13,14 @@ import ml_collections
 
 
 class CustomVQAModule(VQAModule):
-    def __init__(self):
+    def __init__(self, threshold:float):
         self.model_path = "../../../../../../../work1/s183914/ml_healthcare/models/params_model_2-0.npz"
         self.tokenizer_path = "../../../../../../../work1/s183914/ml_healthcare/models/paligemma_tokenizer.model"
         self.model = None
         self.tokenizer = None
         self.image_resolution = 224
         self.seqlen = 64
+        self.threshold = threshold
 
     def load_model(self):
         # Load the custom VQA model and tokenizer
@@ -87,8 +88,7 @@ class CustomVQAModule(VQAModule):
         probs = jnp.exp(logp)
         max_probs = jnp.max(probs, axis=-1)
         argmax_probs = jnp.argmax(probs, axis=-1)
-        threshold = 0.9
-        abstain_filter = mask_loss * (max_probs > threshold)
+        abstain_filter = mask_loss * (max_probs > self.threshold)
         # print(mask_loss)
         # print(max_probs)
         predicted_tokens = abstain_filter * argmax_probs
