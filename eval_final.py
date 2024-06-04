@@ -1,7 +1,7 @@
 import json
 
 query_file_name = "predictions_LLM_1-0.json"
-predictions_file_name = "results/predictions_gt_test_final_a80-0.json"
+predictions_file_name = "results/predictions_gt_test_final-0.json"
 
 answer_file = "dataset/mimic_iv_cxr/valid/valid_answer.json"
 question_file = "dataset/mimic_iv_cxr/valid/valid_data.json"
@@ -32,6 +32,9 @@ img_questions = 0
 correct_count_image = 0
 wrong_count_image = 0
 # print executed result and answers side by side
+wrong_img_idxs = []
+wrong_img_question = []
+wrong_img_query = []
 for key in executed_result:
     
     if "func_vqa" in parsed_result_gt[key]:
@@ -40,11 +43,21 @@ for key in executed_result:
     truth = parsed_result_answer[key]
     # print(answer, truth, key, parsed_questions[key])
 
-    if len(answer) != 1 or answer[0] == None:# or answer[0] == 0:
+    if len(answer) != 1 or answer[0] == None:
         answer = "null"
+    if "t1 where func_vqa(" in parsed_result_gt[key]:
+        answer = "null"
+    if "func_vqa" not in parsed_result_gt[key] and answer[0] == 0:
+        answer = "null"
+
+    # if "func_vqa" in parsed_result_gt[key] and "t1 where func_vqa(" not in parsed_result_gt[key]:
+    #     print(parsed_questions[key])
+    #     print(" ")
 
     if answer == "null":
         continue
+
+
     if "func_vqa" not in parsed_result_gt[key]:
         if answer == truth:
             correct_count_text += 1
@@ -56,9 +69,15 @@ for key in executed_result:
             correct_count_image += 1
         else:
             wrong_count_image += 1
+            wrong_img_idxs.append(key)
+            wrong_img_question.append(parsed_questions[key])
+            wrong_img_query.append(parsed_result_gt[key])
 
 print("Correct count:", correct_count_text)
 print("Wrong count:", wrong_count_text)
 print("Correct count image:", correct_count_image)
 print("Wrong count image:", wrong_count_image)
 print("Image questions:", img_questions)
+for i in range(len(wrong_img_idxs)):
+    print(wrong_img_idxs[i], wrong_img_question[i], wrong_img_query[i])
+    print("   ")

@@ -61,7 +61,7 @@ class CustomVQAModule(VQAModule):
         return self.tokenizer.decode(tokens)
 
     def __call__(self, images, questions):
-        print(questions)
+        # print(questions)
         # Load the model if not already loaded
         if self.model is None:
             self.load_model()
