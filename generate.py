@@ -36,7 +36,9 @@ from main import Defaults, GPU
 
 # Defaults("eval_full", GPU=GPU.a80)
 
-Defaults("True_SQL_eval", GPU=GPU.a40)
 
+# Defaults("True_SQL_eval", GPU=GPU.a40)
+
+Defaults("True_SQL_evala80", GPU=GPU.a80)
 
 
