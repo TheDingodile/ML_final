@@ -8,7 +8,7 @@ import big_vision.utils as bv_utils
 import os
 
 
-def get_vqa_module(vqa_module_type: str, threshold:float) -> VQAModule:
+def get_vqa_module(vqa_module_type: str, threshold:float, model_path_name: str) -> VQAModule:
     """Get the VQA module based on the specified type."""
     if vqa_module_type == "yes" or vqa_module_type == "debug":  # NOTE: this could be a baseline model
         return YesVQAModule()
@@ -18,6 +18,6 @@ def get_vqa_module(vqa_module_type: str, threshold:float) -> VQAModule:
     #     return M3AEVQAModule(model_path=model_path)
     
     elif vqa_module_type == "custom":
-        return CustomVQAModule(threshold=threshold)
+        return CustomVQAModule(threshold=threshold, model_path_name=model_path_name)
     else:
         raise NotImplementedError("Only support debug model")

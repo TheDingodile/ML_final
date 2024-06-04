@@ -46,6 +46,7 @@ class NeuralSQLExecutor:
         vqa_module_type: str = "yes",
         check_same_thread: bool = False,
         threshold: float = 0.9,
+        model_path_name: str = "params_model_2-0",
     ) -> None:
         self.mimic_iv_cxr_db_dir = mimic_iv_cxr_db_dir
         self.mimic_cxr_image_dir = mimic_cxr_image_dir
@@ -55,7 +56,7 @@ class NeuralSQLExecutor:
             db_path=os.path.join(self.mimic_iv_cxr_db_dir, "mimic_iv_cxr.db"),
             check_same_thread=check_same_thread,
         )
-        self.vqa_module = get_vqa_module(vqa_module_type, threshold)
+        self.vqa_module = get_vqa_module(vqa_module_type, threshold, model_path_name)
         self.sid_to_iid_map = self._load_sid_to_iid_map()
         self.sid_to_ipath_map = self._load_sid_to_ipath_map()
 

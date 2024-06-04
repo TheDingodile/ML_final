@@ -13,8 +13,8 @@ import ml_collections
 
 
 class CustomVQAModule(VQAModule):
-    def __init__(self, threshold:float):
-        self.model_path = "../../../../../../../work1/s183914/ml_healthcare/models/params_model_2-0.npz"
+    def __init__(self, threshold:float, model_path_name:str):
+        self.model_path = f"../../../../../../../work1/s183914/ml_healthcare/models/{model_path_name}.npz"
         self.tokenizer_path = "../../../../../../../work1/s183914/ml_healthcare/models/paligemma_tokenizer.model"
         self.model = None
         self.tokenizer = None
