@@ -52,6 +52,11 @@ for key in executed_result:
         answer = "null"
     if "func_vqa" not in parsed_result_gt[key] and answer[0] == 0:
         answer = "null"
+    if "order by count(*) desc" in parsed_result_gt[key]:
+        result = "null"
+    # check if query contains more than 1 func_vqa
+    elif parsed_result_gt[key].count("func_vqa") > 1:
+        result = "null"
 
     # if "func_vqa" in parsed_result_gt[key] and "t1 where func_vqa(" not in parsed_result_gt[key]:
     #     print(parsed_questions[key])
@@ -77,6 +82,8 @@ for key in executed_result:
             wrong_img_idxs.append(key)
             wrong_img_question.append(parsed_questions[key])
             wrong_img_query.append(parsed_result_gt[key])
+
+
 
 print("Correct count:", correct_count_text)
 print("Wrong count:", wrong_count_text)
