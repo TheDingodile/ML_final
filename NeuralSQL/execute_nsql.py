@@ -77,23 +77,16 @@ def run_execution_for_gt_query(executor, parsed_result, name):
     # parsed_result = {"466": parsed_result["466"]}
     executed_result = {} # ( order by count(*) desc )   
     for idx, query in enumerate(parsed_result.values()):
-        # check if ( order by count(*) desc ) is query
-        if "order by count(*) desc" in query:
-            result = "null"
-        # check if query contains more than 1 func_vqa
-        elif query.count("func_vqa") > 1:
-            result = "null"
-        else:
-            query = post_process_sql(query)
-            try:
-                result = executor.execute_nsql(query)
-                if isinstance(result, Table):
-                    result = result.rows
-                result = post_process_answer(result)
-            except Exception as e:
-                # raise
-                print(f"Error executing query {idx}: {e}")
-                result = "null"  # NOTE: For NeuralSQL, we will abstain as "null" if the query execution fails
+        query = post_process_sql(query)
+        try:
+            result = executor.execute_nsql(query)
+            if isinstance(result, Table):
+                result = result.rows
+            result = post_process_answer(result)
+        except Exception as e:
+            # raise
+            print(f"Error executing query {idx}: {e}")
+            result = "null"  # NOTE: For NeuralSQL, we will abstain as "null" if the query execution fails
         executed_result[str(idx)] = result
         with open(os.path.join("results", f"predictions_gt_{name}.json"), "w") as f:
             json.dump(executed_result, f, indent=4)
