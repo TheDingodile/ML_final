@@ -41,8 +41,11 @@ from main import Defaults, GPU
 
 # Defaults("test_final", GPU=GPU.v32, vqa_module_type="custom")
 
-Defaults("test_final_07", GPU=GPU.v32, vqa_module_type="custom", threshold=0.7)
-Defaults("test_final_08", GPU=GPU.v32, vqa_module_type="custom", threshold=0.8)
-Defaults("test_final_09", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9)
+# Defaults("test_final_07", GPU=GPU.v32, vqa_module_type="custom", threshold=0.7)
+# Defaults("test_final_08", GPU=GPU.v32, vqa_module_type="custom", threshold=0.8)
+# Defaults("test_final_09", GPU=GPU.v32, vqa_module_type="custom", threshold=0.9)
+
+Defaults("test_final_07_a80", GPU=GPU.a80, vqa_module_type="custom", threshold=0.7)
+
 
 
