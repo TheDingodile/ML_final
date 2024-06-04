@@ -2276,3 +2276,2505 @@ Error executing query 2443: Invalid expression / Unexpected token. Line 1, Col: 
   w any anatomical findings in the left clavicle?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
 ['does a chest x-ray demonstrate any diseases in the cardiac silhouette?']
 [False]
+['is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?', 'is pneumomediastinum revealed in the right lung?']
+Error executing query 2452: Model only answers one image question SQLs
+Error executing query 2453: Error tokenizing '3.studydatetime) and datetime(t3.studydatetime,'+'
+['is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?', 'is any tubes/lines in the left shoulder noted in a chest x-ray?']
+Error executing query 2454: Model only answers one image question SQLs
+Error executing query 2455: Required keyword: 'expressions' missing for <class 'sqlglot.expressions.Aliases'>. Line 1, Col: 528.
+  lic' and d_items.linksto = 'chartevents' ) order by chartevents.charttime asc limit 1 offset 1 )  ( [4mselect[0m chartevents.valuenum from chartevents where chartevents.stay_id in ( select icustays.stay_id from i
+['does a chest x-ray detect picc in the cardiac silhouette?', 'does a chest x-ray detect picc in the cardiac silhouette?', 'does a chest x-ray detect picc in the cardiac silhouette?', 'does a chest x-ray detect picc in the cardiac silhouette?', 'does a chest x-ray detect picc in the cardiac silhouette?']
+Error executing query 2458: Model only answers one image question SQLs
+['does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?', 'does a chest x-ray demonstrate low lung volumes in the left mid lung zone?']
+Error executing query 2459: Model only answers one image question SQLs
+Error executing query 2460: Invalid expression / Unexpected token. Line 1, Col: 745.
+  t x-ray depicts any diseases in the right lung?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does a chest x-ray depict pneumothorax in the left lung?', 'does a chest x-ray depict pneumothorax in the left lung?']
+Error executing query 2461: Model only answers one image question SQLs
+Error executing query 2466: Invalid expression / Unexpected token. Line 1, Col: 983.
+  edures_icd.charttime) = datetime('2105-12-31 23:59:00','-46 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['which anatomical location is in relation to the endotracheal tube, the right clavicle or the right lung?']
+Error executing query 2467: Model abstains from answering the question
+['are there indications of tubes/lines in the right clavicle?']
+Error executing query 2468: Model abstains from answering the question
+['does a chest x-ray reveal any abnormality in the right upper lung zone?', 'does a chest x-ray reveal any abnormality in the right upper lung zone?', 'does a chest x-ray reveal any abnormality in the right upper lung zone?']
+Error executing query 2469: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any abnormality in the left hemidiaphragm?', 'does a chest x-ray demonstrate any abnormality in the left hemidiaphragm?', 'does a chest x-ray demonstrate any abnormality in the left hemidiaphragm?', 'does a chest x-ray demonstrate any abnormality in the left hemidiaphragm?', 'does a chest x-ray demonstrate any abnormality in the left hemidiaphragm?', 'does a chest x-ray demonstrate any abnormality in the left hemidiaphragm?', 'does a chest x-ray demonstrate any abnormality in the left hemidiaphragm?', 'does a chest x-ray demonstrate any abnormality in the left hemidiaphragm?']
+Error executing query 2471: Model only answers one image question SQLs
+['is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?', 'is a chest x-ray indicating any diseases in the upper mediastinum?']
+Error executing query 2478: Model only answers one image question SQLs
+Error executing query 2482: Invalid expression / Unexpected token. Line 1, Col: 638.
+  ality observed in the trachea on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is the chest x-ray depicting any abnormality in the right lower lung zone?', 'is the chest x-ray depicting any abnormality in the right lower lung zone?', 'is the chest x-ray depicting any abnormality in the right lower lung zone?']
+Error executing query 2490: Model only answers one image question SQLs
+Error executing query 2491: Invalid expression / Unexpected token. Line 1, Col: 947.
+  1 23:59:00','start of year','-0 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['is the chest x-ray showing any anatomical findings in the left mid lung zone?', 'is the chest x-ray showing any anatomical findings in the left mid lung zone?', 'is the chest x-ray showing any anatomical findings in the left mid lung zone?', 'is the chest x-ray showing any anatomical findings in the left mid lung zone?']
+Error executing query 2493: Model only answers one image question SQLs
+Error executing query 2497: Invalid expression / Unexpected token. Line 1, Col: 643.
+  ns.hadm_id from admissions where admissions.subject_id = 10006692 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?', 'does a chest x-ray indicate any anatomical findings in the cardiac silhouette?']
+Error executing query 2498: Model only answers one image question SQLs
+['does a chest x-ray depict endotracheal tube in the left hilar structures?', 'does a chest x-ray depict endotracheal tube in the left hilar structures?', 'does a chest x-ray depict endotracheal tube in the left hilar structures?', 'does a chest x-ray depict endotracheal tube in the left hilar structures?', 'does a chest x-ray depict endotracheal tube in the left hilar structures?', 'does a chest x-ray depict endotracheal tube in the left hilar structures?', 'does a chest x-ray depict endotracheal tube in the left hilar structures?', 'does a chest x-ray depict endotracheal tube in the left hilar structures?', 'does a chest x-ray depict endotracheal tube in the left hilar structures?']
+Error executing query 2499: Model only answers one image question SQLs
+['is rib fracture visible on a chest x-ray?']
+Error executing query 2500: Model abstains from answering the question
+Error executing query 2503: Invalid expression / Unexpected token. Line 1, Col: 799.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['is the chest x-ray revealing any abnormality in the right apical zone?', 'is the chest x-ray revealing any abnormality in the right apical zone?', 'is the chest x-ray revealing any abnormality in the right apical zone?', 'is the chest x-ray revealing any abnormality in the right apical zone?', 'is the chest x-ray revealing any abnormality in the right apical zone?', 'is the chest x-ray revealing any abnormality in the right apical zone?', 'is the chest x-ray revealing any abnormality in the right apical zone?', 'is the chest x-ray revealing any abnormality in the right apical zone?']
+Error executing query 2508: Model only answers one image question SQLs
+['does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?']
+Error executing query 2511: Model only answers one image question SQLs
+["does the cardiac silhouette's width exceed 50% of the thorax width?"]
+Error executing query 2514: Model abstains from answering the question
+['identify all the abnormalities in the image.']
+Error executing query 2515: Model abstains from answering the question
+['does a chest x-ray signify any technical assessments?']
+Error executing query 2516: Model abstains from answering the question
+['has a chest x-ray indicated breast/nipple shadows?']
+Error executing query 2518: Model abstains from answering the question
+Error executing query 2519: Invalid expression / Unexpected token. Line 1, Col: 884.
+  d = 18291049 ) and strftime('%Y',procedures_icd.charttime) = '2102' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 2522: Invalid expression / Unexpected token. Line 1, Col: 643.
+  ns.hadm_id from admissions where admissions.subject_id = 10938464 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is chest port shown on a chest x-ray?', 'is chest port shown on a chest x-ray?', 'is chest port shown on a chest x-ray?']
+Error executing query 2525: Model only answers one image question SQLs
+Error executing query 2528: Invalid expression / Unexpected token. Line 1, Col: 895.
+  func_vqa("does a chest x-ray reveal aspiration?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 2529: Invalid expression / Unexpected token. Line 1, Col: 880.
+  d = 18153920 ) and strftime('%Y',procedures_icd.charttime) = '2102' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 2533: Invalid expression / Unexpected token. Line 1, Col: 805.
+  t x-ray indicate any abnormality in the carina?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?', 'is any diseases demonstrated?']
+Error executing query 2539: Model only answers one image question SQLs
+Error executing query 2543: Invalid expression / Unexpected token. Line 1, Col: 855.
+  veal any diseases in the left hilar structures?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 2548: Invalid expression / Unexpected token. Line 1, Col: 902.
+  _vqa("is spinal fracture indicated on an x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does an x-ray show a finding of multiple masses/nodules in the right hilar structures?', 'does an x-ray show a finding of multiple masses/nodules in the right hilar structures?', 'does an x-ray show a finding of multiple masses/nodules in the right hilar structures?', 'does an x-ray show a finding of multiple masses/nodules in the right hilar structures?', 'does an x-ray show a finding of multiple masses/nodules in the right hilar structures?']
+Error executing query 2549: Model only answers one image question SQLs
+['has a chest x-ray shown any abnormality?', 'has a chest x-ray shown any abnormality?']
+Error executing query 2554: Model only answers one image question SQLs
+Error executing query 2556: Invalid expression / Unexpected token. Line 1, Col: 908.
+  cedures_icd.charttime) >= datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 2559: Invalid expression / Unexpected token. Line 1, Col: 1006.
+  s.dischtime is not null order by admissions.admittime asc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['considering our findings, which anatomical finding is related, cyst/bullae or elevated hemidiaphragm?']
+Error executing query 2563: Model abstains from answering the question
+['is the chest x-ray showing any abnormality in the upper mediastinum?', 'is the chest x-ray showing any abnormality in the upper mediastinum?', 'is the chest x-ray showing any abnormality in the upper mediastinum?', 'is the chest x-ray showing any abnormality in the upper mediastinum?', 'is the chest x-ray showing any abnormality in the upper mediastinum?']
+Error executing query 2564: Model only answers one image question SQLs
+['is ij line revealed on a chest x-ray?', 'is ij line revealed on a chest x-ray?', 'is ij line revealed on a chest x-ray?', 'is ij line revealed on a chest x-ray?', 'is ij line revealed on a chest x-ray?']
+Error executing query 2566: Model only answers one image question SQLs
+['does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?', 'does a chest x-ray indicate ij line?']
+Error executing query 2568: Model only answers one image question SQLs
+Error executing query 2569: Invalid expression / Unexpected token. Line 1, Col: 971.
+  agnoses_icd.charttime) >= datetime('2105-12-31 23:59:00','-6 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 2570: Invalid expression / Unexpected token. Line 1, Col: 655.
+   any any tubes/lines in the left mid lung zone?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 2572: Invalid expression / Unexpected token. Line 1, Col: 912.
+  1 23:59:00','start of year','-0 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 2573: Invalid expression / Unexpected token. Line 1, Col: 723.
+  ns.hadm_id from admissions where admissions.subject_id = 11194078 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['in terms of anatomical findings, which is indicative, calcified nodule or linear/patchy atelectasis?']
+Error executing query 2574: Model abstains from answering the question
+Error executing query 2580: Invalid expression / Unexpected token. Line 1, Col: 841.
+  d = 13861581 ) and strftime('%Y',procedures_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['are there signs of any tubes/lines?']
+Error executing query 2582: Model abstains from answering the question
+Error executing query 2586: Invalid expression / Unexpected token. Line 1, Col: 1140.
+   year','-1 year') and strftime('%m',diagnoses_icd.charttime) = '04' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydate
+Error executing query 2587: Invalid expression / Unexpected token. Line 1, Col: 761.
+  d = 15346117 ) and strftime('%Y',prescriptions.starttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['does a chest x-ray signify any abnormality in the right lower lung zone?']
+Error executing query 2589: Model abstains from answering the question
+Error executing query 2590: Required keyword: 'expressions' missing for <class 'sqlglot.expressions.Aliases'>. Line 1, Col: 353.
+  rom d_labitems where d_labitems.label ='magnesium' ) order by labevents.charttime desc limit 1 )  ( [4mselect[0m labevents.valuenum from labevents where labevents.hadm_id in ( select admissions.hadm_id from admis
+['is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?', 'is there a chest x-ray showing any anatomical findings in the left lung?']
+Error executing query 2592: Model only answers one image question SQLs
+['is low lung volumes indicated on a chest x-ray?', 'is low lung volumes indicated on a chest x-ray?']
+Error executing query 2595: Model only answers one image question SQLs
+Error executing query 2596: Invalid expression / Unexpected token. Line 1, Col: 640.
+  hest x-ray reveal fluid overload/heart failure?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['does a chest x-ray depict any diseases in the right lung?', 'does a chest x-ray depict any diseases in the right lung?']
+Error executing query 2597: Model only answers one image question SQLs
+Error executing query 2598: Invalid expression / Unexpected token. Line 1, Col: 739.
+  s a chest x-ray reveal any anatomical findings?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 2599: Invalid expression / Unexpected token. Line 1, Col: 737.
+  has a chest x-ray demonstrated any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 2601: Invalid expression / Unexpected token. Line 1, Col: 748.
+  %Y',prescriptions.starttime) >= '2101' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t1.charttime,'start of month') = datetime(t2.starttime,'start of month')
+Error executing query 2602: Invalid expression / Unexpected token. Line 1, Col: 775.
+  ,prescriptions.starttime) >= '2104-08' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and t1.hadm_id = t2.hadm_id
+Error executing query 2603: Invalid expression / Unexpected token. Line 1, Col: 864.
+  '%Y',diagnoses_icd.charttime) = '2104' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+['does a chest x-ray reveal indications of any abnormality in the neck?']
+Error executing query 2605: Model abstains from answering the question
+['does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?', 'does a chest x-ray indicate any abnormality in the left costophrenic angle?']
+Error executing query 2608: Model only answers one image question SQLs
+Error executing query 2609: Invalid expression / Unexpected token. Line 1, Col: 877.
+  icate any tubes/lines in the upper mediastinum?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['is any technical assessments displayed on a chest x-ray?']
+Error executing query 2613: Model abstains from answering the question
+['is consolidation shown in the left lung on a chest x-ray?', 'is consolidation shown in the left lung on a chest x-ray?', 'is consolidation shown in the left lung on a chest x-ray?', 'is consolidation shown in the left lung on a chest x-ray?', 'is consolidation shown in the left lung on a chest x-ray?', 'is consolidation shown in the left lung on a chest x-ray?', 'is consolidation shown in the left lung on a chest x-ray?', 'is consolidation shown in the left lung on a chest x-ray?', 'is consolidation shown in the left lung on a chest x-ray?', 'is consolidation shown in the left lung on a chest x-ray?', 'is consolidation shown in the left lung on a chest x-ray?']
+Error executing query 2618: Model only answers one image question SQLs
+Error executing query 2619: Invalid expression / Unexpected token. Line 1, Col: 844.
+  ime('2105-12-31 23:59:00','-92 month') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 d
+['does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?']
+Error executing query 2620: Model only answers one image question SQLs
+Error executing query 2621: Invalid expression / Unexpected token. Line 1, Col: 841.
+   func_vqa("does a chest x-ray show any devices?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does a chest x-ray signify any anatomical findings in the aortic arch?']
+Error executing query 2622: Model abstains from answering the question
+Error executing query 2624: Invalid expression / Unexpected token. Line 1, Col: 787.
+  s the chest x-ray indicate any any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?', 'does a chest x-ray display any abnormality in the left clavicle?']
+Error executing query 2627: Model only answers one image question SQLs
+Error executing query 2628: Invalid expression / Unexpected token. Line 1, Col: 960.
+  1 23:59:00','start of year','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+Error executing query 2629: Invalid expression / Unexpected token. Line 1, Col: 965.
+  cedures_icd.charttime) >= datetime('2105-12-31 23:59:00','-4 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 2630: Expecting ). Line 1, Col: 989.
+  ions.drug = 'artificial tear ointment' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[0m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+['is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?', 'is any abnormality in the left lung noted in a chest x-ray?']
+Error executing query 2633: Model only answers one image question SQLs
+['does a chest x-ray reveal multiple masses/nodules?']
+Error executing query 2637: Model abstains from answering the question
+['does a chest x-ray indicate costophrenic angle blunting in the right costophrenic angle?']
+Error executing query 2640: Model abstains from answering the question
+Error executing query 2641: Invalid expression / Unexpected token. Line 1, Col: 727.
+  d = 16566006 ) and strftime('%Y',prescriptions.starttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['is lung lesion shown in the right upper lung zone on a chest x-ray?', 'is lung lesion shown in the right upper lung zone on a chest x-ray?']
+Error executing query 2644: Model only answers one image question SQLs
+['does a chest x-ray show any diseases in the left hilar structures?', 'does a chest x-ray show any diseases in the left hilar structures?']
+Error executing query 2646: Model only answers one image question SQLs
+Error executing query 2647: Invalid expression / Unexpected token. Line 1, Col: 1014.
+  nth') = datetime('2105-12-31 23:59:00','start of month','-0 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 2648: Invalid expression / Unexpected token. Line 1, Col: 748.
+  ns.hadm_id from admissions where admissions.subject_id = 12974480 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 2650: Invalid expression / Unexpected token. Line 1, Col: 730.
+  c_vqa("is hyperaeration shown on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 2652: Invalid expression / Unexpected token. Line 1, Col: 837.
+  as t2 where func_vqa("is any diseases revealed?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 2654: Invalid expression / Unexpected token. Line 1, Col: 829.
+   func_vqa("does a chest x-ray show lung lesion?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?']
+Error executing query 2656: Model only answers one image question SQLs
+['is the chest x-ray indicating superior mediastinal mass/enlargement?']
+Error executing query 2657: Model abstains from answering the question
+['list all the anatomical findings observed in the image.']
+Error executing query 2658: Model abstains from answering the question
+['is increased reticular markings/ild pattern indicated on a chest x-ray?', 'is increased reticular markings/ild pattern indicated on a chest x-ray?']
+Error executing query 2661: Model only answers one image question SQLs
+Error executing query 2663: Invalid expression / Unexpected token. Line 1, Col: 873.
+  te any tubes/lines in the left lower lung zone?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is there any sign of abnormality in the aortic arch?']
+Error executing query 2666: Model abstains from answering the question
+Error executing query 2667: Required keyword: 'expressions' missing for <class 'sqlglot.expressions.Aliases'>. Line 1, Col: 396.
+  id from d_labitems where d_labitems.label = 'pco2' ) order by labevents.charttime desc limit 1 )  ( [4mselect[0m labevents.valuenum from labevents where labevents.hadm_id in ( select admissions.hadm_id from admis
+['is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?']
+Error executing query 2673: Model only answers one image question SQLs
+Error executing query 2675: Invalid expression / Unexpected token. Line 1, Col: 736.
+  855132 ) and strftime('%Y-%m',prescriptions.starttime) >= '2105-04' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 2676: Invalid expression / Unexpected token. Line 1, Col: 742.
+  id = 17445268 ) and strftime('%Y',prescriptions.starttime) = '2105' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['is a chest x-ray showing prosthetic valve?', 'is a chest x-ray showing prosthetic valve?']
+Error executing query 2680: Model only answers one image question SQLs
+['detail all tubes/lines observable in the image.']
+Error executing query 2685: Model abstains from answering the question
+['has a chest x-ray revealed any diseases?', 'has a chest x-ray revealed any diseases?']
+Error executing query 2687: Model only answers one image question SQLs
+['does a chest x-ray reveal any abnormality?']
+Error executing query 2688: Model abstains from answering the question
+Error executing query 2689: Invalid expression / Unexpected token. Line 1, Col: 695.
+  68425 and admissions.dischtime is null ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 d
+['which anatomical findings corresponds to the findings, spinal fracture or sub-diaphragmatic air?']
+Error executing query 2690: Model abstains from answering the question
+Error executing query 2692: Expecting ). Line 1, Col: 884.
+  time) = '2105' ) as t2 join admissions on t2.subject_id = admissions.subject_id where t2.charttime  [4madmissions[0m.admittime and strftime('%Y',admissions.admittime) = '2105' and datetime(t2.charttime,'start of mont
+['is there any evidence of abnormality in the svc?']
+Error executing query 2693: Model abstains from answering the question
+Error executing query 2694: Invalid expression / Unexpected token. Line 1, Col: 759.
+  ns.hadm_id from admissions where admissions.subject_id = 17914007 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 2699: Invalid expression / Unexpected token. Line 1, Col: 627.
+  ere prescriptions.drug = 'ondansetron' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and t1.hadm_id = t2.hadm_id
+Error executing query 2700: Invalid expression / Unexpected token. Line 1, Col: 720.
+   func_vqa("has a chest x-ray shown any devices?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is any diseases visible in the right mid lung zone on a chest x-ray?']
+Error executing query 2702: Model abstains from answering the question
+Error executing query 2703: Invalid expression / Unexpected token. Line 1, Col: 906.
+  etime('2105-12-31 23:59:00','-2 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+['does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?', 'does a chest x-ray indicate any anatomical findings in the left lung?']
+Error executing query 2705: Model only answers one image question SQLs
+['in the anatomical findings, which is related, airspace opacity or subcutaneous air?']
+Error executing query 2706: Model abstains from answering the question
+Error executing query 2707: Invalid expression / Unexpected token. Line 1, Col: 748.
+   in the right lower lung zone on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 2708: Invalid expression / Unexpected token. Line 1, Col: 864.
+  23:59:00','start of month','-0 month') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 d
+Error executing query 2710: Invalid expression / Unexpected token. Line 1, Col: 940.
+  agnoses_icd.charttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 2711: Invalid expression / Unexpected token. Line 1, Col: 722.
+  vqa("is any diseases observed on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 2716: Invalid expression / Unexpected token. Line 1, Col: 750.
+  id = 15700387 ) and strftime('%Y',prescriptions.starttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['is hyperaeration indicated on a chest x-ray?', 'is hyperaeration indicated on a chest x-ray?']
+Error executing query 2718: Model only answers one image question SQLs
+Error executing query 2722: Invalid expression / Unexpected token. Line 1, Col: 894.
+  vqa("does a chest x-ray reveal any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 2723: Invalid expression / Unexpected token. Line 1, Col: 998.
+  s.dischtime is not null order by admissions.admittime asc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 2726: Invalid expression / Unexpected token. Line 1, Col: 878.
+  ranulomatous diseases in the right apical zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is the chest x-ray showing pneumonia in the left lung?']
+[False]
+Error executing query 2729: Invalid expression / Unexpected token. Line 1, Col: 909.
+  etime('2105-12-31 23:59:00','-2 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+['does a chest x-ray display any technical assessments?', 'does a chest x-ray display any technical assessments?', 'does a chest x-ray display any technical assessments?']
+Error executing query 2733: Model only answers one image question SQLs
+Error executing query 2735: Invalid expression / Unexpected token. Line 1, Col: 952.
+  etime('2105-12-31 23:59:00','-4 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and t1.hadm_id = t2.hadm_id
+['does a chest x-ray reveal low lung volumes in the left lower lung zone?', 'does a chest x-ray reveal low lung volumes in the left lower lung zone?', 'does a chest x-ray reveal low lung volumes in the left lower lung zone?', 'does a chest x-ray reveal low lung volumes in the left lower lung zone?', 'does a chest x-ray reveal low lung volumes in the left lower lung zone?', 'does a chest x-ray reveal low lung volumes in the left lower lung zone?', 'does a chest x-ray reveal low lung volumes in the left lower lung zone?']
+Error executing query 2741: Model only answers one image question SQLs
+['is any devices shown on a chest x-ray?']
+Error executing query 2742: Model abstains from answering the question
+['does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?', 'does a chest x-ray show rib fracture?']
+Error executing query 2743: Model only answers one image question SQLs
+['is the width of the cardiac silhouette more than half of the thorax width?']
+Error executing query 2744: Model abstains from answering the question
+['does a chest x-ray demonstrate aspiration?', 'does a chest x-ray demonstrate aspiration?']
+Error executing query 2746: Model only answers one image question SQLs
+Error executing query 2747: Invalid expression / Unexpected token. Line 1, Col: 785.
+  d = 18044092 ) and strftime('%Y',prescriptions.starttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 2748: Invalid expression / Unexpected token. Line 1, Col: 807.
+  a chest x-ray show any vascular redistribution?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?', 'is the chest x-ray indicating mass/nodule (not otherwise specified) in the right lower lung zone?']
+Error executing query 2749: Model only answers one image question SQLs
+Error executing query 2751: Invalid expression / Unexpected token. Line 1, Col: 756.
+  8463717 ) and strftime('%Y-%m',prescriptions.starttime) = '2105-05' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray reveal any abnormality in the right lung?', 'does a chest x-ray reveal any abnormality in the right lung?']
+Error executing query 2752: Model only answers one image question SQLs
+['is any devices shown on a chest x-ray?', 'is any devices shown on a chest x-ray?', 'is any devices shown on a chest x-ray?', 'is any devices shown on a chest x-ray?', 'is any devices shown on a chest x-ray?']
+Error executing query 2753: Model only answers one image question SQLs
+['does a chest x-ray report highlight any abnormality?', 'does a chest x-ray report highlight any abnormality?', 'does a chest x-ray report highlight any abnormality?']
+Error executing query 2754: Model only answers one image question SQLs
+Error executing query 2758: Invalid expression / Unexpected token. Line 1, Col: 719.
+  c_vqa("does a chest x-ray show any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is there any suggestion of abnormality?']
+Error executing query 2759: Model abstains from answering the question
+Error executing query 2760: Invalid expression / Unexpected token. Line 1, Col: 845.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['is there any sign of the lung cancer in the left lung?']
+Error executing query 2761: Model abstains from answering the question
+Error executing query 2762: Invalid expression / Unexpected token. Line 1, Col: 894.
+  d = 15110303 ) and strftime('%Y',procedures_icd.charttime) = '2103' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 2764: Invalid expression / Unexpected token. Line 1, Col: 746.
+  indication of any abnormality on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?', 'is the chest x-ray indicating linear/patchy atelectasis in the left lower lung zone?']
+Error executing query 2766: Model only answers one image question SQLs
+Error executing query 2771: Invalid expression / Unexpected token. Line 1, Col: 729.
+  _vqa("does a chest x-ray show pleural effusion?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['has a chest x-ray revealed hernia?', 'has a chest x-ray revealed hernia?', 'has a chest x-ray revealed hernia?', 'has a chest x-ray revealed hernia?', 'has a chest x-ray revealed hernia?', 'has a chest x-ray revealed hernia?', 'has a chest x-ray revealed hernia?']
+Error executing query 2773: Model only answers one image question SQLs
+['are there any indications of abnormality in the right mid lung zone?']
+Error executing query 2777: Model abstains from answering the question
+Error executing query 2778: Invalid expression / Unexpected token. Line 1, Col: 648.
+  ns.hadm_id from admissions where admissions.subject_id = 18153920 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 2780: Error tokenizing 'udydatetime) and datetime(t3.studydatetime,'+2 da'
+Error executing query 2781: Invalid expression / Unexpected token. Line 1, Col: 782.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['does a chest x-ray demonstrate any anatomical findings in the right apical zone?', 'does a chest x-ray demonstrate any anatomical findings in the right apical zone?', 'does a chest x-ray demonstrate any anatomical findings in the right apical zone?']
+Error executing query 2782: Model only answers one image question SQLs
+['does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?', 'does a chest x-ray exhibit low lung volumes?']
+Error executing query 2783: Model only answers one image question SQLs
+Error executing query 2784: Invalid expression / Unexpected token. Line 1, Col: 856.
+  %Y',procedures_icd.charttime) = '2100' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['does a chest x-ray show any tubes/lines in the left clavicle?', 'does a chest x-ray show any tubes/lines in the left clavicle?', 'does a chest x-ray show any tubes/lines in the left clavicle?', 'does a chest x-ray show any tubes/lines in the left clavicle?', 'does a chest x-ray show any tubes/lines in the left clavicle?', 'does a chest x-ray show any tubes/lines in the left clavicle?', 'does a chest x-ray show any tubes/lines in the left clavicle?']
+Error executing query 2786: Model only answers one image question SQLs
+['is there any evidence of abnormality?']
+Error executing query 2788: Model abstains from answering the question
+['is cabg grafts revealed on a chest x-ray?', 'is cabg grafts revealed on a chest x-ray?', 'is cabg grafts revealed on a chest x-ray?', 'is cabg grafts revealed on a chest x-ray?', 'is cabg grafts revealed on a chest x-ray?', 'is cabg grafts revealed on a chest x-ray?', 'is cabg grafts revealed on a chest x-ray?']
+Error executing query 2790: Model only answers one image question SQLs
+Error executing query 2793: Expecting ). Line 1, Col: 985.
+  ug = 'gastropoate meglumine & sodium)' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[0m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+['which anatomical location corresponds to the picc, the cardiac silhouette or the right shoulder?']
+Error executing query 2794: Model abstains from answering the question
+Error executing query 2797: Invalid expression / Unexpected token. Line 1, Col: 951.
+  cedures_icd.charttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['is pneumothorax displayed in the right mid lung zone on a chest x-ray?', 'is pneumothorax displayed in the right mid lung zone on a chest x-ray?', 'is pneumothorax displayed in the right mid lung zone on a chest x-ray?', 'is pneumothorax displayed in the right mid lung zone on a chest x-ray?', 'is pneumothorax displayed in the right mid lung zone on a chest x-ray?']
+Error executing query 2798: Model only answers one image question SQLs
+['has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?', 'has a chest x-ray demonstrated endotracheal tube?']
+Error executing query 2801: Model only answers one image question SQLs
+['does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?', 'does a chest x-ray show any abnormality in the left costophrenic angle?']
+Error executing query 2809: Model only answers one image question SQLs
+Error executing query 2810: Invalid expression / Unexpected token. Line 1, Col: 770.
+  9994730 ) and strftime('%Y-%m',prescriptions.starttime) = '2105-09' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray reveal the presence of any abnormality in the right chest wall?', 'does a chest x-ray reveal the presence of any abnormality in the right chest wall?']
+Error executing query 2812: Model only answers one image question SQLs
+['in the context of anatomical findings, which corresponds more closely, mediastinal displacement or pleural effusion?']
+Error executing query 2814: Model abstains from answering the question
+['is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?', 'is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?', 'is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?', 'is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?', 'is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?', 'is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?', 'is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?', 'is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?', 'is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?', 'is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?', 'is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?', 'is lobar/segmental collapse indicated in the left lower lung zone on a chest x-ray?']
+Error executing query 2815: Model only answers one image question SQLs
+['does a chest x-ray show spinal fracture?']
+Error executing query 2816: Model abstains from answering the question
+['does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?', 'does a chest x-ray indicate chest tube?']
+Error executing query 2818: Model only answers one image question SQLs
+Error executing query 2819: Invalid expression / Unexpected token. Line 1, Col: 996.
+   year') = datetime('2105-12-31 23:59:00','start of year','-0 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?', 'is the chest x-ray indicating pneumomediastinum?']
+Error executing query 2821: Model only answers one image question SQLs
+Error executing query 2825: Invalid expression / Unexpected token. Line 1, Col: 956.
+  cedures_icd.charttime) >= datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['is any abnormality shown in the mediastinum on a chest x-ray?', 'is any abnormality shown in the mediastinum on a chest x-ray?']
+Error executing query 2827: Model only answers one image question SQLs
+Error executing query 2829: Invalid expression / Unexpected token. Line 1, Col: 967.
+   year') = datetime('2105-12-31 23:59:00','start of year','-0 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 2830: Invalid expression / Unexpected token. Line 1, Col: 712.
+  %Y',prescriptions.starttime) >= '2100' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t1.charttime,'start of month') = datetime(t2.starttime,'start of month')
+['has a chest x-ray revealed swan-ganz catheter in the upper mediastinum?']
+Error executing query 2833: Model abstains from answering the question
+Error executing query 2834: Invalid expression / Unexpected token. Line 1, Col: 383.
+   where d_items.label = 'heart rate' and d_items.linksto = 'chartevents' ) and chartevents.valuenum  [4m99.0[0m and datetime(chartevents.charttime,'start of year') = datetime('2105-12-31 23:59:00','start of year
+Error executing query 2837: Invalid expression / Unexpected token. Line 1, Col: 851.
+  nth') = datetime('2105-12-31 23:59:00','start of month','-1 month') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?', 'is a chest x-ray indicating any anatomical findings in the left hilar structures?']
+Error executing query 2838: Model only answers one image question SQLs
+['does a chest x-ray indicate prosthetic valve?', 'does a chest x-ray indicate prosthetic valve?', 'does a chest x-ray indicate prosthetic valve?']
+Error executing query 2840: Model only answers one image question SQLs
+['is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?']
+Error executing query 2849: Model only answers one image question SQLs
+['is any anatomical findings shown in the aortic arch on a chest x-ray?']
+Error executing query 2850: Model abstains from answering the question
+['does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?']
+Error executing query 2851: Model only answers one image question SQLs
+Error executing query 2852: Invalid expression / Unexpected token. Line 1, Col: 913.
+   = 19686680 ) and strftime('%Y',procedures_icd.charttime) >= '2100' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 2855: Invalid expression / Unexpected token. Line 1, Col: 990.
+   year') = datetime('2105-12-31 23:59:00','start of year','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray demonstrate any anatomical findings in the left apical zone?', 'does a chest x-ray demonstrate any anatomical findings in the left apical zone?']
+Error executing query 2856: Model only answers one image question SQLs
+['does a chest x-ray show consolidation in the right hilar structures?', 'does a chest x-ray show consolidation in the right hilar structures?', 'does a chest x-ray show consolidation in the right hilar structures?', 'does a chest x-ray show consolidation in the right hilar structures?', 'does a chest x-ray show consolidation in the right hilar structures?']
+Error executing query 2857: Model only answers one image question SQLs
+Error executing query 2858: Invalid expression / Unexpected token. Line 1, Col: 772.
+  tchy atelectasis in the right hilar structures?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?', 'is any abnormality highlighted?']
+Error executing query 2861: Model only answers one image question SQLs
+Error executing query 2863: Invalid expression / Unexpected token. Line 1, Col: 836.
+  %Y',diagnoses_icd.charttime) >= '2105' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and t1.hadm_id = t2.hadm_id
+['does a chest x-ray identify any abnormality?']
+Error executing query 2864: Model abstains from answering the question
+Error executing query 2865: Invalid expression / Unexpected token. Line 1, Col: 935.
+  iagnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray signify swan-ganz catheter in the cavoatrial junction?']
+Error executing query 2869: Model abstains from answering the question
+Error executing query 2871: Invalid expression / Unexpected token. Line 1, Col: 883.
+  5110303 ) and strftime('%Y-%m',diagnoses_icd.charttime) = '2103-10' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['identify all diseases observed in the neck.']
+Error executing query 2873: Model abstains from answering the question
+['does a chest x-ray reveal any abnormality in the right clavicle?']
+Error executing query 2879: Model abstains from answering the question
+['is pleural/parenchymal scarring shown on a chest x-ray?', 'is pleural/parenchymal scarring shown on a chest x-ray?']
+Error executing query 2880: Model only answers one image question SQLs
+Error executing query 2881: Invalid expression / Unexpected token. Line 1, Col: 781.
+  etime('2105-12-31 23:59:00','-5 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t1.charttime,'start of month') = datetime(t2.starttime,'start of month')
+['does a chest x-ray show ij line?', 'does a chest x-ray show ij line?']
+Error executing query 2882: Model only answers one image question SQLs
+Error executing query 2883: Invalid expression / Unexpected token. Line 1, Col: 1051.
+  ("is the chest x-ray depicting any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?', 'does a chest x-ray present any tubes/lines in the svc?']
+Error executing query 2887: Model only answers one image question SQLs
+['does a chest x-ray reveal infiltration?', 'does a chest x-ray reveal infiltration?', 'does a chest x-ray reveal infiltration?']
+Error executing query 2893: Model only answers one image question SQLs
+['has a chest x-ray displayed any diseases?', 'has a chest x-ray displayed any diseases?', 'has a chest x-ray displayed any diseases?', 'has a chest x-ray displayed any diseases?', 'has a chest x-ray displayed any diseases?']
+Error executing query 2894: Model only answers one image question SQLs
+['are there chest x-ray indications of pleural effusion?', 'are there chest x-ray indications of pleural effusion?']
+Error executing query 2899: Model only answers one image question SQLs
+['is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?', 'is endotracheal tube indicated on a chest x-ray?']
+Error executing query 2902: Model only answers one image question SQLs
+['has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?', 'has a chest x-ray shown airspace opacity?']
+Error executing query 2904: Model only answers one image question SQLs
+Error executing query 2911: Invalid expression / Unexpected token. Line 1, Col: 922.
+  ting any tubes/lines in the cardiac silhouette?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 2916: Invalid expression / Unexpected token. Line 1, Col: 872.
+  "is alveolar hemorrhage shown on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 2917: Invalid expression / Unexpected token. Line 1, Col: 896.
+  leural effusion in the left costophrenic angle?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 2918: Invalid expression / Unexpected token. Line 1, Col: 755.
+  d = 18503972 ) and strftime('%Y',prescriptions.starttime) >= '2104' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is pleural/parenchymal scarring demonstrated on a chest x-ray?']
+Error executing query 2920: Model abstains from answering the question
+Error executing query 2921: Invalid expression / Unexpected token. Line 1, Col: 738.
+  d = 13656933 ) and strftime('%Y',prescriptions.starttime) >= '2104' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 2924: Invalid expression / Unexpected token. Line 1, Col: 920.
+  oes a chest x-ray show any anatomical findings?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 2925: Invalid expression / Unexpected token. Line 1, Col: 961.
+  w any technical assessments in the mediastinum?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 2928: Invalid expression / Unexpected token. Line 1, Col: 956.
+  f spinal degenerative changes on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 2929: Invalid expression / Unexpected token. Line 1, Col: 805.
+   x-ray indicate any abnormality in the abdomen?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?', 'has a chest x-ray indicated tracheostomy tube?']
+Error executing query 2931: Model only answers one image question SQLs
+['does a chest x-ray report highlight any anatomical findings?', 'does a chest x-ray report highlight any anatomical findings?', 'does a chest x-ray report highlight any anatomical findings?', 'does a chest x-ray report highlight any anatomical findings?', 'does a chest x-ray report highlight any anatomical findings?', 'does a chest x-ray report highlight any anatomical findings?', 'does a chest x-ray report highlight any anatomical findings?', 'does a chest x-ray report highlight any anatomical findings?', 'does a chest x-ray report highlight any anatomical findings?']
+Error executing query 2933: Model only answers one image question SQLs
+['can mediastinal displacement be seen?']
+Error executing query 2934: Model abstains from answering the question
+Error executing query 2938: Error tokenizing 'tetime(t1.charttime) and datetime(t1.charttime,'+'
+['is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?', 'is the chest x-ray indicating prosthetic valve?']
+Error executing query 2939: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any diseases in the right hemidiaphragm?', 'does a chest x-ray demonstrate any diseases in the right hemidiaphragm?', 'does a chest x-ray demonstrate any diseases in the right hemidiaphragm?', 'does a chest x-ray demonstrate any diseases in the right hemidiaphragm?']
+Error executing query 2943: Model only answers one image question SQLs
+Error executing query 2944: Invalid expression / Unexpected token. Line 1, Col: 1013.
+  s.dischtime is not null order by admissions.admittime asc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 2948: Invalid expression / Unexpected token. Line 1, Col: 658.
+  city in the right apical zone on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 2949: Invalid expression / Unexpected token. Line 1, Col: 752.
+  chest x-ray reveal any any anatomical findings?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['with regard to the upper mediastinum, which anatomical findings corresponds, mediastinal displacement or vascular calcification?']
+Error executing query 2951: Model abstains from answering the question
+['is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?', 'is any anatomical findings depicted in the left shoulder on a chest x-ray?']
+Error executing query 2954: Model only answers one image question SQLs
+['can any presence of spinal degenerative changes be noted in the spine?']
+Error executing query 2956: Model abstains from answering the question
+['is rib fracture detected on a chest x-ray?', 'is rib fracture detected on a chest x-ray?']
+Error executing query 2957: Model only answers one image question SQLs
+['does a chest x-ray reveal any technical assessments in the right mid lung zone?']
+Error executing query 2961: Model abstains from answering the question
+['please provide all the anatomical locations associated with any anatomical findings.']
+Error executing query 2964: Model abstains from answering the question
+Error executing query 2967: Invalid expression / Unexpected token. Line 1, Col: 948.
+  1 23:59:00','start of year','-0 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['is breast/nipple shadows visible on a chest x-ray?', 'is breast/nipple shadows visible on a chest x-ray?', 'is breast/nipple shadows visible on a chest x-ray?', 'is breast/nipple shadows visible on a chest x-ray?']
+Error executing query 2970: Model only answers one image question SQLs
+['is any tubes/lines present within the mediastinum?']
+Error executing query 2971: Model abstains from answering the question
+Error executing query 2972: Invalid expression / Unexpected token. Line 1, Col: 746.
+  id = 12637733 ) and strftime('%Y',prescriptions.starttime) = '2103' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['detail all diseases observable in the image.']
+Error executing query 2974: Model abstains from answering the question
+['is there a chest x-ray that indicated alveolar hemorrhage in the left lung?', 'is there a chest x-ray that indicated alveolar hemorrhage in the left lung?', 'is there a chest x-ray that indicated alveolar hemorrhage in the left lung?']
+Error executing query 2982: Model only answers one image question SQLs
+Error executing query 2989: Invalid expression / Unexpected token. Line 1, Col: 813.
+  id = 15898931 ) and strftime('%Y',diagnoses_icd.charttime) = '2102' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?', 'does a chest x-ray indicate cardiac pacer and wires in the left clavicle?']
+Error executing query 2992: Model only answers one image question SQLs
+["does the upper mediastinum's width exceed one-third of the thorax width?"]
+Error executing query 2994: Model abstains from answering the question
+Error executing query 2997: Invalid expression / Unexpected token. Line 1, Col: 728.
+  id = 18487097 ) and strftime('%Y',prescriptions.starttime) = '2101' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['which anatomical region is associated with the presence of the lung lesion, the left costophrenic angle or the left hilar structures?']
+Error executing query 2999: Model abstains from answering the question
+Error executing query 3002: Invalid expression / Unexpected token. Line 1, Col: 892.
+  etime('2105-12-31 23:59:00','-2 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and t1.hadm_id = t2.hadm_id
+['does a chest x-ray demonstrate any abnormality in the trachea?', 'does a chest x-ray demonstrate any abnormality in the trachea?', 'does a chest x-ray demonstrate any abnormality in the trachea?', 'does a chest x-ray demonstrate any abnormality in the trachea?', 'does a chest x-ray demonstrate any abnormality in the trachea?']
+Error executing query 3003: Model only answers one image question SQLs
+Error executing query 3006: Invalid expression / Unexpected token. Line 1, Col: 718.
+  func_vqa("is a chest x-ray showing any devices?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3007: Invalid expression / Unexpected token. Line 1, Col: 906.
+  ay revealed pleural effusion in the right lung?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray demonstrate any anatomical findings in the left chest wall?', 'does a chest x-ray demonstrate any anatomical findings in the left chest wall?', 'does a chest x-ray demonstrate any anatomical findings in the left chest wall?', 'does a chest x-ray demonstrate any anatomical findings in the left chest wall?', 'does a chest x-ray demonstrate any anatomical findings in the left chest wall?', 'does a chest x-ray demonstrate any anatomical findings in the left chest wall?', 'does a chest x-ray demonstrate any anatomical findings in the left chest wall?', 'does a chest x-ray demonstrate any anatomical findings in the left chest wall?']
+Error executing query 3009: Model only answers one image question SQLs
+['is any devices shown in the right chest wall on a chest x-ray?']
+Error executing query 3011: Model abstains from answering the question
+['does a chest x-ray indicate any anatomical findings in the left apical zone?', 'does a chest x-ray indicate any anatomical findings in the left apical zone?', 'does a chest x-ray indicate any anatomical findings in the left apical zone?', 'does a chest x-ray indicate any anatomical findings in the left apical zone?']
+Error executing query 3012: Model only answers one image question SQLs
+['which anatomical finding is associated with the right costophrenic angle, costophrenic angle blunting or lung lesion?']
+Error executing query 3014: Model abstains from answering the question
+Error executing query 3015: Invalid expression / Unexpected token. Line 1, Col: 835.
+  id = 12070314 ) and strftime('%Y',diagnoses_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 3016: Invalid expression / Unexpected token. Line 1, Col: 840.
+  etime('2105-12-31 23:59:00','-4 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['is endotracheal tube revealed in the right hilar structures on a chest x-ray?', 'is endotracheal tube revealed in the right hilar structures on a chest x-ray?', 'is endotracheal tube revealed in the right hilar structures on a chest x-ray?', 'is endotracheal tube revealed in the right hilar structures on a chest x-ray?', 'is endotracheal tube revealed in the right hilar structures on a chest x-ray?', 'is endotracheal tube revealed in the right hilar structures on a chest x-ray?', 'is endotracheal tube revealed in the right hilar structures on a chest x-ray?', 'is endotracheal tube revealed in the right hilar structures on a chest x-ray?']
+Error executing query 3020: Model only answers one image question SQLs
+['which anatomical findings, atelectasis or consolidation, is associated with the right lung?']
+Error executing query 3022: Model abstains from answering the question
+['does a chest x-ray display any abnormality?']
+Error executing query 3024: Model abstains from answering the question
+Error executing query 3025: Invalid expression / Unexpected token. Line 1, Col: 875.
+  d = 18153920 ) and strftime('%Y',procedures_icd.charttime) = '2102' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['what all abnormalities are present within the right shoulder?']
+Error executing query 3026: Model abstains from answering the question
+['does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?', 'does a chest x-ray display ij line?']
+Error executing query 3028: Model only answers one image question SQLs
+['is there a chest x-ray showing any tubes/lines in the neck?', 'is there a chest x-ray showing any tubes/lines in the neck?', 'is there a chest x-ray showing any tubes/lines in the neck?', 'is there a chest x-ray showing any tubes/lines in the neck?', 'is there a chest x-ray showing any tubes/lines in the neck?']
+Error executing query 3029: Model only answers one image question SQLs
+['is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?']
+Error executing query 3030: Model only answers one image question SQLs
+['is the chest x-ray depicting any anatomical findings in the left lower lung zone?', 'is the chest x-ray depicting any anatomical findings in the left lower lung zone?']
+Error executing query 3032: Model only answers one image question SQLs
+['does a chest x-ray show hydropneumothorax?', 'does a chest x-ray show hydropneumothorax?', 'does a chest x-ray show hydropneumothorax?', 'does a chest x-ray show hydropneumothorax?', 'does a chest x-ray show hydropneumothorax?', 'does a chest x-ray show hydropneumothorax?', 'does a chest x-ray show hydropneumothorax?', 'does a chest x-ray show hydropneumothorax?', 'does a chest x-ray show hydropneumothorax?', 'does a chest x-ray show hydropneumothorax?']
+Error executing query 3033: Model only answers one image question SQLs
+Error executing query 3036: Invalid expression / Unexpected token. Line 1, Col: 757.
+  id = 12070314 ) and strftime('%Y',prescriptions.starttime) = '2102' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['can hyperaeration be detected in the left lower lung zone?']
+Error executing query 3038: Model abstains from answering the question
+['does a chest x-ray show any abnormality in the left hilar structures?', 'does a chest x-ray show any abnormality in the left hilar structures?']
+Error executing query 3040: Model only answers one image question SQLs
+['does a chest x-ray demonstrate copd/emphysema?']
+Error executing query 3042: Model abstains from answering the question
+['does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?']
+Error executing query 3046: Model only answers one image question SQLs
+Error executing query 3047: Invalid expression / Unexpected token. Line 1, Col: 847.
+  d = 18443840 ) and strftime('%Y',diagnoses_icd.charttime) >= '2104' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['are any diseases noticeable?']
+Error executing query 3048: Model abstains from answering the question
+Error executing query 3049: Invalid expression / Unexpected token. Line 1, Col: 821.
+  ns.hadm_id from admissions where admissions.subject_id = 15764474 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 3050: Invalid expression / Unexpected token. Line 1, Col: 842.
+  id = 12177956 ) and strftime('%Y',diagnoses_icd.charttime) = '2103' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?', 'does a chest x-ray show subcutaneous air?']
+Error executing query 3056: Model only answers one image question SQLs
+['does a chest x-ray exhibit lung lesion in the right apical zone?']
+Error executing query 3059: Model abstains from answering the question
+['does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?']
+Error executing query 3062: Model only answers one image question SQLs
+['which position has an association with the shoulder osteoarthritis, the left clavicle or the right shoulder?']
+Error executing query 3064: Model abstains from answering the question
+['do you detect any diseases?']
+Error executing query 3065: Model abstains from answering the question
+['does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?', 'does a chest x-ray demonstrate any abnormality in the left lower lung zone?']
+Error executing query 3067: Model only answers one image question SQLs
+['does a chest x-ray indicate any diseases in the right hemidiaphragm?']
+Error executing query 3069: Model abstains from answering the question
+['which anatomical position has a relation to the lung opacity, the right lung or the right upper lung zone?']
+Error executing query 3072: Model abstains from answering the question
+['point out all anatomical locations associated with any anatomical findings.']
+Error executing query 3076: Model abstains from answering the question
+Error executing query 3077: Invalid expression / Unexpected token. Line 1, Col: 849.
+  hest x-ray showing costophrenic angle blunting?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['specify and list all visible technical assessments.']
+Error executing query 3078: Model abstains from answering the question
+Error executing query 3080: Invalid expression / Unexpected token. Line 1, Col: 815.
+  ns.hadm_id from admissions where admissions.subject_id = 11211421 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['has any abnormality in the right chest wall been found in a chest x-ray?', 'has any abnormality in the right chest wall been found in a chest x-ray?', 'has any abnormality in the right chest wall been found in a chest x-ray?', 'has any abnormality in the right chest wall been found in a chest x-ray?']
+Error executing query 3081: Model only answers one image question SQLs
+['is atelectasis indicated on a chest x-ray?', 'is atelectasis indicated on a chest x-ray?', 'is atelectasis indicated on a chest x-ray?', 'is atelectasis indicated on a chest x-ray?', 'is atelectasis indicated on a chest x-ray?']
+Error executing query 3082: Model only answers one image question SQLs
+Error executing query 3086: Invalid expression / Unexpected token. Line 1, Col: 866.
+  d = 14431875 ) and strftime('%Y',procedures_icd.charttime) = '2103' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['which anatomical findings, lobar/segmental collapse or pulmonary edema/hazy opacity, is associated with the right mid lung zone?']
+Error executing query 3089: Model abstains from answering the question
+Error executing query 3090: Invalid expression / Unexpected token. Line 1, Col: 949.
+  agnoses_icd.charttime) >= datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?', 'does a chest x-ray demonstrate any anatomical findings in the left lower lung zone?']
+Error executing query 3092: Model only answers one image question SQLs
+['does a chest x-ray reveal costophrenic angle blunting?', 'does a chest x-ray reveal costophrenic angle blunting?']
+Error executing query 3093: Model only answers one image question SQLs
+['does a chest x-ray depict vascular calcification?', 'does a chest x-ray depict vascular calcification?', 'does a chest x-ray depict vascular calcification?', 'does a chest x-ray depict vascular calcification?']
+Error executing query 3095: Model only answers one image question SQLs
+Error executing query 3099: Invalid expression / Unexpected token. Line 1, Col: 887.
+   func_vqa("has a chest x-ray shown any devices?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?', 'has a chest x-ray indicated any technical assessments in the left breast?']
+Error executing query 3101: Model only answers one image question SQLs
+['does a chest x-ray demonstrate copd/emphysema in the left hilar structures?', 'does a chest x-ray demonstrate copd/emphysema in the left hilar structures?', 'does a chest x-ray demonstrate copd/emphysema in the left hilar structures?', 'does a chest x-ray demonstrate copd/emphysema in the left hilar structures?']
+Error executing query 3103: Model only answers one image question SQLs
+['is any abnormality indicated in the left chest wall on a chest x-ray?']
+Error executing query 3109: Model abstains from answering the question
+['does a chest x-ray reveal consolidation?', 'does a chest x-ray reveal consolidation?', 'does a chest x-ray reveal consolidation?', 'does a chest x-ray reveal consolidation?', 'does a chest x-ray reveal consolidation?', 'does a chest x-ray reveal consolidation?', 'does a chest x-ray reveal consolidation?']
+Error executing query 3117: Model only answers one image question SQLs
+['does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?', 'does a chest x-ray reveal any diseases?']
+Error executing query 3121: Model only answers one image question SQLs
+Error executing query 3122: Invalid expression / Unexpected token. Line 1, Col: 995.
+  e('%m',prescriptions.starttime) = '12' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and t1.hadm_id = t2.hadm_id
+['is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?', 'is any technical assessments indicated in the left mid lung zone on a chest x-ray?']
+Error executing query 3125: Model only answers one image question SQLs
+Error executing query 3126: Invalid expression / Unexpected token. Line 1, Col: 956.
+  _vqa("does a chest x-ray indicate any diseases?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray indicate any anatomical findings in the spine?']
+Error executing query 3127: Model abstains from answering the question
+['what are all the tubes/lines detectable in the aortic arch?']
+Error executing query 3128: Model abstains from answering the question
+['does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?']
+Error executing query 3129: Model only answers one image question SQLs
+['does a chest x-ray signify chest port in the left upper lung zone?']
+Error executing query 3138: Model abstains from answering the question
+['does a chest x-ray show evidence of pneumonia in the left upper lung zone?']
+Error executing query 3140: Model abstains from answering the question
+['is enteric tube visible on a chest x-ray?', 'is enteric tube visible on a chest x-ray?']
+Error executing query 3143: Model only answers one image question SQLs
+['is there any sign of abnormality in the right lower lung zone?']
+Error executing query 3144: Model abstains from answering the question
+['identify all abnormalities appearing within the right hemidiaphragm.']
+Error executing query 3145: Model abstains from answering the question
+['is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?', 'is infiltration revealed in the left upper lung zone on a chest x-ray?']
+Error executing query 3149: Model only answers one image question SQLs
+['has a chest x-ray revealed vascular redistribution?', 'has a chest x-ray revealed vascular redistribution?', 'has a chest x-ray revealed vascular redistribution?', 'has a chest x-ray revealed vascular redistribution?', 'has a chest x-ray revealed vascular redistribution?', 'has a chest x-ray revealed vascular redistribution?', 'has a chest x-ray revealed vascular redistribution?', 'has a chest x-ray revealed vascular redistribution?']
+Error executing query 3150: Model only answers one image question SQLs
+['does a chest x-ray show signs of chest tube in the right chest wall?', 'does a chest x-ray show signs of chest tube in the right chest wall?', 'does a chest x-ray show signs of chest tube in the right chest wall?']
+Error executing query 3153: Model only answers one image question SQLs
+Error executing query 3155: Invalid expression / Unexpected token. Line 1, Col: 911.
+  agnoses_icd.charttime) >= datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3156: Invalid expression / Unexpected token. Line 1, Col: 761.
+  any abnormality in the left costophrenic angle?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3157: Invalid expression / Unexpected token. Line 1, Col: 884.
+  ns.hadm_id from admissions where admissions.subject_id = 17620765 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and t1.hadm_id = t3.hadm_id
+['which anatomical position is relevant to the pleural/parenchymal scarring, the left lower lung zone or the left upper lung zone?']
+Error executing query 3158: Model abstains from answering the question
+Error executing query 3159: Invalid expression / Unexpected token. Line 1, Col: 895.
+  vqa("does a chest x-ray reveal any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 3160: Invalid expression / Unexpected token. Line 1, Col: 855.
+   = 10827632 ) and strftime('%Y',procedures_icd.charttime) >= '2102' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?', 'is the chest x-ray indicating any abnormality in the right hemidiaphragm?']
+Error executing query 3161: Model only answers one image question SQLs
+Error executing query 3164: Invalid expression / Unexpected token. Line 1, Col: 967.
+   in the right lower lung zone on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['is any anatomical findings revealed in the left upper lung zone on a chest x-ray?', 'is any anatomical findings revealed in the left upper lung zone on a chest x-ray?', 'is any anatomical findings revealed in the left upper lung zone on a chest x-ray?', 'is any anatomical findings revealed in the left upper lung zone on a chest x-ray?', 'is any anatomical findings revealed in the left upper lung zone on a chest x-ray?', 'is any anatomical findings revealed in the left upper lung zone on a chest x-ray?']
+Error executing query 3165: Model only answers one image question SQLs
+Error executing query 3166: Invalid expression / Unexpected token. Line 1, Col: 873.
+  %Y',procedures_icd.charttime) = '2104' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+Error executing query 3170: Invalid expression / Unexpected token. Line 1, Col: 905.
+  502354 ) and strftime('%Y-%m',diagnoses_icd.charttime) >= '2105-11' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is endotracheal tube indicated on a chest x-ray?']
+Error executing query 3171: Model abstains from answering the question
+['in which region, the neck or the right lung, is an abnormality presented?']
+Error executing query 3172: Model abstains from answering the question
+['is any abnormality shown in the right hilar structures on a chest x-ray?', 'is any abnormality shown in the right hilar structures on a chest x-ray?', 'is any abnormality shown in the right hilar structures on a chest x-ray?', 'is any abnormality shown in the right hilar structures on a chest x-ray?', 'is any abnormality shown in the right hilar structures on a chest x-ray?']
+Error executing query 3177: Model only answers one image question SQLs
+['does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?']
+Error executing query 3180: Model only answers one image question SQLs
+['considering our findings, which anatomical finding is related, mediastinal widening or pleural effusion?']
+Error executing query 3184: Model abstains from answering the question
+['does a chest x-ray depict lung cancer in the left lung?', 'does a chest x-ray depict lung cancer in the left lung?']
+Error executing query 3190: Model only answers one image question SQLs
+Error executing query 3191: Invalid expression / Unexpected token. Line 1, Col: 764.
+  how any clavicle fracture in the left clavicle?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?', 'is any diseases revealed in the right lung on a chest x-ray?']
+Error executing query 3192: Model only answers one image question SQLs
+Error executing query 3193: Invalid expression / Unexpected token. Line 1, Col: 872.
+  cate any anatomical findings in the right lung?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['is rotated shown in the mediastinum on a chest x-ray?', 'is rotated shown in the mediastinum on a chest x-ray?', 'is rotated shown in the mediastinum on a chest x-ray?', 'is rotated shown in the mediastinum on a chest x-ray?', 'is rotated shown in the mediastinum on a chest x-ray?', 'is rotated shown in the mediastinum on a chest x-ray?', 'is rotated shown in the mediastinum on a chest x-ray?', 'is rotated shown in the mediastinum on a chest x-ray?', 'is rotated shown in the mediastinum on a chest x-ray?', 'is rotated shown in the mediastinum on a chest x-ray?', 'is rotated shown in the mediastinum on a chest x-ray?']
+Error executing query 3194: Model only answers one image question SQLs
+Error executing query 3201: Invalid expression / Unexpected token. Line 1, Col: 845.
+  obar/segmental collapse shown on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does a chest x-ray demonstrate superior mediastinal mass/enlargement?']
+Error executing query 3202: Model abstains from answering the question
+['does a chest x-ray reveal indications of lung lesion in the right mid lung zone?', 'does a chest x-ray reveal indications of lung lesion in the right mid lung zone?']
+Error executing query 3204: Model only answers one image question SQLs
+Error executing query 3206: Invalid expression / Unexpected token. Line 1, Col: 742.
+  _vqa("is a chest x-ray showing any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3216: Invalid expression / Unexpected token. Line 1, Col: 731.
+  _vqa("is a chest x-ray showing any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3217: Invalid expression / Unexpected token. Line 1, Col: 655.
+  ns.hadm_id from admissions where admissions.subject_id = 10578743 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3219: Invalid expression / Unexpected token. Line 1, Col: 1022.
+  ocedures_icd.charttime) = datetime('2105-12-31 23:59:00','-3 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['has a chest x-ray revealed any devices?', 'has a chest x-ray revealed any devices?']
+Error executing query 3221: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any abnormality?']
+Error executing query 3224: Model abstains from answering the question
+['is there any presence of abnormalities?']
+Error executing query 3225: Model abstains from answering the question
+Error executing query 3228: Invalid expression / Unexpected token. Line 1, Col: 818.
+  riptions.starttime) >= datetime('2105-12-31 23:59:00','-108 month') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3231: Invalid expression / Unexpected token. Line 1, Col: 829.
+  s any technical assessments in the mediastinum?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?', 'is superior mediastinal mass/enlargement revealed?']
+Error executing query 3232: Model only answers one image question SQLs
+['is the chest x-ray depicting any devices?', 'is the chest x-ray depicting any devices?', 'is the chest x-ray depicting any devices?', 'is the chest x-ray depicting any devices?']
+Error executing query 3233: Model only answers one image question SQLs
+['can mediastinal displacement be detected in the upper mediastinum?']
+Error executing query 3234: Model abstains from answering the question
+['has a chest x-ray revealed any abnormality?', 'has a chest x-ray revealed any abnormality?', 'has a chest x-ray revealed any abnormality?', 'has a chest x-ray revealed any abnormality?', 'has a chest x-ray revealed any abnormality?', 'has a chest x-ray revealed any abnormality?', 'has a chest x-ray revealed any abnormality?']
+Error executing query 3235: Model only answers one image question SQLs
+['is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?', 'is any anatomical findings present in the right lung on any chest x-ray?']
+Error executing query 3237: Model only answers one image question SQLs
+Error executing query 3238: Invalid expression / Unexpected token. Line 1, Col: 966.
+  cedures_icd.charttime) >= datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray depict pleural effusion in the left lung?', 'does a chest x-ray depict pleural effusion in the left lung?', 'does a chest x-ray depict pleural effusion in the left lung?', 'does a chest x-ray depict pleural effusion in the left lung?', 'does a chest x-ray depict pleural effusion in the left lung?', 'does a chest x-ray depict pleural effusion in the left lung?', 'does a chest x-ray depict pleural effusion in the left lung?', 'does a chest x-ray depict pleural effusion in the left lung?']
+Error executing query 3239: Model only answers one image question SQLs
+['is the chest x-ray demonstrating any abnormality in the right atrium?', 'is the chest x-ray demonstrating any abnormality in the right atrium?']
+Error executing query 3240: Model only answers one image question SQLs
+['in which region, the left lung or the right mid lung zone, is an abnormality presented?']
+Error executing query 3241: Model abstains from answering the question
+['does a chest x-ray reveal indications of picc in the cardiac silhouette?']
+Error executing query 3242: Model abstains from answering the question
+Error executing query 3243: Invalid expression / Unexpected token. Line 1, Col: 703.
+  _title = 'other irrigation of wound' ) ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+['has a chest x-ray revealed any abnormality?']
+Error executing query 3246: Model abstains from answering the question
+Error executing query 3247: Invalid expression / Unexpected token. Line 1, Col: 622.
+  vqa("does a chest x-ray reveal any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['does a chest x-ray indicate pneumothorax in the left costophrenic angle?', 'does a chest x-ray indicate pneumothorax in the left costophrenic angle?']
+Error executing query 3248: Model only answers one image question SQLs
+['does a chest x-ray demonstrate lobar/segmental collapse?']
+Error executing query 3253: Model abstains from answering the question
+['is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?', 'is there a chest x-ray that showed any diseases in the left lower lung zone?']
+Error executing query 3254: Model only answers one image question SQLs
+Error executing query 3255: Invalid expression / Unexpected token. Line 1, Col: 1044.
+  d = 17598348 ) and strftime('%Y',procedures_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and t1.hadm_id = t3.hadm_id
+Error executing query 3256: Invalid expression / Unexpected token. Line 1, Col: 851.
+  vqa("does a chest x-ray reveal any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3259: Invalid expression / Unexpected token. Line 1, Col: 628.
+  ns.hadm_id from admissions where admissions.subject_id = 13461731 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 3260: Invalid expression / Unexpected token. Line 1, Col: 872.
+  id = 10032409 ) and strftime('%Y',diagnoses_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['list every visible devices.']
+Error executing query 3262: Model abstains from answering the question
+['does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?']
+Error executing query 3263: Model only answers one image question SQLs
+["does the upper mediastinum's width surpass a third of the thorax width?"]
+Error executing query 3266: Model abstains from answering the question
+Error executing query 3269: Invalid expression / Unexpected token. Line 1, Col: 926.
+  ty in the right mid lung zone on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?', 'has a chest x-ray indicated chest tube?']
+Error executing query 3274: Model only answers one image question SQLs
+Error executing query 3275: Invalid expression / Unexpected token. Line 1, Col: 865.
+  ments indicated in the left breast on an x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+["does the cardiac silhouette's width exceed half of the thorax width?"]
+Error executing query 3276: Model abstains from answering the question
+Error executing query 3277: Invalid expression / Unexpected token. Line 1, Col: 752.
+  physema revealed in the right hilar structures?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3278: Invalid expression / Unexpected token. Line 1, Col: 745.
+   show any diseases in the left upper lung zone?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['in which area, the left costophrenic angle or the right clavicle, appears to have an abnormality?']
+Error executing query 3279: Model abstains from answering the question
+['is any tubes/lines indicated in the left clavicle on a chest x-ray?', 'is any tubes/lines indicated in the left clavicle on a chest x-ray?', 'is any tubes/lines indicated in the left clavicle on a chest x-ray?', 'is any tubes/lines indicated in the left clavicle on a chest x-ray?', 'is any tubes/lines indicated in the left clavicle on a chest x-ray?', 'is any tubes/lines indicated in the left clavicle on a chest x-ray?', 'is any tubes/lines indicated in the left clavicle on a chest x-ray?']
+Error executing query 3282: Model only answers one image question SQLs
+['is the chest x-ray indicating goiter?', 'is the chest x-ray indicating goiter?', 'is the chest x-ray indicating goiter?']
+Error executing query 3284: Model only answers one image question SQLs
+['has a chest x-ray demonstrated any tubes/lines in the right lung?', 'has a chest x-ray demonstrated any tubes/lines in the right lung?', 'has a chest x-ray demonstrated any tubes/lines in the right lung?', 'has a chest x-ray demonstrated any tubes/lines in the right lung?', 'has a chest x-ray demonstrated any tubes/lines in the right lung?', 'has a chest x-ray demonstrated any tubes/lines in the right lung?', 'has a chest x-ray demonstrated any tubes/lines in the right lung?', 'has a chest x-ray demonstrated any tubes/lines in the right lung?']
+Error executing query 3285: Model only answers one image question SQLs
+['provide a comprehensive list of all visible technical assessments.']
+Error executing query 3286: Model abstains from answering the question
+['specify all the anatomical findings observed in the left shoulder.']
+Error executing query 3290: Model abstains from answering the question
+["is the cardiac silhouette's width larger than half of the total thorax width?"]
+Error executing query 3292: Model abstains from answering the question
+['is cardiac pacer and wires depicted in the left clavicle on a chest x-ray?', 'is cardiac pacer and wires depicted in the left clavicle on a chest x-ray?', 'is cardiac pacer and wires depicted in the left clavicle on a chest x-ray?', 'is cardiac pacer and wires depicted in the left clavicle on a chest x-ray?', 'is cardiac pacer and wires depicted in the left clavicle on a chest x-ray?']
+Error executing query 3295: Model only answers one image question SQLs
+['which anatomical finding is associated with the findings, pleural effusion or vascular congestion?']
+Error executing query 3298: Model abstains from answering the question
+['is any diseases revealed in the neck on a chest x-ray?', 'is any diseases revealed in the neck on a chest x-ray?', 'is any diseases revealed in the neck on a chest x-ray?']
+Error executing query 3300: Model only answers one image question SQLs
+Error executing query 3303: Invalid expression / Unexpected token. Line 1, Col: 861.
+  d = 13895041 ) and strftime('%Y',diagnoses_icd.charttime) >= '2102' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3304: Invalid expression / Unexpected token. Line 1, Col: 751.
+  ns.hadm_id from admissions where admissions.subject_id = 16200419 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['enumerate all the regions in the anatomy that are related to aspiration.']
+Error executing query 3309: Model abstains from answering the question
+['is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?', 'is a chest x-ray showing endotracheal tube in the carina?']
+Error executing query 3314: Model only answers one image question SQLs
+Error executing query 3320: Invalid expression / Unexpected token. Line 1, Col: 996.
+  c_vqa("does a chest x-ray show any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['is atelectasis demonstrated in the right costophrenic angle?', 'is atelectasis demonstrated in the right costophrenic angle?', 'is atelectasis demonstrated in the right costophrenic angle?', 'is atelectasis demonstrated in the right costophrenic angle?', 'is atelectasis demonstrated in the right costophrenic angle?', 'is atelectasis demonstrated in the right costophrenic angle?', 'is atelectasis demonstrated in the right costophrenic angle?', 'is atelectasis demonstrated in the right costophrenic angle?', 'is atelectasis demonstrated in the right costophrenic angle?', 'is atelectasis demonstrated in the right costophrenic angle?', 'is atelectasis demonstrated in the right costophrenic angle?', 'is atelectasis demonstrated in the right costophrenic angle?']
+Error executing query 3323: Model only answers one image question SQLs
+['does the right upper lung zone contain any anatomical findings?']
+Error executing query 3325: Model abstains from answering the question
+Error executing query 3326: Invalid expression / Unexpected token. Line 1, Col: 884.
+   x-ray detecting tracheostomy tube in the neck?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 3330: Invalid expression / Unexpected token. Line 1, Col: 1025.
+   year') = datetime('2105-12-31 23:59:00','start of year','-0 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?']
+Error executing query 3331: Model only answers one image question SQLs
+['does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?']
+Error executing query 3332: Model only answers one image question SQLs
+Error executing query 3333: Invalid expression / Unexpected token. Line 1, Col: 383.
+   where d_items.label = 'heart rate' and d_items.linksto = 'chartevents' ) and chartevents.valuenum  [4m85.0[0m and datetime(chartevents.charttime) >= datetime('2105-12-31 23:59:00','-153 month')
+['does a chest x-ray reveal indications of any anatomical findings?', 'does a chest x-ray reveal indications of any anatomical findings?', 'does a chest x-ray reveal indications of any anatomical findings?', 'does a chest x-ray reveal indications of any anatomical findings?', 'does a chest x-ray reveal indications of any anatomical findings?']
+Error executing query 3334: Model only answers one image question SQLs
+Error executing query 3336: Invalid expression / Unexpected token. Line 1, Col: 803.
+  ns.hadm_id from admissions where admissions.subject_id = 13855132 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['has a chest x-ray shown aspiration?', 'has a chest x-ray shown aspiration?']
+Error executing query 3338: Model only answers one image question SQLs
+Error executing query 3339: Invalid expression / Unexpected token. Line 1, Col: 894.
+  tecting any abnormality in the left chest wall?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3341: Invalid expression / Unexpected token. Line 1, Col: 913.
+  iagnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 3342: Invalid expression / Unexpected token. Line 1, Col: 740.
+  id = 16419341 ) and strftime('%Y',prescriptions.starttime) = '2101' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['is any devices revealed in the right chest wall on a chest x-ray?']
+Error executing query 3343: Model abstains from answering the question
+Error executing query 3345: Invalid expression / Unexpected token. Line 1, Col: 761.
+  ns.hadm_id from admissions where admissions.subject_id = 14835886 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3349: Expecting ). Line 1, Col: 934.
+  00','-3 year') ) as t2 join admissions on t2.subject_id = admissions.subject_id where t2.charttime  [4madmissions[0m.admittime and datetime(admissions.admittime) >= datetime('2105-12-31 23:59:00','-3 year') and datet
+['is linear/patchy atelectasis revealed in the left hilar structures on a chest x-ray?', 'is linear/patchy atelectasis revealed in the left hilar structures on a chest x-ray?', 'is linear/patchy atelectasis revealed in the left hilar structures on a chest x-ray?']
+Error executing query 3350: Model only answers one image question SQLs
+Error executing query 3352: Invalid expression / Unexpected token. Line 1, Col: 919.
+  rmality revealed in the spine on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?', 'is the chest x-ray indicating any diseases in the right upper lung zone?']
+Error executing query 3353: Model only answers one image question SQLs
+['has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?', 'has a chest x-ray shown swan-ganz catheter in the abdomen?']
+Error executing query 3354: Model only answers one image question SQLs
+['is the chest x-ray depicting cardiac pacer and wires in the right clavicle?', 'is the chest x-ray depicting cardiac pacer and wires in the right clavicle?', 'is the chest x-ray depicting cardiac pacer and wires in the right clavicle?', 'is the chest x-ray depicting cardiac pacer and wires in the right clavicle?', 'is the chest x-ray depicting cardiac pacer and wires in the right clavicle?', 'is the chest x-ray depicting cardiac pacer and wires in the right clavicle?', 'is the chest x-ray depicting cardiac pacer and wires in the right clavicle?', 'is the chest x-ray depicting cardiac pacer and wires in the right clavicle?']
+Error executing query 3355: Model only answers one image question SQLs
+['is any diseases shown in the left upper lung zone on a chest x-ray?', 'is any diseases shown in the left upper lung zone on a chest x-ray?', 'is any diseases shown in the left upper lung zone on a chest x-ray?', 'is any diseases shown in the left upper lung zone on a chest x-ray?', 'is any diseases shown in the left upper lung zone on a chest x-ray?', 'is any diseases shown in the left upper lung zone on a chest x-ray?']
+Error executing query 3358: Model only answers one image question SQLs
+['has a chest x-ray demonstrated any abnormality in the right upper lung zone?', 'has a chest x-ray demonstrated any abnormality in the right upper lung zone?', 'has a chest x-ray demonstrated any abnormality in the right upper lung zone?', 'has a chest x-ray demonstrated any abnormality in the right upper lung zone?', 'has a chest x-ray demonstrated any abnormality in the right upper lung zone?']
+Error executing query 3360: Model only answers one image question SQLs
+['can you confirm if there are any tubes/lines?']
+Error executing query 3364: Model abstains from answering the question
+['has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?', 'has the chest x-ray indicated airspace opacity in the left lung?']
+Error executing query 3365: Model only answers one image question SQLs
+Error executing query 3368: Invalid expression / Unexpected token. Line 1, Col: 970.
+  cedures_icd.charttime) >= datetime('2105-12-31 23:59:00','-3 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?', 'does a chest x-ray reveal any tubes/lines?']
+Error executing query 3369: Model only answers one image question SQLs
+Error executing query 3372: Invalid expression / Unexpected token. Line 1, Col: 852.
+  _vqa("does a chest x-ray show pleural effusion?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray reveal enteric tube in the mediastinum?', 'does a chest x-ray reveal enteric tube in the mediastinum?', 'does a chest x-ray reveal enteric tube in the mediastinum?', 'does a chest x-ray reveal enteric tube in the mediastinum?', 'does a chest x-ray reveal enteric tube in the mediastinum?', 'does a chest x-ray reveal enteric tube in the mediastinum?']
+Error executing query 3376: Model only answers one image question SQLs
+['is the chest x-ray showing any diseases in the right hilar structures?']
+Error executing query 3378: Model abstains from answering the question
+Error executing query 3379: Invalid expression / Unexpected token. Line 1, Col: 918.
+  t x-ray indicate any diseases in the left lung?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 3382: Invalid expression / Unexpected token. Line 1, Col: 642.
+  ns.hadm_id from admissions where admissions.subject_id = 17975155 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 3383: Invalid expression / Unexpected token. Line 1, Col: 615.
+  where prescriptions.drug = 'diltiazem' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['does a chest x-ray depict any diseases in the upper mediastinum?', 'does a chest x-ray depict any diseases in the upper mediastinum?', 'does a chest x-ray depict any diseases in the upper mediastinum?']
+Error executing query 3384: Model only answers one image question SQLs
+['has a chest x-ray demonstrated any technical assessments?', 'has a chest x-ray demonstrated any technical assessments?', 'has a chest x-ray demonstrated any technical assessments?', 'has a chest x-ray demonstrated any technical assessments?', 'has a chest x-ray demonstrated any technical assessments?', 'has a chest x-ray demonstrated any technical assessments?', 'has a chest x-ray demonstrated any technical assessments?', 'has a chest x-ray demonstrated any technical assessments?', 'has a chest x-ray demonstrated any technical assessments?', 'has a chest x-ray demonstrated any technical assessments?']
+Error executing query 3390: Model only answers one image question SQLs
+Error executing query 3392: Invalid expression / Unexpected token. Line 1, Col: 623.
+  ns.hadm_id from admissions where admissions.subject_id = 12139817 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['has a chest x-ray demonstrated any diseases?', 'has a chest x-ray demonstrated any diseases?']
+Error executing query 3395: Model only answers one image question SQLs
+Error executing query 3398: Invalid expression / Unexpected token. Line 1, Col: 671.
+  ns.hadm_id from admissions where admissions.subject_id = 15689544 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is the chest x-ray indicating any abnormality?']
+Error executing query 3401: Model abstains from answering the question
+['does a chest x-ray show pneumonia?', 'does a chest x-ray show pneumonia?']
+Error executing query 3402: Model only answers one image question SQLs
+Error executing query 3403: Invalid expression / Unexpected token. Line 1, Col: 852.
+  c_vqa("does a chest x-ray show any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3404: Invalid expression / Unexpected token. Line 1, Col: 920.
+  '%Y',diagnoses_icd.charttime) = '2105' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and t1.hadm_id = t2.hadm_id
+['is cardiac pacer and wires shown in the left clavicle on a chest x-ray?', 'is cardiac pacer and wires shown in the left clavicle on a chest x-ray?', 'is cardiac pacer and wires shown in the left clavicle on a chest x-ray?', 'is cardiac pacer and wires shown in the left clavicle on a chest x-ray?', 'is cardiac pacer and wires shown in the left clavicle on a chest x-ray?']
+Error executing query 3405: Model only answers one image question SQLs
+Error executing query 3406: Invalid expression / Unexpected token. Line 1, Col: 961.
+  nth') = datetime('2105-12-31 23:59:00','start of month','-0 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is the chest x-ray showing cyst/bullae in the right lower lung zone?']
+Error executing query 3407: Model abstains from answering the question
+Error executing query 3409: Invalid expression / Unexpected token. Line 1, Col: 750.
+  mediastinal displacement indicated on an x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 3414: Invalid expression / Unexpected token. Line 1, Col: 800.
+  ns.hadm_id from admissions where admissions.subject_id = 10681061 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray show evidence of any tubes/lines?']
+Error executing query 3417: Model abstains from answering the question
+Error executing query 3419: Invalid expression / Unexpected token. Line 1, Col: 765.
+  ion of joint, other specified sites' ) ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+['does a chest x-ray show any technical assessments in the right upper lung zone?', 'does a chest x-ray show any technical assessments in the right upper lung zone?']
+Error executing query 3422: Model only answers one image question SQLs
+Error executing query 3423: Invalid expression / Unexpected token. Line 1, Col: 740.
+  unc_vqa("is any diseases indicated on an x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray indicate shoulder osteoarthritis in the left clavicle?', 'does a chest x-ray indicate shoulder osteoarthritis in the left clavicle?', 'does a chest x-ray indicate shoulder osteoarthritis in the left clavicle?']
+Error executing query 3425: Model only answers one image question SQLs
+Error executing query 3426: Invalid expression / Unexpected token. Line 1, Col: 894.
+  %Y',procedures_icd.charttime) = '2104' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and t1.hadm_id = t2.hadm_id
+['does a chest x-ray reveal any diseases in the right mid lung zone?', 'does a chest x-ray reveal any diseases in the right mid lung zone?', 'does a chest x-ray reveal any diseases in the right mid lung zone?', 'does a chest x-ray reveal any diseases in the right mid lung zone?']
+Error executing query 3428: Model only answers one image question SQLs
+['has a chest x-ray revealed breast/nipple shadows in the right lower lung zone?', 'has a chest x-ray revealed breast/nipple shadows in the right lower lung zone?']
+Error executing query 3432: Model only answers one image question SQLs
+['does the mediastinum show any evidence of diseases?']
+Error executing query 3434: Model abstains from answering the question
+['does a chest x-ray depict rotated in the left clavicle?', 'does a chest x-ray depict rotated in the left clavicle?']
+Error executing query 3435: Model only answers one image question SQLs
+['do any abnormalities seem to be present?']
+Error executing query 3436: Model abstains from answering the question
+['does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?', 'does a chest x-ray indicate any anatomical findings in the left lower lung zone?']
+Error executing query 3439: Model only answers one image question SQLs
+Error executing query 3443: Invalid expression / Unexpected token. Line 1, Col: 756.
+   of any technical assessments on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3444: Invalid expression / Unexpected token. Line 1, Col: 880.
+  s.dischtime is not null order by admissions.admittime asc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is subcutaneous air observable in the image?']
+Error executing query 3445: Model abstains from answering the question
+['does a chest x-ray show consolidation in the right hilar structures?', 'does a chest x-ray show consolidation in the right hilar structures?', 'does a chest x-ray show consolidation in the right hilar structures?', 'does a chest x-ray show consolidation in the right hilar structures?', 'does a chest x-ray show consolidation in the right hilar structures?']
+Error executing query 3446: Model only answers one image question SQLs
+['has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?', 'has a chest x-ray revealed any devices in the right chest wall?']
+Error executing query 3447: Model only answers one image question SQLs
+['is consolidation revealed in the right lower lung zone on a chest x-ray?', 'is consolidation revealed in the right lower lung zone on a chest x-ray?', 'is consolidation revealed in the right lower lung zone on a chest x-ray?', 'is consolidation revealed in the right lower lung zone on a chest x-ray?', 'is consolidation revealed in the right lower lung zone on a chest x-ray?']
+Error executing query 3448: Model only answers one image question SQLs
+['does a chest x-ray indicate granulomatous diseases in the right upper lung zone?', 'does a chest x-ray indicate granulomatous diseases in the right upper lung zone?']
+Error executing query 3455: Model only answers one image question SQLs
+['provide a comprehensive list of all visible diseases.']
+Error executing query 3459: Model abstains from answering the question
+['can you identify any pneumonia on the x-ray?']
+Error executing query 3460: Model abstains from answering the question
+Error executing query 3465: Invalid expression / Unexpected token. Line 1, Col: 892.
+  s.dischtime is not null order by admissions.admittime asc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3470: Invalid expression / Unexpected token. Line 1, Col: 750.
+  indication of any abnormality on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['do any tubes/lines appear?']
+Error executing query 3475: Model abstains from answering the question
+['has a chest x-ray demonstrated any diseases in the mediastinum?']
+Error executing query 3476: Model abstains from answering the question
+Error executing query 3477: Invalid expression / Unexpected token. Line 1, Col: 797.
+  chest x-ray reveal any any anatomical findings?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 3478: Invalid expression / Unexpected token. Line 1, Col: 924.
+  etime('2105-12-31 23:59:00','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and t1.hadm_id = t2.hadm_id
+['does a chest x-ray indicate any diseases in the left costophrenic angle?', 'does a chest x-ray indicate any diseases in the left costophrenic angle?', 'does a chest x-ray indicate any diseases in the left costophrenic angle?', 'does a chest x-ray indicate any diseases in the left costophrenic angle?', 'does a chest x-ray indicate any diseases in the left costophrenic angle?', 'does a chest x-ray indicate any diseases in the left costophrenic angle?', 'does a chest x-ray indicate any diseases in the left costophrenic angle?', 'does a chest x-ray indicate any diseases in the left costophrenic angle?']
+Error executing query 3482: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any abnormality in the right hilar structures?', 'does a chest x-ray demonstrate any abnormality in the right hilar structures?']
+Error executing query 3483: Model only answers one image question SQLs
+['can we confirm that the width of the upper mediastinum is larger than a third of the thorax width?']
+[False]
+['detail all tubes/lines observable in the image.']
+Error executing query 3485: Model abstains from answering the question
+Error executing query 3487: Invalid expression / Unexpected token. Line 1, Col: 997.
+  ay show lung opacity in the cardiac silhouette?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 3488: Invalid expression / Unexpected token. Line 1, Col: 997.
+  gnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-21 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does the left clavicle exhibit any abnormality?']
+Error executing query 3489: Model abstains from answering the question
+['has a chest x-ray displayed lung lesion in the mediastinum?']
+Error executing query 3492: Model abstains from answering the question
+Error executing query 3493: Invalid expression / Unexpected token. Line 1, Col: 933.
+  d = 11131026 ) and strftime('%Y',diagnoses_icd.charttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 3494: Invalid expression / Unexpected token. Line 1, Col: 961.
+  nes in the cardiac silhouette on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3495: Invalid expression / Unexpected token. Line 1, Col: 775.
+  nc_vqa("is a chest x-ray showing consolidation?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['which area, the left mid lung zone or the right hilar structures, shows an abnormality?']
+Error executing query 3496: Model abstains from answering the question
+['does a chest x-ray depict any diseases in the left hilar structures?', 'does a chest x-ray depict any diseases in the left hilar structures?', 'does a chest x-ray depict any diseases in the left hilar structures?', 'does a chest x-ray depict any diseases in the left hilar structures?', 'does a chest x-ray depict any diseases in the left hilar structures?']
+Error executing query 3501: Model only answers one image question SQLs
+['are there signs of chest tube?']
+Error executing query 3502: Model abstains from answering the question
+['considering our findings, which disease is related, lung cancer or pericardial effusion?']
+Error executing query 3507: Model abstains from answering the question
+Error executing query 3508: Invalid expression / Unexpected token. Line 1, Col: 892.
+  "does the chest x-ray indicate any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['has a chest x-ray revealed enteric tube in the neck?', 'has a chest x-ray revealed enteric tube in the neck?']
+Error executing query 3509: Model only answers one image question SQLs
+Error executing query 3510: Invalid expression / Unexpected token. Line 1, Col: 742.
+  s a chest x-ray reveal any anatomical findings?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?', 'does a chest x-ray demonstrate any tubes/lines?']
+Error executing query 3511: Model only answers one image question SQLs
+['does a chest x-ray reveal any anatomical findings in the cardiac silhouette?', 'does a chest x-ray reveal any anatomical findings in the cardiac silhouette?']
+Error executing query 3512: Model only answers one image question SQLs
+['does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?']
+Error executing query 3513: Model only answers one image question SQLs
+Error executing query 3514: Invalid expression / Unexpected token. Line 1, Col: 738.
+  _vqa("is a chest x-ray showing any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3515: Invalid expression / Unexpected token. Line 1, Col: 978.
+  indication of any abnormality on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?', 'does a chest x-ray indicate endotracheal tube?']
+Error executing query 3519: Model only answers one image question SQLs
+['is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?', 'is there a chest x-ray that showed picc?']
+Error executing query 3520: Model only answers one image question SQLs
+['does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?', 'does a chest x-ray indicate any anatomical findings in the right clavicle?']
+Error executing query 3522: Model only answers one image question SQLs
+['is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?', 'is there a chest x-ray showing any tubes/lines in the left lung?']
+Error executing query 3524: Model only answers one image question SQLs
+['can any presence of diseases be noted in the right lower lung zone?']
+Error executing query 3525: Model abstains from answering the question
+['does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?', 'does a chest x-ray demonstrate picc?']
+Error executing query 3528: Model only answers one image question SQLs
+Error executing query 3529: Error tokenizing 'ydatetime) and datetime(t3.studydatetime,'+2 mont'
+Error executing query 3537: Invalid expression / Unexpected token. Line 1, Col: 650.
+  ns.hadm_id from admissions where admissions.subject_id = 19155097 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3539: Invalid expression / Unexpected token. Line 1, Col: 1115.
+  year','-0 year') and strftime('%m',procedures_icd.charttime) = '09' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and date
+['does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?', 'does a chest x-ray show lung lesion in the left lung?']
+Error executing query 3540: Model only answers one image question SQLs
+['do any anatomical findings exist?']
+Error executing query 3542: Model abstains from answering the question
+['does a chest x-ray demonstrate any abnormality?']
+Error executing query 3544: Model abstains from answering the question
+['has a chest x-ray revealed any devices?', 'has a chest x-ray revealed any devices?', 'has a chest x-ray revealed any devices?', 'has a chest x-ray revealed any devices?', 'has a chest x-ray revealed any devices?']
+Error executing query 3550: Model only answers one image question SQLs
+['has a chest x-ray revealed any tubes/lines in the aortic arch?', 'has a chest x-ray revealed any tubes/lines in the aortic arch?', 'has a chest x-ray revealed any tubes/lines in the aortic arch?']
+Error executing query 3551: Model only answers one image question SQLs
+['is rib fracture shown on a chest x-ray?', 'is rib fracture shown on a chest x-ray?']
+Error executing query 3560: Model only answers one image question SQLs
+Error executing query 3566: Invalid expression / Unexpected token. Line 1, Col: 840.
+  nc_vqa("has an x-ray indicated any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 3567: Invalid expression / Unexpected token. Line 1, Col: 820.
+  id = 17268795 ) and strftime('%Y',diagnoses_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray reveal any anatomical findings in the right shoulder?', 'does a chest x-ray reveal any anatomical findings in the right shoulder?', 'does a chest x-ray reveal any anatomical findings in the right shoulder?']
+Error executing query 3570: Model only answers one image question SQLs
+Error executing query 3573: Invalid expression / Unexpected token. Line 1, Col: 934.
+   anatomical findings in the left mid lung zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 3575: Invalid expression / Unexpected token. Line 1, Col: 850.
+   = 13656933 ) and strftime('%Y',procedures_icd.charttime) >= '2104' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is there an indication of abnormality within the left costophrenic angle?']
+Error executing query 3576: Model abstains from answering the question
+['is chest tube depicted in the left lower lung zone on a chest x-ray?', 'is chest tube depicted in the left lower lung zone on a chest x-ray?', 'is chest tube depicted in the left lower lung zone on a chest x-ray?', 'is chest tube depicted in the left lower lung zone on a chest x-ray?', 'is chest tube depicted in the left lower lung zone on a chest x-ray?']
+Error executing query 3577: Model only answers one image question SQLs
+['does a chest x-ray indicate subcutaneous air?']
+Error executing query 3580: Model abstains from answering the question
+Error executing query 3581: Invalid expression / Unexpected token. Line 1, Col: 792.
+  oes a chest x-ray reveal sub-diaphragmatic air?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['detail all the abnormalities located in the right hemidiaphragm.']
+Error executing query 3586: Model abstains from answering the question
+['is there any occurrence of technical assessments in the right lower lung zone?']
+Error executing query 3588: Model abstains from answering the question
+['is any abnormality indicated in the left clavicle on a chest x-ray?', 'is any abnormality indicated in the left clavicle on a chest x-ray?', 'is any abnormality indicated in the left clavicle on a chest x-ray?', 'is any abnormality indicated in the left clavicle on a chest x-ray?']
+Error executing query 3591: Model only answers one image question SQLs
+['in the context of anatomical findings, which corresponds more closely, mediastinal widening or multiple masses/nodules?']
+Error executing query 3594: Model abstains from answering the question
+['does a chest x-ray reveal mediastinal displacement in the cardiac silhouette?', 'does a chest x-ray reveal mediastinal displacement in the cardiac silhouette?']
+Error executing query 3596: Model only answers one image question SQLs
+['has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?']
+Error executing query 3599: Model only answers one image question SQLs
+Error executing query 3600: Invalid expression / Unexpected token. Line 1, Col: 749.
+  id = 19919980 ) and strftime('%Y',prescriptions.starttime) = '2105' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['has a chest x-ray indicated any diseases in the left hilar structures?', 'has a chest x-ray indicated any diseases in the left hilar structures?', 'has a chest x-ray indicated any diseases in the left hilar structures?', 'has a chest x-ray indicated any diseases in the left hilar structures?', 'has a chest x-ray indicated any diseases in the left hilar structures?']
+Error executing query 3603: Model only answers one image question SQLs
+['is any devices demonstrated in the mediastinum on a chest x-ray?', 'is any devices demonstrated in the mediastinum on a chest x-ray?', 'is any devices demonstrated in the mediastinum on a chest x-ray?', 'is any devices demonstrated in the mediastinum on a chest x-ray?', 'is any devices demonstrated in the mediastinum on a chest x-ray?']
+Error executing query 3605: Model only answers one image question SQLs
+['does a chest x-ray signify lung opacity?', 'does a chest x-ray signify lung opacity?', 'does a chest x-ray signify lung opacity?', 'does a chest x-ray signify lung opacity?']
+Error executing query 3607: Model only answers one image question SQLs
+['is any tubes/lines revealed in the right atrium on a chest x-ray?']
+Error executing query 3608: Model abstains from answering the question
+Error executing query 3609: Invalid expression / Unexpected token. Line 1, Col: 873.
+  0938464 ) and strftime('%Y-%m',diagnoses_icd.charttime) = '2105-10' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3610: Invalid expression / Unexpected token. Line 1, Col: 1056.
+   year') = datetime('2105-12-31 23:59:00','start of year','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['are there signs of any technical assessments?']
+Error executing query 3615: Model abstains from answering the question
+['does a chest x-ray show any abnormality in the left clavicle?', 'does a chest x-ray show any abnormality in the left clavicle?', 'does a chest x-ray show any abnormality in the left clavicle?', 'does a chest x-ray show any abnormality in the left clavicle?', 'does a chest x-ray show any abnormality in the left clavicle?']
+Error executing query 3617: Model only answers one image question SQLs
+Error executing query 3619: Invalid expression / Unexpected token. Line 1, Col: 888.
+  ray show any diseases in the right apical zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does a chest x-ray show signs of any abnormality?', 'does a chest x-ray show signs of any abnormality?']
+Error executing query 3620: Model only answers one image question SQLs
+['has a chest x-ray shown any abnormality?', 'has a chest x-ray shown any abnormality?', 'has a chest x-ray shown any abnormality?', 'has a chest x-ray shown any abnormality?', 'has a chest x-ray shown any abnormality?']
+Error executing query 3628: Model only answers one image question SQLs
+['is vascular redistribution revealed on a chest x-ray?']
+Error executing query 3630: Model abstains from answering the question
+Error executing query 3633: Expecting ). Line 1, Col: 904.
+  ime) >= '2105' ) as t2 join admissions on t2.subject_id = admissions.subject_id where t2.charttime  [4madmissions[0m.admittime and strftime('%Y',admissions.admittime) >= '2105' and datetime(t2.charttime,'start of mon
+Error executing query 3634: Invalid expression / Unexpected token. Line 1, Col: 871.
+  043637 ) and strftime('%Y-%m',diagnoses_icd.charttime) >= '2104-11' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray reveal elevated hemidiaphragm?', 'does a chest x-ray reveal elevated hemidiaphragm?', 'does a chest x-ray reveal elevated hemidiaphragm?', 'does a chest x-ray reveal elevated hemidiaphragm?']
+Error executing query 3636: Model only answers one image question SQLs
+Error executing query 3639: Invalid expression / Unexpected token. Line 1, Col: 947.
+  unc_vqa("is any devices shown on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['which anatomical regions are indicative of mediastinal displacement?']
+Error executing query 3640: Model abstains from answering the question
+['does a chest x-ray show any technical assessments in the left breast?']
+Error executing query 3641: Model abstains from answering the question
+Error executing query 3642: Invalid expression / Unexpected token. Line 1, Col: 745.
+  est x-ray indicate enlarged cardiac silhouette?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['is any technical assessments shown in the left lung on a chest x-ray?', 'is any technical assessments shown in the left lung on a chest x-ray?', 'is any technical assessments shown in the left lung on a chest x-ray?', 'is any technical assessments shown in the left lung on a chest x-ray?']
+Error executing query 3645: Model only answers one image question SQLs
+Error executing query 3650: Invalid expression / Unexpected token. Line 1, Col: 979.
+   year','-1 year') and strftime('%m',prescriptions.starttime) = '11' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3653: Invalid expression / Unexpected token. Line 1, Col: 972.
+  edures_icd.charttime) = datetime('2105-12-31 23:59:00','-23 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?', 'is the chest x-ray showing any abnormality in the left upper lung zone?']
+Error executing query 3654: Model only answers one image question SQLs
+Error executing query 3656: Invalid expression / Unexpected token. Line 1, Col: 1002.
+  ny abnormality in the right costophrenic angle?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3659: Invalid expression / Unexpected token. Line 1, Col: 876.
+  ny indication of rib fracture on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['in the anatomical findings, which is related, hernia or lung opacity?']
+Error executing query 3660: Model abstains from answering the question
+['does a chest x-ray indicate ij line in the cavoatrial junction?', 'does a chest x-ray indicate ij line in the cavoatrial junction?', 'does a chest x-ray indicate ij line in the cavoatrial junction?', 'does a chest x-ray indicate ij line in the cavoatrial junction?', 'does a chest x-ray indicate ij line in the cavoatrial junction?', 'does a chest x-ray indicate ij line in the cavoatrial junction?', 'does a chest x-ray indicate ij line in the cavoatrial junction?', 'does a chest x-ray indicate ij line in the cavoatrial junction?']
+Error executing query 3662: Model only answers one image question SQLs
+Error executing query 3664: Invalid expression / Unexpected token. Line 1, Col: 943.
+  mality in the left chest wall on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['has a chest x-ray indicated any abnormality?']
+Error executing query 3669: Model abstains from answering the question
+Error executing query 3671: Invalid expression / Unexpected token. Line 1, Col: 870.
+  id = 16631797 ) and strftime('%Y',diagnoses_icd.charttime) = '2102' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['is the chest x-ray showing any technical assessments?']
+Error executing query 3673: Model abstains from answering the question
+['are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?', 'are there chest x-ray findings of any diseases in the right mid lung zone?']
+Error executing query 3675: Model only answers one image question SQLs
+['identify all the anatomical regions associated with infiltration.']
+Error executing query 3681: Model abstains from answering the question
+['does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?']
+Error executing query 3683: Model only answers one image question SQLs
+['regarding the right lung, which anatomical finding is relevant, consolidation or lung opacity?']
+Error executing query 3685: Model abstains from answering the question
+Error executing query 3686: Invalid expression / Unexpected token. Line 1, Col: 876.
+  %Y',procedures_icd.charttime) = '2100' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and t1.hadm_id = t2.hadm_id
+['does a chest x-ray reveal vascular congestion in the left lower lung zone?', 'does a chest x-ray reveal vascular congestion in the left lower lung zone?', 'does a chest x-ray reveal vascular congestion in the left lower lung zone?']
+Error executing query 3687: Model only answers one image question SQLs
+['is any abnormality displayed in the mediastinum on a chest x-ray?', 'is any abnormality displayed in the mediastinum on a chest x-ray?']
+Error executing query 3688: Model only answers one image question SQLs
+['is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?', 'is mass/nodule (not otherwise specified) in the right upper lung zone noted in a chest x-ray?']
+Error executing query 3689: Model only answers one image question SQLs
+['specify all the tubes/lines found in the left hilar structures.']
+Error executing query 3691: Model abstains from answering the question
+['is picc demonstrated on a chest x-ray?', 'is picc demonstrated on a chest x-ray?', 'is picc demonstrated on a chest x-ray?', 'is picc demonstrated on a chest x-ray?', 'is picc demonstrated on a chest x-ray?']
+Error executing query 3695: Model only answers one image question SQLs
+['does a chest x-ray indicate mediastinal displacement?', 'does a chest x-ray indicate mediastinal displacement?', 'does a chest x-ray indicate mediastinal displacement?']
+Error executing query 3696: Model only answers one image question SQLs
+['is the chest x-ray indicating any tubes/lines?', 'is the chest x-ray indicating any tubes/lines?']
+Error executing query 3697: Model only answers one image question SQLs
+['does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?']
+Error executing query 3700: Model only answers one image question SQLs
+['in which position, the left hilar structures or the right clavicle, is an abnormality exhibited?']
+Error executing query 3705: Model abstains from answering the question
+Error executing query 3706: Invalid expression / Unexpected token. Line 1, Col: 850.
+  an-ganz catheter in the right hilar structures?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is prosthetic valve shown in the cardiac silhouette on a chest x-ray?', 'is prosthetic valve shown in the cardiac silhouette on a chest x-ray?', 'is prosthetic valve shown in the cardiac silhouette on a chest x-ray?', 'is prosthetic valve shown in the cardiac silhouette on a chest x-ray?', 'is prosthetic valve shown in the cardiac silhouette on a chest x-ray?']
+Error executing query 3707: Model only answers one image question SQLs
+['is the trachea showing any abnormal signs?']
+Error executing query 3711: Model abstains from answering the question
+Error executing query 3716: Invalid expression / Unexpected token. Line 1, Col: 873.
+  hown in the upper mediastinum on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is any abnormality shown in the cavoatrial junction on a chest x-ray?']
+Error executing query 3718: Model abstains from answering the question
+Error executing query 3719: Invalid expression / Unexpected token. Line 1, Col: 864.
+   an indication of any devices on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is there any indication of devices?']
+Error executing query 3721: Model abstains from answering the question
+['is the chest x-ray indicating any technical assessments?']
+Error executing query 3722: Model abstains from answering the question
+Error executing query 3723: Invalid expression / Unexpected token. Line 1, Col: 890.
+  neumomediastinum in the right hilar structures?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['is subcutaneous air revealed on a chest x-ray?', 'is subcutaneous air revealed on a chest x-ray?', 'is subcutaneous air revealed on a chest x-ray?', 'is subcutaneous air revealed on a chest x-ray?', 'is subcutaneous air revealed on a chest x-ray?']
+Error executing query 3725: Model only answers one image question SQLs
+['does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?']
+Error executing query 3726: Model only answers one image question SQLs
+['in which anatomical region is an abnormality observable, the right shoulder or the trachea?']
+Error executing query 3727: Model abstains from answering the question
+Error executing query 3729: Invalid expression / Unexpected token. Line 1, Col: 917.
+  656933 ) and strftime('%Y-%m',procedures_icd.charttime) = '2104-05' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is there any sign of chest tube present in the left lung?']
+Error executing query 3730: Model abstains from answering the question
+Error executing query 3731: Invalid expression / Unexpected token. Line 1, Col: 667.
+  ns.hadm_id from admissions where admissions.subject_id = 14117444 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 3732: Invalid expression / Unexpected token. Line 1, Col: 873.
+  d = 18487097 ) and strftime('%Y',procedures_icd.charttime) = '2101' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['concerning the right lower lung zone, which anatomical finding is involved, airspace opacity or vascular redistribution?']
+Error executing query 3734: Model abstains from answering the question
+['is any anatomical findings detected in the right lung on a chest x-ray?', 'is any anatomical findings detected in the right lung on a chest x-ray?', 'is any anatomical findings detected in the right lung on a chest x-ray?', 'is any anatomical findings detected in the right lung on a chest x-ray?', 'is any anatomical findings detected in the right lung on a chest x-ray?', 'is any anatomical findings detected in the right lung on a chest x-ray?']
+Error executing query 3739: Model only answers one image question SQLs
+Error executing query 3744: Invalid expression / Unexpected token. Line 1, Col: 752.
+  itus with hypoglycemia without coma' ) ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+['does a chest x-ray identify fluid overload/heart failure in the mediastinum?', 'does a chest x-ray identify fluid overload/heart failure in the mediastinum?']
+Error executing query 3745: Model only answers one image question SQLs
+Error executing query 3746: Invalid expression / Unexpected token. Line 1, Col: 845.
+  _vqa("is a chest x-ray showing any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is the chest x-ray indicating any anatomical findings?']
+Error executing query 3747: Model abstains from answering the question
+['is the chest x-ray depicting any tubes/lines in the right clavicle?']
+Error executing query 3748: Model abstains from answering the question
+Error executing query 3749: Invalid expression / Unexpected token. Line 1, Col: 629.
+  ns.hadm_id from admissions where admissions.subject_id = 19385269 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3750: Invalid expression / Unexpected token. Line 1, Col: 730.
+  id = 15110303 ) and strftime('%Y',prescriptions.starttime) = '2103' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 3751: Invalid expression / Unexpected token. Line 1, Col: 970.
+  ocedures_icd.charttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 3753: Invalid expression / Unexpected token. Line 1, Col: 857.
+  hown in the upper mediastinum on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is the chest x-ray showing any abnormality?']
+Error executing query 3754: Model abstains from answering the question
+['is picc revealed on a chest x-ray?', 'is picc revealed on a chest x-ray?', 'is picc revealed on a chest x-ray?']
+Error executing query 3755: Model only answers one image question SQLs
+['has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?', 'has a chest x-ray displayed any abnormality?']
+Error executing query 3757: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any tubes/lines in the left shoulder?', 'does a chest x-ray demonstrate any tubes/lines in the left shoulder?', 'does a chest x-ray demonstrate any tubes/lines in the left shoulder?', 'does a chest x-ray demonstrate any tubes/lines in the left shoulder?', 'does a chest x-ray demonstrate any tubes/lines in the left shoulder?', 'does a chest x-ray demonstrate any tubes/lines in the left shoulder?', 'does a chest x-ray demonstrate any tubes/lines in the left shoulder?']
+Error executing query 3764: Model only answers one image question SQLs
+['can any pneumothorax be observed?']
+Error executing query 3765: Model abstains from answering the question
+['has a chest x-ray revealed any abnormality?', 'has a chest x-ray revealed any abnormality?', 'has a chest x-ray revealed any abnormality?', 'has a chest x-ray revealed any abnormality?']
+Error executing query 3767: Model only answers one image question SQLs
+Error executing query 3769: Invalid expression / Unexpected token. Line 1, Col: 750.
+   a chest x-ray depicts any anatomical findings?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 3771: Invalid expression / Unexpected token. Line 1, Col: 903.
+   indicate any abnormality in the left clavicle?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 3772: Invalid expression / Unexpected token. Line 1, Col: 870.
+  7622334 ) and strftime('%Y-%m',diagnoses_icd.charttime) = '2103-05' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?']
+Error executing query 3773: Model only answers one image question SQLs
+['has a chest x-ray indicated lung lesion in the left lower lung zone?']
+Error executing query 3774: Model abstains from answering the question
+['does a chest x-ray display any anatomical findings in the left mid lung zone?']
+Error executing query 3776: Model abstains from answering the question
+Error executing query 3777: Invalid expression / Unexpected token. Line 1, Col: 930.
+  1 23:59:00','start of year','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['does a chest x-ray reveal calcified nodule in the right mid lung zone?', 'does a chest x-ray reveal calcified nodule in the right mid lung zone?', 'does a chest x-ray reveal calcified nodule in the right mid lung zone?', 'does a chest x-ray reveal calcified nodule in the right mid lung zone?', 'does a chest x-ray reveal calcified nodule in the right mid lung zone?', 'does a chest x-ray reveal calcified nodule in the right mid lung zone?']
+Error executing query 3779: Model only answers one image question SQLs
+Error executing query 3781: Invalid expression / Unexpected token. Line 1, Col: 903.
+  etime('2105-12-31 23:59:00','-2 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+['is there any sign of mediastinal widening?']
+Error executing query 3782: Model abstains from answering the question
+['which anatomical finding is associated with the findings, cyst/bullae or pleural effusion?']
+Error executing query 3783: Model abstains from answering the question
+['indicate all the anatomical areas associated with any devices.']
+Error executing query 3785: Model abstains from answering the question
+['are there any discernible abnormalities?']
+Error executing query 3789: Model abstains from answering the question
+['does a chest x-ray demonstrate vascular calcification?']
+Error executing query 3791: Model abstains from answering the question
+Error executing query 3794: Invalid expression / Unexpected token. Line 1, Col: 865.
+   = 13710683 ) and strftime('%Y',procedures_icd.charttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 3796: Invalid expression / Unexpected token. Line 1, Col: 765.
+  ns.hadm_id from admissions where admissions.subject_id = 15689544 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['in which region is an abnormality observed, the mediastinum or the right lower lung zone?']
+Error executing query 3797: Model abstains from answering the question
+Error executing query 3798: Invalid expression / Unexpected token. Line 1, Col: 869.
+  _vqa("is any abnormality revealed in the spine?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray show increased reticular markings/ild pattern?', 'does a chest x-ray show increased reticular markings/ild pattern?', 'does a chest x-ray show increased reticular markings/ild pattern?', 'does a chest x-ray show increased reticular markings/ild pattern?', 'does a chest x-ray show increased reticular markings/ild pattern?', 'does a chest x-ray show increased reticular markings/ild pattern?', 'does a chest x-ray show increased reticular markings/ild pattern?', 'does a chest x-ray show increased reticular markings/ild pattern?']
+Error executing query 3801: Model only answers one image question SQLs
+['has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?', 'has a chest x-ray shown pleural/parenchymal scarring in the left apical zone?']
+Error executing query 3803: Model only answers one image question SQLs
+['is a chest x-ray showing any abnormality in the right hemidiaphragm?', 'is a chest x-ray showing any abnormality in the right hemidiaphragm?', 'is a chest x-ray showing any abnormality in the right hemidiaphragm?', 'is a chest x-ray showing any abnormality in the right hemidiaphragm?', 'is a chest x-ray showing any abnormality in the right hemidiaphragm?', 'is a chest x-ray showing any abnormality in the right hemidiaphragm?', 'is a chest x-ray showing any abnormality in the right hemidiaphragm?', 'is a chest x-ray showing any abnormality in the right hemidiaphragm?', 'is a chest x-ray showing any abnormality in the right hemidiaphragm?', 'is a chest x-ray showing any abnormality in the right hemidiaphragm?']
+Error executing query 3807: Model only answers one image question SQLs
+['please identify and list all abnormalities.']
+Error executing query 3808: Model abstains from answering the question
+Error executing query 3810: Invalid expression / Unexpected token. Line 1, Col: 819.
+  criptions.starttime) >= datetime('2105-12-31 23:59:00','-39 month') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['enumerate all anatomical areas associated with any anatomical findings.']
+Error executing query 3812: Model abstains from answering the question
+['describe all the tubes/lines found within the upper mediastinum.']
+Error executing query 3813: Model abstains from answering the question
+Error executing query 3815: Invalid expression / Unexpected token. Line 1, Col: 907.
+  etime('2105-12-31 23:59:00','-3 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 3816: Invalid expression / Unexpected token. Line 1, Col: 819.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['can any abnormalities be detected?']
+Error executing query 3817: Model abstains from answering the question
+Error executing query 3818: Invalid expression / Unexpected token. Line 1, Col: 868.
+   = 15949703 ) and strftime('%Y',procedures_icd.charttime) >= '2101' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray show any abnormality in the cardiac silhouette?']
+Error executing query 3820: Model abstains from answering the question
+Error executing query 3823: Invalid expression / Unexpected token. Line 1, Col: 897.
+  vqa("is any abnormality shown on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?']
+Error executing query 3824: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any tubes/lines in the right hemidiaphragm?', 'does a chest x-ray demonstrate any tubes/lines in the right hemidiaphragm?', 'does a chest x-ray demonstrate any tubes/lines in the right hemidiaphragm?', 'does a chest x-ray demonstrate any tubes/lines in the right hemidiaphragm?', 'does a chest x-ray demonstrate any tubes/lines in the right hemidiaphragm?']
+Error executing query 3827: Model only answers one image question SQLs
+Error executing query 3828: Invalid expression / Unexpected token. Line 1, Col: 1020.
+  .dischtime is not null order by admissions.admittime desc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is any diseases revealed in the left hilar structures on a chest x-ray?']
+Error executing query 3831: Model abstains from answering the question
+['does a chest x-ray demonstrate pneumomediastinum in the right hilar structures?']
+Error executing query 3839: Model abstains from answering the question
+['does a chest x-ray show any abnormality in the trachea?', 'does a chest x-ray show any abnormality in the trachea?', 'does a chest x-ray show any abnormality in the trachea?', 'does a chest x-ray show any abnormality in the trachea?', 'does a chest x-ray show any abnormality in the trachea?']
+Error executing query 3840: Model only answers one image question SQLs
+['has a chest x-ray revealed any abnormality in the right hemidiaphragm?', 'has a chest x-ray revealed any abnormality in the right hemidiaphragm?', 'has a chest x-ray revealed any abnormality in the right hemidiaphragm?', 'has a chest x-ray revealed any abnormality in the right hemidiaphragm?']
+Error executing query 3841: Model only answers one image question SQLs
+Error executing query 3843: Invalid expression / Unexpected token. Line 1, Col: 862.
+  e chest x-ray revealing granulomatous diseases?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?', 'does a chest x-ray show low lung volumes?']
+Error executing query 3849: Model only answers one image question SQLs
+['is any abnormality depicted in the left hemidiaphragm on a chest x-ray?']
+Error executing query 3852: Model abstains from answering the question
+Error executing query 3853: Invalid expression / Unexpected token. Line 1, Col: 744.
+  hest x-ray indicate any granulomatous diseases?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3854: Invalid expression / Unexpected token. Line 1, Col: 834.
+  1 23:59:00','start of year','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 3857: Invalid expression / Unexpected token. Line 1, Col: 1034.
+  nth') = datetime('2105-12-31 23:59:00','start of month','-0 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray demonstrate any devices in the upper mediastinum?', 'does a chest x-ray demonstrate any devices in the upper mediastinum?', 'does a chest x-ray demonstrate any devices in the upper mediastinum?', 'does a chest x-ray demonstrate any devices in the upper mediastinum?', 'does a chest x-ray demonstrate any devices in the upper mediastinum?']
+Error executing query 3858: Model only answers one image question SQLs
+Error executing query 3861: Invalid expression / Unexpected token. Line 1, Col: 807.
+  rescriptions.starttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['is the chest x-ray depicting any anatomical findings?', 'is the chest x-ray depicting any anatomical findings?', 'is the chest x-ray depicting any anatomical findings?', 'is the chest x-ray depicting any anatomical findings?', 'is the chest x-ray depicting any anatomical findings?']
+Error executing query 3863: Model only answers one image question SQLs
+['does a chest x-ray display any abnormality in the cavoatrial junction?', 'does a chest x-ray display any abnormality in the cavoatrial junction?']
+Error executing query 3865: Model only answers one image question SQLs
+['does a chest x-ray reveal airspace opacity in the right lower lung zone?', 'does a chest x-ray reveal airspace opacity in the right lower lung zone?', 'does a chest x-ray reveal airspace opacity in the right lower lung zone?']
+Error executing query 3867: Model only answers one image question SQLs
+['is vascular calcification shown on a chest x-ray?', 'is vascular calcification shown on a chest x-ray?', 'is vascular calcification shown on a chest x-ray?']
+Error executing query 3869: Model only answers one image question SQLs
+['has a chest x-ray revealed pulmonary edema/hazy opacity?', 'has a chest x-ray revealed pulmonary edema/hazy opacity?', 'has a chest x-ray revealed pulmonary edema/hazy opacity?', 'has a chest x-ray revealed pulmonary edema/hazy opacity?', 'has a chest x-ray revealed pulmonary edema/hazy opacity?', 'has a chest x-ray revealed pulmonary edema/hazy opacity?', 'has a chest x-ray revealed pulmonary edema/hazy opacity?', 'has a chest x-ray revealed pulmonary edema/hazy opacity?', 'has a chest x-ray revealed pulmonary edema/hazy opacity?', 'has a chest x-ray revealed pulmonary edema/hazy opacity?']
+Error executing query 3870: Model only answers one image question SQLs
+['has a chest x-ray shown pericardial effusion?', 'has a chest x-ray shown pericardial effusion?']
+Error executing query 3871: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any tubes/lines in the upper mediastinum?', 'does a chest x-ray demonstrate any tubes/lines in the upper mediastinum?', 'does a chest x-ray demonstrate any tubes/lines in the upper mediastinum?', 'does a chest x-ray demonstrate any tubes/lines in the upper mediastinum?']
+Error executing query 3873: Model only answers one image question SQLs
+['has any abnormality in the carina been found in a chest x-ray?', 'has any abnormality in the carina been found in a chest x-ray?', 'has any abnormality in the carina been found in a chest x-ray?', 'has any abnormality in the carina been found in a chest x-ray?', 'has any abnormality in the carina been found in a chest x-ray?']
+Error executing query 3875: Model only answers one image question SQLs
+['what are all the abnormalities detectable within the left hilar structures?']
+Error executing query 3877: Model abstains from answering the question
+Error executing query 3884: Invalid expression / Unexpected token. Line 1, Col: 748.
+  id = 17968028 ) and strftime('%Y',prescriptions.starttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does the left lung contain any diseases?']
+Error executing query 3889: Model abstains from answering the question
+['are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?', 'are there chest x-rays indicating any technical assessments in the cardiac silhouette?']
+Error executing query 3891: Model only answers one image question SQLs
+Error executing query 3892: Invalid expression / Unexpected token. Line 1, Col: 976.
+  1 23:59:00','start of year','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['does a chest x-ray show any abnormality in the right lung?']
+Error executing query 3893: Model abstains from answering the question
+['specify all the abnormalities observed in the image.']
+Error executing query 3896: Model abstains from answering the question
+['please outline all the anatomical regions related to ij line.']
+Error executing query 3897: Model abstains from answering the question
+['does a chest x-ray indicate any abnormality in the trachea?']
+Error executing query 3898: Model abstains from answering the question
+['is any abnormality indicated on a chest x-ray?', 'is any abnormality indicated on a chest x-ray?']
+Error executing query 3899: Model only answers one image question SQLs
+['has a chest x-ray demonstrated any tubes/lines?', 'has a chest x-ray demonstrated any tubes/lines?', 'has a chest x-ray demonstrated any tubes/lines?', 'has a chest x-ray demonstrated any tubes/lines?']
+Error executing query 3901: Model only answers one image question SQLs
+Error executing query 3903: Invalid expression / Unexpected token. Line 1, Col: 1065.
+  vqa("does a chest x-ray reveal any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['is the chest x-ray showing any abnormality in the right costophrenic angle?', 'is the chest x-ray showing any abnormality in the right costophrenic angle?', 'is the chest x-ray showing any abnormality in the right costophrenic angle?', 'is the chest x-ray showing any abnormality in the right costophrenic angle?', 'is the chest x-ray showing any abnormality in the right costophrenic angle?']
+Error executing query 3909: Model only answers one image question SQLs
+['list every visible diseases.']
+Error executing query 3912: Model abstains from answering the question
+Error executing query 3914: Invalid expression / Unexpected token. Line 1, Col: 802.
+  scriptions.starttime) = datetime('2105-12-31 23:59:00','-21 month') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['can linear/patchy atelectasis be detected in the left hilar structures?']
+Error executing query 3919: Model abstains from answering the question
+['is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?', 'is tracheostomy tube highlighted in the carina?']
+Error executing query 3920: Model only answers one image question SQLs
+['which region, the aortic arch or the left lung, indicates an abnormality?']
+Error executing query 3922: Model abstains from answering the question
+["does the upper mediastinum's size exceed one-third of the thoracic width?"]
+Error executing query 3923: Model abstains from answering the question
+['has the chest x-ray indicated any tubes/lines?']
+Error executing query 3927: Model abstains from answering the question
+Error executing query 3930: Invalid expression / Unexpected token. Line 1, Col: 874.
+  %Y',diagnoses_icd.charttime) >= '2105' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 3931: Invalid expression / Unexpected token. Line 1, Col: 791.
+  ("is a chest x-ray showing vascular congestion?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['please identify all anatomical sites associated with any diseases.']
+Error executing query 3932: Model abstains from answering the question
+Error executing query 3933: Invalid expression / Unexpected token. Line 1, Col: 950.
+  re func_vqa("is breast/nipple shadows revealed?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?', 'does a chest x-ray show any technical assessments?']
+Error executing query 3937: Model only answers one image question SQLs
+['has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?', 'has a chest x-ray revealed any abnormality in the right mid lung zone?']
+Error executing query 3940: Model only answers one image question SQLs
+['is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?', 'is any technical assessments revealed in the right upper lung zone?']
+Error executing query 3941: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?']
+Error executing query 3942: Model only answers one image question SQLs
+Error executing query 3943: Invalid expression / Unexpected token. Line 1, Col: 982.
+  1 23:59:00','start of year','-0 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['does a chest x-ray reveal any devices in the right chest wall?', 'does a chest x-ray reveal any devices in the right chest wall?', 'does a chest x-ray reveal any devices in the right chest wall?', 'does a chest x-ray reveal any devices in the right chest wall?', 'does a chest x-ray reveal any devices in the right chest wall?']
+Error executing query 3945: Model only answers one image question SQLs
+['does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?', 'does a chest x-ray display pneumothorax?']
+Error executing query 3946: Model only answers one image question SQLs
+Error executing query 3947: Invalid expression / Unexpected token. Line 1, Col: 871.
+  indicate any diseases in the upper mediastinum?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 3949: Invalid expression / Unexpected token. Line 1, Col: 976.
+   of any technical assessments on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 3950: Invalid expression / Unexpected token. Line 1, Col: 737.
+   x-ray show any any abnormality in the trachea?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['has a chest x-ray indicated any technical assessments?', 'has a chest x-ray indicated any technical assessments?']
+Error executing query 3952: Model only answers one image question SQLs
+['specify all visible abnormalities.']
+Error executing query 3953: Model abstains from answering the question
+Error executing query 3954: Invalid expression / Unexpected token. Line 1, Col: 632.
+  has a chest x-ray demonstrated any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 3955: Invalid expression / Unexpected token. Line 1, Col: 821.
+  1 23:59:00','start of year','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t1.charttime,'start of month') = datetime(t2.starttime,'start of month')
+['is aspiration shown on a chest x-ray?']
+Error executing query 3957: Model abstains from answering the question
+['does a chest x-ray demonstrate vascular redistribution in the left lower lung zone?', 'does a chest x-ray demonstrate vascular redistribution in the left lower lung zone?', 'does a chest x-ray demonstrate vascular redistribution in the left lower lung zone?']
+Error executing query 3959: Model only answers one image question SQLs
+Error executing query 3964: Invalid expression / Unexpected token. Line 1, Col: 998.
+  indication of any abnormality on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['has a chest x-ray demonstrated any abnormality in the left apical zone?', 'has a chest x-ray demonstrated any abnormality in the left apical zone?']
+Error executing query 3966: Model only answers one image question SQLs
+Error executing query 3968: Invalid expression / Unexpected token. Line 1, Col: 999.
+  .dischtime is not null order by admissions.admittime desc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3969: Invalid expression / Unexpected token. Line 1, Col: 943.
+  iagnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 3971: Invalid expression / Unexpected token. Line 1, Col: 919.
+  d = 11441830 ) and strftime('%Y',procedures_icd.charttime) = '2103' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['in which location, the left clavicle or the right hilar structures, is an abnormality displayed?']
+Error executing query 3973: Model abstains from answering the question
+['does a chest x-ray show any abnormality in the right shoulder?', 'does a chest x-ray show any abnormality in the right shoulder?']
+Error executing query 3977: Model only answers one image question SQLs
+Error executing query 3978: Invalid expression / Unexpected token. Line 1, Col: 923.
+  gnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-22 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['has a chest x-ray shown any abnormality?', 'has a chest x-ray shown any abnormality?', 'has a chest x-ray shown any abnormality?', 'has a chest x-ray shown any abnormality?']
+Error executing query 3979: Model only answers one image question SQLs
+['does a chest x-ray detect any technical assessments in the right shoulder?', 'does a chest x-ray detect any technical assessments in the right shoulder?', 'does a chest x-ray detect any technical assessments in the right shoulder?', 'does a chest x-ray detect any technical assessments in the right shoulder?', 'does a chest x-ray detect any technical assessments in the right shoulder?']
+Error executing query 3982: Model only answers one image question SQLs
+['does a chest x-ray show linear/patchy atelectasis in the left lower lung zone?']
+Error executing query 3986: Model abstains from answering the question
+Error executing query 3992: Invalid expression / Unexpected token. Line 1, Col: 938.
+  anatomical findings in the right hemidiaphragm?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 3993: Invalid expression / Unexpected token. Line 1, Col: 784.
+  ns.hadm_id from admissions where admissions.subject_id = 16326772 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 3994: Invalid expression / Unexpected token. Line 1, Col: 860.
+  vqa("is lung opacity revealed on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4002: Invalid expression / Unexpected token. Line 1, Col: 966.
+  ocedures_icd.charttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does the width of the cardiac silhouette exceed half of the thorax width?']
+Error executing query 4003: Model abstains from answering the question
+['does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?', 'does a chest x-ray show ij line in the right atrium?']
+Error executing query 4004: Model only answers one image question SQLs
+Error executing query 4005: Invalid expression / Unexpected token. Line 1, Col: 893.
+  iagnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?']
+Error executing query 4009: Model only answers one image question SQLs
+['are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?', 'are there chest x-ray findings of any tubes/lines in the carina?']
+Error executing query 4011: Model only answers one image question SQLs
+Error executing query 4012: Invalid expression / Unexpected token. Line 1, Col: 928.
+  n the left costophrenic angle on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4013: Invalid expression / Unexpected token. Line 1, Col: 894.
+  ny tubes/lines identified in the left clavicle?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4015: Invalid expression / Unexpected token. Line 1, Col: 842.
+  1 23:59:00','start of year','-0 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+['is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?', 'is a chest x-ray indicating multiple masses/nodules?']
+Error executing query 4020: Model only answers one image question SQLs
+Error executing query 4024: Invalid expression / Unexpected token. Line 1, Col: 825.
+  y anatomical findings in the upper mediastinum?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['is the chest x-ray showing any tubes/lines in the upper mediastinum?', 'is the chest x-ray showing any tubes/lines in the upper mediastinum?', 'is the chest x-ray showing any tubes/lines in the upper mediastinum?', 'is the chest x-ray showing any tubes/lines in the upper mediastinum?', 'is the chest x-ray showing any tubes/lines in the upper mediastinum?']
+Error executing query 4028: Model only answers one image question SQLs
+Error executing query 4029: Invalid expression / Unexpected token. Line 1, Col: 769.
+  947284 ) and strftime('%Y-%m',prescriptions.starttime) >= '2105-11' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 4030: Invalid expression / Unexpected token. Line 1, Col: 899.
+  ns.hadm_id from admissions where admissions.subject_id = 12935888 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['has a chest x-ray shown any tubes/lines in the aortic arch?', 'has a chest x-ray shown any tubes/lines in the aortic arch?', 'has a chest x-ray shown any tubes/lines in the aortic arch?']
+Error executing query 4031: Model only answers one image question SQLs
+Error executing query 4034: Invalid expression / Unexpected token. Line 1, Col: 920.
+  agnoses_icd.charttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['is increased reticular markings/ild pattern revealed in the right lung on a chest x-ray?']
+Error executing query 4037: Model abstains from answering the question
+["can we say that the cardiac silhouette's width is more than half of the thorax width?"]
+Error executing query 4038: Model abstains from answering the question
+['please specify all the abnormalities that appear within the right costophrenic angle.']
+Error executing query 4042: Model abstains from answering the question
+['has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?', 'has a chest x-ray revealed any abnormality in the left lung?']
+Error executing query 4043: Model only answers one image question SQLs
+Error executing query 4044: Expecting ). Line 1, Col: 969.
+  ere prescriptions.drug = 'viaflex bag' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[0m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+Error executing query 4045: Invalid expression / Unexpected token. Line 1, Col: 652.
+  ns.hadm_id from admissions where admissions.subject_id = 12645334 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['has a chest x-ray indicated lobar/segmental collapse?', 'has a chest x-ray indicated lobar/segmental collapse?', 'has a chest x-ray indicated lobar/segmental collapse?', 'has a chest x-ray indicated lobar/segmental collapse?', 'has a chest x-ray indicated lobar/segmental collapse?']
+Error executing query 4046: Model only answers one image question SQLs
+['does a chest x-ray demonstrate sub-diaphragmatic air in the abdomen?', 'does a chest x-ray demonstrate sub-diaphragmatic air in the abdomen?', 'does a chest x-ray demonstrate sub-diaphragmatic air in the abdomen?']
+Error executing query 4047: Model only answers one image question SQLs
+Error executing query 4056: Invalid expression / Unexpected token. Line 1, Col: 870.
+  s.dischtime is not null order by admissions.admittime asc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 4057: Invalid expression / Unexpected token. Line 1, Col: 888.
+  chymal scarring in the left costophrenic angle?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does a chest x-ray demonstrate pneumomediastinum in the cardiac silhouette?']
+Error executing query 4058: Model abstains from answering the question
+Error executing query 4059: Invalid expression / Unexpected token. Line 1, Col: 769.
+  622334 ) and strftime('%Y-%m',prescriptions.starttime) >= '2103-01' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['do any anatomical findings exist?']
+Error executing query 4060: Model abstains from answering the question
+['is any anatomical findings depicted on a chest x-ray?', 'is any anatomical findings depicted on a chest x-ray?']
+Error executing query 4062: Model only answers one image question SQLs
+['does a chest x-ray display subclavian line in the svc?', 'does a chest x-ray display subclavian line in the svc?', 'does a chest x-ray display subclavian line in the svc?']
+Error executing query 4070: Model only answers one image question SQLs
+['is atelectasis indicated in the left costophrenic angle on a chest x-ray?', 'is atelectasis indicated in the left costophrenic angle on a chest x-ray?', 'is atelectasis indicated in the left costophrenic angle on a chest x-ray?', 'is atelectasis indicated in the left costophrenic angle on a chest x-ray?', 'is atelectasis indicated in the left costophrenic angle on a chest x-ray?']
+Error executing query 4072: Model only answers one image question SQLs
+['does a chest x-ray indicate pulmonary edema/hazy opacity?', 'does a chest x-ray indicate pulmonary edema/hazy opacity?']
+Error executing query 4074: Model only answers one image question SQLs
+['in which anatomical region is an abnormality observable, the left costophrenic angle or the trachea?']
+Error executing query 4075: Model abstains from answering the question
+Error executing query 4077: Invalid expression / Unexpected token. Line 1, Col: 880.
+  nc_vqa("has an x-ray indicated any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['which area, the left hilar structures or the svc, shows an abnormality?']
+Error executing query 4079: Model abstains from answering the question
+['which anatomical site has relevance to the pleural/parenchymal scarring, the left lower lung zone or the left upper lung zone?']
+Error executing query 4083: Model abstains from answering the question
+['does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?', 'does a chest x-ray display any abnormality?']
+Error executing query 4085: Model only answers one image question SQLs
+['can you confirm if there are any technical assessments?']
+Error executing query 4086: Model abstains from answering the question
+['does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?']
+Error executing query 4091: Model only answers one image question SQLs
+Error executing query 4092: Invalid expression / Unexpected token. Line 1, Col: 992.
+  .dischtime is not null order by admissions.admittime desc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray show signs of any tubes/lines in the upper mediastinum?']
+Error executing query 4095: Model abstains from answering the question
+['has lung lesion in the left lung been found in a chest x-ray?']
+Error executing query 4096: Model abstains from answering the question
+['detail all technical assessments observable in the image.']
+Error executing query 4097: Model abstains from answering the question
+['has a chest x-ray displayed consolidation in the right lung?']
+Error executing query 4098: Model abstains from answering the question
+['is the chest x-ray depicting any technical assessments in the cardiac silhouette?', 'is the chest x-ray depicting any technical assessments in the cardiac silhouette?', 'is the chest x-ray depicting any technical assessments in the cardiac silhouette?', 'is the chest x-ray depicting any technical assessments in the cardiac silhouette?']
+Error executing query 4100: Model only answers one image question SQLs
+['has a chest x-ray demonstrated tortuous aorta?']
+Error executing query 4105: Model abstains from answering the question
+Error executing query 4108: Invalid expression / Unexpected token. Line 1, Col: 881.
+  _vqa("does a chest x-ray indicate any diseases?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4111: Invalid expression / Unexpected token. Line 1, Col: 937.
+  chnical assessments in the right mid lung zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['is the chest x-ray showing any devices?']
+Error executing query 4116: Model abstains from answering the question
+['is the chest x-ray indicating prosthetic valve?']
+Error executing query 4119: Model abstains from answering the question
+['is pneumothorax shown on a chest x-ray?', 'is pneumothorax shown on a chest x-ray?', 'is pneumothorax shown on a chest x-ray?', 'is pneumothorax shown on a chest x-ray?', 'is pneumothorax shown on a chest x-ray?', 'is pneumothorax shown on a chest x-ray?', 'is pneumothorax shown on a chest x-ray?', 'is pneumothorax shown on a chest x-ray?', 'is pneumothorax shown on a chest x-ray?', 'is pneumothorax shown on a chest x-ray?', 'is pneumothorax shown on a chest x-ray?', 'is pneumothorax shown on a chest x-ray?']
+Error executing query 4120: Model only answers one image question SQLs
+['is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?', 'is there a chest x-ray revealing any anatomical findings in the right apical zone?']
+Error executing query 4121: Model only answers one image question SQLs
+['does a chest x-ray exhibit any technical assessments?']
+Error executing query 4122: Model abstains from answering the question
+['what are all the anatomical locations implicated with mass/nodule (not otherwise specified)?']
+Error executing query 4124: Model abstains from answering the question
+['is the chest x-ray depicting any abnormality in the right chest wall?']
+Error executing query 4126: Model abstains from answering the question
+['has a chest x-ray demonstrated picc in the upper mediastinum?', 'has a chest x-ray demonstrated picc in the upper mediastinum?']
+Error executing query 4127: Model only answers one image question SQLs
+['does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?']
+Error executing query 4128: Model only answers one image question SQLs
+Error executing query 4133: Invalid expression / Unexpected token. Line 1, Col: 936.
+  dures_icd.charttime) >= datetime('2105-12-31 23:59:00','-26 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray indicate any diseases in the right hemidiaphragm?', 'does a chest x-ray indicate any diseases in the right hemidiaphragm?', 'does a chest x-ray indicate any diseases in the right hemidiaphragm?', 'does a chest x-ray indicate any diseases in the right hemidiaphragm?']
+Error executing query 4134: Model only answers one image question SQLs
+Error executing query 4137: Invalid expression / Unexpected token. Line 1, Col: 638.
+  ns.hadm_id from admissions where admissions.subject_id = 16419341 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['what are all the abnormalities that you can identify?']
+Error executing query 4138: Model abstains from answering the question
+['does a chest x-ray indicate atelectasis in the right costophrenic angle?', 'does a chest x-ray indicate atelectasis in the right costophrenic angle?', 'does a chest x-ray indicate atelectasis in the right costophrenic angle?', 'does a chest x-ray indicate atelectasis in the right costophrenic angle?', 'does a chest x-ray indicate atelectasis in the right costophrenic angle?', 'does a chest x-ray indicate atelectasis in the right costophrenic angle?', 'does a chest x-ray indicate atelectasis in the right costophrenic angle?', 'does a chest x-ray indicate atelectasis in the right costophrenic angle?', 'does a chest x-ray indicate atelectasis in the right costophrenic angle?', 'does a chest x-ray indicate atelectasis in the right costophrenic angle?', 'does a chest x-ray indicate atelectasis in the right costophrenic angle?', 'does a chest x-ray indicate atelectasis in the right costophrenic angle?']
+Error executing query 4149: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?']
+Error executing query 4150: Model only answers one image question SQLs
+['does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?']
+Error executing query 4151: Model only answers one image question SQLs
+['does a chest x-ray identify sub-diaphragmatic air?', 'does a chest x-ray identify sub-diaphragmatic air?', 'does a chest x-ray identify sub-diaphragmatic air?']
+Error executing query 4154: Model only answers one image question SQLs
+Error executing query 4155: Expecting ). Line 1, Col: 968.
+  re prescriptions.drug ='systane ultra' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[0m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+['specify all the tubes/lines observed in the left clavicle.']
+Error executing query 4156: Model abstains from answering the question
+['in which area, the left chest wall or the left clavicle, appears to have an abnormality?']
+Error executing query 4158: Model abstains from answering the question
+['are there chest x-ray findings of enteric tube?', 'are there chest x-ray findings of enteric tube?', 'are there chest x-ray findings of enteric tube?', 'are there chest x-ray findings of enteric tube?']
+Error executing query 4163: Model only answers one image question SQLs
+['is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?', 'is a chest x-ray showing linear/patchy atelectasis?']
+Error executing query 4164: Model only answers one image question SQLs
+Error executing query 4166: Invalid expression / Unexpected token. Line 1, Col: 781.
+  concentrated nutritional substances' ) ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and t1.hadm_id = t2.hadm_id
+['name all the anatomical sites associated with any anatomical findings.']
+Error executing query 4168: Model abstains from answering the question
+["does the upper mediastinum's width exceed 33.33% of the thorax width?"]
+Error executing query 4170: Model abstains from answering the question
+Error executing query 4172: Invalid expression / Unexpected token. Line 1, Col: 865.
+  ny indication of lung opacity on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['detail all tubes/lines observable in the image.']
+Error executing query 4175: Model abstains from answering the question
+['does a chest x-ray indicate any tubes/lines in the trachea?', 'does a chest x-ray indicate any tubes/lines in the trachea?', 'does a chest x-ray indicate any tubes/lines in the trachea?', 'does a chest x-ray indicate any tubes/lines in the trachea?', 'does a chest x-ray indicate any tubes/lines in the trachea?']
+Error executing query 4177: Model only answers one image question SQLs
+Error executing query 4178: Invalid expression / Unexpected token. Line 1, Col: 821.
+  y pneumothorax in the right costophrenic angle?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['has a chest x-ray demonstrated cardiac pacer and wires in the right chest wall?', 'has a chest x-ray demonstrated cardiac pacer and wires in the right chest wall?', 'has a chest x-ray demonstrated cardiac pacer and wires in the right chest wall?', 'has a chest x-ray demonstrated cardiac pacer and wires in the right chest wall?']
+Error executing query 4179: Model only answers one image question SQLs
+Error executing query 4180: Invalid expression / Unexpected token. Line 1, Col: 813.
+  escriptions.starttime) = datetime('2105-12-31 23:59:00','-7 month') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['in which region, the left clavicle or the left hilar structures, is an abnormality presented?']
+Error executing query 4182: Model abstains from answering the question
+Error executing query 4183: Invalid expression / Unexpected token. Line 1, Col: 1118.
+  year','-0 year') and strftime('%m',procedures_icd.charttime) = '01' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.stud
+['does a chest x-ray show any technical assessments in the right shoulder?']
+Error executing query 4185: Model abstains from answering the question
+['is the chest x-ray depicting fluid overload/heart failure?', 'is the chest x-ray depicting fluid overload/heart failure?', 'is the chest x-ray depicting fluid overload/heart failure?', 'is the chest x-ray depicting fluid overload/heart failure?']
+Error executing query 4186: Model only answers one image question SQLs
+Error executing query 4193: Invalid expression / Unexpected token. Line 1, Col: 476.
+  'arterial blood pressure diastolic' and d_items.linksto = 'chartevents' ) and chartevents.valuenum  [4m66.0[0m
+['does a chest x-ray indicate mediastinal displacement in the cardiac silhouette?', 'does a chest x-ray indicate mediastinal displacement in the cardiac silhouette?', 'does a chest x-ray indicate mediastinal displacement in the cardiac silhouette?', 'does a chest x-ray indicate mediastinal displacement in the cardiac silhouette?']
+Error executing query 4198: Model only answers one image question SQLs
+Error executing query 4201: Invalid expression / Unexpected token. Line 1, Col: 845.
+   year') = datetime('2105-12-31 23:59:00','start of year','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 4202: Invalid expression / Unexpected token. Line 1, Col: 874.
+  owing intra-aortic balloon pump in the abdomen?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?', 'does a chest x-ray show any tubes/lines in the right chest wall?']
+Error executing query 4206: Model only answers one image question SQLs
+['does a chest x-ray indicate any abnormality in the right hemidiaphragm?', 'does a chest x-ray indicate any abnormality in the right hemidiaphragm?', 'does a chest x-ray indicate any abnormality in the right hemidiaphragm?']
+Error executing query 4208: Model only answers one image question SQLs
+Error executing query 4213: Invalid expression / Unexpected token. Line 1, Col: 945.
+  iagnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray reveal any abnormality?']
+Error executing query 4214: Model abstains from answering the question
+Error executing query 4216: Invalid expression / Unexpected token. Line 1, Col: 896.
+  d = 15689818 ) and strftime('%Y',diagnoses_icd.charttime) >= '2101' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray demonstrate any diseases in the left costophrenic angle?', 'does a chest x-ray demonstrate any diseases in the left costophrenic angle?']
+Error executing query 4219: Model only answers one image question SQLs
+Error executing query 4221: Invalid expression / Unexpected token. Line 1, Col: 737.
+  2 where func_vqa("is tortuous aorta identified?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4226: Invalid expression / Unexpected token. Line 1, Col: 752.
+  %Y',prescriptions.starttime) >= '2103' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and t1.hadm_id = t2.hadm_id
+Error executing query 4227: Invalid expression / Unexpected token. Line 1, Col: 749.
+  110303 ) and strftime('%Y-%m',prescriptions.starttime) >= '2103-10' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray depict consolidation in the right upper lung zone?', 'does a chest x-ray depict consolidation in the right upper lung zone?', 'does a chest x-ray depict consolidation in the right upper lung zone?', 'does a chest x-ray depict consolidation in the right upper lung zone?', 'does a chest x-ray depict consolidation in the right upper lung zone?', 'does a chest x-ray depict consolidation in the right upper lung zone?', 'does a chest x-ray depict consolidation in the right upper lung zone?', 'does a chest x-ray depict consolidation in the right upper lung zone?', 'does a chest x-ray depict consolidation in the right upper lung zone?', 'does a chest x-ray depict consolidation in the right upper lung zone?']
+Error executing query 4228: Model only answers one image question SQLs
+['is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?', 'is the chest x-ray depicting pericardial effusion in the mediastinum?']
+Error executing query 4229: Model only answers one image question SQLs
+Error executing query 4233: Expecting ). Line 1, Col: 1001.
+  e prescriptions.drug ='sodium citrate' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[0m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+['does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?', 'does a chest x-ray indicate lung lesion in the right lung?']
+Error executing query 4234: Model only answers one image question SQLs
+Error executing query 4236: Invalid expression / Unexpected token. Line 1, Col: 783.
+  ns.hadm_id from admissions where admissions.subject_id = 15439081 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is clavicle fracture indicated in the right clavicle on a chest x-ray?', 'is clavicle fracture indicated in the right clavicle on a chest x-ray?', 'is clavicle fracture indicated in the right clavicle on a chest x-ray?', 'is clavicle fracture indicated in the right clavicle on a chest x-ray?', 'is clavicle fracture indicated in the right clavicle on a chest x-ray?', 'is clavicle fracture indicated in the right clavicle on a chest x-ray?', 'is clavicle fracture indicated in the right clavicle on a chest x-ray?', 'is clavicle fracture indicated in the right clavicle on a chest x-ray?']
+Error executing query 4237: Model only answers one image question SQLs
+['is the chest x-ray indicating aspiration?', 'is the chest x-ray indicating aspiration?', 'is the chest x-ray indicating aspiration?', 'is the chest x-ray indicating aspiration?']
+Error executing query 4240: Model only answers one image question SQLs
+['catalog all the technical assessments seen in the image.']
+Error executing query 4241: Model abstains from answering the question
+Error executing query 4245: Invalid expression / Unexpected token. Line 1, Col: 732.
+   func_vqa("has a chest x-ray shown any devices?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['which anatomical finding is associated with the findings, cyst/bullae or multiple masses/nodules?']
+Error executing query 4247: Model abstains from answering the question
+['do you see any pneumonia?']
+Error executing query 4250: Model abstains from answering the question
+['which anatomical locations are related to subcutaneous air?']
+Error executing query 4252: Model abstains from answering the question
+Error executing query 4256: Invalid expression / Unexpected token. Line 1, Col: 937.
+  ns.hadm_id from admissions where admissions.subject_id = 19155097 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and t1.hadm_id = t3.hadm_id
+Error executing query 4258: Invalid expression / Unexpected token. Line 1, Col: 1020.
+   year') = datetime('2105-12-31 23:59:00','start of year','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray show alveolar hemorrhage in the left lung?', 'does a chest x-ray show alveolar hemorrhage in the left lung?']
+Error executing query 4259: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any abnormality?']
+Error executing query 4260: Model abstains from answering the question
+['which tubes/lines, enteric tube or ij line, corresponds to the mediastinum?']
+Error executing query 4262: Model abstains from answering the question
+['which anatomical findings, pleural/parenchymal scarring or pulmonary edema/hazy opacity, is associated with the left lower lung zone?']
+Error executing query 4268: Model abstains from answering the question
+['does a chest x-ray reveal lung lesion?', 'does a chest x-ray reveal lung lesion?']
+Error executing query 4270: Model only answers one image question SQLs
+['does a chest x-ray show any technical assessments in the left lung?', 'does a chest x-ray show any technical assessments in the left lung?', 'does a chest x-ray show any technical assessments in the left lung?', 'does a chest x-ray show any technical assessments in the left lung?']
+Error executing query 4271: Model only answers one image question SQLs
+['does a chest x-ray display any technical assessments?', 'does a chest x-ray display any technical assessments?', 'does a chest x-ray display any technical assessments?', 'does a chest x-ray display any technical assessments?', 'does a chest x-ray display any technical assessments?', 'does a chest x-ray display any technical assessments?']
+Error executing query 4273: Model only answers one image question SQLs
+['does a chest x-ray exhibit any abnormality in the left lower lung zone?']
+Error executing query 4275: Model abstains from answering the question
+Error executing query 4279: Invalid expression / Unexpected token. Line 1, Col: 1018.
+  egmental collapse in the right upper lung zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+["does the cardiac silhouette's width make up more than 50% of the total thorax width?"]
+Error executing query 4285: Model abstains from answering the question
+Error executing query 4286: Invalid expression / Unexpected token. Line 1, Col: 863.
+  s.dischtime is not null order by admissions.admittime asc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['has a chest x-ray displayed any devices in the right clavicle?']
+Error executing query 4292: Model abstains from answering the question
+['does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?', 'does a chest x-ray reveal low lung volumes in the cardiac silhouette?']
+Error executing query 4294: Model only answers one image question SQLs
+Error executing query 4301: Invalid expression / Unexpected token. Line 1, Col: 785.
+  qa("does a chest x-ray depicts any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['does the right chest wall present with any technical assessments?']
+Error executing query 4304: Model abstains from answering the question
+Error executing query 4305: Invalid expression / Unexpected token. Line 1, Col: 960.
+   year','-0 year') and strftime('%m',prescriptions.starttime) = '04' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['enumerate all diseases seen in the radiographic image.']
+Error executing query 4309: Model abstains from answering the question
+Error executing query 4313: Invalid expression / Unexpected token. Line 1, Col: 916.
+  c_vqa("does a chest x-ray show any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4314: Invalid expression / Unexpected token. Line 1, Col: 1089.
+  .dischtime is not null order by admissions.admittime desc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['could you verify if diseases are present?']
+Error executing query 4315: Model abstains from answering the question
+['does the cardiac silhouette display any technical assessments?']
+Error executing query 4316: Model abstains from answering the question
+['can pleural effusion be detected in the right mid lung zone?']
+Error executing query 4318: Model abstains from answering the question
+['has a chest x-ray demonstrated any tubes/lines in the cavoatrial junction?', 'has a chest x-ray demonstrated any tubes/lines in the cavoatrial junction?', 'has a chest x-ray demonstrated any tubes/lines in the cavoatrial junction?', 'has a chest x-ray demonstrated any tubes/lines in the cavoatrial junction?', 'has a chest x-ray demonstrated any tubes/lines in the cavoatrial junction?']
+Error executing query 4320: Model only answers one image question SQLs
+Error executing query 4322: Invalid expression / Unexpected token. Line 1, Col: 823.
+  %Y',procedures_icd.charttime) = '2103' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+Error executing query 4323: Invalid expression / Unexpected token. Line 1, Col: 1052.
+  est x-ray indicate costophrenic angle blunting?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?']
+Error executing query 4324: Model only answers one image question SQLs
+Error executing query 4328: Invalid expression / Unexpected token. Line 1, Col: 739.
+  a("does a chest x-ray indicate any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 4333: Invalid expression / Unexpected token. Line 1, Col: 624.
+  a("does a chest x-ray show any any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4339: Invalid expression / Unexpected token. Line 1, Col: 792.
+  5712372 ) and strftime('%Y-%m',prescriptions.starttime) = '2103-10' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['could you point out all the anatomical areas associated with any tubes/lines?']
+Error executing query 4343: Model abstains from answering the question
+['does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?', 'does a chest x-ray indicate pleural/parenchymal scarring in the left lung?']
+Error executing query 4347: Model only answers one image question SQLs
+Error executing query 4351: Invalid expression / Unexpected token. Line 1, Col: 837.
+   the chest x-ray depicting alveolar hemorrhage?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4352: Invalid expression / Unexpected token. Line 1, Col: 640.
+  ns.hadm_id from admissions where admissions.subject_id = 15866760 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?', 'does a chest x-ray indicate any anatomical findings in the neck?']
+Error executing query 4353: Model only answers one image question SQLs
+Error executing query 4354: Invalid expression / Unexpected token. Line 1, Col: 782.
+  ns.hadm_id from admissions where admissions.subject_id = 12974480 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 4356: Invalid expression / Unexpected token. Line 1, Col: 640.
+  ns.hadm_id from admissions where admissions.subject_id = 16043637 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?', 'does a chest x-ray indicate any diseases in the right lower lung zone?']
+Error executing query 4357: Model only answers one image question SQLs
+['is spinal degenerative changes indicated on a chest x-ray?', 'is spinal degenerative changes indicated on a chest x-ray?']
+Error executing query 4358: Model only answers one image question SQLs
+Error executing query 4360: Invalid expression / Unexpected token. Line 1, Col: 877.
+  has a chest x-ray shown granulomatous diseases?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4362: Invalid expression / Unexpected token. Line 1, Col: 1000.
+  153920 ) and strftime('%Y-%m',procedures_icd.charttime) = '2102-01' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and t1.hadm_id = t3.hadm_id
+['is any technical assessments indicated on a chest x-ray?', 'is any technical assessments indicated on a chest x-ray?', 'is any technical assessments indicated on a chest x-ray?', 'is any technical assessments indicated on a chest x-ray?', 'is any technical assessments indicated on a chest x-ray?', 'is any technical assessments indicated on a chest x-ray?']
+Error executing query 4363: Model only answers one image question SQLs
+['is there any diseases evident in the right apical zone?']
+Error executing query 4366: Model abstains from answering the question
+Error executing query 4367: Invalid expression / Unexpected token. Line 1, Col: 980.
+  ocedures_icd.charttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['are there any observable diseases?']
+Error executing query 4369: Model abstains from answering the question
+['is a chest x-ray indicating lung opacity?', 'is a chest x-ray indicating lung opacity?', 'is a chest x-ray indicating lung opacity?', 'is a chest x-ray indicating lung opacity?']
+Error executing query 4374: Model only answers one image question SQLs
+['does a chest x-ray indicate any technical assessments?', 'does a chest x-ray indicate any technical assessments?', 'does a chest x-ray indicate any technical assessments?']
+Error executing query 4375: Model only answers one image question SQLs
+['has a chest x-ray shown any technical assessments in the right shoulder?', 'has a chest x-ray shown any technical assessments in the right shoulder?']
+Error executing query 4376: Model only answers one image question SQLs
+['is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?', 'is pneumomediastinum revealed on a chest x-ray?']
+Error executing query 4378: Model only answers one image question SQLs
+['does a chest x-ray indicate atelectasis?']
+[False]
+['is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?', 'is any abnormality revealed?']
+Error executing query 4381: Model only answers one image question SQLs
+Error executing query 4382: Invalid expression / Unexpected token. Line 1, Col: 741.
+  has an x-ray revealed mediastinal displacement?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4383: Invalid expression / Unexpected token. Line 1, Col: 894.
+  iagnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 4384: Invalid expression / Unexpected token. Line 1, Col: 941.
+  shown in the right chest wall on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['can alveolar hemorrhage be detected?']
+Error executing query 4387: Model abstains from answering the question
+Error executing query 4388: Invalid expression / Unexpected token. Line 1, Col: 805.
+  me('2105-12-31 23:59:00','-155 month') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t1.charttime,'start of day') = datetime(t2.starttime,'start of day')
+Error executing query 4391: Invalid expression / Unexpected token. Line 1, Col: 716.
+  = 'insertion of two vascular stents' ) ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+Error executing query 4392: Invalid expression / Unexpected token. Line 1, Col: 795.
+  a("does a chest x-ray indicate any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?']
+Error executing query 4394: Model only answers one image question SQLs
+['does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?', 'does a chest x-ray display calcified nodule in the left hilar structures?']
+Error executing query 4396: Model only answers one image question SQLs
+['does a chest x-ray show any tubes/lines in the mediastinum?']
+Error executing query 4398: Model abstains from answering the question
+Error executing query 4399: Invalid expression / Unexpected token. Line 1, Col: 863.
+  ("is the chest x-ray depicting any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?', 'is there a chest x-ray showing chest tube?']
+Error executing query 4401: Model only answers one image question SQLs
+Error executing query 4402: Invalid expression / Unexpected token. Line 1, Col: 727.
+  %Y',prescriptions.starttime) >= '2103' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t1.charttime,'start of month') = datetime(t2.starttime,'start of month')
+Error executing query 4404: Invalid expression / Unexpected token. Line 1, Col: 852.
+  a("is the chest x-ray revealing tortuous aorta?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4405: Invalid expression / Unexpected token. Line 1, Col: 828.
+  d = 12712004 ) and strftime('%Y',diagnoses_icd.charttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray demonstrate any abnormality in the left lung?', 'does a chest x-ray demonstrate any abnormality in the left lung?', 'does a chest x-ray demonstrate any abnormality in the left lung?', 'does a chest x-ray demonstrate any abnormality in the left lung?', 'does a chest x-ray demonstrate any abnormality in the left lung?']
+Error executing query 4409: Model only answers one image question SQLs
+['please identify all diseases observable in the right apical zone.']
+Error executing query 4410: Model abstains from answering the question
+Error executing query 4416: Invalid expression / Unexpected token. Line 1, Col: 967.
+  e any tubes/lines in the left hilar structures?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?', 'does a chest x-ray show any technical assessments in the cardiac silhouette?']
+Error executing query 4423: Model only answers one image question SQLs
+['in which location, the left costophrenic angle or the left lung, is an abnormality displayed?']
+Error executing query 4426: Model abstains from answering the question
+['does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?']
+Error executing query 4428: Model only answers one image question SQLs
+["is the cardiac silhouette's width larger than half of the total thorax width?"]
+Error executing query 4430: Model abstains from answering the question
+Error executing query 4431: Invalid expression / Unexpected token. Line 1, Col: 794.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 4437: Invalid expression / Unexpected token. Line 1, Col: 785.
+  ns.hadm_id from admissions where admissions.subject_id = 16484690 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 4438: Invalid expression / Unexpected token. Line 1, Col: 1112.
+  1 23:59:00','start of year','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and t1.hadm_id = t2.hadm_id
+['is granulomatous diseases revealed on a chest x-ray?', 'is granulomatous diseases revealed on a chest x-ray?']
+Error executing query 4439: Model only answers one image question SQLs
+Error executing query 4440: Invalid expression / Unexpected token. Line 1, Col: 864.
+  %Y',diagnoses_icd.charttime) >= '2105' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 4441: Invalid expression / Unexpected token. Line 1, Col: 1002.
+   year') = datetime('2105-12-31 23:59:00','start of year','-0 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?', 'does a chest x-ray indicate any diseases?']
+Error executing query 4442: Model only answers one image question SQLs
+Error executing query 4444: Invalid expression / Unexpected token. Line 1, Col: 843.
+  a chest x-ray reveal any technical assessments?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4445: Invalid expression / Unexpected token. Line 1, Col: 888.
+   = 10452075 ) and strftime('%Y',procedures_icd.charttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?']
+Error executing query 4446: Model only answers one image question SQLs
+['is the spine showing any abnormal signs?']
+Error executing query 4448: Model abstains from answering the question
+['does a chest x-ray demonstrate any abnormality?']
+Error executing query 4456: Model abstains from answering the question
+['what are all the tubes/lines identifiable within the abdomen?']
+Error executing query 4457: Model abstains from answering the question
+['can any presence of atelectasis be noted in the right lung?']
+Error executing query 4458: Model abstains from answering the question
+Error executing query 4460: Invalid expression / Unexpected token. Line 1, Col: 895.
+  6566006 ) and strftime('%Y-%m',diagnoses_icd.charttime) = '2105-09' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['enumerate all present anatomical findings.']
+Error executing query 4461: Model abstains from answering the question
+Error executing query 4462: Invalid expression / Unexpected token. Line 1, Col: 890.
+  a("does a chest x-ray reveal pneumomediastinum?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4466: Expecting ). Line 1, Col: 1242.
+  ar','-0 year') ) as t2 join admissions on t2.subject_id = admissions.subject_id where t2.charttime  [4madmissions[0m.admittime and datetime(admissions.admittime,'start of year') = datetime('2105-12-31 23:59:00','star
+['specify all the tubes/lines observed in the aortic arch.']
+Error executing query 4467: Model abstains from answering the question
+['does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?', 'does a chest x-ray reveal any devices?']
+Error executing query 4472: Model only answers one image question SQLs
+["is the cardiac silhouette's width more than half of the thorax width?"]
+Error executing query 4478: Model abstains from answering the question
+Error executing query 4480: Invalid expression / Unexpected token. Line 1, Col: 895.
+  y show subcutaneous air in the left chest wall?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4482: Invalid expression / Unexpected token. Line 1, Col: 1038.
+  t2 where func_vqa("is any abnormality revealed?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray display any tubes/lines?', 'does a chest x-ray display any tubes/lines?', 'does a chest x-ray display any tubes/lines?']
+Error executing query 4492: Model only answers one image question SQLs
+['can you spot any abnormalities?']
+Error executing query 4495: Model abstains from answering the question
+Error executing query 4502: Invalid expression / Unexpected token. Line 1, Col: 889.
+   = 16044504 ) and strftime('%Y',procedures_icd.charttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?', 'does a chest x-ray signify any abnormality?']
+Error executing query 4504: Model only answers one image question SQLs
+['is the chest x-ray showing any anatomical findings?']
+Error executing query 4506: Model abstains from answering the question
+Error executing query 4508: Invalid expression / Unexpected token. Line 1, Col: 641.
+  te swan-ganz catheter in the upper mediastinum?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['please provide a comprehensive list of all tubes/lines.']
+Error executing query 4512: Model abstains from answering the question
+Error executing query 4514: Invalid expression / Unexpected token. Line 1, Col: 879.
+  ormality in the left clavicle on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?']
+Error executing query 4515: Model only answers one image question SQLs
+["is the cardiac silhouette wider than 50% of the thorax's width?"]
+Error executing query 4518: Model abstains from answering the question
+['does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?']
+Error executing query 4522: Model only answers one image question SQLs
+['please provide all the anatomical locations associated with any technical assessments.']
+Error executing query 4523: Model abstains from answering the question
+['has a chest x-ray revealed any abnormality in the right upper lung zone?']
+Error executing query 4524: Model abstains from answering the question
+['has a chest x-ray demonstrated multiple masses/nodules?', 'has a chest x-ray demonstrated multiple masses/nodules?', 'has a chest x-ray demonstrated multiple masses/nodules?', 'has a chest x-ray demonstrated multiple masses/nodules?', 'has a chest x-ray demonstrated multiple masses/nodules?']
+Error executing query 4525: Model only answers one image question SQLs
+['is the chest x-ray indicating any tubes/lines?', 'is the chest x-ray indicating any tubes/lines?', 'is the chest x-ray indicating any tubes/lines?']
+Error executing query 4527: Model only answers one image question SQLs
+['does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?', 'does a chest x-ray show any anatomical findings in the left hilar structures?']
+Error executing query 4532: Model only answers one image question SQLs
+['is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?', 'is picc demonstrated in the right clavicle?']
+Error executing query 4533: Model only answers one image question SQLs
+Error executing query 4534: Invalid expression / Unexpected token. Line 1, Col: 972.
+  picts any abnormality in the upper mediastinum?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['is the chest x-ray indicating any anatomical findings in the right chest wall?', 'is the chest x-ray indicating any anatomical findings in the right chest wall?', 'is the chest x-ray indicating any anatomical findings in the right chest wall?']
+Error executing query 4535: Model only answers one image question SQLs
+['is there any evidence of abnormality?']
+Error executing query 4536: Model abstains from answering the question
+Error executing query 4538: Invalid expression / Unexpected token. Line 1, Col: 830.
+  ny indication of any diseases on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4539: Invalid expression / Unexpected token. Line 1, Col: 1031.
+  own in the cardiac silhouette on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4541: Invalid expression / Unexpected token. Line 1, Col: 952.
+  any indication of any devices on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['is chest port displayed on a chest x-ray?']
+Error executing query 4542: Model abstains from answering the question
+Error executing query 4543: Invalid expression / Unexpected token. Line 1, Col: 738.
+  ns.hadm_id from admissions where admissions.subject_id = 15234578 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 4545: Invalid expression / Unexpected token. Line 1, Col: 980.
+   year') = datetime('2105-12-31 23:59:00','start of year','-0 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is enlarged hilum shown on a chest x-ray?']
+Error executing query 4549: Model abstains from answering the question
+Error executing query 4550: Invalid expression / Unexpected token. Line 1, Col: 881.
+  ny abnormality in the trachea on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['in which area, the left breast or the left upper lung zone, appears to have an abnormality?']
+Error executing query 4551: Model abstains from answering the question
+Error executing query 4553: Invalid expression / Unexpected token. Line 1, Col: 890.
+  %Y',procedures_icd.charttime) = '2100' ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 4556: Invalid expression / Unexpected token. Line 1, Col: 870.
+  id = 14097607 ) and strftime('%Y',diagnoses_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['can any anatomical findings be detected in the left clavicle?']
+Error executing query 4561: Model abstains from answering the question
+['list all anatomical sites associated with any devices.']
+Error executing query 4562: Model abstains from answering the question
+['has a chest x-ray shown any abnormality in the upper mediastinum?', 'has a chest x-ray shown any abnormality in the upper mediastinum?', 'has a chest x-ray shown any abnormality in the upper mediastinum?', 'has a chest x-ray shown any abnormality in the upper mediastinum?', 'has a chest x-ray shown any abnormality in the upper mediastinum?', 'has a chest x-ray shown any abnormality in the upper mediastinum?', 'has a chest x-ray shown any abnormality in the upper mediastinum?', 'has a chest x-ray shown any abnormality in the upper mediastinum?']
+Error executing query 4564: Model only answers one image question SQLs
+['which anatomical findings, airspace opacity or increased reticular markings/ild pattern, corresponds to the left lower lung zone?']
+Error executing query 4567: Model abstains from answering the question
+Error executing query 4569: Invalid expression / Unexpected token. Line 1, Col: 889.
+  t2 where func_vqa("is any abnormality revealed?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4571: Invalid expression / Unexpected token. Line 1, Col: 886.
+  es an x-ray reveal any diseases in the trachea?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?', 'does a chest x-ray indicate any abnormality in the right shoulder?']
+Error executing query 4577: Model only answers one image question SQLs
+Error executing query 4578: Invalid expression / Unexpected token. Line 1, Col: 885.
+  s.dischtime is not null order by admissions.admittime asc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 4579: Invalid expression / Unexpected token. Line 1, Col: 768.
+  etime('2105-12-31 23:59:00','-3 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t1.charttime,'start of month') = datetime(t2.starttime,'start of month')
+Error executing query 4588: Invalid expression / Unexpected token. Line 1, Col: 778.
+  func_vqa("does a chest x-ray show any diseases?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4590: Invalid expression / Unexpected token. Line 1, Col: 976.
+  unc_vqa("does a chest x-ray reveal any devices?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['please name all the anatomical locations associated with pneumonia.']
+Error executing query 4595: Model abstains from answering the question
+['is the chest x-ray showing mass/nodule (not otherwise specified) in the left apical zone?']
+Error executing query 4599: Model abstains from answering the question
+Error executing query 4603: Invalid expression / Unexpected token. Line 1, Col: 843.
+  y technical assessments in the left chest wall?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is the chest x-ray showing any abnormality?']
+Error executing query 4604: Model abstains from answering the question
+Error executing query 4611: Invalid expression / Unexpected token. Line 1, Col: 755.
+  id = 15319241 ) and strftime('%Y',prescriptions.starttime) = '2105' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['does a chest x-ray indicate any diseases in the left mid lung zone?', 'does a chest x-ray indicate any diseases in the left mid lung zone?', 'does a chest x-ray indicate any diseases in the left mid lung zone?', 'does a chest x-ray indicate any diseases in the left mid lung zone?', 'does a chest x-ray indicate any diseases in the left mid lung zone?', 'does a chest x-ray indicate any diseases in the left mid lung zone?', 'does a chest x-ray indicate any diseases in the left mid lung zone?', 'does a chest x-ray indicate any diseases in the left mid lung zone?', 'does a chest x-ray indicate any diseases in the left mid lung zone?']
+Error executing query 4612: Model only answers one image question SQLs
+['has a chest x-ray shown any technical assessments?', 'has a chest x-ray shown any technical assessments?', 'has a chest x-ray shown any technical assessments?']
+Error executing query 4613: Model only answers one image question SQLs
+['is the chest x-ray showing any abnormality in the left apical zone?', 'is the chest x-ray showing any abnormality in the left apical zone?', 'is the chest x-ray showing any abnormality in the left apical zone?', 'is the chest x-ray showing any abnormality in the left apical zone?', 'is the chest x-ray showing any abnormality in the left apical zone?', 'is the chest x-ray showing any abnormality in the left apical zone?']
+Error executing query 4614: Model only answers one image question SQLs
+Error executing query 4615: Invalid expression / Unexpected token. Line 1, Col: 968.
+  te any tubes/lines in the left lower lung zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?', 'is consolidation indicated on a chest x-ray?']
+Error executing query 4616: Model only answers one image question SQLs
+Error executing query 4618: Invalid expression / Unexpected token. Line 1, Col: 936.
+  icated in the left lower lung zone on an x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4623: Invalid expression / Unexpected token. Line 1, Col: 751.
+  id = 13888167 ) and strftime('%Y',prescriptions.starttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 4625: Invalid expression / Unexpected token. Line 1, Col: 1072.
+   year','-0 year') and strftime('%m',diagnoses_icd.charttime) = '12' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is there any suggestion of abnormality?']
+Error executing query 4627: Model abstains from answering the question
+Error executing query 4628: Invalid expression / Unexpected token. Line 1, Col: 660.
+  ns.hadm_id from admissions where admissions.subject_id = 14880685 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['please name all the anatomical locations associated with pneumomediastinum.']
+Error executing query 4631: Model abstains from answering the question
+['what are all the abnormalities you can identify in the left hemidiaphragm?']
+Error executing query 4633: Model abstains from answering the question
+['does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?', 'does a chest x-ray indicate pleural/parenchymal scarring?']
+Error executing query 4636: Model only answers one image question SQLs
+['can any tubes/lines be detected in the right hilar structures?']
+Error executing query 4642: Model abstains from answering the question
+Error executing query 4646: Invalid expression / Unexpected token. Line 1, Col: 637.
+  ns.hadm_id from admissions where admissions.subject_id = 17622334 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?', 'does a chest x-ray demonstrate any abnormality?']
+Error executing query 4648: Model only answers one image question SQLs
+['are there any abnormalities in the right apical zone?']
+Error executing query 4649: Model abstains from answering the question
+Error executing query 4652: Invalid expression / Unexpected token. Line 1, Col: 886.
+  ime('2105-12-31 23:59:00','-81 month') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and t1.hadm_id = t2.hadm_id
+['is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?', 'is a chest x-ray indicating goiter?']
+Error executing query 4654: Model only answers one image question SQLs
+['has a chest x-ray demonstrated any anatomical findings in the left upper lung zone?', 'has a chest x-ray demonstrated any anatomical findings in the left upper lung zone?', 'has a chest x-ray demonstrated any anatomical findings in the left upper lung zone?', 'has a chest x-ray demonstrated any anatomical findings in the left upper lung zone?']
+Error executing query 4655: Model only answers one image question SQLs
+Error executing query 4657: Invalid expression / Unexpected token. Line 1, Col: 879.
+  d = 18956189 ) and strftime('%Y',procedures_icd.charttime) = '2101' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?', 'is there a chest x-ray indicating pneumonia?']
+Error executing query 4659: Model only answers one image question SQLs
+['describe all technical assessments present in the right shoulder.']
+Error executing query 4660: Model abstains from answering the question
+['does a chest x-ray show any anatomical findings in the left costophrenic angle?', 'does a chest x-ray show any anatomical findings in the left costophrenic angle?']
+Error executing query 4663: Model only answers one image question SQLs
+['does an x-ray show a finding of any abnormality in the aortic arch?', 'does an x-ray show a finding of any abnormality in the aortic arch?']
+Error executing query 4667: Model only answers one image question SQLs
+['is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?', 'is any abnormality shown?']
+Error executing query 4669: Model only answers one image question SQLs
+['does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?', 'does a chest x-ray show atelectasis in the right upper lung zone?']
+Error executing query 4672: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any abnormality in the left lung?', 'does a chest x-ray demonstrate any abnormality in the left lung?', 'does a chest x-ray demonstrate any abnormality in the left lung?', 'does a chest x-ray demonstrate any abnormality in the left lung?', 'does a chest x-ray demonstrate any abnormality in the left lung?']
+Error executing query 4673: Model only answers one image question SQLs
+Error executing query 4676: Invalid expression / Unexpected token. Line 1, Col: 1032.
+  .dischtime is not null order by admissions.admittime desc limit 1 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?', 'does a chest x-ray indicate any tubes/lines in the left lung?']
+Error executing query 4677: Model only answers one image question SQLs
+['which anatomical position has a relation to the interstitial lung diseases, the left lung or the right upper lung zone?']
+Error executing query 4678: Model abstains from answering the question
+['specify all visible abnormalities.']
+Error executing query 4680: Model abstains from answering the question
+['is any technical assessments revealed in the right breast on a chest x-ray?']
+Error executing query 4681: Model abstains from answering the question
+['does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?', 'does a chest x-ray indicate any abnormality?']
+Error executing query 4682: Model only answers one image question SQLs
+Error executing query 4684: Expecting ). Line 1, Col: 978.
+  here prescriptions.drug = 'zidovudine' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[0m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+Error executing query 4685: Invalid expression / Unexpected token. Line 1, Col: 746.
+  normality indicated in the abdomen on an x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is any anatomical findings detected in the right lung on a chest x-ray?', 'is any anatomical findings detected in the right lung on a chest x-ray?']
+Error executing query 4691: Model only answers one image question SQLs
+['is the right upper lung zone showing any abnormal signs?']
+Error executing query 4692: Model abstains from answering the question
+['are there any signs of abnormality in the abdomen?']
+Error executing query 4693: Model abstains from answering the question
+Error executing query 4699: Invalid expression / Unexpected token. Line 1, Col: 759.
+  atomical findings in the right upper lung zone?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is the chest x-ray showing hyperaeration?', 'is the chest x-ray showing hyperaeration?', 'is the chest x-ray showing hyperaeration?', 'is the chest x-ray showing hyperaeration?', 'is the chest x-ray showing hyperaeration?']
+Error executing query 4700: Model only answers one image question SQLs
+['does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?', 'does a chest x-ray show consolidation in the right upper lung zone?']
+Error executing query 4702: Model only answers one image question SQLs
+Error executing query 4703: Invalid expression / Unexpected token. Line 1, Col: 837.
+   where func_vqa("is any abnormality identified?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does the upper mediastinum indicate any abnormality?']
+Error executing query 4707: Model abstains from answering the question
+['please identify all diseases observable in the left costophrenic angle.']
+Error executing query 4711: Model abstains from answering the question
+Error executing query 4712: Invalid expression / Unexpected token. Line 1, Col: 954.
+  cedures_icd.charttime) >= datetime('2105-12-31 23:59:00','-5 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['are there indications of anatomical findings in the right clavicle?']
+Error executing query 4713: Model abstains from answering the question
+["is the upper mediastinum's width larger than one-third of the thorax width?"]
+Error executing query 4714: Model abstains from answering the question
+Error executing query 4715: Invalid expression / Unexpected token. Line 1, Col: 831.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['is the chest x-ray indicating any abnormality?', 'is the chest x-ray indicating any abnormality?']
+Error executing query 4717: Model only answers one image question SQLs
+Error executing query 4718: Invalid expression / Unexpected token. Line 1, Col: 1122.
+  year','-1 year') and strftime('%m',procedures_icd.charttime) = '02' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.
+['does the upper mediastinum width exceed one-third of the thorax width?']
+Error executing query 4724: Model abstains from answering the question
+Error executing query 4725: Invalid expression / Unexpected token. Line 1, Col: 649.
+  strated lung cancer in the right mid lung zone?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does a chest x-ray demonstrate any devices?']
+Error executing query 4727: Model abstains from answering the question
+['has a chest x-ray shown any technical assessments in the left chest wall?', 'has a chest x-ray shown any technical assessments in the left chest wall?', 'has a chest x-ray shown any technical assessments in the left chest wall?', 'has a chest x-ray shown any technical assessments in the left chest wall?', 'has a chest x-ray shown any technical assessments in the left chest wall?', 'has a chest x-ray shown any technical assessments in the left chest wall?', 'has a chest x-ray shown any technical assessments in the left chest wall?', 'has a chest x-ray shown any technical assessments in the left chest wall?', 'has a chest x-ray shown any technical assessments in the left chest wall?', 'has a chest x-ray shown any technical assessments in the left chest wall?', 'has a chest x-ray shown any technical assessments in the left chest wall?']
+Error executing query 4728: Model only answers one image question SQLs
+Error executing query 4730: Expecting ). Line 1, Col: 990.
+  scriptions.drug = 'alendronate sodium' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[0m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+Error executing query 4734: Invalid expression / Unexpected token. Line 1, Col: 870.
+  unc_vqa("has a chest x-ray shown consolidation?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4737: Invalid expression / Unexpected token. Line 1, Col: 790.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 4739: Invalid expression / Unexpected token. Line 1, Col: 646.
+  ns.hadm_id from admissions where admissions.subject_id = 17931647 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+['in which position, the left hilar structures or the right upper lung zone, is an abnormality exhibited?']
+Error executing query 4741: Model abstains from answering the question
+['has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?', 'has a chest x-ray indicated any diseases?']
+Error executing query 4742: Model only answers one image question SQLs
+['which anatomical sites are relevant to alveolar hemorrhage?']
+Error executing query 4745: Model abstains from answering the question
+['has a chest x-ray shown any abnormality in the left hemidiaphragm?', 'has a chest x-ray shown any abnormality in the left hemidiaphragm?', 'has a chest x-ray shown any abnormality in the left hemidiaphragm?', 'has a chest x-ray shown any abnormality in the left hemidiaphragm?', 'has a chest x-ray shown any abnormality in the left hemidiaphragm?', 'has a chest x-ray shown any abnormality in the left hemidiaphragm?']
+Error executing query 4747: Model only answers one image question SQLs
+['which anatomical location corresponds to the vascular redistribution, the right hilar structures or the right lung?']
+Error executing query 4748: Model abstains from answering the question
+['in which anatomical location is an abnormality present, the left hilar structures or the svc?']
+Error executing query 4749: Model abstains from answering the question
+Error executing query 4751: Invalid expression / Unexpected token. Line 1, Col: 781.
+  a("does a chest x-ray indicate any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4753: Invalid expression / Unexpected token. Line 1, Col: 881.
+  noses_icd.charttime) >= datetime('2105-12-31 23:59:00','-16 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['has a chest x-ray demonstrated pericardial effusion?', 'has a chest x-ray demonstrated pericardial effusion?', 'has a chest x-ray demonstrated pericardial effusion?']
+Error executing query 4754: Model only answers one image question SQLs
+['which region, the aortic arch or the right costophrenic angle, indicates an abnormality?']
+Error executing query 4755: Model abstains from answering the question
+["does the upper mediastinum's width exceed 33.33% of the thorax width?"]
+[False]
+Error executing query 4758: Invalid expression / Unexpected token. Line 1, Col: 744.
+  ns.hadm_id from admissions where admissions.subject_id = 17442326 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 4759: Invalid expression / Unexpected token. Line 1, Col: 858.
+  id = 18843391 ) and strftime('%Y',diagnoses_icd.charttime) = '2102' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['is there a chest x-ray that indicated any anatomical findings?', 'is there a chest x-ray that indicated any anatomical findings?', 'is there a chest x-ray that indicated any anatomical findings?', 'is there a chest x-ray that indicated any anatomical findings?', 'is there a chest x-ray that indicated any anatomical findings?', 'is there a chest x-ray that indicated any anatomical findings?', 'is there a chest x-ray that indicated any anatomical findings?', 'is there a chest x-ray that indicated any anatomical findings?']
+Error executing query 4762: Model only answers one image question SQLs
+Error executing query 4763: Invalid expression / Unexpected token. Line 1, Col: 763.
+  ns.hadm_id from admissions where admissions.subject_id = 13778342 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray show mediastinal drain?', 'does a chest x-ray show mediastinal drain?', 'does a chest x-ray show mediastinal drain?', 'does a chest x-ray show mediastinal drain?']
+Error executing query 4764: Model only answers one image question SQLs
+['is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?', 'is the chest x-ray indicating any anatomical findings?']
+Error executing query 4765: Model only answers one image question SQLs
+['do any tubes/lines appear?']
+Error executing query 4766: Model abstains from answering the question
+Error executing query 4772: Invalid expression / Unexpected token. Line 1, Col: 776.
+  abg grafts in the mediastinum on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4773: Invalid expression / Unexpected token. Line 1, Col: 751.
+  rved in the right apical zone on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['has a chest x-ray demonstrated any abnormality in the right lung?', 'has a chest x-ray demonstrated any abnormality in the right lung?', 'has a chest x-ray demonstrated any abnormality in the right lung?', 'has a chest x-ray demonstrated any abnormality in the right lung?', 'has a chest x-ray demonstrated any abnormality in the right lung?', 'has a chest x-ray demonstrated any abnormality in the right lung?', 'has a chest x-ray demonstrated any abnormality in the right lung?', 'has a chest x-ray demonstrated any abnormality in the right lung?', 'has a chest x-ray demonstrated any abnormality in the right lung?', 'has a chest x-ray demonstrated any abnormality in the right lung?', 'has a chest x-ray demonstrated any abnormality in the right lung?', 'has a chest x-ray demonstrated any abnormality in the right lung?']
+Error executing query 4774: Model only answers one image question SQLs
+Error executing query 4775: Invalid expression / Unexpected token. Line 1, Col: 1082.
+  year','-1 year') and strftime('%m',procedures_icd.charttime) = '06' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 4779: Invalid expression / Unexpected token. Line 1, Col: 772.
+  ns.hadm_id from admissions where admissions.subject_id = 12645334 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray reveal lobar/segmental collapse in the right upper lung zone?', 'does a chest x-ray reveal lobar/segmental collapse in the right upper lung zone?', 'does a chest x-ray reveal lobar/segmental collapse in the right upper lung zone?', 'does a chest x-ray reveal lobar/segmental collapse in the right upper lung zone?', 'does a chest x-ray reveal lobar/segmental collapse in the right upper lung zone?', 'does a chest x-ray reveal lobar/segmental collapse in the right upper lung zone?', 'does a chest x-ray reveal lobar/segmental collapse in the right upper lung zone?', 'does a chest x-ray reveal lobar/segmental collapse in the right upper lung zone?', 'does a chest x-ray reveal lobar/segmental collapse in the right upper lung zone?', 'does a chest x-ray reveal lobar/segmental collapse in the right upper lung zone?']
+Error executing query 4781: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any anatomical findings?', 'does a chest x-ray demonstrate any anatomical findings?', 'does a chest x-ray demonstrate any anatomical findings?', 'does a chest x-ray demonstrate any anatomical findings?', 'does a chest x-ray demonstrate any anatomical findings?']
+Error executing query 4782: Model only answers one image question SQLs
+['is the chest x-ray showing pulmonary edema/hazy opacity?', 'is the chest x-ray showing pulmonary edema/hazy opacity?']
+Error executing query 4784: Model only answers one image question SQLs
+Error executing query 4787: Invalid expression / Unexpected token. Line 1, Col: 731.
+  ns.hadm_id from admissions where admissions.subject_id = 12974480 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray signify any diseases?', 'does a chest x-ray signify any diseases?']
+Error executing query 4789: Model only answers one image question SQLs
+Error executing query 4791: Expecting ). Line 1, Col: 984.
+  ptions.drug = 'hydrocortisone acetate' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[0m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+['is there a chest x-ray that indicated any abnormality in the left hilar structures?', 'is there a chest x-ray that indicated any abnormality in the left hilar structures?']
+Error executing query 4792: Model only answers one image question SQLs
+Error executing query 4795: Invalid expression / Unexpected token. Line 1, Col: 797.
+  ns.hadm_id from admissions where admissions.subject_id = 18970393 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?', 'does a chest x-ray show any abnormality in the carina?']
+Error executing query 4796: Model only answers one image question SQLs
+['what are all the diseases identifiable within the left hemidiaphragm?']
+Error executing query 4804: Model abstains from answering the question
+['has a chest x-ray shown any tubes/lines?', 'has a chest x-ray shown any tubes/lines?']
+Error executing query 4805: Model only answers one image question SQLs
+['is there an indication of abnormality within the right hemidiaphragm?']
+Error executing query 4806: Model abstains from answering the question
+['within the anatomical findings, which is typically associated, mediastinal widening or subcutaneous air?']
+Error executing query 4809: Model abstains from answering the question
+Error executing query 4811: Invalid expression / Unexpected token. Line 1, Col: 867.
+  t x-ray depicting pulmonary edema/hazy opacity?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4817: Invalid expression / Unexpected token. Line 1, Col: 847.
+  a chest x-ray reveal any technical assessments?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['in the anatomical findings, which is related, costophrenic angle blunting or multiple masses/nodules?']
+Error executing query 4818: Model abstains from answering the question
+['does a chest x-ray indicate any anatomical findings?', 'does a chest x-ray indicate any anatomical findings?', 'does a chest x-ray indicate any anatomical findings?', 'does a chest x-ray indicate any anatomical findings?', 'does a chest x-ray indicate any anatomical findings?', 'does a chest x-ray indicate any anatomical findings?']
+Error executing query 4819: Model only answers one image question SQLs
+['is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?', 'is cyst/bullae demonstrated?']
+Error executing query 4823: Model only answers one image question SQLs
+Error executing query 4824: Invalid expression / Unexpected token. Line 1, Col: 899.
+  has a chest x-ray shown elevated hemidiaphragm?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray reveal any tubes/lines in the right chest wall?', 'does a chest x-ray reveal any tubes/lines in the right chest wall?', 'does a chest x-ray reveal any tubes/lines in the right chest wall?', 'does a chest x-ray reveal any tubes/lines in the right chest wall?']
+Error executing query 4825: Model only answers one image question SQLs
+Error executing query 4827: Invalid expression / Unexpected token. Line 1, Col: 763.
+  atomical findings in the neck on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4828: Invalid expression / Unexpected token. Line 1, Col: 898.
+  44092 ) and strftime('%Y-%m',procedures_icd.charttime) >= '2105-12' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['in the anatomical findings, which is related, costophrenic angle blunting or vascular redistribution?']
+Error executing query 4829: Model abstains from answering the question
+['does a chest x-ray indicate any technical assessments in the left lung?', 'does a chest x-ray indicate any technical assessments in the left lung?', 'does a chest x-ray indicate any technical assessments in the left lung?']
+Error executing query 4836: Model only answers one image question SQLs
+['can any tubes/lines be detected in the right atrium?']
+Error executing query 4837: Model abstains from answering the question
+['does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?']
+Error executing query 4838: Model only answers one image question SQLs
+Error executing query 4840: Invalid expression / Unexpected token. Line 1, Col: 932.
+  gnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-33 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['outline all the observed abnormalities.']
+Error executing query 4841: Model abstains from answering the question
+Error executing query 4842: Invalid expression / Unexpected token. Line 1, Col: 730.
+  d = 10463724 ) and strftime('%Y',prescriptions.starttime) >= '2104' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 4845: Invalid expression / Unexpected token. Line 1, Col: 736.
+  vqa("is any abnormality shown on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4847: Invalid expression / Unexpected token. Line 1, Col: 670.
+  ns.hadm_id from admissions where admissions.subject_id = 19155097 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 4848: Invalid expression / Unexpected token. Line 1, Col: 751.
+  lines indicated in the aortic arch on an x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 4852: Invalid expression / Unexpected token. Line 1, Col: 872.
+  _vqa("is the chest x-ray revealing cabg grafts?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['is there a chest x-ray indicating any anatomical findings in the right lung?', 'is there a chest x-ray indicating any anatomical findings in the right lung?', 'is there a chest x-ray indicating any anatomical findings in the right lung?', 'is there a chest x-ray indicating any anatomical findings in the right lung?', 'is there a chest x-ray indicating any anatomical findings in the right lung?']
+Error executing query 4856: Model only answers one image question SQLs
+['list all the abnormalities that are detectable in the trachea.']
+Error executing query 4858: Model abstains from answering the question
+['has a chest x-ray shown mediastinal displacement?', 'has a chest x-ray shown mediastinal displacement?']
+Error executing query 4859: Model only answers one image question SQLs
+['which position has an association with the picc, the cardiac silhouette or the right shoulder?']
+Error executing query 4860: Model abstains from answering the question
+Error executing query 4861: Invalid expression / Unexpected token. Line 1, Col: 930.
+  n in the left upper lung zone on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['detail all the abnormalities located in the trachea.']
+Error executing query 4862: Model abstains from answering the question
+['is any tubes/lines revealed in the left costophrenic angle on a chest x-ray?']
+Error executing query 4868: Model abstains from answering the question
+['in the anatomical findings, which is related, atelectasis or infiltration?']
+Error executing query 4871: Model abstains from answering the question
+['is chest tube present in the right chest wall on any chest x-ray?', 'is chest tube present in the right chest wall on any chest x-ray?', 'is chest tube present in the right chest wall on any chest x-ray?', 'is chest tube present in the right chest wall on any chest x-ray?', 'is chest tube present in the right chest wall on any chest x-ray?']
+Error executing query 4873: Model only answers one image question SQLs
+['does a chest x-ray indicate hydropneumothorax?', 'does a chest x-ray indicate hydropneumothorax?', 'does a chest x-ray indicate hydropneumothorax?', 'does a chest x-ray indicate hydropneumothorax?', 'does a chest x-ray indicate hydropneumothorax?']
+Error executing query 4875: Model only answers one image question SQLs
+['does a chest x-ray demonstrate endotracheal tube in the upper mediastinum?']
+Error executing query 4876: Model abstains from answering the question
+Error executing query 4878: Invalid expression / Unexpected token. Line 1, Col: 927.
+  natomical findings in the left lower lung zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?', 'does a chest x-ray signify cyst/bullae?']
+Error executing query 4879: Model only answers one image question SQLs
+['is a chest x-ray showing any abnormality in the left hilar structures?']
+Error executing query 4880: Model abstains from answering the question
+['is any abnormality shown in the trachea on a chest x-ray?', 'is any abnormality shown in the trachea on a chest x-ray?', 'is any abnormality shown in the trachea on a chest x-ray?']
+Error executing query 4883: Model only answers one image question SQLs
+Error executing query 4891: Invalid expression / Unexpected token. Line 1, Col: 737.
+  id = 16306505 ) and strftime('%Y',prescriptions.starttime) = '2102' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 4895: Invalid expression / Unexpected token. Line 1, Col: 735.
+  id = 17454400 ) and strftime('%Y',prescriptions.starttime) = '2105' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is the width of the cardiac silhouette more than half of the thoracic width?']
+Error executing query 4896: Model abstains from answering the question
+['is mediastinal widening shown in the mediastinum on a chest x-ray?', 'is mediastinal widening shown in the mediastinum on a chest x-ray?']
+Error executing query 4897: Model only answers one image question SQLs
+['does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?', 'does a chest x-ray show any tubes/lines in the left lower lung zone?']
+Error executing query 4898: Model only answers one image question SQLs
+['is there any sign of anatomical findings present in the upper mediastinum?']
+Error executing query 4902: Model abstains from answering the question
+['has a chest x-ray displayed any technical assessments?']
+Error executing query 4907: Model abstains from answering the question
+Error executing query 4908: Invalid expression / Unexpected token. Line 1, Col: 924.
+  id = 19090380 ) and strftime('%Y',diagnoses_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 4911: Invalid expression / Unexpected token. Line 1, Col: 636.
+  a("does a chest x-ray show any any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 4913: Invalid expression / Unexpected token. Line 1, Col: 784.
+  er by admissions.admittime asc limit 1 ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t1.charttime,'start of day') = datetime(t2.starttime,'start of day')
+['does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?', 'does a chest x-ray signify any abnormality in the left mid lung zone?']
+Error executing query 4915: Model only answers one image question SQLs
+['has a chest x-ray indicated any technical assessments?']
+Error executing query 4916: Model abstains from answering the question
+Error executing query 4917: Invalid expression / Unexpected token. Line 1, Col: 873.
+  a("does a chest x-ray indicate any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does an x-ray show a finding of hyperaeration?']
+Error executing query 4921: Model abstains from answering the question
+['has a chest x-ray revealed endotracheal tube?']
+Error executing query 4924: Model abstains from answering the question
+Error executing query 4926: Expecting ). Line 1, Col: 995.
+  s.drug = 'ns epidural bag (0.9% nacl)' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[0m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+Error executing query 4928: Invalid expression / Unexpected token. Line 1, Col: 884.
+  any diseases revealed in the upper mediastinum?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?', 'is any anatomical findings noted in a chest x-ray?']
+Error executing query 4929: Model only answers one image question SQLs
+Error executing query 4930: Invalid expression / Unexpected token. Line 1, Col: 844.
+  id = 15583423 ) and strftime('%Y',diagnoses_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 4933: Invalid expression / Unexpected token. Line 1, Col: 838.
+  id = 17454400 ) and strftime('%Y',diagnoses_icd.charttime) = '2105' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['is pulmonary edema/hazy opacity shown on a chest x-ray?', 'is pulmonary edema/hazy opacity shown on a chest x-ray?', 'is pulmonary edema/hazy opacity shown on a chest x-ray?']
+Error executing query 4934: Model only answers one image question SQLs
+Error executing query 4936: Invalid expression / Unexpected token. Line 1, Col: 765.
+  ns.hadm_id from admissions where admissions.subject_id = 19261953 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 4939: Invalid expression / Unexpected token. Line 1, Col: 1005.
+  186925 ) and strftime('%Y-%m',procedures_icd.charttime) = '2103-05' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and t1.hadm_id = t3.hadm_id
+Error executing query 4942: Invalid expression / Unexpected token. Line 1, Col: 961.
+  etime('2105-12-31 23:59:00','-2 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.charttime and datetime(t1.charttime,'start of month') = datetime(t2.charttime,'start of month')
+['does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?', 'does a chest x-ray reveal any abnormality?']
+Error executing query 4947: Model only answers one image question SQLs
+Error executing query 4948: Invalid expression / Unexpected token. Line 1, Col: 854.
+  d = 14611780 ) and strftime('%Y',procedures_icd.charttime) = '2104' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['has a chest x-ray demonstrated rotated in the mediastinum?', 'has a chest x-ray demonstrated rotated in the mediastinum?', 'has a chest x-ray demonstrated rotated in the mediastinum?']
+Error executing query 4949: Model only answers one image question SQLs
+['does a chest x-ray demonstrate linear/patchy atelectasis in the left upper lung zone?']
+Error executing query 4956: Model abstains from answering the question
+Error executing query 4958: Invalid expression / Unexpected token. Line 1, Col: 775.
+  ns.hadm_id from admissions where admissions.subject_id = 17421577 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 4961: Invalid expression / Unexpected token. Line 1, Col: 891.
+  ved in the left hemidiaphragm on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?', 'is the chest x-ray depicting pericardial effusion?']
+Error executing query 4963: Model only answers one image question SQLs
+['for the left lung, which tube/line is relevant, chest port or endotracheal tube?']
+Error executing query 4964: Model abstains from answering the question
+['does a chest x-ray indicate any abnormality in the left lung?']
+Error executing query 4966: Model abstains from answering the question
+Error executing query 4967: Invalid expression / Unexpected token. Line 1, Col: 919.
+  c_vqa("is enlarged hilum indicated on an x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 4969: Invalid expression / Unexpected token. Line 1, Col: 787.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-2 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 4971: Invalid expression / Unexpected token. Line 1, Col: 932.
+  dicate lung cancer in the left upper lung zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?', 'does a chest x-ray indicate enlarged cardiac silhouette?']
+Error executing query 4973: Model only answers one image question SQLs
+Error executing query 4978: Invalid expression / Unexpected token. Line 1, Col: 734.
+  2250544 ) and strftime('%Y-%m',prescriptions.starttime) = '2104-12' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 4979: Invalid expression / Unexpected token. Line 1, Col: 889.
+  d = 12645334 ) and strftime('%Y',diagnoses_icd.charttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 4981: Invalid expression / Unexpected token. Line 1, Col: 760.
+  indication of any abnormality on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray reveal the presence of any abnormality?']
+Error executing query 4985: Model abstains from answering the question
+['what are all the observed abnormalities?']
+Error executing query 4987: Model abstains from answering the question
+['does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?', 'does a chest x-ray demonstrate any devices?']
+Error executing query 4988: Model only answers one image question SQLs
+['does a chest x-ray indicate any technical assessments in the spine?', 'does a chest x-ray indicate any technical assessments in the spine?']
+Error executing query 4990: Model only answers one image question SQLs
+Error executing query 4995: Invalid expression / Unexpected token. Line 1, Col: 921.
+  vqa("does a chest x-ray show mediastinal drain?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?', 'does a chest x-ray present any technical assessments in the mediastinum?']
+Error executing query 4998: Model only answers one image question SQLs
+Error executing query 4999: Invalid expression / Unexpected token. Line 1, Col: 813.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 5001: Invalid expression / Unexpected token. Line 1, Col: 801.
+  s in the left lower lung zone on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 5003: Invalid expression / Unexpected token. Line 1, Col: 1019.
+  c_vqa("does a chest x-ray indicate any devices?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?', 'does a chest x-ray show any tubes/lines?']
+Error executing query 5004: Model only answers one image question SQLs
+Error executing query 5008: Invalid expression / Unexpected token. Line 1, Col: 853.
+  unc_vqa("has an x-ray revealed any abnormality?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['please specify all the abnormalities that appear within the carina.']
+Error executing query 5009: Model abstains from answering the question
+['does a chest x-ray show any abnormality in the svc?', 'does a chest x-ray show any abnormality in the svc?']
+Error executing query 5010: Model only answers one image question SQLs
+Error executing query 5011: Invalid expression / Unexpected token. Line 1, Col: 889.
+  w any abnormality in the right upper lung zone?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['are there indications of infiltration in the left lung?']
+Error executing query 5014: Model abstains from answering the question
+['is any abnormality indicated on a chest x-ray?', 'is any abnormality indicated on a chest x-ray?', 'is any abnormality indicated on a chest x-ray?']
+Error executing query 5019: Model only answers one image question SQLs
+['has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?', 'has tracheostomy tube been found in a chest x-ray?']
+Error executing query 5020: Model only answers one image question SQLs
+['is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?', 'is any abnormality demonstrated in the left hilar structures?']
+Error executing query 5021: Model only answers one image question SQLs
+Error executing query 5022: Invalid expression / Unexpected token. Line 1, Col: 786.
+  ns.hadm_id from admissions where admissions.subject_id = 12408912 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does the left mid lung zone display any tubes/lines?']
+Error executing query 5025: Model abstains from answering the question
+Error executing query 5026: Invalid expression / Unexpected token. Line 1, Col: 909.
+  iagnoses_icd.charttime) = datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['does a chest x-ray exhibit any abnormality?', 'does a chest x-ray exhibit any abnormality?']
+Error executing query 5028: Model only answers one image question SQLs
+Error executing query 5033: Invalid expression / Unexpected token. Line 1, Col: 785.
+  does the chest x-ray indicate any any diseases?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+['is there any tubes/lines evident in the abdomen?']
+Error executing query 5035: Model abstains from answering the question
+['does a chest x-ray show any diseases in the left lung?', 'does a chest x-ray show any diseases in the left lung?', 'does a chest x-ray show any diseases in the left lung?', 'does a chest x-ray show any diseases in the left lung?', 'does a chest x-ray show any diseases in the left lung?', 'does a chest x-ray show any diseases in the left lung?', 'does a chest x-ray show any diseases in the left lung?', 'does a chest x-ray show any diseases in the left lung?']
+Error executing query 5036: Model only answers one image question SQLs
+["is the width of the upper mediastinum more than 33% of the thorax's width?"]
+Error executing query 5038: Model abstains from answering the question
+Error executing query 5039: Invalid expression / Unexpected token. Line 1, Col: 803.
+  me('2105-12-31 23:59:00','-165 month') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[0m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 d
+['is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?', 'is a chest x-ray showing atelectasis?']
+Error executing query 5040: Model only answers one image question SQLs
+['does a chest x-ray show signs of any abnormality in the left apical zone?']
+Error executing query 5047: Model abstains from answering the question
+['is the chest x-ray indicating any abnormality in the trachea?', 'is the chest x-ray indicating any abnormality in the trachea?']
+Error executing query 5048: Model only answers one image question SQLs
+['is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?', 'is the chest x-ray depicting any abnormality?']
+Error executing query 5049: Model only answers one image question SQLs
+Error executing query 5051: Invalid expression / Unexpected token. Line 1, Col: 406.
+  'arterial blood pressure diastolic' and d_items.linksto = 'chartevents' ) and chartevents.valuenum  [4m62.0[0m and strftime('%Y-%m-%d',chartevents.charttime) = '2103-12-25'
+['is a chest x-ray indicating pneumonia?', 'is a chest x-ray indicating pneumonia?', 'is a chest x-ray indicating pneumonia?', 'is a chest x-ray indicating pneumonia?', 'is a chest x-ray indicating pneumonia?', 'is a chest x-ray indicating pneumonia?', 'is a chest x-ray indicating pneumonia?', 'is a chest x-ray indicating pneumonia?', 'is a chest x-ray indicating pneumonia?']
+Error executing query 5052: Model only answers one image question SQLs
+Error executing query 5053: Invalid expression / Unexpected token. Line 1, Col: 983.
+   year','-1 year') and strftime('%m',prescriptions.starttime) = '09' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['does a chest x-ray display any abnormality in the left mid lung zone?']
+Error executing query 5054: Model abstains from answering the question
+Error executing query 5056: Invalid expression / Unexpected token. Line 1, Col: 907.
+   vascular redistribution indicated on an x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['is the chest x-ray showing any technical assessments in the left upper lung zone?', 'is the chest x-ray showing any technical assessments in the left upper lung zone?', 'is the chest x-ray showing any technical assessments in the left upper lung zone?']
+Error executing query 5059: Model only answers one image question SQLs
+['is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?', 'is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?', 'is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?', 'is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?', 'is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?', 'is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?', 'is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?', 'is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?', 'is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?', 'is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?', 'is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?', 'is shoulder osteoarthritis indicated in the left clavicle on a chest x-ray?']
+Error executing query 5060: Model only answers one image question SQLs
+['does a chest x-ray show any abnormality in the neck?', 'does a chest x-ray show any abnormality in the neck?', 'does a chest x-ray show any abnormality in the neck?', 'does a chest x-ray show any abnormality in the neck?', 'does a chest x-ray show any abnormality in the neck?']
+Error executing query 5061: Model only answers one image question SQLs
+['does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?', 'does a chest x-ray show any abnormality?']
+Error executing query 5070: Model only answers one image question SQLs
+Error executing query 5072: Invalid expression / Unexpected token. Line 1, Col: 734.
+  _vqa("is a chest x-ray showing any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 5076: Invalid expression / Unexpected token. Line 1, Col: 999.
+  nth') = datetime('2105-12-31 23:59:00','start of month','-1 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 5079: Invalid expression / Unexpected token. Line 1, Col: 861.
+   = 10938464 ) and strftime('%Y',procedures_icd.charttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 5080: Invalid expression / Unexpected token. Line 1, Col: 665.
+  ns.hadm_id from admissions where admissions.subject_id = 15956135 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+['enumerate all the regions in the anatomy that are related to superior mediastinal mass/enlargement.']
+Error executing query 5081: Model abstains from answering the question
+['does the left mid lung zone show any evidence of technical assessments?']
+Error executing query 5083: Model abstains from answering the question
+Error executing query 5085: Invalid expression / Unexpected token. Line 1, Col: 733.
+  ("is the chest x-ray depicting any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['enumerate all technical assessments seen in the radiographic image.']
+Error executing query 5087: Model abstains from answering the question
+['does a chest x-ray show breast/nipple shadows?']
+Error executing query 5088: Model abstains from answering the question
+['is the chest x-ray indicating linear/patchy atelectasis in the right lung?', 'is the chest x-ray indicating linear/patchy atelectasis in the right lung?', 'is the chest x-ray indicating linear/patchy atelectasis in the right lung?', 'is the chest x-ray indicating linear/patchy atelectasis in the right lung?', 'is the chest x-ray indicating linear/patchy atelectasis in the right lung?']
+Error executing query 5091: Model only answers one image question SQLs
+Error executing query 5093: Invalid expression / Unexpected token. Line 1, Col: 942.
+  d any anatomical findings in the left shoulder?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+['is there any sign of abnormality in the right costophrenic angle?']
+Error executing query 5094: Model abstains from answering the question
+['has a chest x-ray demonstrated any abnormality in the left hilar structures?']
+Error executing query 5096: Model abstains from answering the question
+['is hydropneumothorax shown on a chest x-ray?', 'is hydropneumothorax shown on a chest x-ray?']
+Error executing query 5098: Model only answers one image question SQLs
+['does a chest x-ray indicate lobar/segmental collapse in the left upper lung zone?']
+Error executing query 5100: Model abstains from answering the question
+['does a chest x-ray reveal indications of any technical assessments in the left chest wall?', 'does a chest x-ray reveal indications of any technical assessments in the left chest wall?', 'does a chest x-ray reveal indications of any technical assessments in the left chest wall?', 'does a chest x-ray reveal indications of any technical assessments in the left chest wall?', 'does a chest x-ray reveal indications of any technical assessments in the left chest wall?', 'does a chest x-ray reveal indications of any technical assessments in the left chest wall?']
+Error executing query 5102: Model only answers one image question SQLs
+['is breast/nipple shadows demonstrated in the left chest wall on a chest x-ray?']
+Error executing query 5103: Model abstains from answering the question
+['does a chest x-ray show evidence of any devices?']
+Error executing query 5104: Model abstains from answering the question
+['which anatomical finding is associated with the right upper lung zone, hyperaeration or lobar/segmental collapse?']
+Error executing query 5106: Model abstains from answering the question
+['is the chest x-ray depicting any abnormality in the left mid lung zone?', 'is the chest x-ray depicting any abnormality in the left mid lung zone?']
+Error executing query 5107: Model only answers one image question SQLs
+['does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?', 'does a chest x-ray exhibit pneumonia?']
+Error executing query 5108: Model only answers one image question SQLs
+['does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?', 'does a chest x-ray indicate any anatomical findings in the left upper lung zone?']
+Error executing query 5109: Model only answers one image question SQLs
+Error executing query 5110: Invalid expression / Unexpected token. Line 1, Col: 879.
+   of any technical assessments on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['has a chest x-ray shown any abnormality in the right atrium?']
+Error executing query 5112: Model abstains from answering the question
+Error executing query 5114: Invalid expression / Unexpected token. Line 1, Col: 983.
+  nth') = datetime('2105-12-31 23:59:00','start of month','-0 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 5115: Invalid expression / Unexpected token. Line 1, Col: 717.
+  c_vqa("does a chest x-ray show any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 5116: Expecting ). Line 1, Col: 978.
+  iptions.drug = 'lidocaine 5% ointment' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[0m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+['is the chest x-ray revealing elevated hemidiaphragm?', 'is the chest x-ray revealing elevated hemidiaphragm?', 'is the chest x-ray revealing elevated hemidiaphragm?', 'is the chest x-ray revealing elevated hemidiaphragm?', 'is the chest x-ray revealing elevated hemidiaphragm?', 'is the chest x-ray revealing elevated hemidiaphragm?']
+Error executing query 5117: Model only answers one image question SQLs
+['specify all visible abnormalities.']
+Error executing query 5119: Model abstains from answering the question
+Error executing query 5121: Invalid expression / Unexpected token. Line 1, Col: 804.
+  ns.hadm_id from admissions where admissions.subject_id = 16043637 ) ) as t3 where t1.studydatetime  [4mt3[0m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+['has a chest x-ray indicated any abnormality?', 'has a chest x-ray indicated any abnormality?', 'has a chest x-ray indicated any abnormality?', 'has a chest x-ray indicated any abnormality?']
+Error executing query 5122: Model only answers one image question SQLs
+Error executing query 5123: Invalid expression / Unexpected token. Line 1, Col: 849.
+  vqa("does a chest x-ray reveal any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['in which position, the right clavicle or the svc, is an abnormality exhibited?']
+Error executing query 5129: Model abstains from answering the question
+['does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?', 'does a chest x-ray identify any technical assessments?']
+Error executing query 5130: Model only answers one image question SQLs
+['does an x-ray show a finding of shoulder osteoarthritis in the right clavicle?']
+Error executing query 5131: Model abstains from answering the question
+['does a chest x-ray show any diseases?', 'does a chest x-ray show any diseases?']
+Error executing query 5132: Model only answers one image question SQLs
+Error executing query 5133: Invalid expression / Unexpected token. Line 1, Col: 853.
+  a("has a chest x-ray shown vascular congestion?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does an x-ray show a finding of any anatomical findings in the left chest wall?', 'does an x-ray show a finding of any anatomical findings in the left chest wall?']
+Error executing query 5134: Model only answers one image question SQLs
+['has a chest x-ray shown vascular redistribution in the left lung?', 'has a chest x-ray shown vascular redistribution in the left lung?', 'has a chest x-ray shown vascular redistribution in the left lung?', 'has a chest x-ray shown vascular redistribution in the left lung?', 'has a chest x-ray shown vascular redistribution in the left lung?', 'has a chest x-ray shown vascular redistribution in the left lung?', 'has a chest x-ray shown vascular redistribution in the left lung?']
+Error executing query 5136: Model only answers one image question SQLs
+['does an x-ray show a finding of any tubes/lines in the left chest wall?']
+Error executing query 5137: Model abstains from answering the question
+['does a chest x-ray reveal pericardial effusion?', 'does a chest x-ray reveal pericardial effusion?', 'does a chest x-ray reveal pericardial effusion?', 'does a chest x-ray reveal pericardial effusion?', 'does a chest x-ray reveal pericardial effusion?', 'does a chest x-ray reveal pericardial effusion?', 'does a chest x-ray reveal pericardial effusion?']
+Error executing query 5141: Model only answers one image question SQLs
+Error executing query 5146: Invalid expression / Unexpected token. Line 1, Col: 900.
+  y reveal any tubes/lines in the right shoulder?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 5149: Invalid expression / Unexpected token. Line 1, Col: 1048.
+  ing linear/patchy atelectasis in the left lung?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[0m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+['does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?', 'does a chest x-ray indicate low lung volumes?']
+Error executing query 5154: Model only answers one image question SQLs
+['is any diseases shown in the left mid lung zone on a chest x-ray?', 'is any diseases shown in the left mid lung zone on a chest x-ray?', 'is any diseases shown in the left mid lung zone on a chest x-ray?']
+Error executing query 5155: Model only answers one image question SQLs
+['does a chest x-ray demonstrate any abnormality in the left chest wall?', 'does a chest x-ray demonstrate any abnormality in the left chest wall?']
+Error executing query 5156: Model only answers one image question SQLs
+Error executing query 5161: Invalid expression / Unexpected token. Line 1, Col: 735.
+  250544 ) and strftime('%Y-%m',prescriptions.starttime) >= '2104-04' ) as t3 where t1.studydatetime  [4mt3[0m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 5163: Invalid expression / Unexpected token. Line 1, Col: 664.
+  ns.hadm_id from admissions where admissions.subject_id = 11119441 ) ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 5164: Invalid expression / Unexpected token. Line 1, Col: 935.
+  edures_icd.charttime) = datetime('2105-12-31 23:59:00','-27 month') ) as t3 where t1.studydatetime  [4mt3[0m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 5165: Invalid expression / Unexpected token. Line 1, Col: 820.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[0m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+["does the upper mediastinum's size exceed one-third of the thoracic width?"]
+Error executing query 5167: Model abstains from answering the question
+Error executing query 5169: Invalid expression / Unexpected token. Line 1, Col: 739.
+  normality observed in the svc on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[0m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Correct count: 1158
+Wrong count: 89
+Correct count image: 32
+Wrong count image: 44
+Image questions: 3318
+```
+wandb: - 0.005 MB of 0.005 MB uploadedwandb: \ 0.005 MB of 0.005 MB uploadedwandb: | 0.005 MB of 0.005 MB uploadedwandb: / 0.010 MB of 0.984 MB uploaded (0.004 MB deduped)wandb: - 0.984 MB of 0.984 MB uploaded (0.004 MB deduped)wandb: \ 0.984 MB of 0.984 MB uploaded (0.004 MB deduped)wandb: 
+wandb: Run history:
+wandb: accuracy ▁
+wandb: 
+wandb: Run summary:
+wandb: accuracy 0.23578
+wandb: 
+wandb: 🚀 View run test_final-0 at: https://wandb.ai/kobomao/ML_healthcare/runs/gia4g8o7
+wandb: ⭐️ View project at: https://wandb.ai/kobomao/ML_healthcare
+wandb: Synced 5 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240604_092707-gia4g8o7/logs
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21909554: <test_final_0> in cluster <dcc> Done
+
+Job <test_final_0> was submitted from host <n-62-27-17> by user <s183914> in cluster <dcc> at Tue Jun  4 08:59:31 2024
+Job was executed on host(s) <4*n-62-11-13>, in queue <gpuv100>, as user <s183914> in cluster <dcc> at Tue Jun  4 09:26:40 2024
+</zhome/ea/9/137501> was used as the home directory.
+</zhome/ea/9/137501/Desktop/ML_final/ML_final> was used as the working directory.
+Started at Tue Jun  4 09:26:40 2024
+Terminated at Tue Jun  4 10:09:01 2024
+Results reported at Tue Jun  4 10:09:01 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 4
+#BSUB -R "rusage[mem=16G]"
+#BSUB -R "select[gpu32gb]"
+#BSUB -R "span[hosts=1]"
+#BSUB -W 1440
+# end of BSUB options
+module -s load python3
+source ../project-env/bin/activate
+
+python main.py $MYARGS
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2636.89 sec.
+    Max Memory :                                 12724 MB
+    Average Memory :                             10171.95 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               52812.00 MB
+    Max Swap :                                   1 MB
+    Max Processes :                              6
+    Max Threads :                                67
+    Run time :                                   2541 sec.
+    Turnaround time :                            4170 sec.
+
+The output (if any) is above this job summary.
+
