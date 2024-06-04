@@ -4319,3 +4319,255 @@
 2024-06-04 14:46:05,821 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
 2024-06-04 14:46:05,822 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
 2024-06-04 14:46:06,016 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:10,045 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:11,365 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:46:14,072 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:16,513 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:46:20,117 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:20,821 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 14:46:20,822 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 14:46:22,453 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:46:24,148 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:27,169 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:27,883 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:46:31,196 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:32,523 DEBUG   SenderThread:17242 [sender.py:send():378] send: stats
+2024-06-04 14:46:33,525 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:46:35,223 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:35,821 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 14:46:35,822 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 14:46:39,246 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:39,290 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:46:43,271 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:45,095 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:46:47,299 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:50,638 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:46:50,821 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 14:46:50,822 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 14:46:51,327 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:55,350 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:46:56,437 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:46:59,377 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:01,827 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:47:02,525 DEBUG   SenderThread:17242 [sender.py:send():378] send: stats
+2024-06-04 14:47:03,405 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:05,418 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:05,821 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 14:47:05,822 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 14:47:06,998 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:47:09,441 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:12,248 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:47:13,464 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:17,278 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:47:17,486 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:20,822 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 14:47:20,823 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 14:47:21,512 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:22,983 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:47:25,538 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:28,570 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:47:29,557 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:32,527 DEBUG   SenderThread:17242 [sender.py:send():378] send: stats
+2024-06-04 14:47:33,583 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:34,529 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:47:35,822 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 14:47:35,823 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 14:47:37,604 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:39,620 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:40,208 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:47:41,635 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:45,659 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:46,019 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:47:49,683 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:50,823 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 14:47:50,824 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 14:47:51,075 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:47:51,696 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:55,730 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:47:56,681 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:47:59,755 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:02,176 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:48:02,528 DEBUG   SenderThread:17242 [sender.py:send():378] send: stats
+2024-06-04 14:48:03,786 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:05,822 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 14:48:05,823 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 14:48:07,252 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:48:07,811 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:11,835 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:13,210 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:48:15,859 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:19,078 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:48:19,882 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:20,822 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 14:48:20,823 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 14:48:23,912 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:24,726 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:48:27,941 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:30,205 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:48:31,967 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:32,530 DEBUG   SenderThread:17242 [sender.py:send():378] send: stats
+2024-06-04 14:48:35,231 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:48:35,822 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 14:48:35,823 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 14:48:36,006 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:40,038 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:40,740 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:48:42,058 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:44,073 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:45,863 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:48:48,105 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:50,822 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-04 14:48:50,823 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: stop_status
+2024-06-04 14:48:51,053 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:48:52,138 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:56,171 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:48:56,939 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:48:59,399 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:49:02,532 DEBUG   SenderThread:17242 [sender.py:send():378] send: stats
+2024-06-04 14:49:02,533 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:49:03,429 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:49:05,594 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-04 14:49:05,599 DEBUG   SenderThread:17242 [sender.py:send():378] send: history
+2024-06-04 14:49:05,599 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: summary_record
+2024-06-04 14:49:05,608 INFO    SenderThread:17242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-04 14:49:05,719 DEBUG   SenderThread:17242 [sender.py:send():378] send: exit
+2024-06-04 14:49:05,719 INFO    SenderThread:17242 [sender.py:send_exit():585] handling exit code: 0
+2024-06-04 14:49:05,720 INFO    SenderThread:17242 [sender.py:send_exit():587] handling runtime: 7173
+2024-06-04 14:49:05,725 INFO    SenderThread:17242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-04 14:49:05,725 INFO    SenderThread:17242 [sender.py:send_exit():593] send defer
+2024-06-04 14:49:05,726 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:05,726 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-04 14:49:05,727 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:05,727 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-04 14:49:05,727 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 1
+2024-06-04 14:49:05,727 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:05,727 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-04 14:49:05,728 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:05,728 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-04 14:49:05,728 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 2
+2024-06-04 14:49:05,728 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:05,729 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-04 14:49:05,729 INFO    HandlerThread:17242 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-04 14:49:05,729 INFO    HandlerThread:17242 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-04 14:49:05,730 DEBUG   SystemMonitor:17242 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-04 14:49:05,731 DEBUG   SystemMonitor:17242 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-04 14:49:05,732 INFO    HandlerThread:17242 [interfaces.py:finish():200] Joined disk monitor
+2024-06-04 14:49:05,777 INFO    HandlerThread:17242 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-04 14:49:05,777 INFO    HandlerThread:17242 [interfaces.py:finish():200] Joined memory monitor
+2024-06-04 14:49:05,778 INFO    HandlerThread:17242 [interfaces.py:finish():200] Joined network monitor
+2024-06-04 14:49:05,778 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:05,778 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-04 14:49:05,779 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 3
+2024-06-04 14:49:05,779 DEBUG   SenderThread:17242 [sender.py:send():378] send: stats
+2024-06-04 14:49:05,780 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:05,780 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-04 14:49:05,780 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:05,780 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-04 14:49:05,780 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 4
+2024-06-04 14:49:05,781 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:05,781 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-04 14:49:05,781 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:05,782 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-04 14:49:05,782 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 5
+2024-06-04 14:49:05,782 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:05,782 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-04 14:49:05,783 DEBUG   SenderThread:17242 [sender.py:send():378] send: summary
+2024-06-04 14:49:05,787 INFO    SenderThread:17242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-04 14:49:05,787 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:05,787 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-04 14:49:05,787 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 6
+2024-06-04 14:49:05,788 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:05,788 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-04 14:49:05,788 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:05,788 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-04 14:49:05,789 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 7
+2024-06-04 14:49:05,789 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: status_report
+2024-06-04 14:49:05,789 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:05,789 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-04 14:49:05,790 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:05,790 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-04 14:49:06,451 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_created():271] file/dir created: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/wandb-summary.json
+2024-06-04 14:49:06,719 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-04 14:49:07,284 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 8
+2024-06-04 14:49:07,285 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: poll_exit
+2024-06-04 14:49:07,285 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:07,286 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-04 14:49:07,286 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:07,286 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-04 14:49:07,286 INFO    SenderThread:17242 [job_builder.py:build():432] Attempting to build job artifact
+2024-06-04 14:49:07,288 INFO    SenderThread:17242 [job_builder.py:_get_source_type():565] is repo sourced job
+2024-06-04 14:49:07,384 INFO    SenderThread:17242 [job_builder.py:build():541] adding wandb-job metadata file
+2024-06-04 14:49:07,405 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 9
+2024-06-04 14:49:07,405 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:07,405 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-04 14:49:07,406 DEBUG   SenderThread:17242 [sender.py:send():378] send: artifact
+2024-06-04 14:49:07,455 INFO    Thread-12 :17242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:49:07,721 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-04 14:49:08,226 INFO    SenderThread:17242 [sender.py:send_artifact():1467] sent artifact job-https___github.com_TheDingodile_ML_final.git_main.py - {'id': 'QXJ0aWZhY3Q6ODU5ODgzODc0', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3NzM5MzA5Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODU5ODgzODc0', 'versionIndex': 46}}}
+2024-06-04 14:49:08,226 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:08,226 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-04 14:49:08,226 INFO    SenderThread:17242 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-04 14:49:08,464 INFO    SenderThread:17242 [dir_watcher.py:finish():388] scan: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files
+2024-06-04 14:49:08,466 INFO    SenderThread:17242 [dir_watcher.py:finish():402] scan save: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/config.yaml config.yaml
+2024-06-04 14:49:08,466 INFO    SenderThread:17242 [dir_watcher.py:finish():402] scan save: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/wandb-metadata.json wandb-metadata.json
+2024-06-04 14:49:08,467 INFO    SenderThread:17242 [dir_watcher.py:finish():402] scan save: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/requirements.txt requirements.txt
+2024-06-04 14:49:08,472 INFO    SenderThread:17242 [dir_watcher.py:finish():402] scan save: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log output.log
+2024-06-04 14:49:08,473 INFO    SenderThread:17242 [dir_watcher.py:finish():402] scan save: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/wandb-summary.json wandb-summary.json
+2024-06-04 14:49:08,484 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 10
+2024-06-04 14:49:08,484 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: poll_exit
+2024-06-04 14:49:08,485 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:08,485 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-04 14:49:08,490 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:08,490 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-04 14:49:08,490 INFO    SenderThread:17242 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-04 14:49:08,721 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-04 14:49:08,722 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: poll_exit
+2024-06-04 14:49:08,999 INFO    wandb-upload_1:17242 [upload_job.py:push():130] Uploaded file /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/requirements.txt
+2024-06-04 14:49:09,066 INFO    wandb-upload_3:17242 [upload_job.py:push():130] Uploaded file /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/wandb-summary.json
+2024-06-04 14:49:09,118 INFO    wandb-upload_0:17242 [upload_job.py:push():130] Uploaded file /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/config.yaml
+2024-06-04 14:49:09,707 INFO    wandb-upload_2:17242 [upload_job.py:push():130] Uploaded file /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/files/output.log
+2024-06-04 14:49:09,723 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-04 14:49:09,724 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: poll_exit
+2024-06-04 14:49:09,908 INFO    Thread-11 (_thread_body):17242 [sender.py:transition_state():613] send defer: 11
+2024-06-04 14:49:09,909 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:09,909 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-04 14:49:09,910 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:09,910 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-04 14:49:09,910 INFO    SenderThread:17242 [file_pusher.py:join():175] waiting for file pusher
+2024-06-04 14:49:09,911 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 12
+2024-06-04 14:49:09,911 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:09,911 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-04 14:49:09,912 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:09,912 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-04 14:49:09,912 INFO    SenderThread:17242 [file_stream.py:finish():601] file stream finish called
+2024-06-04 14:49:10,525 INFO    SenderThread:17242 [file_stream.py:finish():605] file stream finish is done
+2024-06-04 14:49:10,525 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 13
+2024-06-04 14:49:10,525 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:10,525 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-04 14:49:10,526 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:10,526 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-04 14:49:10,526 INFO    SenderThread:17242 [sender.py:transition_state():613] send defer: 14
+2024-06-04 14:49:10,526 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: defer
+2024-06-04 14:49:10,527 INFO    HandlerThread:17242 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-04 14:49:10,527 DEBUG   SenderThread:17242 [sender.py:send():378] send: final
+2024-06-04 14:49:10,528 DEBUG   SenderThread:17242 [sender.py:send():378] send: footer
+2024-06-04 14:49:10,528 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: defer
+2024-06-04 14:49:10,528 INFO    SenderThread:17242 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-04 14:49:10,529 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-04 14:49:10,529 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-04 14:49:10,530 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: server_info
+2024-06-04 14:49:10,531 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: poll_exit
+2024-06-04 14:49:10,532 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-04 14:49:10,532 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: poll_exit
+2024-06-04 14:49:10,533 DEBUG   SenderThread:17242 [sender.py:send_request():405] send_request: server_info
+2024-06-04 14:49:10,538 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-04 14:49:10,539 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-04 14:49:10,676 INFO    MainThread:17242 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-06-04 14:49:10,676 INFO    MainThread:17242 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-06-04 14:49:10,677 INFO    MainThread:17242 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-06-04 14:49:10,677 DEBUG   HandlerThread:17242 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-04 14:49:10,677 INFO    HandlerThread:17242 [handler.py:finish():882] shutting down handler
+2024-06-04 14:49:11,532 INFO    WriterThread:17242 [datastore.py:close():296] close: /zhome/ea/9/137501/Desktop/ML_final/ML_final/wandb/run-20240604_124931-tuvtkwoc/run-tuvtkwoc.wandb
+2024-06-04 14:49:11,676 INFO    SenderThread:17242 [sender.py:finish():1545] shutting down sender
+2024-06-04 14:49:11,676 INFO    SenderThread:17242 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-04 14:49:11,676 INFO    SenderThread:17242 [file_pusher.py:join():175] waiting for file pusher

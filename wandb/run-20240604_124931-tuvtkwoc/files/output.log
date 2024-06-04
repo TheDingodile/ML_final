@@ -4655,3 +4655,122 @@ Error executing query 5051: Invalid expression / Unexpected token. Line 1, Col: 
   'arterial blood pressure diastolic' and d_items.linksto = 'chartevents' ) and chartevents.valuenum  [4m62.0[24m and strftime('%Y-%m-%d',chartevents.charttime) = '2103-12-25'
 Error executing query 5052: Model only answers one image question SQLs
 Error executing query 5053: Invalid expression / Unexpected token. Line 1, Col: 983.
+   year','-1 year') and strftime('%m',prescriptions.starttime) = '09' ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+[False]
+Error executing query 5055: Model abstains from answering the question
+Error executing query 5056: Invalid expression / Unexpected token. Line 1, Col: 907.
+   vascular redistribution indicated on an x-ray?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 5059: Model only answers one image question SQLs
+Error executing query 5060: Model only answers one image question SQLs
+Error executing query 5061: Model only answers one image question SQLs
+Error executing query 5066: Model abstains from answering the question
+Error executing query 5067: Expecting ). Line 1, Col: 608.
+  criptions.hadm_id = admissions.hadm_id ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 5069: Model abstains from answering the question
+Error executing query 5070: Model only answers one image question SQLs
+Error executing query 5071: Model abstains from answering the question
+Error executing query 5072: Invalid expression / Unexpected token. Line 1, Col: 734.
+  _vqa("is a chest x-ray showing any abnormality?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.starttime) and datetime(t1.start
+Error executing query 5075: Expecting ). Line 1, Col: 918.
+  1 23:59:00','start of year','-0 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.charttime and datetime(t2.charttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 5076: Invalid expression / Unexpected token. Line 1, Col: 999.
+  nth') = datetime('2105-12-31 23:59:00','start of month','-1 month') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 5077: Model abstains from answering the question
+Error executing query 5079: Invalid expression / Unexpected token. Line 1, Col: 861.
+   = 10938464 ) and strftime('%Y',procedures_icd.charttime) >= '2105' ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 5080: Invalid expression / Unexpected token. Line 1, Col: 665.
+  ns.hadm_id from admissions where admissions.subject_id = 15956135 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 5081: Model abstains from answering the question
+Error executing query 5083: Model abstains from answering the question
+Error executing query 5084: Model abstains from answering the question
+Error executing query 5085: Invalid expression / Unexpected token. Line 1, Col: 733.
+  ("is the chest x-ray depicting any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 5086: Model abstains from answering the question
+Error executing query 5087: Model abstains from answering the question
+Error executing query 5088: Model abstains from answering the question
+Error executing query 5090: Model abstains from answering the question
+Error executing query 5091: Model only answers one image question SQLs
+Error executing query 5093: Invalid expression / Unexpected token. Line 1, Col: 942.
+  d any anatomical findings in the left shoulder?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 5094: Model abstains from answering the question
+Error executing query 5096: Model abstains from answering the question
+Error executing query 5098: Model only answers one image question SQLs
+Error executing query 5099: Model abstains from answering the question
+Error executing query 5100: Model abstains from answering the question
+Error executing query 5101: Model abstains from answering the question
+Error executing query 5102: Model only answers one image question SQLs
+Error executing query 5103: Model abstains from answering the question
+[False]
+Error executing query 5106: Model abstains from answering the question
+Error executing query 5107: Model only answers one image question SQLs
+Error executing query 5108: Model only answers one image question SQLs
+Error executing query 5109: Model only answers one image question SQLs
+Error executing query 5110: Invalid expression / Unexpected token. Line 1, Col: 879.
+   of any technical assessments on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 5111: Model abstains from answering the question
+Error executing query 5112: Model abstains from answering the question
+[True]
+Error executing query 5113: near "(": syntax error
+Error executing query 5114: Invalid expression / Unexpected token. Line 1, Col: 983.
+  nth') = datetime('2105-12-31 23:59:00','start of month','-0 month') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 5115: Invalid expression / Unexpected token. Line 1, Col: 717.
+  c_vqa("does a chest x-ray show any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 5116: Expecting ). Line 1, Col: 978.
+  iptions.drug = 'lidocaine 5% ointment' ) as t3 on t2.subject_id = t3.subject_id where t2.charttime  [4mt3[24m.starttime ) as t4 join patients on t4.subject_id = patients.subject_id
+Error executing query 5117: Model only answers one image question SQLs
+Error executing query 5119: Model abstains from answering the question
+Error executing query 5121: Invalid expression / Unexpected token. Line 1, Col: 804.
+  ns.hadm_id from admissions where admissions.subject_id = 16043637 ) ) as t3 where t1.studydatetime  [4mt3[24m.charttime and datetime(t1.studydatetime,'start of month') = datetime(t3.charttime,'start of month')
+Error executing query 5122: Model only answers one image question SQLs
+Error executing query 5123: Invalid expression / Unexpected token. Line 1, Col: 849.
+  vqa("does a chest x-ray reveal any tubes/lines?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 5124: Expecting ). Line 1, Col: 817.
+  etime('2105-12-31 23:59:00','-1 year') ) as t2 on t1.subject_id = t2.subject_id where t1.charttime  [4mt2[24m.starttime and datetime(t2.starttime) between datetime(t1.charttime) and datetime(t1.charttime,'+2 m
+Error executing query 5126: Model abstains from answering the question
+Error executing query 5127: Model abstains from answering the question
+Error executing query 5129: Model abstains from answering the question
+Error executing query 5130: Model only answers one image question SQLs
+[False]
+Error executing query 5132: Model only answers one image question SQLs
+Error executing query 5133: Invalid expression / Unexpected token. Line 1, Col: 853.
+  a("has a chest x-ray shown vascular congestion?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 5134: Model only answers one image question SQLs
+Error executing query 5135: Model abstains from answering the question
+Error executing query 5136: Model only answers one image question SQLs
+Error executing query 5137: Model abstains from answering the question
+[True]
+[True]
+[True]
+[True]
+Error executing query 5141: Model only answers one image question SQLs
+Error executing query 5142: Model abstains from answering the question
+Error executing query 5143: Model abstains from answering the question
+Error executing query 5146: Invalid expression / Unexpected token. Line 1, Col: 900.
+  y reveal any tubes/lines in the right shoulder?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and ( datetime(t3.studydatetime) between datetime(t1.charttime) and datetime(t1.chart
+Error executing query 5149: Invalid expression / Unexpected token. Line 1, Col: 1048.
+  ing linear/patchy atelectasis in the left lung?", t2.study_id) = true ) ) as t3 where t1.charttime  [4mt3[24m.studydatetime and datetime(t1.charttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Error executing query 5151: Model abstains from answering the question
+Error executing query 5154: Model only answers one image question SQLs
+Error executing query 5155: Model only answers one image question SQLs
+Error executing query 5156: Model only answers one image question SQLs
+Error executing query 5157: Model abstains from answering the question
+Error executing query 5158: Model abstains from answering the question
+Error executing query 5161: Invalid expression / Unexpected token. Line 1, Col: 735.
+  250544 ) and strftime('%Y-%m',prescriptions.starttime) >= '2104-04' ) as t3 where t1.studydatetime  [4mt3[24m.starttime and ( datetime(t3.starttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 5163: Invalid expression / Unexpected token. Line 1, Col: 664.
+  ns.hadm_id from admissions where admissions.subject_id = 11119441 ) ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 5164: Invalid expression / Unexpected token. Line 1, Col: 935.
+  edures_icd.charttime) = datetime('2105-12-31 23:59:00','-27 month') ) as t3 where t1.studydatetime  [4mt3[24m.charttime and ( datetime(t3.charttime) between datetime(t1.studydatetime) and datetime(t1.studydate
+Error executing query 5165: Invalid expression / Unexpected token. Line 1, Col: 820.
+  escriptions.starttime) >= datetime('2105-12-31 23:59:00','-1 year') ) as t3 where t1.studydatetime  [4mt3[24m.starttime and datetime(t1.studydatetime,'start of month') = datetime(t3.starttime,'start of month')
+Error executing query 5166: Model abstains from answering the question
+[False]
+Error executing query 5168: Model abstains from answering the question
+Error executing query 5169: Invalid expression / Unexpected token. Line 1, Col: 739.
+  normality observed in the svc on a chest x-ray?", t2.study_id) = true ) ) as t3 where t1.starttime  [4mt3[24m.studydatetime and datetime(t1.starttime,'start of month') = datetime(t3.studydatetime,'start of mon
+Correct count: 1158
+Wrong count: 175
+Correct count image: 197
+Wrong count image: 128
+Image questions: 3318
+```
