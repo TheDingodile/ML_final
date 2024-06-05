@@ -10,7 +10,7 @@ name = "temp.json"
 # question_file = "dataset/mimic_iv_cxr/valid/valid_data.json"
 
 query_file_name = "predictions_LLM_1-0_test.json"
-file_name = "predictions_gt_vision1test09-0"
+file_name = "predictions_gt_vision3test09-0"
 answer_file = "dataset/mimic_iv_cxr/valid/valid_answer.json"
 question_file = "dataset/mimic_iv_cxr/test/test_data.json"
 
