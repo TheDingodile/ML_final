@@ -2,13 +2,15 @@ import json
 import time
 import re
 
+name = "temp.json"
+
 # query_file_name = "predictions_LLM_1-0.json"
-# file_name = "predictions_gt_test_final_09-0"
+# file_name = "predictions_gt_vision1valid09-0"
 # answer_file = "dataset/mimic_iv_cxr/valid/valid_answer.json"
 # question_file = "dataset/mimic_iv_cxr/valid/valid_data.json"
 
 query_file_name = "predictions_LLM_1-0_test.json"
-file_name = "predictions_gt_test_set08_fix-0"
+file_name = "predictions_gt_vision1test09-0"
 answer_file = "dataset/mimic_iv_cxr/valid/valid_answer.json"
 question_file = "dataset/mimic_iv_cxr/test/test_data.json"
 
@@ -60,7 +62,9 @@ for key in executed_result:
 
     if len(answer) != 1 or answer[0] == None:
         answer = "null"
-    if "true" in parsed_result_gt[key][-6:]:# and answer[0] == 0:
+    if "true" in parsed_result_gt[key][-6:] and answer[0] == 0:
+        answer = "null"
+    if "true" in parsed_result_gt[key][-5:]:
         answer = "null"
     # check if query contains more than 1 func_vqa
     if parsed_result_gt[key].count("func_vqa") > 1:
@@ -104,7 +108,7 @@ for key in executed_result:
             wrong_img_query.append(parsed_result_gt[key])
 
 # save the file
-# with open("submission.json", "w") as f:
+# with open(name, "w") as f:
 #     json.dump(file_to_submit, f)
 
 
